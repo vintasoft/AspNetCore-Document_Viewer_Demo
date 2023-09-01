@@ -121,7 +121,7 @@ function __registerNewUiElements() {
     // register the "Previously uploaded files" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("previousUploadFilesButton", __createPreviousUploadFilesButton);
     // override the "Download image" button in web UI elements factory
-    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("downloadImageButton", serializeAnnotationsAndDownloadFileHelper.createDownloadFileWithAnnotationsButton);
+    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("downloadFileButton", serializeAnnotationsAndDownloadFileHelper.createDownloadFileWithAnnotationsButton);
 
     // register the "Image viewer settings" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("imageViewerSettingsButton", __createImageViewerSettingsButton);
@@ -512,7 +512,7 @@ function __main() {
 
     // specify web services, which should be used in this demo
 
-    _fileService = new Vintasoft.Shared.WebServiceControllerJS(__getApplicationUrl() + "vintasoft/api/MyVintasoftFileApi");
+    _fileService = new Vintasoft.Shared.WebServiceControllerJS(__getApplicationUrl() + "vintasoft/api/MyVintasoftAnnotatedFileApi");
 
     Vintasoft.Shared.WebServiceJS.defaultFileService = _fileService;
     Vintasoft.Shared.WebServiceJS.defaultImageCollectionService = new Vintasoft.Shared.WebServiceControllerJS(__getApplicationUrl() + "vintasoft/api/MyVintasoftImageCollectionApi");
