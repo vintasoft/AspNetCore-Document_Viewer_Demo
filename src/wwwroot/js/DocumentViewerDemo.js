@@ -57,40 +57,14 @@ function __createTextSelectionAndAnnotationToolButton() {
 
 
 
-// === "Annotations" toolbar ===
-
-/**
- Initializes image viewer panel of document viewer.
- @param {object} docViewerSettings Settings of document viewer.
-*/
-function __initImageViewerPanel(docViewerSettings) {
-    // get items of document viewer
-    var items = docViewerSettings.get_Items();
-
-    // get the image viewer panel
-    var imageViewerPanel = items.getItemByRegisteredId("imageViewerPanel");
-    // if panel exists
-    if (imageViewerPanel != null) {
-        var annotationUiHelper = new AnnotationUiHelperJS();
-        // initialize the annotation context menu
-        annotationUiHelper.initAnnotationContextMenu(docViewerSettings, imageViewerPanel);
-    }
-}
-
-
-
 // === Init UI ===
 
 /**
  Registers custom UI elements in "WebUiElementsFactoryJS".
 */
 function __registerNewUiElements() {
-    var serializeAnnotationsAndDownloadFileHelper = new SerializeAnnotationsAndDownloadFileHelperJS(__showErrorMessage);
-
     // register the "Previously uploaded files" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("previousUploadFilesButton", __createPreviousUploadFilesButton);
-    // override the "Download image" button in web UI elements factory
-    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("downloadFileButton", serializeAnnotationsAndDownloadFileHelper.createDownloadFileWithAnnotationsButton);
 
     // register the "Annotations, Document navigation, Text selection" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("annotationAndNavigationAndTextSelectionToolButton", __createTextSelectionAndAnnotationToolButton);
@@ -107,30 +81,6 @@ function __initMenu(docViewerSettings) {
     var uploadFileButton = items.getItemByRegisteredId("uploadFileButton");
     if (uploadFileButton != null)
         uploadFileButton.set_FileExtensionFilter(".bmp, .emf, .gif, .ico, .cur, .jpg, .jpeg, .jls, .pcx, .png, .tif, .tiff, .wmf, .jb2, .jbig2, .jp2, .j2k, .j2c, .jpc, .pdf, .docx, .doc, .xlsx, .xls");
-
-    // get the main menu of document viewer
-    var mainMenu = items.getItemByRegisteredId("mainMenu");
-    // if main menu is found
-    if (mainMenu != null) {
-        // get items of main menu
-        var mainMenuItems = mainMenu.get_Items();
-
-        // add "Annotation" menu panel
-        mainMenuItems.addItem("annotationsMenuPanel");
-
-        var annotationsMenuPanel = mainMenuItems.getItemByRegisteredId("annotationsMenuPanel");
-        var annotationsMenuPanelItems = annotationsMenuPanel.get_Items();
-
-        var annotationActionsToolbarPanels = annotationsMenuPanelItems.getItemsByRegisteredId("annotationActionsToolbarPanel");
-        for (var i = 0; i < annotationActionsToolbarPanels.length; i++) {
-            var actionsPanelItems = annotationActionsToolbarPanels[i].get_Items();
-            var burnButton = actionsPanelItems.getItemByRegisteredId("burnAnnotationsButton");
-            var rotateButton = actionsPanelItems.getItemByRegisteredId("rotateImageWithAnnotationsButton");
-
-            actionsPanelItems.removeItem(burnButton);
-            actionsPanelItems.removeItem(rotateButton);
-        }
-    }
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");
@@ -167,10 +117,6 @@ function __initSidePanel(docViewerSettings) {
     if (sidePanel != null) {
         var sidePanelItems = sidePanel.get_PanelsCollection();
 
-        var annotationUiHelper = new AnnotationUiHelperJS();
-        // initialize the annotation panel
-        annotationUiHelper.initAnnotationPanel(sidePanelItems);
-
         sidePanelItems.addItem("textSelectionPanel");
 
         var textSearchPanel = Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.createElementById("textSearchPanel");
@@ -194,7 +140,7 @@ function __initSidePanel(docViewerSettings) {
 */
 function __createPageSearchResultHeaderContent(image, imageIndex, searchResults) {
     return [new Vintasoft.Imaging.UI.UIElements.WebUiLabelElementJS({
-        text: Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vssde-textSearchPanel-pageLabel") + " #" + (imageIndex + 1),
+        text: Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-textSearchPanel-pageLabel") + " #" + (imageIndex + 1),
         css: { cursor: "pointer" }
     })];
 }
@@ -230,27 +176,15 @@ function __thumbnailsPanelActivated() {
 */
 function __initializeVisualTools(docViewer) {
     var panTool = docViewer.getVisualToolById("PanTool");
-    var panCursorUrl = __getApplicationUrl() + 'Content/Cursors/CloseHand.cur';
-    var panCursor = "url('" + panCursorUrl + "'), auto";
-    panTool.set_Cursor("pointer");
-    panTool.set_ActionCursor(panCursor);
     panTool.set_DisableContextMenu(true);
 
     var magnifierTool = docViewer.getVisualToolById("MagnifierTool");
-    var magnifierCursorUrl = __getApplicationUrl() + 'Content/Cursors/Magnifier.cur';
-    var magnifierCursor = "url('" + magnifierCursorUrl + "'), auto";
-    magnifierTool.set_Cursor(magnifierCursor);
     magnifierTool.set_DisableContextMenu(true);
 
     var zoomTool = docViewer.getVisualToolById("ZoomTool");
-    var zoomCursorUrl = __getApplicationUrl() + 'Content/Cursors/Zoom.cur';
-    var zoomCursor = "url('" + zoomCursorUrl + "'), auto";
-    zoomTool.set_Cursor(zoomCursor);
-    zoomTool.set_ActionCursor(zoomCursor);
     zoomTool.set_DisableContextMenu(true);
 
     var zoomSelectionTool = docViewer.getVisualToolById("ZoomSelectionTool");
-    zoomSelectionTool.set_ActionCursor(zoomCursor);
     zoomSelectionTool.set_DisableContextMenu(true);
 
     // get navigation tool
@@ -264,10 +198,51 @@ function __initializeVisualTools(docViewer) {
     // use composite action executer in document navigation tool
     documentNavigationTool.set_ActionExecutor(compositeActionExecutor);
 
-
-    var annotationUiHelper = new AnnotationUiHelperJS();
     // initialize the annotation visual tool
-    annotationUiHelper.initializeAnnotationVisualTool(docViewer);
+    AnnotationUiHelperJS.initializeAnnotationVisualTool(docViewer);
+}
+
+
+
+// === Document viewer events ===
+
+function __docViewer_warningOccured(event, eventArgs) {
+    // show the alert if warning occured
+    __showErrorMessage(eventArgs.message);
+}
+
+function __docViewer_asyncOperationStarted(event, data) {
+    // get description of asynchronous operation
+    var description = data.description;
+
+    // if image is prepared for printing
+    if (description === "Image prepared to print" || description === "Get text region") {
+        // do not block UI when images are preparing for printing
+    }
+    else {
+        // block UI
+        __blockUI(data.description);
+    }
+}
+
+function __docViewer_asyncOperationFinished(event, data) {
+    // unblock UI
+    __unblockUI();
+}
+
+function __docViewer_asyncOperationFailed(event, data) {
+    // get description of asynchronous operation
+    var description = data.description;
+    // get additional information about asynchronous operation
+    var additionalInfo = data.data;
+    // if additional information exists
+    if (additionalInfo != null)
+        // show error message
+        __showErrorMessage(additionalInfo);
+    // if additional information does NOT exist
+    else
+        // show error message
+        __showErrorMessage(description + ": unknown error.");
 }
 
 
@@ -302,13 +277,6 @@ function __showErrorMessage(data) {
 }
 
 /**
- Adds color picker to the color inputs in document viewer.
-*/
-function __addColorPickerToColorInputs() {
-    $(".vsdv-colorInput").colorpicker({ format: 'rgba' });
-}
-
-/**
  Returns application URL.
 */
 function __getApplicationUrl() {
@@ -318,58 +286,81 @@ function __getApplicationUrl() {
     return applicationUrl;
 }
 
+
+
+// === Localization ===
+
 /**
  Creates the dictionary for localization of application UI.
 */
 function __createUiLocalizationDictionary() {
-    __createDocumentViewerDialogsForLocalization();
-    __createDemoDialogsForLocalization();
+    var tempDialogs = [];
+    __createDocumentViewerDialogsForLocalization(tempDialogs);
+    __createDemoDialogsForLocalization(tempDialogs);
 
     var localizationDict = _localizer.getDocumentLocalizationDictionary();
     var localizationDictString = JSON.stringify(localizationDict, null, '\t');
     console.log(localizationDictString);
+
+    var floatingContainer = document.getElementById("documentViewerContainer");
+    for (var i = 0; i < tempDialogs.length; i++) {
+        floatingContainer.removeChild(tempDialogs[i].get_DomElement());
+        delete tempDialogs[i];
+    }
 }
 
 /**
  Creates the dialogs, which are used in Web Document Viewer, for localization.
 */
-function __createDocumentViewerDialogsForLocalization() {
+function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var floatingContainer = document.getElementById("documentViewerContainer");
 
     var documentPasswordDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiDocumentPasswordDialogJS();
     documentPasswordDialog.render(floatingContainer);
+    tempDialogs.push(documentPasswordDialog);
 
     var imageSelectionDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageSelectionDialogJS();
     imageSelectionDialog.render(floatingContainer);
+    tempDialogs.push(imageSelectionDialog);
 
     var printImagesDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebPrintImagesDialogJS();
     printImagesDialog.render(floatingContainer);
+    tempDialogs.push(printImagesDialog);
 
     var imageViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageViewerSettingsDialogJS();
     imageViewerSettingsDialog.render(floatingContainer);
+    tempDialogs.push(imageViewerSettingsDialog);
 
     var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebThumbnailViewerSettingsDialogJS();
     thumbnailViewerSettingsDialog.render(floatingContainer);
+    tempDialogs.push(thumbnailViewerSettingsDialog);
 
     var rotateImageWithAnnotationsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebRotateImageWithAnnotationsDialogJS();
     rotateImageWithAnnotationsDialog.render(floatingContainer);
-
-    //var pdfRedactionMarkAppearanceDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebPdfRedactionMarkAppearanceDialogJS();
-    //pdfRedactionMarkAppearanceDialog.render(floatingContainer);
-
-    //var twainDeviceSelectionDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebTwainDeviceSelectionDialogJS();
-    //twainDeviceSelectionDialog.render(floatingContainer);
-
-    //var twainDeviceCapabilitiesDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebTwainDeviceCapabilitiesDialogJS();
-    //twainDeviceCapabilitiesDialog.render(floatingContainer);
+    tempDialogs.push(rotateImageWithAnnotationsDialog);
 }
 
 /**
  Creates the dialogs, which are used in this demo, for localization.
 */
-function __createDemoDialogsForLocalization() {
+function __createDemoDialogsForLocalization(tempDialogs) {
+    var floatingContainer = document.getElementById("documentViewerContainer");
+
     var textAnnotation = new Vintasoft.Imaging.Annotation.UI.WebTextAnnotationViewJS();
-    var annotationSettingsDialog = new AnnotationSettingsDialogJS(textAnnotation);
+
+    // create the property grid with information about annotation properties
+    var propertyGrid = new Vintasoft.Shared.WebPropertyGridJS(textAnnotation);
+
+    // create the image processing dialog
+    var annotationSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPropertyGridDialogJS(
+        propertyGrid,
+        {
+            title: "Annotation settings",
+            cssClass: "vsui-dialog annotationSettings",
+            localizationId: "annotationSettingsDialog"
+        });
+    annotationSettingsDialog.render(floatingContainer);
+    tempDialogs.push(annotationSettingsDialog);
 }
 
 /**
@@ -397,68 +388,6 @@ function __enableUiLocalization() {
 
 
 
-// === Document viewer events ===
-
-function __docViewer_warningOccured(event, eventArgs) {
-    // show the alert if warning occured
-    __showErrorMessage(eventArgs.message);
-}
-
-function __docViewer_asyncOperationStarted(event, data) {
-    // get description of asynchronous operation
-    var description = data.description;
-
-    // if image is prepared for printing
-    if (description === "Image prepared to print" || description === "Get text region") {
-        // do not block UI when images are preparing for printing
-    }
-    else {
-        // block UI
-        __blockUI(data.description);
-    }
-}
-
-function __docViewer_asyncOperationFinished(event, data) {
-    // unblock UI
-    __unblockUI();
-
-    // get description of asynchronous operation
-    var description = data.description;
-    // if annotations are saving to the server
-    if (description === "Save annotations") {
-        // show message about successful saving
-        alert("Annotation collection is saved successfully.");
-    }
-}
-
-function __docViewer_asyncOperationFailed(event, data) {
-    // get description of asynchronous operation
-    var description = data.description;
-    // get additional information about asynchronous operation
-    var additionalInfo = data.data;
-    // if additional information exists
-    if (additionalInfo != null)
-        // show error message
-        __showErrorMessage(additionalInfo);
-    // if additional information does NOT exist
-    else
-        // show error message
-        __showErrorMessage(description + ": unknown error.");
-}
-
-/**
- Document viewer shown the "standard" dialog.
-*/
-function __docViewer_dialogShown(event, data) {
-    // shown dialog
-    var dialog = data.dialog;
-
-    // add color picker to the color inputs in document viewer
-    __addColorPickerToColorInputs();
-}
-
-
-
 // === Main ===
 
 /**
@@ -471,7 +400,7 @@ function __main() {
 
     // specify web services, which should be used in this demo
 
-    _fileService = new Vintasoft.Shared.WebServiceControllerJS(__getApplicationUrl() + "vintasoft/api/MyVintasoftAnnotatedFileApi");
+    _fileService = new Vintasoft.Shared.WebServiceControllerJS(__getApplicationUrl() + "vintasoft/api/MyVintasoftFileApi");
 
     Vintasoft.Shared.WebServiceJS.defaultFileService = _fileService;
     Vintasoft.Shared.WebServiceJS.defaultImageCollectionService = new Vintasoft.Shared.WebServiceControllerJS(__getApplicationUrl() + "vintasoft/api/MyVintasoftImageCollectionApi");
@@ -486,15 +415,21 @@ function __main() {
 
     // create the document viewer settings
     var docViewerSettings = new Vintasoft.Imaging.DocumentViewer.WebDocumentViewerSettingsJS("documentViewerContainer", "documentViewer", true);
+    // enable image uploading from URL
+    docViewerSettings.set_CanUploadImageFromUrl(true);
+    // specify that the meain menu should contain the annotation menu
+    docViewerSettings.set_ShowAnnotationMenuInMainMenu(true);
+    // specify that the side panel should contain the annotation list panel
+    docViewerSettings.set_ShowAnnotationListPanelInSidePanel(true);
+    // specify that document viewer should show "Export and download file" button instead of "Download file" button
+    docViewerSettings.set_CanExportAndDownloadFile(true);
+    docViewerSettings.set_CanDownloadFile(false);
 
     // initialize main menu of document viewer
     __initMenu(docViewerSettings);
 
     // initialize side panel of document viewer
     __initSidePanel(docViewerSettings);
-
-    // initialize image viewer panel of document viewer
-    __initImageViewerPanel(docViewerSettings);
 
     // create the document viewer
     _docViewer = new Vintasoft.Imaging.DocumentViewer.WebDocumentViewerJS(docViewerSettings);
@@ -507,16 +442,8 @@ function __main() {
     Vintasoft.Shared.subscribeToEvent(_docViewer, "asyncOperationFinished", __docViewer_asyncOperationFinished);
     // subscribe to the asyncOperationFailed event of document viewer
     Vintasoft.Shared.subscribeToEvent(_docViewer, "asyncOperationFailed", __docViewer_asyncOperationFailed);
-    // subscribe to the dialogShown event of document viewer
-    Vintasoft.Shared.subscribeToEvent(_docViewer, "dialogShown", __docViewer_dialogShown);
 
     __initializeVisualTools(_docViewer);
-
-    var interactionAreaAppearanceManager = _docViewer.getInteractionAreaAppearanceManager();
-    var rotationPoint = interactionAreaAppearanceManager.get_RotationPoint();
-    // set the cursor for interaction point that allows to rotate annotation
-    var rotateCursorUrl = __getApplicationUrl() + 'Content/Cursors/Rotate.cur';
-    rotationPoint.set_Cursor("url('" + rotateCursorUrl + "'), auto");
 
     // get the image viewer of document viewer
     var imageViewer1 = _docViewer.get_ImageViewer();
@@ -543,9 +470,6 @@ function __main() {
     _openFileHelper.openDefaultImageFile("VintasoftImagingDemo.pdf");
 
     $(document).ready(function () {
-        // add color picker to the color inputs in document viewer
-        __addColorPickerToColorInputs();
-
         // create the dictionary for localization of application UI
         //__createUiLocalizationDictionary();
 

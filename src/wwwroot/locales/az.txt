@@ -1,405 +1,405 @@
 ﻿{
 	"documentViewer": {
 		"fileLabel": {
-			"text": "Ifayela"
+			"text": "Fayl"
 		},
 		"viewLabel": {
-			"text": "Buka"
+			"text": "Baxın"
 		},
 		"toolsLabel": {
-			"text": "Amathuluzi"
+			"text": "Alətlər"
 		},
 		"annotationsLabel": {
-			"text": "Izichasiselo"
+			"text": "Annotasiyalar"
 		},
 		"uploadFileButton": {
-			"title": "Layisha futhi uvule ifayela"
+			"title": "Faylı yükləyin və açın"
 		},
 		"previousUploadFilesButton": {
-			"title": "Amafayela Alayishwe Ngokudlule"
+			"title": "Əvvəllər yüklənmiş fayllar"
 		},
 		"uploadImageFromUrlButton": {
-			"title": "Layisha futhi uvule ifayela lesithombe nge-URL"
+			"title": "URL ilə şəkil faylını yükləyin və açın"
 		},
 		"printImagesButton": {
-			"title": "Phrinta izithombe"
+			"title": "Şəkilləri çap edin"
 		},
 		"downloadFileButton": {
-			"title": "Landa ifayela"
+			"title": "Faylı yüklə"
 		},
 		"exportAndDownloadFileButton": {
-			"title": "Khipha futhi ulande ifayela"
+			"title": "Faylı ixrac edin və yükləyin"
 		},
 		"fitToWidthSizeModeButton": {
-			"title": "Linganisa ububanzi"
+			"title": "Genişliyə uyğun"
 		},
 		"rotateViewsCounterClockwiseButton": {
-			"title": "Zungezisa konke ukubuka ngokuphikisana newashi"
+			"title": "Bütün görünüşləri saat yönünün əksinə çevirin"
 		},
 		"rotateAngleInput": {
-			"title": "I-engeli"
+			"title": "Bucaq"
 		},
 		"rotateViewsClockwiseButton": {
-			"title": "Zungezisa konke ukubuka njengokuhamba kwewashi"
+			"title": "Bütün görünüşləri saat yönünə çevirin"
 		},
 		"imageViewerSettingsButton": {
-			"title": "Izilungiselelo zesibukeli sesithombe"
+			"title": "Şəkillərə baxmaq parametrləri"
 		},
 		"thumbnailViewerSettingsButton": {
-			"title": "Izilungiselelo zesibukeli sesithonjana"
+			"title": "Miniatür baxıcı parametrləri"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Izichasiselo, Ukuzulazula kwedokhumenti, Ukukhetha umbhalo"
+			"title": "Annotasiyalar, Sənəd naviqasiyası, Mətn seçimi"
 		},
 		"panToolButton": {
-			"title": "Ipani"
+			"title": "Pan"
 		},
 		"magnifierToolButton": {
-			"title": "Isikhulisi"
+			"title": "böyüdücü"
 		},
 		"zoomToolButton": {
-			"title": "Sondeza"
+			"title": "Zoom"
 		},
 		"zoomSelectionToolButton": {
-			"title": "Ukukhetha kokusondeza"
+			"title": "Zoom seçimi"
 		},
 		"addRectangleAnnotationButton": {
-			"title": "Unxande"
+			"title": "Düzbucaqlı"
 		},
 		"addEllipseAnnotationButton": {
-			"title": "I-Ellipse"
+			"title": "Ellips"
 		},
 		"addHighlightAnnotationButton": {
-			"title": "Gqamisa"
+			"title": "Vurğulayın"
 		},
 		"addReferencedImageAnnotationButton": {
-			"title": "Isithombe esikhonjiwe"
+			"title": "İstinad edilmiş şəkil"
 		},
 		"addTextAnnotationButton": {
-			"title": "Umbhalo"
+			"title": "Mətn"
 		},
 		"addStampAnnotationButton": {
-			"title": "Isitembu"
+			"title": "Möhür"
 		},
 		"addLinkAnnotationButton": {
-			"title": "Isixhumanisi"
+			"title": "Link"
 		},
 		"addArrowAnnotationButton": {
-			"title": "Umcibisholo"
+			"title": "Ox"
 		},
 		"addLineAnnotationButton": {
-			"title": "Umugqa"
+			"title": "Xətt"
 		},
 		"addLinesAnnotationButton": {
-			"title": "Imigqa"
+			"title": "Xətlər"
 		},
 		"addPolygonAnnotationButton": {
-			"title": "Ipholigoni"
+			"title": "Poliqon"
 		},
 		"addRulerAnnotationButton": {
-			"title": "Umbusi"
+			"title": "Hökmdar"
 		},
 		"addTriangleAnnotationButton": {
-			"title": "Unxantathu"
+			"title": "Üçbucaq"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Imodi yokusebenzisana 'Umbhali'"
+			"title": "Qarşılıqlı əlaqə rejimi "Müəllif""
 		},
 		"copyAnnotationButton": {
-			"title": "Kopisha isichasiselo esigxilile"
+			"title": "Fokuslanmış annotasiyanı kopyalayın"
 		},
 		"pasteAnnotationButton": {
-			"title": "Namathisela isichasiselo esikopishiwe"
+			"title": "Kopyalanmış annotasiyanı yapışdırın"
 		},
 		"removeAnnotationButton": {
-			"title": "Susa isichasiselo esigxilile"
+			"title": "Fokuslanmış annotasiyanı silin"
 		},
 		"burnAnnotationsButton": {
-			"title": "Shisa iqoqo lesichasiselo esithombeni"
+			"title": "Şəkildə annotasiya kolleksiyasını yandırın"
 		},
 		"saveAnnotationsButton": {
-			"title": "Londoloza izinguquko zeqoqo lezichasiselo kuseva"
+			"title": "Annotasiya kolleksiyası dəyişikliklərini serverdə qeyd edin"
 		},
 		"rotateImageWithAnnotationsButton": {
-			"title": "Zungezisa isithombe ngezichasiselo"
+			"title": "Annotasiyalarla şəkli fırladın"
 		},
 		"enableAnnotationHistoryButton": {
-			"title": "Nika amandla ukuhlehlisa/ukwenza futhi"
+			"title": "Geri al/təkrar et"
 		},
 		"undoAnnotationHistoryButton": {
-			"title": "Hlehlisa"
+			"title": "Geri al"
 		},
 		"redoAnnotationHistoryButton": {
-			"title": "Yenza futhi"
+			"title": "Yenidən edin"
 		},
 		"mediumAnnotationInteractionPoints": {
-			"title": "Amaphoyinti okusebenzelana amaphakathi"
+			"title": "Orta qarşılıqlı əlaqə nöqtələri"
 		},
 		"showMobileMenuButton": {
-			"title": "Okuningi"
+			"title": "Daha çox"
 		},
 		"sidePanelCloseButton": {
-			"title": "Bonisa Iphaneli Eseceleni"
+			"title": "Yan Paneli göstərin"
 		},
 		"showThumbnailViewerPanelButton": {
-			"title": "Izithonjana"
+			"title": "Miniatürlər"
 		},
 		"showTextSelectionPanelButton": {
-			"title": "Ukukhetha umbhalo"
+			"title": "Mətn seçimi"
 		},
 		"showTextSearchPanelButton": {
-			"title": "Thola umbhalo"
+			"title": "Mətni tapın"
 		},
 		"showAnnotationsPanelButton": {
-			"title": "Izichasiselo"
+			"title": "Annotasiyalar"
 		},
 		"textSelectionPanel": {
 			"selectionModeLabel": {
-				"text": "Imodi yokukhetha:"
+				"text": "Seçim rejimi:"
 			},
 			"rectangleOption": {
-				"text": "Unxande"
+				"text": "Düzbucaqlı"
 			},
 			"fullLinesOption": {
-				"text": "Imigqa egcwele"
+				"text": "Tam xətlər"
 			},
 			"selectionColorLabel": {
-				"text": "Umbala wokukhetha:"
+				"text": "Seçim rəngi:"
 			},
 			"selectedTextLabel": {
-				"text": "Umbhalo okhethiwe:"
+				"text": "Seçilmiş mətn:"
 			}
 		},
 		"textSearchPanel": {
 			"findLabel": {
-				"text": "Thola:"
+				"text": "Tapın:"
 			},
 			"whereLookLabel": {
-				"text": "Bheka ngaphakathi:"
+				"text": "Baxın:"
 			},
 			"currentPageOption": {
-				"text": "Ikhasi lamanje"
+				"text": "Cari səhifə"
 			},
 			"allPagesOption": {
-				"text": "Wonke amakhasi"
+				"text": "Bütün səhifələr"
 			},
 			"wholeWordLabel": {
-				"text": "Izwi lonke"
+				"text": "Bütün söz"
 			},
 			"caseSensitiveLabel": {
-				"text": "Iyazwela kofeleba"
+				"text": "Hərfi-həssas"
 			},
 			"startSearchButton": {
-				"value": "Qala"
+				"value": "Başlamaq"
 			},
 			"stopSearchButton": {
-				"value": "Ima"
+				"value": "Dayan"
 			},
 			"textNotFoundLabel": {
-				"text": "Umbhalo awutholakali."
+				"text": "Mətn tapılmadı."
 			}
 		},
 		"gotoFirstPageButton": {
-			"title": "Iya esithombeni sokuqala"
+			"title": "Birinci şəkilə keçin"
 		},
 		"gotoPreviousPageButton": {
-			"title": "Iya esithombeni sangaphambilini"
+			"title": "Əvvəlki şəkilə keçin"
 		},
 		"gotoPageInput": {
-			"title": "Ikhasi"
+			"title": "Səhifə"
 		},
 		"gotoNextPageButton": {
-			"title": "Iya esithombeni esilandelayo"
+			"title": "Növbəti şəkilə keçin"
 		},
 		"gotoLastPageButton": {
-			"title": "Iya esithombeni sokugcina"
+			"title": "Son şəkilə keçin"
 		},
 		"zoomOutButton": {
-			"title": "Hlehlisa isithombe"
+			"title": "Küçült"
 		},
 		"zoomValueInput": {
-			"title": "Sondeza"
+			"title": "Zoom"
 		},
 		"zoomInButton": {
-			"title": "Sondeza isithombe"
+			"title": "Yaxınlaşdırma"
 		},
 		"normalSizeModeButton": {
-			"title": "Okuvamile"
+			"title": "Normal"
 		},
 		"bestFitSizeModeButton": {
-			"title": "Ukulingana okuhle kakhulu"
+			"title": "Ən yaxşı seçimdir"
 		},
 		"fitToHeightSizeModeButton": {
-			"title": "Ilingana nobude"
+			"title": "Hündürlüyə uyğun"
 		},
 		"pixelToPixelSizeModeButton": {
-			"title": "Iphikseli ukuya kuphikseli"
+			"title": "Pikseldən pikselə"
 		},
 		"zoomSizeModeButton": {
-			"title": "Sondeza"
+			"title": "Zoom"
 		},
 		"addArcAnnotationButton": {
-			"title": "I-arc"
+			"title": "qövs"
 		},
 		"addStickyNoteAnnotationButton": {
-			"title": "Inothi elinamathelayo"
+			"title": "Yapışqan qeyd"
 		},
 		"addFreeTextAnnotationButton": {
-			"title": "Umbhalo wamahhala"
+			"title": "Pulsuz mətn"
 		},
 		"addDoubleArrowAnnotationButton": {
-			"title": "Umcibisholo okabili"
+			"title": "İkiqat ox"
 		},
 		"addInterpolatedLinesAnnotationButton": {
-			"title": "Imigqa ene-interpolation"
+			"title": "İnterpolyasiya ilə xətlər"
 		},
 		"addFreehandLinesAnnotationButton": {
-			"title": "Imigqa yamahhala"
+			"title": "Sərbəst xətlər"
 		},
 		"addInterpolatedPolygonAnnotationButton": {
-			"title": "Ipholigoni ene-interpolation"
+			"title": "İnterpolyasiya ilə çoxbucaqlı"
 		},
 		"addFreehandPolygonAnnotationButton": {
-			"title": "Ipholigoni yamahhala"
+			"title": "Sərbəst çoxbucaqlı"
 		},
 		"addCloudPolygonAnnotationButton": {
-			"title": "Ipholigoni yamafu"
+			"title": "Bulud poliqonu"
 		},
 		"addRulersAnnotationButton": {
-			"title": "Ababusi"
+			"title": "Hökmdarlar"
 		},
 		"addAngleAnnotationButton": {
-			"title": "I-engeli"
+			"title": "Bucaq"
 		},
 		"addMarkAnnotationButton": {
-			"title": "Maka"
+			"title": "Mark"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Imodi yokusebenzisana 'Akukho'"
+			"title": "Qarşılıqlı əlaqə rejimi 'Yox'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Imodi yokusebenzisana 'Buka'"
+			"title": "Qarşılıqlı əlaqə rejimi "Görünüş""
 		},
 		"smallAnnotationInteractionPoints": {
-			"title": "Amaphuzu amancane okusebenzisana"
+			"title": "Kiçik qarşılıqlı əlaqə nöqtələri"
 		},
 		"largeAnnotationInteractionPoints": {
-			"title": "Amaphoyinti amakhulu okusebenzisana (Isikrini sokuthinta)"
+			"title": "Böyük qarşılıqlı əlaqə nöqtələri (Touch ekran)"
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
-				"text": "Le dokhumenti ivikelwe ngephasiwedi. Sicela ufake iphasiwedi."
+				"text": "Bu sənəd parolla qorunur. Zəhmət olmasa parol daxil edin."
 			},
 			"passwordLabel": {
-				"text": "Iphasiwedi:"
+				"text": "Şifrə:"
 			},
 			"showPasswordLabel": {
-				"text": "Bonisa iphasiwedi"
+				"text": "Parol göstərin"
 			},
 			"incorrectPasswordLabel": {
-				"text": "Iphasiwedi engalungile"
+				"text": "Yanlış parol"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "tamam"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Ləğv et"
 			}
 		},
 		"selectImagesDialog": {
 			"imagesLabel": {
-				"text": "Izithombe:"
+				"text": "Şəkillər:"
 			},
 			"currentImageOption": {
-				"text": "Isithombe samanje"
+				"text": "Cari şəkil"
 			},
 			"allImagesOption": {
-				"text": "Zonke izithombe"
+				"text": "Bütün şəkillər"
 			},
 			"customImagesOption": {
-				"text": "Ngokwezifiso"
+				"text": "Xüsusi"
 			},
 			"imageRangeLabel": {
-				"text": "Ibanga lesithombe:"
+				"text": "Şəkil diapazonu:"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Ibanga lekhasi elingavumelekile. Isibonelo: 1-5, 8, 12-15."
+				"text": "Yanlış səhifə diapazonu. Misal: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Inkomba ayikho ebangeni lokuqoqwa kwezithombe."
+				"text": "İndeks şəkil kolleksiyasının diapazonundan kənardadır."
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "tamam"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Ləğv et"
 			}
 		},
 		"printImagesDialog": {
 			"imagesLabel": {
-				"text": "Izithombe:"
+				"text": "Şəkillər:"
 			},
 			"currentImageOption": {
-				"text": "Isithombe samanje"
+				"text": "Cari şəkil"
 			},
 			"allImagesOption": {
-				"text": "Zonke izithombe"
+				"text": "Bütün şəkillər"
 			},
 			"customImagesOption": {
-				"text": "Ngokwezifiso"
+				"text": "Xüsusi"
 			},
 			"imageRangeLabel": {
-				"text": "Ibanga lesithombe:"
+				"text": "Şəkil diapazonu:"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Ibanga lekhasi elingavumelekile. Isibonelo: 1-5, 8, 12-15."
+				"text": "Yanlış səhifə diapazonu. Misal: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Inkomba ayikho ebangeni lokuqoqwa kwezithombe."
+				"text": "İndeks şəkil kolleksiyasının diapazonundan kənardadır."
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "tamam"
 			},
 			"cancelButton": {
-				"value": "Khansela"
+				"value": "Ləğv et"
 			}
 		},
 		"imageViewerSettingsDialog": {
 			"imageDisplayModeLabel": {
-				"text": "Imodi yokubonisa isithombe:"
+				"text": "Şəkil göstərmə rejimi:"
 			},
 			"imageAnchorLabel": {
-				"text": "Ihange lesithombe:"
+				"text": "Şəkil ankeri:"
 			},
 			"noneOption": {
-				"text": "Lutho"
+				"text": "Heç biri"
 			},
 			"topLeftOption": {
-				"text": "Phezulu|Kwesobunxele"
+				"text": "Yuxarı|Sol"
 			},
 			"topOption": {
-				"text": "Phezulu"
+				"text": "Üst"
 			},
 			"topRightOption": {
-				"text": "Phezulu|kwesokudla"
+				"text": "Yuxarı|Sağ"
 			},
 			"rightOption": {
-				"text": "Kulungile"
+				"text": "Sağ"
 			},
 			"bottomRightOption": {
-				"text": "Phansi|kwesokudla"
+				"text": "Aşağı|Sağ"
 			},
 			"bottomOption": {
-				"text": "Phansi"
+				"text": "Aşağı"
 			},
 			"bottomLeftOption": {
-				"text": "Phansi|Kwesobunxele"
+				"text": "Aşağı|Sol"
 			},
 			"leftOption": {
-				"text": "Kwesokunxele"
+				"text": "Sol"
 			},
 			"multipageDisplayModeLabel": {
-				"text": "Imodi yokubonisa yamakhasi amaningi:"
+				"text": "Çox səhifəli ekran rejimi:"
 			},
 			"allImagesOption": {
 				"text": "AllImages"
@@ -408,79 +408,79 @@
 				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
-				"text": "Isiqondiso sesakhiwo:"
+				"text": "Layout istiqaməti:"
 			},
 			"horizontalOption": {
-				"text": "Evundlile"
+				"text": "Üfüqi"
 			},
 			"verticalOption": {
-				"text": "Iqondile"
+				"text": "Şaquli"
 			},
 			"rowColumnCountLabel": {
-				"text": "Izithombe kumugqa/ikholomu:"
+				"text": "Sətir/sütundakı şəkillər:"
 			},
 			"imagePaddingLabel": {
-				"text": "Ukufakwa kwezithombe:"
+				"text": "Şəkillərin doldurulması:"
 			},
 			"appearancesLabel": {
-				"text": "Ukubukeka"
+				"text": "Görünüşlər"
 			},
 			"imageAppearanceLabel": {
-				"text": "Ukubukeka kwesithombe"
+				"text": "Şəklin görünüşü"
 			},
 			"imageAppearanceBackColorLabel": {
-				"text": "Umbala wangemuva:"
+				"text": "Arxa rəng:"
 			},
 			"imageAppearanceBorderColorLabel": {
-				"text": "Umbala womngcele:"
+				"text": "Haşiyə rəngi:"
 			},
 			"imageAppearanceBorderWidthLabel": {
-				"text": "Ububanzi bomngcele:"
+				"text": "Sərhəd eni:"
 			},
 			"focusedImageAppearanceLabel": {
-				"text": "Ukubukeka kwesithombe esigxilile"
+				"text": "Fokuslanmış görüntü görünüşü"
 			},
 			"focusedImageAppearanceBackColorLabel": {
-				"text": "Umbala wangemuva:"
+				"text": "Arxa rəng:"
 			},
 			"focusedImageAppearanceBorderColorLabel": {
-				"text": "Umbala womngcele:"
+				"text": "Haşiyə rəngi:"
 			},
 			"focusedImageAppearanceBorderWidthLabel": {
-				"text": "Ububanzi bomngcele:"
+				"text": "Sərhəd eni:"
 			},
 			"useAppearanceInSinglePageModeLabel": {
-				"text": "Sebenzisa ukubukeka kwesithombe kumodi yekhasi elilodwa"
+				"text": "Tək səhifə rejimində şəkil görünüşündən istifadə edin"
 			},
 			"renderingSettingsLabel": {
-				"text": "Izilungiselelo zokunikezela"
+				"text": "Render parametrləri"
 			},
 			"defaultRenderingSettingsLabel": {
-				"text": "Izilungiselelo Ezizenzakalelayo"
+				"text": "Defolt Parametrlər"
 			},
 			"horizontalResolutionLabel": {
-				"text": "Ukulungiswa Okuvundlile:"
+				"text": "Horizontal Resolution:"
 			},
 			"verticalResolutionLabel ": {
-				"text": "Ukulungiswa Okuqondile:"
+				"text": "Şaquli Çözünürlük:"
 			},
 			"smoothingModeLabel": {
-				"text": "Imodi yokushelela:"
+				"text": "Hamarlaşdırma rejimi:"
 			},
 			"AntiAlias": {
 				"text": "AntiAlias"
 			},
 			"None": {
-				"text": "Lutho"
+				"text": "Heç biri"
 			},
 			"interpolationModeLabel": {
-				"text": "Imodi yokuhumusha:"
+				"text": "İnterpolyasiya rejimi:"
 			},
 			"Bicubic": {
-				"text": "Bicubic"
+				"text": "bikubik"
 			},
 			"Bilinear": {
-				"text": "Bilinear"
+				"text": "Billinear"
 			},
 			"HighQualityBicubic": {
 				"text": "HighQualityBicubic"
@@ -492,57 +492,57 @@
 				"text": "NearestNeighbor"
 			},
 			"otherSettingsLabel": {
-				"text": "Ezinye izilungiselelo"
+				"text": "Digər parametrlər"
 			},
 			"backgroundColorLabel": {
-				"text": "Umbala wangemuva wesibukeli:"
+				"text": "Baxıcı fon rəngi:"
 			},
 			"centerImageLabel": {
-				"text": "Isithombe esimaphakathi:"
+				"text": "Mərkəz şəkli:"
 			},
 			"resizeTimeoutLabel ": {
-				"text": "Shintsha usayizi wesikhathi sokuvala:"
+				"text": "Ölçüsünü dəyişmək vaxtı:"
 			},
 			"tileSizeLabel": {
-				"text": "Usayizi wethayela:"
+				"text": "Kafel ölçüsü:"
 			},
 			"colorManagementLabel": {
-				"text": "Nika amandla ukuphathwa kombala:"
+				"text": "Rəng idarəçiliyini aktivləşdirin:"
 			},
 			"useVectorRenderingLabel": {
-				"text": "Sebenzisa i-vector rendering kumadokhumenti:"
+				"text": "Sənədlər üçün vektor renderindən istifadə edin:"
 			},
 			"vectorContentBackgroundColorLabel": {
-				"text": "Umbala wengemuva lokuqukethwe kweVector:"
+				"text": "Vektor məzmununun fon rəngi:"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "tamam"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Ləğv et"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
 			"sizeLabel": {
-				"text": "Usayizi:"
+				"text": "Ölçü:"
 			},
 			"scaleLabel": {
-				"text": "Isikali:"
+				"text": "Ölçek:"
 			},
 			"smallestOption": {
-				"text": "Okuncane kakhulu"
+				"text": "Ən kiçik"
 			},
 			"smallOption": {
-				"text": "Encane"
+				"text": "Kiçik"
 			},
 			"normalOption": {
-				"text": "Okuvamile"
+				"text": "Normal"
 			},
 			"largeOption": {
-				"text": "Okukhulu"
+				"text": "Böyük"
 			},
 			"flowStyleLabel": {
-				"text": "Isitayela sokugeleza:"
+				"text": "Axın tərzi:"
 			},
 			"singleColumnOption": {
 				"text": "SingleColumn"
@@ -557,114 +557,114 @@
 				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
-				"text": "Isibalo Sekholomu:"
+				"text": "Sütun sayı:"
 			},
 			"marginLabel": {
-				"text": "Imajini:"
+				"text": "Haşiyə:"
 			},
 			"paddingTopLabel": {
-				"text": "I-Padding Top:"
+				"text": "Doldurma Üstü:"
 			},
 			"paddingRightLabel": {
-				"text": "Ukugwedla Kwesokudla:"
+				"text": "Doldurma Sağ:"
 			},
 			"paddingBottomLabel": {
-				"text": "I-Padding Bottom:"
+				"text": "Doldurma alt:"
 			},
 			"paddingLeftLabel": {
-				"text": "Ukupheqela Kwesokunxele:"
+				"text": "Doldurma Sol:"
 			},
 			"showCaptionLabel": {
-				"text": "Bonisa Amazwibela:"
+				"text": "Altyazıları göstərin:"
 			},
 			"captionFormatLabel": {
-				"text": "Ifomethi yamagama-ncazo:"
+				"text": "Başlıq Formatı:"
 			},
 			"captionAnchorLabel": {
-				"text": "Ihange lamagama-ncazo:"
+				"text": "Başlıq Ankrajı:"
 			},
 			"topLeftOption": {
-				"text": "Phezulu|Kwesobunxele"
+				"text": "Yuxarı|Sol"
 			},
 			"topOption": {
-				"text": "Phezulu"
+				"text": "Üst"
 			},
 			"topRightOption": {
-				"text": "Phezulu|kwesokudla"
+				"text": "Yuxarı|Sağ"
 			},
 			"rightOption": {
-				"text": "Kulungile"
+				"text": "Sağ"
 			},
 			"bottomRightOption": {
-				"text": "Phansi|kwesokudla"
+				"text": "Aşağı|Sağ"
 			},
 			"bottomOption": {
-				"text": "Phansi"
+				"text": "Aşağı"
 			},
 			"bottomLeftOption": {
-				"text": "Phansi|Kwesobunxele"
+				"text": "Aşağı|Sol"
 			},
 			"leftOption": {
-				"text": "Kwesokunxele"
+				"text": "Sol"
 			},
 			"centerOption": {
-				"text": "Isikhungo"
+				"text": "Mərkəz"
 			},
 			"focusOnHoverLabel": {
-				"text": "Gxila ku-OnHover:"
+				"text": "OnHover üzərində fokuslayın:"
 			},
 			"multiSelectLabel": {
-				"text": "Ukukhetha okuningi:"
+				"text": "Çoxseçim:"
 			},
 			"canDragThumbnailsLabel": {
-				"text": "Ingakwazi Ukuhudula Izithonjana:"
+				"text": "Miniatürləri sürükləyə bilər:"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "tamam"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Ləğv et"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
 			"rotationAngleLabel": {
-				"text": "I-engeli:"
+				"text": "Bucaq:"
 			},
 			"borderColorTypeLabel": {
-				"text": "Uhlobo lombala womngcele:"
+				"text": "Haşiyə rəng növü:"
 			},
 			"autoDetectOption": {
 				"text": "AutoDetect"
 			},
 			"blackOption": {
-				"text": "Mnyama"
+				"text": "Qara"
 			},
 			"whiteOption": {
-				"text": "Emhlophe"
+				"text": "Ağ"
 			},
 			"transparentOption": {
-				"text": "Okusobala"
+				"text": "Şəffaf"
 			},
 			"customOption": {
-				"text": "Ngokwezifiso"
+				"text": "Xüsusi"
 			},
 			"borderColorLabel": {
-				"text": "Umbala Womngcele:"
+				"text": "Haşiyə Rəngi:"
 			},
 			"changeSourceLabel": {
-				"text": "Shintsha Umthombo"
+				"text": "Mənbəni dəyişdirin"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "tamam"
 			},
 			"cancelButton": {
-				"value": "Khansela"
+				"value": "Ləğv et"
 			}
 		},
 		"annotationSettingsDialog": {
-			"title": "Izilungiselelo zesichasiselo",
+			"title": "Annotasiya parametrləri",
 			"Border": {
-				"text": "Umngcele:"
+				"text": "Sərhəd:"
 			},
 			"CanMirror": {
 				"text": "CanMirror:"
@@ -685,37 +685,37 @@
 				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
-				"text": "+ Ibhulashi Lokugcwalisa:"
+				"text": "+ Doldurma Fırçası:"
 			},
 			"Color": {
-				"text": "Umbala:"
+				"text": "Rəng:"
 			},
 			"Type": {
-				"text": "Uhlobo:"
+				"text": "Növ:"
 			},
 			"+ Font": {
-				"text": "+ Ifonti:"
+				"text": "+ Şrift:"
 			},
 			"Bold": {
-				"text": "Okugqamile:"
+				"text": "Qalın:"
 			},
 			"FamilyName": {
 				"text": "FamilyName:"
 			},
 			"Italic": {
-				"text": "I-ithalikhi"
+				"text": "kursiv:"
 			},
 			"Size": {
-				"text": "Usayizi:"
+				"text": "Ölçü:"
 			},
 			"Strikeout": {
-				"text": "Ukushaywa:"
+				"text": "Silmək:"
 			},
 			"Underline": {
-				"text": "Dwebela:"
+				"text": "Altını çiz:"
 			},
 			"Unit": {
-				"text": "Iyunithi:"
+				"text": "Vahid:"
 			},
 			"+ FontBrush": {
 				"text": "+ FontBrush:"
@@ -724,7 +724,7 @@
 				"text": "FontTransparent:"
 			},
 			"Guid": {
-				"text": "Umhlahlandlela:"
+				"text": "Bələdçi:"
 			},
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
@@ -742,7 +742,7 @@
 				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
-				"text": "+ Indawo:"
+				"text": "+ Məkan:"
 			},
 			"x": {
 				"text": "x:"
@@ -754,10 +754,10 @@
 				"text": "ModifiedBy:"
 			},
 			"Name": {
-				"text": "Igama:"
+				"text": "Adı:"
 			},
 			"+ Outline": {
-				"text": "+ Uhlaka:"
+				"text": "+ Kontur:"
 			},
 			"DashPattern": {
 				"text": "DashPattern:"
@@ -769,16 +769,16 @@
 				"text": "+ EndCap:"
 			},
 			"+ Size": {
-				"text": "+ Usayizi:"
+				"text": "+ Ölçü:"
 			},
 			"width": {
-				"text": "ububanzi:"
+				"text": "eni:"
 			},
 			"height": {
-				"text": "ubude:"
+				"text": "hündürlük:"
 			},
 			"Style": {
-				"text": "Isitayela:"
+				"text": "Stil:"
 			},
 			"LineJoin": {
 				"text": "LineJoin:"
@@ -787,13 +787,13 @@
 				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
-				"text": "+ I-StartCap:"
+				"text": "+ StartCap:"
 			},
 			"Width": {
-				"text": "Ububanzi:"
+				"text": "Eni:"
 			},
 			"+ ResizePointTemplate": {
-				"text": "+ ResizePointTemplate:"
+				"text": "+ ResizePointŞablon:"
 			},
 			"BorderColor": {
 				"text": "BorderColor:"
@@ -808,40 +808,40 @@
 				"text": "InteractionRadius:"
 			},
 			"Radius": {
-				"text": "Irediyasi:"
+				"text": "Radius:"
 			},
 			"Rotation": {
-				"text": "Ukuzungezisa:"
+				"text": "Fırlanma:"
 			},
 			"+ RotationCenterPoint": {
 				"text": "+ RotationCenterPoint:"
 			},
 			"Cursor": {
-				"text": "Ikhesa:"
+				"text": "Kursor:"
 			},
 			"+ RotationPoint": {
-				"text": "+ RotationPoint:"
+				"text": "+ Dönmə Nöqtəsi:"
 			},
 			"RotationPointDistance": {
 				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
-				"text": "+ ShadowBrush:"
+				"text": "+ Kölgə Fırçası:"
 			},
 			"+ ShadowOffset": {
-				"text": "+ I-ShadowOffset:"
+				"text": "+ ShadowOffset:"
 			},
 			"Symmetry": {
-				"text": "I-Symmetry:"
+				"text": "Simmetriya:"
 			},
 			"Text": {
-				"text": "Umbhalo:"
+				"text": "Mətn:"
 			},
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
 			"+ TextBox": {
-				"text": "+ Ibhokisi Lombhalo:"
+				"text": "+ Mətn qutusu:"
 			},
 			"FontColor": {
 				"text": "FontColor:"
@@ -859,19 +859,19 @@
 				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
-				"text": "+ I-TextPadding:"
+				"text": "+ Mətn Doldurma:"
 			},
 			"left": {
-				"text": "kwesokunxele:"
+				"text": "sol:"
 			},
 			"right": {
-				"text": "kwesokudla:"
+				"text": "sağ:"
 			},
 			"top": {
-				"text": "phezulu:"
+				"text": "yuxarı:"
 			},
 			"bottom": {
-				"text": "phansi:"
+				"text": "alt:"
 			},
 			"ToolTip": {
 				"text": "ToolTip:"
@@ -880,58 +880,58 @@
 				"text": "VerticalMirrored:"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "tamam"
 			}
 		}
 	},
 	"previouslyUploadedFilesDialog": {
 		"title": {
-			"text": "Amafayela alayishwe ngaphambilini"
+			"text": "Əvvəllər yüklənmiş fayllar"
 		},
 		"openButton": {
-			"text": "Vula"
+			"text": "Açıq"
 		},
 		"closeButton": {
-			"text": "Vala"
+			"text": "Yaxın"
 		}
 	},
 	"errorMessageDialog": {
 		"title": {
-			"text": "Iphutha"
+			"text": "Xəta"
 		},
 		"closeButton": {
-			"text": "Vala"
+			"text": "Yaxın"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
-		"vsdv-textSearchPanel-pageLabel": "Ikhasi",
-		"vsdv-openFile-addFileString": "Engeza ifayela",
-		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
-		"vsdv-downloadFile-actionMessage": "Landa ifayela",
-		"vsdv-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Shisa izichasiselo",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Londoloza izichasiselo",
-		"vsdv-annotationListPanel-pageLabel": "Ikhasi",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Izici zesichasiselo",
-		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
-		"vsdv-dialog-okButton": "KULUNGILE",
-		"vsdv-dialog-cancelButton": "Khansela",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
-		"vsdv-imageSelectionDialog-title": "Khetha izithombe",
-		"vsdv-imageSelectionDialog-currentImageString": "Isithombe samanje",
-		"vsdv-imageSelectionDialog-allImagesString": "Zonke izithombe",
-		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
-		"vsdv-printImagesDialog-title": "Phrinta izithombe",
-		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
-		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
-		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Zungezisa isithombe ngezichasiselo",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "I-engeli yokuzungezisa kufanele ibe ngaphezu kukaziro.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izungezisa isithombe ngezichasiselo"
+		"vsdv-uploadFileButton-uploadFileString": "Fayl yükləyin",
+		"vsdv-textSearchPanel-pageLabel": "Səhifə",
+		"vsdv-openFile-addFileString": "Fayl əlavə edin",
+		"vsdv-openFile-authenticateFileString": "Faylı doğrulayın",
+		"vsdv-downloadFile-actionMessage": "Faylı yüklə",
+		"vsdv-saveChanges-saveChangesInImages": "Şəkillərdə dəyişiklikləri yadda saxlayın",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiyalarda dəyişiklikləri yadda saxlayın",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Şəkillərdə annotasiyaları yandırın",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Dəyişiklikləri PDF sənədində qeyd edin",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotasiyaları yandırın",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Annotasiyaları yadda saxlayın",
+		"vsdv-annotationListPanel-pageLabel": "Səhifə",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotasiya Xüsusiyyətləri",
+		"vsdv-documentPasswordDialog-title": "Sənəd parolu",
+		"vsdv-dialog-okButton": "tamam",
+		"vsdv-dialog-cancelButton": "Ləğv et",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Faylı doğrulayın",
+		"vsdv-imageSelectionDialog-title": "Şəkilləri seçin",
+		"vsdv-imageSelectionDialog-currentImageString": "Cari şəkil",
+		"vsdv-imageSelectionDialog-allImagesString": "Bütün şəkillər",
+		"vsdv-imageSelectionDialog-customImagesString": "Xüsusi",
+		"vsdv-printImagesDialog-title": "Şəkilləri çap edin",
+		"vsdv-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
+		"vsdv-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
+		"vsdv-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Annotasiyalarla şəkli fırladın",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Fırlanma bucağı sıfırdan çox olmalıdır.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiyalarla fırlanan şəkil"
 	}
 }

@@ -1,405 +1,405 @@
 ﻿{
 	"documentViewer": {
 		"fileLabel": {
-			"text": "Ifayela"
+			"text": "Fayl"
 		},
 		"viewLabel": {
-			"text": "Buka"
+			"text": "Ko'rinish"
 		},
 		"toolsLabel": {
-			"text": "Amathuluzi"
+			"text": "Asboblar"
 		},
 		"annotationsLabel": {
-			"text": "Izichasiselo"
+			"text": "Izohlar"
 		},
 		"uploadFileButton": {
-			"title": "Layisha futhi uvule ifayela"
+			"title": "Faylni yuklang va oching"
 		},
 		"previousUploadFilesButton": {
-			"title": "Amafayela Alayishwe Ngokudlule"
+			"title": "Oldin yuklangan fayllar"
 		},
 		"uploadImageFromUrlButton": {
-			"title": "Layisha futhi uvule ifayela lesithombe nge-URL"
+			"title": "Rasm faylini URL orqali yuklang va oching"
 		},
 		"printImagesButton": {
-			"title": "Phrinta izithombe"
+			"title": "Rasmlarni chop etish"
 		},
 		"downloadFileButton": {
-			"title": "Landa ifayela"
+			"title": "Faylni yuklab oling"
 		},
 		"exportAndDownloadFileButton": {
-			"title": "Khipha futhi ulande ifayela"
+			"title": "Faylni eksport qilish va yuklab olish"
 		},
 		"fitToWidthSizeModeButton": {
-			"title": "Linganisa ububanzi"
+			"title": "Kenglikka moslash"
 		},
 		"rotateViewsCounterClockwiseButton": {
-			"title": "Zungezisa konke ukubuka ngokuphikisana newashi"
+			"title": "Barcha ko'rinishlarni soat sohasi farqli ravishda aylantiring"
 		},
 		"rotateAngleInput": {
-			"title": "I-engeli"
+			"title": "Burchak"
 		},
 		"rotateViewsClockwiseButton": {
-			"title": "Zungezisa konke ukubuka njengokuhamba kwewashi"
+			"title": "Barcha ko'rinishlarni soat yo'nalishi bo'yicha aylantiring"
 		},
 		"imageViewerSettingsButton": {
-			"title": "Izilungiselelo zesibukeli sesithombe"
+			"title": "Rasmlarni ko'rish sozlamalari"
 		},
 		"thumbnailViewerSettingsButton": {
-			"title": "Izilungiselelo zesibukeli sesithonjana"
+			"title": "Eskizni ko'rish sozlamalari"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Izichasiselo, Ukuzulazula kwedokhumenti, Ukukhetha umbhalo"
+			"title": "Izohlar, Hujjatlarni navigatsiya qilish, Matn tanlash"
 		},
 		"panToolButton": {
-			"title": "Ipani"
+			"title": "Pan"
 		},
 		"magnifierToolButton": {
-			"title": "Isikhulisi"
+			"title": "Kattalashtiruvchi"
 		},
 		"zoomToolButton": {
-			"title": "Sondeza"
+			"title": "Kattalashtirish"
 		},
 		"zoomSelectionToolButton": {
-			"title": "Ukukhetha kokusondeza"
+			"title": "Kattalashtirish tanlovi"
 		},
 		"addRectangleAnnotationButton": {
-			"title": "Unxande"
+			"title": "To'rtburchak"
 		},
 		"addEllipseAnnotationButton": {
-			"title": "I-Ellipse"
+			"title": "Ellips"
 		},
 		"addHighlightAnnotationButton": {
-			"title": "Gqamisa"
+			"title": "Ajratish"
 		},
 		"addReferencedImageAnnotationButton": {
-			"title": "Isithombe esikhonjiwe"
+			"title": "Havola qilingan rasm"
 		},
 		"addTextAnnotationButton": {
-			"title": "Umbhalo"
+			"title": "Matn"
 		},
 		"addStampAnnotationButton": {
-			"title": "Isitembu"
+			"title": "Shtamp"
 		},
 		"addLinkAnnotationButton": {
-			"title": "Isixhumanisi"
+			"title": "Havola"
 		},
 		"addArrowAnnotationButton": {
-			"title": "Umcibisholo"
+			"title": "Ok"
 		},
 		"addLineAnnotationButton": {
-			"title": "Umugqa"
+			"title": "Chiziq"
 		},
 		"addLinesAnnotationButton": {
-			"title": "Imigqa"
+			"title": "Chiziqlar"
 		},
 		"addPolygonAnnotationButton": {
-			"title": "Ipholigoni"
+			"title": "Poligon"
 		},
 		"addRulerAnnotationButton": {
-			"title": "Umbusi"
+			"title": "Hukmdor"
 		},
 		"addTriangleAnnotationButton": {
-			"title": "Unxantathu"
+			"title": "Uchburchak"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Imodi yokusebenzisana 'Umbhali'"
+			"title": ""Muallif" o'zaro aloqa rejimi"
 		},
 		"copyAnnotationButton": {
-			"title": "Kopisha isichasiselo esigxilile"
+			"title": "Fokuslangan izohni nusxalash"
 		},
 		"pasteAnnotationButton": {
-			"title": "Namathisela isichasiselo esikopishiwe"
+			"title": "Nusxalangan izohni joylashtirish"
 		},
 		"removeAnnotationButton": {
-			"title": "Susa isichasiselo esigxilile"
+			"title": "Fokuslangan izohni olib tashlang"
 		},
 		"burnAnnotationsButton": {
-			"title": "Shisa iqoqo lesichasiselo esithombeni"
+			"title": "Rasmdagi izohlar to'plamini yoqish"
 		},
 		"saveAnnotationsButton": {
-			"title": "Londoloza izinguquko zeqoqo lezichasiselo kuseva"
+			"title": "Annotatsiyalar to'plamidagi o'zgarishlarni serverga saqlang"
 		},
 		"rotateImageWithAnnotationsButton": {
-			"title": "Zungezisa isithombe ngezichasiselo"
+			"title": "Tasvirni izohlar bilan aylantiring"
 		},
 		"enableAnnotationHistoryButton": {
-			"title": "Nika amandla ukuhlehlisa/ukwenza futhi"
+			"title": "Bekor qilish/qayta qilishni yoqish"
 		},
 		"undoAnnotationHistoryButton": {
-			"title": "Hlehlisa"
+			"title": "Bekor qilish"
 		},
 		"redoAnnotationHistoryButton": {
-			"title": "Yenza futhi"
+			"title": "Qayta qiling"
 		},
 		"mediumAnnotationInteractionPoints": {
-			"title": "Amaphoyinti okusebenzelana amaphakathi"
+			"title": "O'rta o'zaro ta'sir nuqtalari"
 		},
 		"showMobileMenuButton": {
-			"title": "Okuningi"
+			"title": "Ko'proq"
 		},
 		"sidePanelCloseButton": {
-			"title": "Bonisa Iphaneli Eseceleni"
+			"title": "Yon panelni ko'rsatish"
 		},
 		"showThumbnailViewerPanelButton": {
-			"title": "Izithonjana"
+			"title": "Eskizlar"
 		},
 		"showTextSelectionPanelButton": {
-			"title": "Ukukhetha umbhalo"
+			"title": "Matn tanlash"
 		},
 		"showTextSearchPanelButton": {
-			"title": "Thola umbhalo"
+			"title": "Matnni toping"
 		},
 		"showAnnotationsPanelButton": {
-			"title": "Izichasiselo"
+			"title": "Izohlar"
 		},
 		"textSelectionPanel": {
 			"selectionModeLabel": {
-				"text": "Imodi yokukhetha:"
+				"text": "Tanlash rejimi:"
 			},
 			"rectangleOption": {
-				"text": "Unxande"
+				"text": "To'rtburchak"
 			},
 			"fullLinesOption": {
-				"text": "Imigqa egcwele"
+				"text": "To'liq chiziqlar"
 			},
 			"selectionColorLabel": {
-				"text": "Umbala wokukhetha:"
+				"text": "Tanlash rangi:"
 			},
 			"selectedTextLabel": {
-				"text": "Umbhalo okhethiwe:"
+				"text": "Tanlangan matn:"
 			}
 		},
 		"textSearchPanel": {
 			"findLabel": {
-				"text": "Thola:"
+				"text": "Toping:"
 			},
 			"whereLookLabel": {
-				"text": "Bheka ngaphakathi:"
+				"text": "Nazar solmoq:"
 			},
 			"currentPageOption": {
-				"text": "Ikhasi lamanje"
+				"text": "Joriy sahifa"
 			},
 			"allPagesOption": {
-				"text": "Wonke amakhasi"
+				"text": "Barcha sahifalar"
 			},
 			"wholeWordLabel": {
-				"text": "Izwi lonke"
+				"text": "Butun so'z"
 			},
 			"caseSensitiveLabel": {
-				"text": "Iyazwela kofeleba"
+				"text": "Harflar katta-kichikligiga sezgir"
 			},
 			"startSearchButton": {
-				"value": "Qala"
+				"value": "Boshlash"
 			},
 			"stopSearchButton": {
-				"value": "Ima"
+				"value": "STOP"
 			},
 			"textNotFoundLabel": {
-				"text": "Umbhalo awutholakali."
+				"text": "Matn topilmadi."
 			}
 		},
 		"gotoFirstPageButton": {
-			"title": "Iya esithombeni sokuqala"
+			"title": "Birinchi rasmga o'ting"
 		},
 		"gotoPreviousPageButton": {
-			"title": "Iya esithombeni sangaphambilini"
+			"title": "Oldingi rasmga o'ting"
 		},
 		"gotoPageInput": {
-			"title": "Ikhasi"
+			"title": "Sahifa"
 		},
 		"gotoNextPageButton": {
-			"title": "Iya esithombeni esilandelayo"
+			"title": "Keyingi rasmga o'ting"
 		},
 		"gotoLastPageButton": {
-			"title": "Iya esithombeni sokugcina"
+			"title": "Oxirgi rasmga o'ting"
 		},
 		"zoomOutButton": {
-			"title": "Hlehlisa isithombe"
+			"title": "Kichraytirish"
 		},
 		"zoomValueInput": {
-			"title": "Sondeza"
+			"title": "Kattalashtirish"
 		},
 		"zoomInButton": {
-			"title": "Sondeza isithombe"
+			"title": "Kattalashtirish"
 		},
 		"normalSizeModeButton": {
-			"title": "Okuvamile"
+			"title": "Oddiy"
 		},
 		"bestFitSizeModeButton": {
-			"title": "Ukulingana okuhle kakhulu"
+			"title": "Eng yaxshi mos"
 		},
 		"fitToHeightSizeModeButton": {
-			"title": "Ilingana nobude"
+			"title": "Balandlikka mos"
 		},
 		"pixelToPixelSizeModeButton": {
-			"title": "Iphikseli ukuya kuphikseli"
+			"title": "Pikseldan pikselga"
 		},
 		"zoomSizeModeButton": {
-			"title": "Sondeza"
+			"title": "Kattalashtirish"
 		},
 		"addArcAnnotationButton": {
-			"title": "I-arc"
+			"title": "yoy"
 		},
 		"addStickyNoteAnnotationButton": {
-			"title": "Inothi elinamathelayo"
+			"title": "Yopishqoq eslatma"
 		},
 		"addFreeTextAnnotationButton": {
-			"title": "Umbhalo wamahhala"
+			"title": "Erkin matn"
 		},
 		"addDoubleArrowAnnotationButton": {
-			"title": "Umcibisholo okabili"
+			"title": "Ikki tomonlama o'q"
 		},
 		"addInterpolatedLinesAnnotationButton": {
-			"title": "Imigqa ene-interpolation"
+			"title": "Interpolatsiyali chiziqlar"
 		},
 		"addFreehandLinesAnnotationButton": {
-			"title": "Imigqa yamahhala"
+			"title": "Erkin chiziqlar"
 		},
 		"addInterpolatedPolygonAnnotationButton": {
-			"title": "Ipholigoni ene-interpolation"
+			"title": "Interpolyatsiya bilan ko'pburchak"
 		},
 		"addFreehandPolygonAnnotationButton": {
-			"title": "Ipholigoni yamahhala"
+			"title": "Erkin ko'pburchak"
 		},
 		"addCloudPolygonAnnotationButton": {
-			"title": "Ipholigoni yamafu"
+			"title": "Bulutli ko'pburchak"
 		},
 		"addRulersAnnotationButton": {
-			"title": "Ababusi"
+			"title": "Hukmdorlar"
 		},
 		"addAngleAnnotationButton": {
-			"title": "I-engeli"
+			"title": "Burchak"
 		},
 		"addMarkAnnotationButton": {
-			"title": "Maka"
+			"title": "Mark"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Imodi yokusebenzisana 'Akukho'"
+			"title": "O'zaro aloqa rejimi "Yo'q""
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Imodi yokusebenzisana 'Buka'"
+			"title": "O'zaro aloqa rejimi "Ko'rish""
 		},
 		"smallAnnotationInteractionPoints": {
-			"title": "Amaphuzu amancane okusebenzisana"
+			"title": "Kichik o'zaro ta'sir nuqtalari"
 		},
 		"largeAnnotationInteractionPoints": {
-			"title": "Amaphoyinti amakhulu okusebenzisana (Isikrini sokuthinta)"
+			"title": "Katta o'zaro ta'sir nuqtalari (sensorli ekran)"
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
-				"text": "Le dokhumenti ivikelwe ngephasiwedi. Sicela ufake iphasiwedi."
+				"text": "Ushbu hujjat parol bilan himoyalangan. Iltimos, parol kiriting."
 			},
 			"passwordLabel": {
-				"text": "Iphasiwedi:"
+				"text": "Parol:"
 			},
 			"showPasswordLabel": {
-				"text": "Bonisa iphasiwedi"
+				"text": "Parolni ko'rsatish"
 			},
 			"incorrectPasswordLabel": {
-				"text": "Iphasiwedi engalungile"
+				"text": "Noto'g'ri parol"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "KELISHDIKMI"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Bekor qilish"
 			}
 		},
 		"selectImagesDialog": {
 			"imagesLabel": {
-				"text": "Izithombe:"
+				"text": "Rasmlar:"
 			},
 			"currentImageOption": {
-				"text": "Isithombe samanje"
+				"text": "Joriy rasm"
 			},
 			"allImagesOption": {
-				"text": "Zonke izithombe"
+				"text": "Barcha rasmlar"
 			},
 			"customImagesOption": {
-				"text": "Ngokwezifiso"
+				"text": "Maxsus"
 			},
 			"imageRangeLabel": {
-				"text": "Ibanga lesithombe:"
+				"text": "Rasm diapazoni:"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Ibanga lekhasi elingavumelekile. Isibonelo: 1-5, 8, 12-15."
+				"text": "Sahifalar oralig‘i noto‘g‘ri. Misol: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Inkomba ayikho ebangeni lokuqoqwa kwezithombe."
+				"text": "Indeks tasvirlar to‘plami doirasidan tashqarida."
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "KELISHDIKMI"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Bekor qilish"
 			}
 		},
 		"printImagesDialog": {
 			"imagesLabel": {
-				"text": "Izithombe:"
+				"text": "Rasmlar:"
 			},
 			"currentImageOption": {
-				"text": "Isithombe samanje"
+				"text": "Joriy rasm"
 			},
 			"allImagesOption": {
-				"text": "Zonke izithombe"
+				"text": "Barcha rasmlar"
 			},
 			"customImagesOption": {
-				"text": "Ngokwezifiso"
+				"text": "Maxsus"
 			},
 			"imageRangeLabel": {
-				"text": "Ibanga lesithombe:"
+				"text": "Rasm diapazoni:"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Ibanga lekhasi elingavumelekile. Isibonelo: 1-5, 8, 12-15."
+				"text": "Sahifalar oralig‘i noto‘g‘ri. Misol: 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Inkomba ayikho ebangeni lokuqoqwa kwezithombe."
+				"text": "Indeks tasvirlar to‘plami doirasidan tashqarida."
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "KELISHDIKMI"
 			},
 			"cancelButton": {
-				"value": "Khansela"
+				"value": "Bekor qilish"
 			}
 		},
 		"imageViewerSettingsDialog": {
 			"imageDisplayModeLabel": {
-				"text": "Imodi yokubonisa isithombe:"
+				"text": "Rasmni ko'rsatish rejimi:"
 			},
 			"imageAnchorLabel": {
-				"text": "Ihange lesithombe:"
+				"text": "Rasm langari:"
 			},
 			"noneOption": {
-				"text": "Lutho"
+				"text": "Yo'q"
 			},
 			"topLeftOption": {
-				"text": "Phezulu|Kwesobunxele"
+				"text": "Yuqori|Chap"
 			},
 			"topOption": {
-				"text": "Phezulu"
+				"text": "Yuqori"
 			},
 			"topRightOption": {
-				"text": "Phezulu|kwesokudla"
+				"text": "Yuqori|O'ng"
 			},
 			"rightOption": {
-				"text": "Kulungile"
+				"text": "To'g'ri"
 			},
 			"bottomRightOption": {
-				"text": "Phansi|kwesokudla"
+				"text": "Pastki|Oʻng"
 			},
 			"bottomOption": {
-				"text": "Phansi"
+				"text": "Pastki"
 			},
 			"bottomLeftOption": {
-				"text": "Phansi|Kwesobunxele"
+				"text": "Pastki|Chap"
 			},
 			"leftOption": {
-				"text": "Kwesokunxele"
+				"text": "Chapga"
 			},
 			"multipageDisplayModeLabel": {
-				"text": "Imodi yokubonisa yamakhasi amaningi:"
+				"text": "Ko'p sahifali ekran rejimi:"
 			},
 			"allImagesOption": {
 				"text": "AllImages"
@@ -408,79 +408,79 @@
 				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
-				"text": "Isiqondiso sesakhiwo:"
+				"text": "Joylashtirish yo'nalishi:"
 			},
 			"horizontalOption": {
-				"text": "Evundlile"
+				"text": "Gorizontal"
 			},
 			"verticalOption": {
-				"text": "Iqondile"
+				"text": "Vertikal"
 			},
 			"rowColumnCountLabel": {
-				"text": "Izithombe kumugqa/ikholomu:"
+				"text": "Qator/ustundagi rasmlar:"
 			},
 			"imagePaddingLabel": {
-				"text": "Ukufakwa kwezithombe:"
+				"text": "Rasmlarni to'ldirish:"
 			},
 			"appearancesLabel": {
-				"text": "Ukubukeka"
+				"text": "Ko'rinishlar"
 			},
 			"imageAppearanceLabel": {
-				"text": "Ukubukeka kwesithombe"
+				"text": "Rasm ko'rinishi"
 			},
 			"imageAppearanceBackColorLabel": {
-				"text": "Umbala wangemuva:"
+				"text": "Orqa rang:"
 			},
 			"imageAppearanceBorderColorLabel": {
-				"text": "Umbala womngcele:"
+				"text": "Chegara rangi:"
 			},
 			"imageAppearanceBorderWidthLabel": {
-				"text": "Ububanzi bomngcele:"
+				"text": "Chegara kengligi:"
 			},
 			"focusedImageAppearanceLabel": {
-				"text": "Ukubukeka kwesithombe esigxilile"
+				"text": "Fokuslangan tasvir ko'rinishi"
 			},
 			"focusedImageAppearanceBackColorLabel": {
-				"text": "Umbala wangemuva:"
+				"text": "Orqa rang:"
 			},
 			"focusedImageAppearanceBorderColorLabel": {
-				"text": "Umbala womngcele:"
+				"text": "Chegara rangi:"
 			},
 			"focusedImageAppearanceBorderWidthLabel": {
-				"text": "Ububanzi bomngcele:"
+				"text": "Chegara kengligi:"
 			},
 			"useAppearanceInSinglePageModeLabel": {
-				"text": "Sebenzisa ukubukeka kwesithombe kumodi yekhasi elilodwa"
+				"text": "Bir sahifali rejimda tasvir ko'rinishidan foydalaning"
 			},
 			"renderingSettingsLabel": {
-				"text": "Izilungiselelo zokunikezela"
+				"text": "Renderlash sozlamalari"
 			},
 			"defaultRenderingSettingsLabel": {
-				"text": "Izilungiselelo Ezizenzakalelayo"
+				"text": "Standart sozlamalar"
 			},
 			"horizontalResolutionLabel": {
-				"text": "Ukulungiswa Okuvundlile:"
+				"text": "Gorizontal ruxsat:"
 			},
 			"verticalResolutionLabel ": {
-				"text": "Ukulungiswa Okuqondile:"
+				"text": "Vertikal ruxsat:"
 			},
 			"smoothingModeLabel": {
-				"text": "Imodi yokushelela:"
+				"text": "Silliqlash rejimi:"
 			},
 			"AntiAlias": {
 				"text": "AntiAlias"
 			},
 			"None": {
-				"text": "Lutho"
+				"text": "Yo'q"
 			},
 			"interpolationModeLabel": {
-				"text": "Imodi yokuhumusha:"
+				"text": "Interpolatsiya rejimi:"
 			},
 			"Bicubic": {
-				"text": "Bicubic"
+				"text": "Ikki kubik"
 			},
 			"Bilinear": {
-				"text": "Bilinear"
+				"text": "Ikki chiziqli"
 			},
 			"HighQualityBicubic": {
 				"text": "HighQualityBicubic"
@@ -492,57 +492,57 @@
 				"text": "NearestNeighbor"
 			},
 			"otherSettingsLabel": {
-				"text": "Ezinye izilungiselelo"
+				"text": "Boshqa sozlamalar"
 			},
 			"backgroundColorLabel": {
-				"text": "Umbala wangemuva wesibukeli:"
+				"text": "Tomoshabin fon rangi:"
 			},
 			"centerImageLabel": {
-				"text": "Isithombe esimaphakathi:"
+				"text": "Markaziy rasm:"
 			},
 			"resizeTimeoutLabel ": {
-				"text": "Shintsha usayizi wesikhathi sokuvala:"
+				"text": "Oʻlchamini oʻzgartirish vaqti:"
 			},
 			"tileSizeLabel": {
-				"text": "Usayizi wethayela:"
+				"text": "Plitka o'lchami:"
 			},
 			"colorManagementLabel": {
-				"text": "Nika amandla ukuphathwa kombala:"
+				"text": "Rang boshqaruvini yoqing:"
 			},
 			"useVectorRenderingLabel": {
-				"text": "Sebenzisa i-vector rendering kumadokhumenti:"
+				"text": "Hujjatlar uchun vektor renderlashdan foydalaning:"
 			},
 			"vectorContentBackgroundColorLabel": {
-				"text": "Umbala wengemuva lokuqukethwe kweVector:"
+				"text": "Vektor mazmuni fon rangi:"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "KELISHDIKMI"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Bekor qilish"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
 			"sizeLabel": {
-				"text": "Usayizi:"
+				"text": "Hajmi:"
 			},
 			"scaleLabel": {
-				"text": "Isikali:"
+				"text": "Masshtab:"
 			},
 			"smallestOption": {
-				"text": "Okuncane kakhulu"
+				"text": "Eng kichik"
 			},
 			"smallOption": {
-				"text": "Encane"
+				"text": "Kichik"
 			},
 			"normalOption": {
-				"text": "Okuvamile"
+				"text": "Oddiy"
 			},
 			"largeOption": {
-				"text": "Okukhulu"
+				"text": "Katta"
 			},
 			"flowStyleLabel": {
-				"text": "Isitayela sokugeleza:"
+				"text": "Oqim uslubi:"
 			},
 			"singleColumnOption": {
 				"text": "SingleColumn"
@@ -557,114 +557,114 @@
 				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
-				"text": "Isibalo Sekholomu:"
+				"text": "Ustunlar soni:"
 			},
 			"marginLabel": {
-				"text": "Imajini:"
+				"text": "Chegara:"
 			},
 			"paddingTopLabel": {
-				"text": "I-Padding Top:"
+				"text": "To'ldiruvchi tepa:"
 			},
 			"paddingRightLabel": {
-				"text": "Ukugwedla Kwesokudla:"
+				"text": "To'ldirish o'ng:"
 			},
 			"paddingBottomLabel": {
-				"text": "I-Padding Bottom:"
+				"text": "Pastki to'ldirish:"
 			},
 			"paddingLeftLabel": {
-				"text": "Ukupheqela Kwesokunxele:"
+				"text": "Chapga to'ldirish:"
 			},
 			"showCaptionLabel": {
-				"text": "Bonisa Amazwibela:"
+				"text": "Taglavhalarni ko'rsatish:"
 			},
 			"captionFormatLabel": {
-				"text": "Ifomethi yamagama-ncazo:"
+				"text": "Sarlavha formati:"
 			},
 			"captionAnchorLabel": {
-				"text": "Ihange lamagama-ncazo:"
+				"text": "Sarlavha langari:"
 			},
 			"topLeftOption": {
-				"text": "Phezulu|Kwesobunxele"
+				"text": "Yuqori|Chap"
 			},
 			"topOption": {
-				"text": "Phezulu"
+				"text": "Yuqori"
 			},
 			"topRightOption": {
-				"text": "Phezulu|kwesokudla"
+				"text": "Yuqori|O'ng"
 			},
 			"rightOption": {
-				"text": "Kulungile"
+				"text": "To'g'ri"
 			},
 			"bottomRightOption": {
-				"text": "Phansi|kwesokudla"
+				"text": "Pastki|Oʻng"
 			},
 			"bottomOption": {
-				"text": "Phansi"
+				"text": "Pastki"
 			},
 			"bottomLeftOption": {
-				"text": "Phansi|Kwesobunxele"
+				"text": "Pastki|Chap"
 			},
 			"leftOption": {
-				"text": "Kwesokunxele"
+				"text": "Chapga"
 			},
 			"centerOption": {
-				"text": "Isikhungo"
+				"text": "Markaz"
 			},
 			"focusOnHoverLabel": {
-				"text": "Gxila ku-OnHover:"
+				"text": "Hoverga e'tibor qarating:"
 			},
 			"multiSelectLabel": {
-				"text": "Ukukhetha okuningi:"
+				"text": "Ko'p tanlov:"
 			},
 			"canDragThumbnailsLabel": {
-				"text": "Ingakwazi Ukuhudula Izithonjana:"
+				"text": "Eskizlarni tortib olish mumkin:"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "KELISHDIKMI"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Bekor qilish"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
 			"rotationAngleLabel": {
-				"text": "I-engeli:"
+				"text": "Burchak:"
 			},
 			"borderColorTypeLabel": {
-				"text": "Uhlobo lombala womngcele:"
+				"text": "Chegara rangi turi:"
 			},
 			"autoDetectOption": {
 				"text": "AutoDetect"
 			},
 			"blackOption": {
-				"text": "Mnyama"
+				"text": "Qora"
 			},
 			"whiteOption": {
-				"text": "Emhlophe"
+				"text": "Oq"
 			},
 			"transparentOption": {
-				"text": "Okusobala"
+				"text": "Shaffof"
 			},
 			"customOption": {
-				"text": "Ngokwezifiso"
+				"text": "Maxsus"
 			},
 			"borderColorLabel": {
-				"text": "Umbala Womngcele:"
+				"text": "Chegara rangi:"
 			},
 			"changeSourceLabel": {
-				"text": "Shintsha Umthombo"
+				"text": "Manbani o'zgartirish"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "KELISHDIKMI"
 			},
 			"cancelButton": {
-				"value": "Khansela"
+				"value": "Bekor qilish"
 			}
 		},
 		"annotationSettingsDialog": {
-			"title": "Izilungiselelo zesichasiselo",
+			"title": "Annotatsiya sozlamalari",
 			"Border": {
-				"text": "Umngcele:"
+				"text": "Chegarasi:"
 			},
 			"CanMirror": {
 				"text": "CanMirror:"
@@ -685,46 +685,46 @@
 				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
-				"text": "+ Ibhulashi Lokugcwalisa:"
+				"text": "+ FillBrush:"
 			},
 			"Color": {
-				"text": "Umbala:"
+				"text": "Rang:"
 			},
 			"Type": {
-				"text": "Uhlobo:"
+				"text": "Turi:"
 			},
 			"+ Font": {
-				"text": "+ Ifonti:"
+				"text": "+ Shrift:"
 			},
 			"Bold": {
-				"text": "Okugqamile:"
+				"text": "Qalin:"
 			},
 			"FamilyName": {
 				"text": "FamilyName:"
 			},
 			"Italic": {
-				"text": "I-ithalikhi"
+				"text": "Kursiv:"
 			},
 			"Size": {
-				"text": "Usayizi:"
+				"text": "Hajmi:"
 			},
 			"Strikeout": {
-				"text": "Ukushaywa:"
+				"text": "Chiqib ketish:"
 			},
 			"Underline": {
-				"text": "Dwebela:"
+				"text": "tagiga chizish:"
 			},
 			"Unit": {
-				"text": "Iyunithi:"
+				"text": "Birlik:"
 			},
 			"+ FontBrush": {
-				"text": "+ FontBrush:"
+				"text": "+ Shrift cho'tkasi:"
 			},
 			"FontTransparent": {
 				"text": "FontTransparent:"
 			},
 			"Guid": {
-				"text": "Umhlahlandlela:"
+				"text": "Yoʻlboshchi:"
 			},
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
@@ -742,7 +742,7 @@
 				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
-				"text": "+ Indawo:"
+				"text": "+ Manzil:"
 			},
 			"x": {
 				"text": "x:"
@@ -754,10 +754,10 @@
 				"text": "ModifiedBy:"
 			},
 			"Name": {
-				"text": "Igama:"
+				"text": "Nomi:"
 			},
 			"+ Outline": {
-				"text": "+ Uhlaka:"
+				"text": "+ Tasvir:"
 			},
 			"DashPattern": {
 				"text": "DashPattern:"
@@ -769,16 +769,16 @@
 				"text": "+ EndCap:"
 			},
 			"+ Size": {
-				"text": "+ Usayizi:"
+				"text": "+ Hajmi:"
 			},
 			"width": {
-				"text": "ububanzi:"
+				"text": "kengligi:"
 			},
 			"height": {
-				"text": "ubude:"
+				"text": "balandligi:"
 			},
 			"Style": {
-				"text": "Isitayela:"
+				"text": "Uslub:"
 			},
 			"LineJoin": {
 				"text": "LineJoin:"
@@ -787,13 +787,13 @@
 				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
-				"text": "+ I-StartCap:"
+				"text": "+ StartCap:"
 			},
 			"Width": {
-				"text": "Ububanzi:"
+				"text": "Kengligi:"
 			},
 			"+ ResizePointTemplate": {
-				"text": "+ ResizePointTemplate:"
+				"text": "+ ResizePoint Template:"
 			},
 			"BorderColor": {
 				"text": "BorderColor:"
@@ -808,19 +808,19 @@
 				"text": "InteractionRadius:"
 			},
 			"Radius": {
-				"text": "Irediyasi:"
+				"text": "Radius:"
 			},
 			"Rotation": {
-				"text": "Ukuzungezisa:"
+				"text": "Aylanish:"
 			},
 			"+ RotationCenterPoint": {
 				"text": "+ RotationCenterPoint:"
 			},
 			"Cursor": {
-				"text": "Ikhesa:"
+				"text": "Kursor:"
 			},
 			"+ RotationPoint": {
-				"text": "+ RotationPoint:"
+				"text": "+ Rotation Point:"
 			},
 			"RotationPointDistance": {
 				"text": "RotationPointDistance:"
@@ -829,19 +829,19 @@
 				"text": "+ ShadowBrush:"
 			},
 			"+ ShadowOffset": {
-				"text": "+ I-ShadowOffset:"
+				"text": "+ ShadowOffset:"
 			},
 			"Symmetry": {
-				"text": "I-Symmetry:"
+				"text": "Simmetriya:"
 			},
 			"Text": {
-				"text": "Umbhalo:"
+				"text": "Matn:"
 			},
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
 			"+ TextBox": {
-				"text": "+ Ibhokisi Lombhalo:"
+				"text": "+ TextBox:"
 			},
 			"FontColor": {
 				"text": "FontColor:"
@@ -859,19 +859,19 @@
 				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
-				"text": "+ I-TextPadding:"
+				"text": "+ TextPadding:"
 			},
 			"left": {
-				"text": "kwesokunxele:"
+				"text": "chap:"
 			},
 			"right": {
-				"text": "kwesokudla:"
+				"text": "o'ngda:"
 			},
 			"top": {
-				"text": "phezulu:"
+				"text": "yuqori:"
 			},
 			"bottom": {
-				"text": "phansi:"
+				"text": "pastki:"
 			},
 			"ToolTip": {
 				"text": "ToolTip:"
@@ -880,58 +880,58 @@
 				"text": "VerticalMirrored:"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "KELISHDIKMI"
 			}
 		}
 	},
 	"previouslyUploadedFilesDialog": {
 		"title": {
-			"text": "Amafayela alayishwe ngaphambilini"
+			"text": "Ilgari yuklangan fayllar"
 		},
 		"openButton": {
-			"text": "Vula"
+			"text": "Ochiq"
 		},
 		"closeButton": {
-			"text": "Vala"
+			"text": "Yopish"
 		}
 	},
 	"errorMessageDialog": {
 		"title": {
-			"text": "Iphutha"
+			"text": "Xato"
 		},
 		"closeButton": {
-			"text": "Vala"
+			"text": "Yopish"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
-		"vsdv-textSearchPanel-pageLabel": "Ikhasi",
-		"vsdv-openFile-addFileString": "Engeza ifayela",
-		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
-		"vsdv-downloadFile-actionMessage": "Landa ifayela",
-		"vsdv-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Shisa izichasiselo",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Londoloza izichasiselo",
-		"vsdv-annotationListPanel-pageLabel": "Ikhasi",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Izici zesichasiselo",
-		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
-		"vsdv-dialog-okButton": "KULUNGILE",
-		"vsdv-dialog-cancelButton": "Khansela",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
-		"vsdv-imageSelectionDialog-title": "Khetha izithombe",
-		"vsdv-imageSelectionDialog-currentImageString": "Isithombe samanje",
-		"vsdv-imageSelectionDialog-allImagesString": "Zonke izithombe",
-		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
-		"vsdv-printImagesDialog-title": "Phrinta izithombe",
-		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
-		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
-		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Zungezisa isithombe ngezichasiselo",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "I-engeli yokuzungezisa kufanele ibe ngaphezu kukaziro.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izungezisa isithombe ngezichasiselo"
+		"vsdv-uploadFileButton-uploadFileString": "Faylni yuklash",
+		"vsdv-textSearchPanel-pageLabel": "Sahifa",
+		"vsdv-openFile-addFileString": "Fayl qo'shish",
+		"vsdv-openFile-authenticateFileString": "Faylni autentifikatsiya qilish",
+		"vsdv-downloadFile-actionMessage": "Faylni yuklab oling",
+		"vsdv-saveChanges-saveChangesInImages": "Rasmlardagi o'zgarishlarni saqlang",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Izohlardagi o'zgarishlarni saqlang",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Rasmlarga izohlarni yozish",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "O'zgarishlarni PDF hujjatida saqlang",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Izohlarni yoqish",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Izohlarni saqlang",
+		"vsdv-annotationListPanel-pageLabel": "Sahifa",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Izoh xususiyatlari",
+		"vsdv-documentPasswordDialog-title": "Hujjat uchun parol",
+		"vsdv-dialog-okButton": "KELISHDIKMI",
+		"vsdv-dialog-cancelButton": "Bekor qilish",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Faylni autentifikatsiya qilish",
+		"vsdv-imageSelectionDialog-title": "Rasmlarni tanlang",
+		"vsdv-imageSelectionDialog-currentImageString": "Joriy rasm",
+		"vsdv-imageSelectionDialog-allImagesString": "Barcha rasmlar",
+		"vsdv-imageSelectionDialog-customImagesString": "Maxsus",
+		"vsdv-printImagesDialog-title": "Rasmlarni chop etish",
+		"vsdv-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
+		"vsdv-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
+		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Tasvirni izohlar bilan aylantiring",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Burilish burchagi noldan ortiq bo'lishi kerak.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izohlar bilan aylantiriladigan rasm"
 	}
 }

@@ -18,23 +18,29 @@
 		"previousUploadFilesButton": {
 			"title": "Bekijk een lijst met eerder gedownloade bestanden"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Upload en open het afbeeldingsbestand via URL"
+		},
 		"printImagesButton": {
 			"title": "Afbeeldingen afdrukken"
 		},
 		"downloadFileButton": {
-			"title": "Afbeeldingsbestand downloaden"
+			"title": "Download bestand"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Bestand exporteren en downloaden"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Aanpassen aan breedte"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Draai afbeelding linksom"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Roteer alle weergaven tegen de klok in"
 		},
 		"rotateAngleInput": {
 			"title": "Rotatiehoek"
 		},
-		"rotateClockwiseButton": {
-			"title": "Draai de afbeelding met de klok mee"
+		"rotateViewsClockwiseButton": {
+			"title": "Roteer alle weergaven met de klok mee"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Instellingen afbeeldingsviewer"
@@ -138,14 +144,14 @@
 		"showThumbnailViewerPanelButton": {
 			"title": "Miniaturen"
 		},
-		"showAnnotationsPanelButton": {
-			"title": "Annotaties"
-		},
 		"showTextSelectionPanelButton": {
 			"title": "Markeer tekst"
 		},
 		"showTextSearchPanelButton": {
 			"title": "Zoek naar tekst"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Annotaties"
 		},
 		"textSelectionPanel": {
 			"selectionModeLabel": {
@@ -280,32 +286,6 @@
 		"largeAnnotationInteractionPoints": {
 			"title": "Grote aanraakpunten (touchscreen)"
 		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Annotatie kopiëren"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Annotatie invoegen"
-			},
-			"removeAnnotationLabel": {
-				"text": "Annotatie verwijderen"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Verzenden naar terug"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Naar voren brengen"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Groepeer alle annotaties"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Annotatie degroeperen"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Annotatie-eigenschappen..."
-			}
-		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
 				"text": "Dit document is beveiligd met een wachtwoord. Voer een wachtwoord in alstublieft."
@@ -422,10 +402,10 @@
 				"text": "Weergavemodus voor meerdere pagina's:"
 			},
 			"allImagesOption": {
-				"text": "Alle afbeeldingen"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Vaste afbeeldingen"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Opmaakrichting:"
@@ -565,16 +545,16 @@
 				"text": "Plaatsingsstijl van miniaturen:"
 			},
 			"singleColumnOption": {
-				"text": "Enkele kolom"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Eén regel"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Vast aantal kolommen"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Zwevend aantal rijen"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Aantal kolommen:"
@@ -636,6 +616,9 @@
 			"multiSelectLabel": {
 				"text": "Sta meerdere miniatuurselectie toe:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Kan miniaturen slepen:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +634,7 @@
 				"text": "Randkleurtype:"
 			},
 			"autoDetectOption": {
-				"text": "Autodetectie"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Zwart"
@@ -677,44 +660,29 @@
 			"cancelButton": {
 				"value": "Annuleren"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Eerder gedownloade bestanden"
 		},
-		"openButton": {
-			"text": "Bestand openen"
-		},
-		"closeButton": {
-			"text": "Sluiten"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Annotatie-eigenschappen"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Annotatie-instellingen",
 			"Border": {
 				"text": "Grens:"
 			},
 			"CanMirror": {
-				"text": "U kunt spiegelen:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Kan verplaatsen:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Kan worden aangepast:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Kan worden gedraaid:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Auteur:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Aanmaaktijd:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Vul in:"
@@ -732,7 +700,7 @@
 				"text": "Vetgedrukt:"
 			},
 			"FamilyName": {
-				"text": "Achternaam:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Cursief:"
@@ -753,25 +721,25 @@
 				"text": "+ Lettertypepenseel:"
 			},
 			"FontTransparent": {
-				"text": "Transparant lettertype:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "Horizontaal gespiegeld:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Annotatie is gemaakt:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Annotatie is zichtbaar:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Lijnstijl:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Lijnstijl sjabloongrootte:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Locatie:"
@@ -783,10 +751,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Gewijzigd door:"
-			},
-			"ModifiedTime": {
-				"text": "Wijzig Tijd:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Naam:"
@@ -795,10 +760,10 @@
 				"text": "+ Schema:"
 			},
 			"DashPattern": {
-				"text": "Streepjespatroon:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Dash-stijl:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Cap aan het einde van de regel:"
@@ -816,10 +781,10 @@
 				"text": "Stijl:"
 			},
 			"LineJoin": {
-				"text": "Lijnverbinding:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "Versteklimiet:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ Cap aan het begin van de regel:"
@@ -831,16 +796,16 @@
 				"text": "+ Formaat puntsjabloon wijzigen:"
 			},
 			"BorderColor": {
-				"text": "Randkleur:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Randbreedte:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Vulkleur:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Raad van interactiegebied:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Straal:"
@@ -858,7 +823,7 @@
 				"text": "+ Draaipunt:"
 			},
 			"RotationPointDistance": {
-				"text": "Afstand tot draaipunt:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Schaduwpenseel:"
@@ -873,25 +838,25 @@
 				"text": "Tekst:"
 			},
 			"TextAlign": {
-				"text": "Tekstuitlijning:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Tekstveld:"
 			},
 			"FontColor": {
-				"text": "Letterkleur:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Lettertypefamilie:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Lettergrootte:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Hoogte tekstveld:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Tekstveldbreedte:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Tekst inspringen:"
@@ -909,14 +874,25 @@
 				"text": "Onder:"
 			},
 			"ToolTip": {
-				"text": "Tip:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Verticaal spiegelen:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Eerder gedownloade bestanden"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Bestand openen"
+		},
+		"closeButton": {
+			"text": "Sluiten"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +904,34 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Pagina",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Annotatie-eigenschappen",
-		"vssde-annotationListPanel-pageLabel": "Pagina",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Annotatie-eigenschappen",
-		"vssde-textSearchPanel-pageLabel": "Pagina",
-		"vssde-documentPasswordDialog-title": "Documentwachtwoord",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Annuleren",
-		"vssde-imageSelectionDialog-currentImageString": "Huidige afbeelding",
-		"vssde-imageSelectionDialog-allImagesString": "Alle afbeeldingen",
-		"vssde-imageSelectionDialog-customImagesString": "Aangepast",
-		"vssde-imageSelectionDialog-title": "Selecteer afbeeldingen",
-		"vssde-printImagesDialog-withAnnotationsLabel": "met annotaties",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Afbeelding wordt voorbereid voor afdrukken",
-		"vssde-printImagesDialog-title": "Afbeeldingen afdrukken",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
-		"vssde-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotatiehoek mag niet 0 zijn.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Geannoteerde afbeelding roteren",
-		"vssde-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer"
+		"vsdv-uploadFileButton-uploadFileString": "Upload bestand",
+		"vsdv-textSearchPanel-pageLabel": "Pagina",
+		"vsdv-openFile-addFileString": "Bestand toevoegen",
+		"vsdv-openFile-authenticateFileString": "Authenticeer bestand",
+		"vsdv-downloadFile-actionMessage": "Download bestand",
+		"vsdv-saveChanges-saveChangesInImages": "Wijzigingen in afbeeldingen opslaan",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Sla wijzigingen in annotaties op",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Brand annotaties op afbeeldingen",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Wijzigingen opslaan in PDF-document",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotaties branden",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Bewaar annotaties",
+		"vsdv-annotationListPanel-pageLabel": "Pagina",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotatie-eigenschappen",
+		"vsdv-documentPasswordDialog-title": "Documentwachtwoord",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Annuleren",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Authenticeer bestand",
+		"vsdv-imageSelectionDialog-title": "Selecteer afbeeldingen",
+		"vsdv-imageSelectionDialog-currentImageString": "Huidige afbeelding",
+		"vsdv-imageSelectionDialog-allImagesString": "Alle afbeeldingen",
+		"vsdv-imageSelectionDialog-customImagesString": "Aangepast",
+		"vsdv-printImagesDialog-title": "Afbeeldingen afdrukken",
+		"vsdv-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
+		"vsdv-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer",
+		"vsdv-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Geannoteerde afbeelding roteren",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotatiehoek mag niet 0 zijn.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd"
 	}
 }

@@ -18,23 +18,29 @@
 		"previousUploadFilesButton": {
 			"title": "Zeigen Sie eine Liste der zuvor heruntergeladenen Dateien an"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Bilddatei per URL hochladen und öffnen"
+		},
 		"printImagesButton": {
 			"title": "Bilder drucken"
 		},
 		"downloadFileButton": {
-			"title": "Bilddatei herunterladen"
+			"title": "Download-Datei"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Datei exportieren und herunterladen"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "An Breite anpassen"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Bild gegen den Uhrzeigersinn drehen"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Alle Ansichten gegen den Uhrzeigersinn drehen"
 		},
 		"rotateAngleInput": {
 			"title": "Rotationswinkel"
 		},
-		"rotateClockwiseButton": {
-			"title": "Bild im Uhrzeigersinn drehen"
+		"rotateViewsClockwiseButton": {
+			"title": "Alle Ansichten im Uhrzeigersinn drehen"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Bildbetrachter-Einstellungen"
@@ -138,14 +144,14 @@
 		"showThumbnailViewerPanelButton": {
 			"title": "Miniaturansichten"
 		},
-		"showAnnotationsPanelButton": {
-			"title": "Anmerkungen"
-		},
 		"showTextSelectionPanelButton": {
 			"title": "Text hervorheben"
 		},
 		"showTextSearchPanelButton": {
 			"title": "Nach Text suchen"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Anmerkungen"
 		},
 		"textSelectionPanel": {
 			"selectionModeLabel": {
@@ -280,32 +286,6 @@
 		"largeAnnotationInteractionPoints": {
 			"title": "Große Touchpoints (Touchscreen)"
 		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Anmerkung kopieren"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Anmerkung einfügen"
-			},
-			"removeAnnotationLabel": {
-				"text": "Anmerkung löschen"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Nach hinten senden"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Nach vorne bringen"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Alle Anmerkungen gruppieren"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Gruppierung der Anmerkung aufheben"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Anmerkungseigenschaften..."
-			}
-		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
 				"text": "Dieses Dokument ist passwortgeschützt. Bitte Passwort eingeben."
@@ -422,10 +402,10 @@
 				"text": "Mehrseitiger Anzeigemodus:"
 			},
 			"allImagesOption": {
-				"text": "Alle Bilder"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Fixierte Bilder"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Layoutrichtung:"
@@ -565,16 +545,16 @@
 				"text": "Thumbnail-Platzierungsstil:"
 			},
 			"singleColumnOption": {
-				"text": "Einzelne Spalte"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Eine Zeile"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Feste Anzahl von Spalten"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Gleitende Zeilenanzahl"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Anzahl der Spalten:"
@@ -636,6 +616,9 @@
 			"multiSelectLabel": {
 				"text": "Auswahl mehrerer Miniaturansichten zulassen:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Kann Miniaturansichten ziehen:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +634,7 @@
 				"text": "Rahmenfarbtyp:"
 			},
 			"autoDetectOption": {
-				"text": "Automatische Erkennung"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Schwarz"
@@ -677,44 +660,29 @@
 			"cancelButton": {
 				"value": "Abbrechen"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Zuvor heruntergeladene Dateien"
 		},
-		"openButton": {
-			"text": "Datei öffnen"
-		},
-		"closeButton": {
-			"text": "Schließen"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Anmerkungseigenschaften"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Anmerkungseinstellungen",
 			"Border": {
 				"text": "Grenze:"
 			},
 			"CanMirror": {
-				"text": "Sie können spiegeln:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Kann sich bewegen:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Kann in der Größe geändert werden:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Kann gedreht werden:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Autor:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Erstellungszeit:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Füllen:"
@@ -732,7 +700,7 @@
 				"text": "Fett:"
 			},
 			"FamilyName": {
-				"text": "Familienname:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Kursiv:"
@@ -753,25 +721,25 @@
 				"text": "+ Schriftpinsel:"
 			},
 			"FontTransparent": {
-				"text": "Transparente Schriftart:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "Horizontal gespiegelt:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Anmerkung wird erstellt:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Anmerkung ist sichtbar:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Linienstil:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Größe der Linienstilvorlage:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Standort:"
@@ -783,10 +751,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Geändert von:"
-			},
-			"ModifiedTime": {
-				"text": "Änderungszeit:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Name:"
@@ -795,10 +760,10 @@
 				"text": "+ Schema:"
 			},
 			"DashPattern": {
-				"text": "Strichmuster:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Strichstil:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Cap am Ende der Zeile:"
@@ -816,7 +781,7 @@
 				"text": "Stil:"
 			},
 			"LineJoin": {
-				"text": "Leitungsverbindung:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
 				"text": "MiterLimit:"
@@ -831,16 +796,16 @@
 				"text": "+ Punktvorlage ändern:"
 			},
 			"BorderColor": {
-				"text": "Rahmenfarbe:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Rahmenbreite:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Füllfarbe:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Interaktionsbereichsradius:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Radius:"
@@ -858,7 +823,7 @@
 				"text": "+ Drehpunkt:"
 			},
 			"RotationPointDistance": {
-				"text": "Abstand zum Drehpunkt:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Schattenpinsel:"
@@ -873,25 +838,25 @@
 				"text": "Text:"
 			},
 			"TextAlign": {
-				"text": "Textausrichtung:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Textfeld:"
 			},
 			"FontColor": {
-				"text": "Schriftfarbe:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Schriftfamilie:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Schriftgröße:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Textfeldhöhe:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Textfeldbreite:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Texteinzug:"
@@ -909,14 +874,25 @@
 				"text": "Unten:"
 			},
 			"ToolTip": {
-				"text": "Hinweis:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Vertikale Spiegelung:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Zuvor heruntergeladene Dateien"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Datei öffnen"
+		},
+		"closeButton": {
+			"text": "Schließen"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +904,34 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Seite",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Anmerkungseigenschaften",
-		"vssde-annotationListPanel-pageLabel": "Seite",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Anmerkungseigenschaften",
-		"vssde-textSearchPanel-pageLabel": "Seite",
-		"vssde-documentPasswordDialog-title": "Dokumentpasswort",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Abbrechen",
-		"vssde-imageSelectionDialog-currentImageString": "Aktuelles Bild",
-		"vssde-imageSelectionDialog-allImagesString": "Alle Bilder",
-		"vssde-imageSelectionDialog-customImagesString": "Benutzerdefiniert",
-		"vssde-imageSelectionDialog-title": "Bilder auswählen",
-		"vssde-printImagesDialog-withAnnotationsLabel": "mit Anmerkungen",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Bild wird zum Drucken vorbereitet",
-		"vssde-printImagesDialog-title": "Bilder drucken",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Anmerkungen auf Miniaturansichten anzeigen:",
-		"vssde-thumbnailViewerSettingDialog-title": "Einstellungen für die Miniaturansichtsansicht",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationswinkel darf nicht 0 sein.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Das mit Anmerkungen versehene Bild wird gedreht",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Kommentiertes Bild drehen",
-		"vssde-imageViewerSettingsDialog-title": "Bildbetrachter-Einstellungen"
+		"vsdv-uploadFileButton-uploadFileString": "Datei hochladen",
+		"vsdv-textSearchPanel-pageLabel": "Seite",
+		"vsdv-openFile-addFileString": "Datei hinzufügen",
+		"vsdv-openFile-authenticateFileString": "Datei authentifizieren",
+		"vsdv-downloadFile-actionMessage": "Download-Datei",
+		"vsdv-saveChanges-saveChangesInImages": "Änderungen in Bildern speichern",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Speichern Sie Änderungen in Anmerkungen",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Brennen Sie Anmerkungen zu Bildern",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Änderungen im PDF-Dokument speichern",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Anmerkungen brennen",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Anmerkungen speichern",
+		"vsdv-annotationListPanel-pageLabel": "Seite",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Anmerkungseigenschaften",
+		"vsdv-documentPasswordDialog-title": "Dokumentpasswort",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Abbrechen",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Datei authentifizieren",
+		"vsdv-imageSelectionDialog-title": "Bilder auswählen",
+		"vsdv-imageSelectionDialog-currentImageString": "Aktuelles Bild",
+		"vsdv-imageSelectionDialog-allImagesString": "Alle Bilder",
+		"vsdv-imageSelectionDialog-customImagesString": "Benutzerdefiniert",
+		"vsdv-printImagesDialog-title": "Bilder drucken",
+		"vsdv-printImagesPanel-imagePrintingString": "Bild wird gedruckt",
+		"vsdv-imageViewerSettingsDialog-title": "Bildbetrachter-Einstellungen",
+		"vsdv-thumbnailViewerSettingDialog-title": "Einstellungen für die Miniaturansichtsansicht",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Anmerkungen auf Miniaturansichten anzeigen:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Kommentiertes Bild drehen",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationswinkel darf nicht 0 sein.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Das mit Anmerkungen versehene Bild wird gedreht"
 	}
 }

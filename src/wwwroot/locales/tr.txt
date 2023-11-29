@@ -18,23 +18,29 @@
 		"previousUploadFilesButton": {
 			"title": "Önceden indirilen dosyaların listesini görüntüleyin"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Resim dosyasını URL'ye göre yükleyin ve açın"
+		},
 		"printImagesButton": {
 			"title": "Görüntüleri Yazdır"
 		},
 		"downloadFileButton": {
-			"title": "Resim Dosyasını İndir"
+			"title": "Dosyayı indir"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Dosyayı dışa aktarın ve indirin"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Genişliğe Sığdır"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Görüntüyü saat yönünün tersine döndür"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Tüm görünümleri saat yönünün tersine döndür"
 		},
 		"rotateAngleInput": {
 			"title": "Dönme açısı"
 		},
-		"rotateClockwiseButton": {
-			"title": "Görüntüyü saat yönünde döndür"
+		"rotateViewsClockwiseButton": {
+			"title": "Tüm görünümleri saat yönünde döndür"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Görüntü görüntüleyici ayarları"
@@ -138,14 +144,14 @@
 		"showThumbnailViewerPanelButton": {
 			"title": "Küçük resimler"
 		},
-		"showAnnotationsPanelButton": {
-			"title": "Açıklamalar"
-		},
 		"showTextSelectionPanelButton": {
 			"title": "Metni vurgula"
 		},
 		"showTextSearchPanelButton": {
 			"title": "Metin ara"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Açıklamalar"
 		},
 		"textSelectionPanel": {
 			"selectionModeLabel": {
@@ -280,32 +286,6 @@
 		"largeAnnotationInteractionPoints": {
 			"title": "Büyük temas noktaları (dokunmatik ekran)"
 		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Açıklamayı Kopyala"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Açıklama Ekle"
-			},
-			"removeAnnotationLabel": {
-				"text": "Açıklamayı Sil"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Arkaya Gönder"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Öne Getir"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Tüm açıklamaları gruplandır"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Açıklamanın Grubunu Çöz"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Açıklama özellikleri..."
-			}
-		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
 				"text": "Bu belge parola korumalıdır. Lütfen bir şifre girin."
@@ -422,10 +402,10 @@
 				"text": "Çok sayfalı görüntüleme modu:"
 			},
 			"allImagesOption": {
-				"text": "Tüm resimler"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Sabit Görüntüler"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Yerleşim Yönü:"
@@ -565,16 +545,16 @@
 				"text": "Küçük resim yerleştirme stili:"
 			},
 			"singleColumnOption": {
-				"text": "Tek sütun"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Bir satır"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Sabit sütun sayısı"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Kayan satır sayısı"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Sütun sayısı:"
@@ -636,6 +616,9 @@
 			"multiSelectLabel": {
 				"text": "Birden çok küçük resim seçimine izin ver:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Küçük Resimleri Sürükleyebilir:"
+			},
 			"okButton": {
 				"value": "Tamam"
 			},
@@ -651,7 +634,7 @@
 				"text": "Kenarlık rengi türü:"
 			},
 			"autoDetectOption": {
-				"text": "Otomatik algılama"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Siyah"
@@ -677,44 +660,29 @@
 			"cancelButton": {
 				"value": "İptal"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Önceden indirilen dosyalar"
 		},
-		"openButton": {
-			"text": "Dosya aç"
-		},
-		"closeButton": {
-			"text": "Kapat"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Açıklama özellikleri"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Ek açıklama ayarları",
 			"Border": {
 				"text": "Sınır:"
 			},
 			"CanMirror": {
-				"text": "Aşağıdakileri yansıtabilirsiniz:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Hareket edebilir:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Yeniden boyutlandırılabilir:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Döndürülebilir:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Yazar:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Oluşturma Zamanı:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Doldurun:"
@@ -732,7 +700,7 @@
 				"text": "Kalın:"
 			},
 			"FamilyName": {
-				"text": "Soyadı:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "İtalik:"
@@ -753,25 +721,25 @@
 				"text": "+ Yazı Tipi Fırçası:"
 			},
 			"FontTransparent": {
-				"text": "Şeffaf yazı tipi:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "Kimlik:"
 			},
 			"HorizontalMirrored": {
-				"text": "Yatay olarak çevrildi:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Açıklama oluşturuldu:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Açıklama görünür durumda:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Çizgi stili:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Çizgi stili şablon boyutu:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Konum:"
@@ -783,10 +751,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Değiştiren:"
-			},
-			"ModifiedTime": {
-				"text": "Değişim Süresi:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Ad:"
@@ -795,10 +760,10 @@
 				"text": "+ Şema:"
 			},
 			"DashPattern": {
-				"text": "Tire deseni:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Tire Stili:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Satırın sonundaki başlık:"
@@ -816,10 +781,10 @@
 				"text": "Stil:"
 			},
 			"LineJoin": {
-				"text": "Hat bağlantısı:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "GönyeLimiti:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ Satır başında kapak:"
@@ -831,16 +796,16 @@
 				"text": "+ Yeniden boyutlandırma noktası şablonu:"
 			},
 			"BorderColor": {
-				"text": "Kenar Rengi:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Kenar genişliği:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Dolgu rengi:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Etkileşim alanı yarıçapı:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Yarıçap:"
@@ -858,7 +823,7 @@
 				"text": "+ Pivot noktası:"
 			},
 			"RotationPointDistance": {
-				"text": "Döngü noktasına olan mesafe:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Gölge fırçası:"
@@ -873,25 +838,25 @@
 				"text": "Metin:"
 			},
 			"TextAlign": {
-				"text": "Metin hizalaması:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Metin alanı:"
 			},
 			"FontColor": {
-				"text": "Yazı Tipi Rengi:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Yazı tipi ailesi:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Yazı tipi boyutu:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Metin alanı yüksekliği:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Metin alanı genişliği:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Metin girintisi:"
@@ -909,14 +874,25 @@
 				"text": "Alt:"
 			},
 			"ToolTip": {
-				"text": "İpucu:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Dikey yansıtma:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "Tamam"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Önceden indirilen dosyalar"
 		},
-		"okButton": {
-			"text": "Tamam"
+		"openButton": {
+			"text": "Dosya aç"
+		},
+		"closeButton": {
+			"text": "Kapat"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +904,34 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Sayfa",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Açıklama özellikleri",
-		"vssde-annotationListPanel-pageLabel": "Sayfa",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Açıklama özellikleri",
-		"vssde-textSearchPanel-pageLabel": "Sayfa",
-		"vssde-documentPasswordDialog-title": "Belge parolası",
-		"vssde-dialog-okButton": "Tamam",
-		"vssde-dialog-cancelButton": "İptal",
-		"vssde-imageSelectionDialog-currentImageString": "Geçerli Resim",
-		"vssde-imageSelectionDialog-allImagesString": "Tüm resimler",
-		"vssde-imageSelectionDialog-customImagesString": "Özel",
-		"vssde-imageSelectionDialog-title": "Görüntüleri Seçin",
-		"vssde-printImagesDialog-withAnnotationsLabel": "açıklamalarla",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Resim baskı için hazırlanıyor",
-		"vssde-printImagesDialog-title": "Görüntüleri Yazdır",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
-		"vssde-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Dönme açısı 0 olmamalıdır.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Açıklamalı resim döndürülüyor",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Açıklamalı Görüntüyü Döndür",
-		"vssde-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları"
+		"vsdv-uploadFileButton-uploadFileString": "Dosya yükleme",
+		"vsdv-textSearchPanel-pageLabel": "Sayfa",
+		"vsdv-openFile-addFileString": "Dosya Ekle",
+		"vsdv-openFile-authenticateFileString": "Dosyanın kimliğini doğrula",
+		"vsdv-downloadFile-actionMessage": "Dosyayı indir",
+		"vsdv-saveChanges-saveChangesInImages": "Resimlerdeki değişiklikleri kaydet",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Ek açıklamalardaki değişiklikleri kaydet",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Görüntülere ek açıklamalar yazın",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ek açıklamaları yaz",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Ek açıklamaları kaydet",
+		"vsdv-annotationListPanel-pageLabel": "Sayfa",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Açıklama özellikleri",
+		"vsdv-documentPasswordDialog-title": "Belge parolası",
+		"vsdv-dialog-okButton": "Tamam",
+		"vsdv-dialog-cancelButton": "İptal",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Dosyanın kimliğini doğrula",
+		"vsdv-imageSelectionDialog-title": "Görüntüleri Seçin",
+		"vsdv-imageSelectionDialog-currentImageString": "Geçerli Resim",
+		"vsdv-imageSelectionDialog-allImagesString": "Tüm resimler",
+		"vsdv-imageSelectionDialog-customImagesString": "Özel",
+		"vsdv-printImagesDialog-title": "Görüntüleri Yazdır",
+		"vsdv-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
+		"vsdv-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
+		"vsdv-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Açıklamalı Görüntüyü Döndür",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Dönme açısı 0 olmamalıdır.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Açıklamalı resim döndürülüyor"
 	}
 }

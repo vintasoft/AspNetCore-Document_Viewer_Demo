@@ -18,23 +18,29 @@
 		"previousUploadFilesButton": {
 			"title": "Previously Uploaded Files"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Upload and open image file by URL"
+		},
 		"printImagesButton": {
 			"title": "Print images"
 		},
 		"downloadFileButton": {
-			"title": "Download Image File"
+			"title": "Download file"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Export and download file"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Fit to width"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Rotate image counterclockwise"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Rotate all views counterclockwise"
 		},
 		"rotateAngleInput": {
 			"title": "Angle"
 		},
-		"rotateClockwiseButton": {
-			"title": "Rotate image clockwise"
+		"rotateViewsClockwiseButton": {
+			"title": "Rotate all views clockwise"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Image viewer settings"
@@ -138,14 +144,14 @@
 		"showThumbnailViewerPanelButton": {
 			"title": "Thumbnails"
 		},
-		"showAnnotationsPanelButton": {
-			"title": "Annotations"
-		},
 		"showTextSelectionPanelButton": {
 			"title": "Text selection"
 		},
 		"showTextSearchPanelButton": {
 			"title": "Find text"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Annotations"
 		},
 		"textSelectionPanel": {
 			"selectionModeLabel": {
@@ -279,32 +285,6 @@
 		},
 		"largeAnnotationInteractionPoints": {
 			"title": "Large interaction points (Touch screen)"
-		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Copy annotation"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Paste annotation"
-			},
-			"removeAnnotationLabel": {
-				"text": "Remove annotation"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Bring to back"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Bring to front"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Group all annotations"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Ungroup annotation"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Annotation properties..."
-			}
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -636,6 +616,9 @@
 			"multiSelectLabel": {
 				"text": "Multiselect:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Can Drag Thumbnails:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -677,24 +660,9 @@
 			"cancelButton": {
 				"value": "Cancel"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Previously uploaded files"
 		},
-		"openButton": {
-			"text": "Open"
-		},
-		"closeButton": {
-			"text": "Close"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Annotation properties"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Annotation settings",
 			"Border": {
 				"text": "Border:"
 			},
@@ -784,9 +752,6 @@
 			},
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
-			},
-			"ModifiedTime": {
-				"text": "ModifiedTime:"
 			},
 			"Name": {
 				"text": "Name:"
@@ -913,10 +878,21 @@
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Previously uploaded files"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Open"
+		},
+		"closeButton": {
+			"text": "Close"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +904,34 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Page",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Annotation Properties",
-		"vssde-annotationListPanel-pageLabel": "Page",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Annotation Properties",
-		"vssde-textSearchPanel-pageLabel": "Page",
-		"vssde-documentPasswordDialog-title": "Document password",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Cancel",
-		"vssde-imageSelectionDialog-currentImageString": "Current image",
-		"vssde-imageSelectionDialog-allImagesString": "All images",
-		"vssde-imageSelectionDialog-customImagesString": "Custom",
-		"vssde-imageSelectionDialog-title": "Select images",
-		"vssde-printImagesDialog-withAnnotationsLabel": "with annotations",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Image prepared to print",
-		"vssde-printImagesDialog-title": "Print images",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
-		"vssde-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotation angle should be more than zero.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotating image with annotations",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Rotate image with annotations",
-		"vssde-imageViewerSettingsDialog-title": "Image viewer settings"
+		"vsdv-uploadFileButton-uploadFileString": "Upload file",
+		"vsdv-textSearchPanel-pageLabel": "Page",
+		"vsdv-openFile-addFileString": "Add file",
+		"vsdv-openFile-authenticateFileString": "Authenticate file",
+		"vsdv-downloadFile-actionMessage": "Download file",
+		"vsdv-saveChanges-saveChangesInImages": "Save changes in images",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Save changes in annotations",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Burn annotations on images",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Save changes in PDF document",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Burn annotations",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Save annotations",
+		"vsdv-annotationListPanel-pageLabel": "Page",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotation Properties",
+		"vsdv-documentPasswordDialog-title": "Document password",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Cancel",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Authenticate file",
+		"vsdv-imageSelectionDialog-title": "Select images",
+		"vsdv-imageSelectionDialog-currentImageString": "Current image",
+		"vsdv-imageSelectionDialog-allImagesString": "All images",
+		"vsdv-imageSelectionDialog-customImagesString": "Custom",
+		"vsdv-printImagesDialog-title": "Print images",
+		"vsdv-printImagesPanel-imagePrintingString": "Image is printing",
+		"vsdv-imageViewerSettingsDialog-title": "Image viewer settings",
+		"vsdv-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotate image with annotations",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotation angle should be more than zero.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotating image with annotations"
 	}
 }

@@ -18,23 +18,29 @@
 		"previousUploadFilesButton": {
 			"title": "Вижте списък с предварително изтеглени файлове"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Качете и отворете файл с изображение по URL"
+		},
 		"printImagesButton": {
 			"title": "Печат на изображения"
 		},
 		"downloadFileButton": {
-			"title": "Изтегляне на файл с изображение"
+			"title": "Свали файл"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Експортиране и изтегляне на файл"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Побиране по ширина"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Завъртане на изображението обратно на часовниковата стрелка"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Завъртете всички изгледи обратно на часовниковата стрелка"
 		},
 		"rotateAngleInput": {
 			"title": "Ъгъл на въртене"
 		},
-		"rotateClockwiseButton": {
-			"title": "Завъртане на изображението по часовниковата стрелка"
+		"rotateViewsClockwiseButton": {
+			"title": "Завъртете всички изгледи по часовниковата стрелка"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Настройки за преглед на изображения"
@@ -138,14 +144,14 @@
 		"showThumbnailViewerPanelButton": {
 			"title": "Миниатюри"
 		},
-		"showAnnotationsPanelButton": {
-			"title": "Пояснения"
-		},
 		"showTextSelectionPanelButton": {
 			"title": "Маркирайте текст"
 		},
 		"showTextSearchPanelButton": {
 			"title": "Търсене на текст"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Пояснения"
 		},
 		"textSelectionPanel": {
 			"selectionModeLabel": {
@@ -280,32 +286,6 @@
 		"largeAnnotationInteractionPoints": {
 			"title": "Големи допирни точки (тъчскрийн)"
 		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Копиране на анотация"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Вмъкване на анотация"
-			},
-			"removeAnnotationLabel": {
-				"text": "Изтриване на анотация"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Изпращане назад"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Извеждане отпред"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Групиране на всички анотации"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Анотация за разгрупиране"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Свойства на анотацията..."
-			}
-		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
 				"text": "Този документ е защитен с парола. Моля, въведете парола."
@@ -422,10 +402,10 @@
 				"text": "Режим на показване на много страници:"
 			},
 			"allImagesOption": {
-				"text": "Всички изображения"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Фиксирани изображения"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Посока на оформлението:"
@@ -565,16 +545,16 @@
 				"text": "Стил на разположение на миниатюри:"
 			},
 			"singleColumnOption": {
-				"text": "Единична колона"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Един ред"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Фиксиран брой колони"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Плаващ брой редове"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Брой колони:"
@@ -636,6 +616,9 @@
 			"multiSelectLabel": {
 				"text": "Разрешаване на избор на няколко миниатюри:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Може да плъзгате миниатюри:"
+			},
 			"okButton": {
 				"value": "ОК"
 			},
@@ -651,7 +634,7 @@
 				"text": "Тип цвят на рамката:"
 			},
 			"autoDetectOption": {
-				"text": "Автоматично откриване"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Черен"
@@ -677,44 +660,29 @@
 			"cancelButton": {
 				"value": "Отказ"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "Изтеглени преди това файлове"
 		},
-		"openButton": {
-			"text": "Отворете файл"
-		},
-		"closeButton": {
-			"text": "Затвори"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Свойства на анотация"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Настройки за анотация",
 			"Border": {
 				"text": "Граница:"
 			},
 			"CanMirror": {
-				"text": "Можете да дублирате:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Може да се движи:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Може да се преоразмерява:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Може да се върти:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Автор:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Време на създаване:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Попълване:"
@@ -732,7 +700,7 @@
 				"text": "Удебелен:"
 			},
 			"FamilyName": {
-				"text": "Фамилия:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Кусив:"
@@ -753,25 +721,25 @@
 				"text": "+ Четка за шрифт:"
 			},
 			"FontTransparent": {
-				"text": "Прозрачен шрифт:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "Обърнато хоризонтално:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "Анотацията е изградена:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "Анотацията се вижда:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Стил на линията:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Размер на шаблона за стил на линия:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Местоположение:"
@@ -783,10 +751,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Променено от:"
-			},
-			"ModifiedTime": {
-				"text": "Време за промяна:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Име:"
@@ -795,10 +760,10 @@
 				"text": "+ Схема:"
 			},
 			"DashPattern": {
-				"text": "Модел с тире:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Стил на тире:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Капачка в края на реда:"
@@ -816,7 +781,7 @@
 				"text": "Стил:"
 			},
 			"LineJoin": {
-				"text": "Връзка по линия:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
 				"text": "MiterLimit:"
@@ -831,16 +796,16 @@
 				"text": "+ Шаблон за преоразмеряване на точки:"
 			},
 			"BorderColor": {
-				"text": "Цвят на рамката:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Ширина на границата:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Цвят на запълване:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Радиус на зоната на взаимодействие:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Радиус:"
@@ -858,7 +823,7 @@
 				"text": "+ Опорна точка:"
 			},
 			"RotationPointDistance": {
-				"text": "Разстояние до опорна точка:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Четка за сенки:"
@@ -873,25 +838,25 @@
 				"text": "Текст:"
 			},
 			"TextAlign": {
-				"text": "Подравняване на текст:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Текстово поле:"
 			},
 			"FontColor": {
-				"text": "Цвят на шрифта:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Семейство шрифтове:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Размер на шрифта:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Височина на текстовото поле:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Ширина на текстовото поле:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Отстъп на текста:"
@@ -909,14 +874,25 @@
 				"text": "Долу:"
 			},
 			"ToolTip": {
-				"text": "Съвет:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Вертикално отразяване:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "ОК"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "Изтеглени преди това файлове"
 		},
-		"okButton": {
-			"text": "ОК"
+		"openButton": {
+			"text": "Отворете файл"
+		},
+		"closeButton": {
+			"text": "Затвори"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +904,34 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Страница",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Свойства на анотация",
-		"vssde-annotationListPanel-pageLabel": "Страница",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Свойства на анотация",
-		"vssde-textSearchPanel-pageLabel": "Страница",
-		"vssde-documentPasswordDialog-title": "Парола за документ",
-		"vssde-dialog-okButton": "ОК",
-		"vssde-dialog-cancelButton": "Отказ",
-		"vssde-imageSelectionDialog-currentImageString": "Текущо изображение",
-		"vssde-imageSelectionDialog-allImagesString": "Всички изображения",
-		"vssde-imageSelectionDialog-customImagesString": "По избор",
-		"vssde-imageSelectionDialog-title": "Изберете изображения",
-		"vssde-printImagesDialog-withAnnotationsLabel": "с анотации",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "Изображението се подготвя за печат",
-		"vssde-printImagesDialog-title": "Печат на изображения",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:",
-		"vssde-thumbnailViewerSettingDialog-title": "Настройки за преглед на миниатюри",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Ъгълът на въртене не трябва да е 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Коментираното изображение се завърта",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Завъртане на анотираното изображение",
-		"vssde-imageViewerSettingsDialog-title": "Настройки за преглед на изображения"
+		"vsdv-uploadFileButton-uploadFileString": "Качи файл",
+		"vsdv-textSearchPanel-pageLabel": "Страница",
+		"vsdv-openFile-addFileString": "Добави файл",
+		"vsdv-openFile-authenticateFileString": "Удостоверете файла",
+		"vsdv-downloadFile-actionMessage": "Свали файл",
+		"vsdv-saveChanges-saveChangesInImages": "Запазете промените в изображенията",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Запазете промените в анотациите",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Записване на анотации върху изображения",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Запазете промените в PDF документ",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Изгаряне на анотации",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Запазете анотациите",
+		"vsdv-annotationListPanel-pageLabel": "Страница",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Свойства на анотация",
+		"vsdv-documentPasswordDialog-title": "Парола за документ",
+		"vsdv-dialog-okButton": "ОК",
+		"vsdv-dialog-cancelButton": "Отказ",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Удостоверете файла",
+		"vsdv-imageSelectionDialog-title": "Изберете изображения",
+		"vsdv-imageSelectionDialog-currentImageString": "Текущо изображение",
+		"vsdv-imageSelectionDialog-allImagesString": "Всички изображения",
+		"vsdv-imageSelectionDialog-customImagesString": "По избор",
+		"vsdv-printImagesDialog-title": "Печат на изображения",
+		"vsdv-printImagesPanel-imagePrintingString": "Изображението се отпечатва",
+		"vsdv-imageViewerSettingsDialog-title": "Настройки за преглед на изображения",
+		"vsdv-thumbnailViewerSettingDialog-title": "Настройки за преглед на миниатюри",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Завъртане на анотираното изображение",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Ъгълът на въртене не трябва да е 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Коментираното изображение се завърта"
 	}
 }

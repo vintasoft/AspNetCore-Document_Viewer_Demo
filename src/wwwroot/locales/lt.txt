@@ -1,405 +1,405 @@
 ﻿{
 	"documentViewer": {
 		"fileLabel": {
-			"text": "Ifayela"
+			"text": "Failas"
 		},
 		"viewLabel": {
-			"text": "Buka"
+			"text": "Žiūrėti"
 		},
 		"toolsLabel": {
-			"text": "Amathuluzi"
+			"text": "Įrankiai"
 		},
 		"annotationsLabel": {
-			"text": "Izichasiselo"
+			"text": "Anotacijos"
 		},
 		"uploadFileButton": {
-			"title": "Layisha futhi uvule ifayela"
+			"title": "Įkelti ir atidaryti failą"
 		},
 		"previousUploadFilesButton": {
-			"title": "Amafayela Alayishwe Ngokudlule"
+			"title": "Anksčiau įkelti failai"
 		},
 		"uploadImageFromUrlButton": {
-			"title": "Layisha futhi uvule ifayela lesithombe nge-URL"
+			"title": "Įkelkite ir atidarykite vaizdo failą pagal URL"
 		},
 		"printImagesButton": {
-			"title": "Phrinta izithombe"
+			"title": "Spausdinti vaizdus"
 		},
 		"downloadFileButton": {
-			"title": "Landa ifayela"
+			"title": "Atsisiųsti failą"
 		},
 		"exportAndDownloadFileButton": {
-			"title": "Khipha futhi ulande ifayela"
+			"title": "Eksportuoti ir atsisiųsti failą"
 		},
 		"fitToWidthSizeModeButton": {
-			"title": "Linganisa ububanzi"
+			"title": "Tinka pločiui"
 		},
 		"rotateViewsCounterClockwiseButton": {
-			"title": "Zungezisa konke ukubuka ngokuphikisana newashi"
+			"title": "Pasukite visus vaizdus prieš laikrodžio rodyklę"
 		},
 		"rotateAngleInput": {
-			"title": "I-engeli"
+			"title": "Kampas"
 		},
 		"rotateViewsClockwiseButton": {
-			"title": "Zungezisa konke ukubuka njengokuhamba kwewashi"
+			"title": "Pasukite visus vaizdus pagal laikrodžio rodyklę"
 		},
 		"imageViewerSettingsButton": {
-			"title": "Izilungiselelo zesibukeli sesithombe"
+			"title": "Vaizdų peržiūros programos nustatymai"
 		},
 		"thumbnailViewerSettingsButton": {
-			"title": "Izilungiselelo zesibukeli sesithonjana"
+			"title": "Miniatiūrų peržiūros priemonės nustatymai"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Izichasiselo, Ukuzulazula kwedokhumenti, Ukukhetha umbhalo"
+			"title": "Anotacijos, dokumentų naršymas, teksto pasirinkimas"
 		},
 		"panToolButton": {
-			"title": "Ipani"
+			"title": "Pan"
 		},
 		"magnifierToolButton": {
-			"title": "Isikhulisi"
+			"title": "Didintuvas"
 		},
 		"zoomToolButton": {
-			"title": "Sondeza"
+			"title": "Padidinti"
 		},
 		"zoomSelectionToolButton": {
-			"title": "Ukukhetha kokusondeza"
+			"title": "Priartinimo pasirinkimas"
 		},
 		"addRectangleAnnotationButton": {
-			"title": "Unxande"
+			"title": "Stačiakampis"
 		},
 		"addEllipseAnnotationButton": {
-			"title": "I-Ellipse"
+			"title": "Elipsė"
 		},
 		"addHighlightAnnotationButton": {
-			"title": "Gqamisa"
+			"title": "Paryškinti"
 		},
 		"addReferencedImageAnnotationButton": {
-			"title": "Isithombe esikhonjiwe"
+			"title": "Nuorodinis vaizdas"
 		},
 		"addTextAnnotationButton": {
-			"title": "Umbhalo"
+			"title": "Tekstas"
 		},
 		"addStampAnnotationButton": {
-			"title": "Isitembu"
+			"title": "Antspaudas"
 		},
 		"addLinkAnnotationButton": {
-			"title": "Isixhumanisi"
+			"title": "Nuoroda"
 		},
 		"addArrowAnnotationButton": {
-			"title": "Umcibisholo"
+			"title": "Rodyklė"
 		},
 		"addLineAnnotationButton": {
-			"title": "Umugqa"
+			"title": "Linija"
 		},
 		"addLinesAnnotationButton": {
-			"title": "Imigqa"
+			"title": "Linijos"
 		},
 		"addPolygonAnnotationButton": {
-			"title": "Ipholigoni"
+			"title": "Poligonas"
 		},
 		"addRulerAnnotationButton": {
-			"title": "Umbusi"
+			"title": "Valdovas"
 		},
 		"addTriangleAnnotationButton": {
-			"title": "Unxantathu"
+			"title": "Trikampis"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Imodi yokusebenzisana 'Umbhali'"
+			"title": "Sąveikos režimas „Autorius“"
 		},
 		"copyAnnotationButton": {
-			"title": "Kopisha isichasiselo esigxilile"
+			"title": "Nukopijuokite paryškintą anotaciją"
 		},
 		"pasteAnnotationButton": {
-			"title": "Namathisela isichasiselo esikopishiwe"
+			"title": "Įklijuoti nukopijuotą anotaciją"
 		},
 		"removeAnnotationButton": {
-			"title": "Susa isichasiselo esigxilile"
+			"title": "Pašalinti paryškintą anotaciją"
 		},
 		"burnAnnotationsButton": {
-			"title": "Shisa iqoqo lesichasiselo esithombeni"
+			"title": "Įrašykite komentarų kolekciją paveikslėlyje"
 		},
 		"saveAnnotationsButton": {
-			"title": "Londoloza izinguquko zeqoqo lezichasiselo kuseva"
+			"title": "Išsaugokite komentarų rinkinio pakeitimus serveryje"
 		},
 		"rotateImageWithAnnotationsButton": {
-			"title": "Zungezisa isithombe ngezichasiselo"
+			"title": "Pasukite vaizdą su komentarais"
 		},
 		"enableAnnotationHistoryButton": {
-			"title": "Nika amandla ukuhlehlisa/ukwenza futhi"
+			"title": "Įgalinti anuliuoti / perdaryti"
 		},
 		"undoAnnotationHistoryButton": {
-			"title": "Hlehlisa"
+			"title": "Anuliuoti"
 		},
 		"redoAnnotationHistoryButton": {
-			"title": "Yenza futhi"
+			"title": "Perdaryti"
 		},
 		"mediumAnnotationInteractionPoints": {
-			"title": "Amaphoyinti okusebenzelana amaphakathi"
+			"title": "Vidutinės sąveikos taškai"
 		},
 		"showMobileMenuButton": {
-			"title": "Okuningi"
+			"title": "Daugiau"
 		},
 		"sidePanelCloseButton": {
-			"title": "Bonisa Iphaneli Eseceleni"
+			"title": "Rodyti šoninį skydelį"
 		},
 		"showThumbnailViewerPanelButton": {
-			"title": "Izithonjana"
+			"title": "Miniatiūros"
 		},
 		"showTextSelectionPanelButton": {
-			"title": "Ukukhetha umbhalo"
+			"title": "Teksto pasirinkimas"
 		},
 		"showTextSearchPanelButton": {
-			"title": "Thola umbhalo"
+			"title": "Rasti tekstą"
 		},
 		"showAnnotationsPanelButton": {
-			"title": "Izichasiselo"
+			"title": "Anotacijos"
 		},
 		"textSelectionPanel": {
 			"selectionModeLabel": {
-				"text": "Imodi yokukhetha:"
+				"text": "Pasirinkimo režimas:"
 			},
 			"rectangleOption": {
-				"text": "Unxande"
+				"text": "Stačiakampis"
 			},
 			"fullLinesOption": {
-				"text": "Imigqa egcwele"
+				"text": "Pilnos eilutės"
 			},
 			"selectionColorLabel": {
-				"text": "Umbala wokukhetha:"
+				"text": "Pasirinkimo spalva:"
 			},
 			"selectedTextLabel": {
-				"text": "Umbhalo okhethiwe:"
+				"text": "Pasirinktas tekstas:"
 			}
 		},
 		"textSearchPanel": {
 			"findLabel": {
-				"text": "Thola:"
+				"text": "Rasti:"
 			},
 			"whereLookLabel": {
-				"text": "Bheka ngaphakathi:"
+				"text": "Pažiūrėk:"
 			},
 			"currentPageOption": {
-				"text": "Ikhasi lamanje"
+				"text": "Dabartinis puslapis"
 			},
 			"allPagesOption": {
-				"text": "Wonke amakhasi"
+				"text": "Visi puslapiai"
 			},
 			"wholeWordLabel": {
-				"text": "Izwi lonke"
+				"text": "Visas žodis"
 			},
 			"caseSensitiveLabel": {
-				"text": "Iyazwela kofeleba"
+				"text": "Skiriamos didžiosios ir mažosios raidės"
 			},
 			"startSearchButton": {
-				"value": "Qala"
+				"value": "Pradėti"
 			},
 			"stopSearchButton": {
-				"value": "Ima"
+				"value": "Sustabdyti"
 			},
 			"textNotFoundLabel": {
-				"text": "Umbhalo awutholakali."
+				"text": "Tekstas nerastas."
 			}
 		},
 		"gotoFirstPageButton": {
-			"title": "Iya esithombeni sokuqala"
+			"title": "Eikite į pirmąjį vaizdą"
 		},
 		"gotoPreviousPageButton": {
-			"title": "Iya esithombeni sangaphambilini"
+			"title": "Eikite į ankstesnį vaizdą"
 		},
 		"gotoPageInput": {
-			"title": "Ikhasi"
+			"title": "Puslapis"
 		},
 		"gotoNextPageButton": {
-			"title": "Iya esithombeni esilandelayo"
+			"title": "Eikite į kitą vaizdą"
 		},
 		"gotoLastPageButton": {
-			"title": "Iya esithombeni sokugcina"
+			"title": "Eikite į paskutinį vaizdą"
 		},
 		"zoomOutButton": {
-			"title": "Hlehlisa isithombe"
+			"title": "Nutolinti"
 		},
 		"zoomValueInput": {
-			"title": "Sondeza"
+			"title": "Padidinti"
 		},
 		"zoomInButton": {
-			"title": "Sondeza isithombe"
+			"title": "Priartinti"
 		},
 		"normalSizeModeButton": {
-			"title": "Okuvamile"
+			"title": "Normalus"
 		},
 		"bestFitSizeModeButton": {
-			"title": "Ukulingana okuhle kakhulu"
+			"title": "Geriausiai tinkantis"
 		},
 		"fitToHeightSizeModeButton": {
-			"title": "Ilingana nobude"
+			"title": "Tinka ūgiui"
 		},
 		"pixelToPixelSizeModeButton": {
-			"title": "Iphikseli ukuya kuphikseli"
+			"title": "Pikselis prie pikselio"
 		},
 		"zoomSizeModeButton": {
-			"title": "Sondeza"
+			"title": "Padidinti"
 		},
 		"addArcAnnotationButton": {
-			"title": "I-arc"
+			"title": "Arc"
 		},
 		"addStickyNoteAnnotationButton": {
-			"title": "Inothi elinamathelayo"
+			"title": "Lipnus lapelis"
 		},
 		"addFreeTextAnnotationButton": {
-			"title": "Umbhalo wamahhala"
+			"title": "Laisvas tekstas"
 		},
 		"addDoubleArrowAnnotationButton": {
-			"title": "Umcibisholo okabili"
+			"title": "Dviguba rodyklė"
 		},
 		"addInterpolatedLinesAnnotationButton": {
-			"title": "Imigqa ene-interpolation"
+			"title": "Linijos su interpoliacija"
 		},
 		"addFreehandLinesAnnotationButton": {
-			"title": "Imigqa yamahhala"
+			"title": "Laisvos rankos linijos"
 		},
 		"addInterpolatedPolygonAnnotationButton": {
-			"title": "Ipholigoni ene-interpolation"
+			"title": "Daugiakampis su interpoliacija"
 		},
 		"addFreehandPolygonAnnotationButton": {
-			"title": "Ipholigoni yamahhala"
+			"title": "Laisvos rankos daugiakampis"
 		},
 		"addCloudPolygonAnnotationButton": {
-			"title": "Ipholigoni yamafu"
+			"title": "Debesų daugiakampis"
 		},
 		"addRulersAnnotationButton": {
-			"title": "Ababusi"
+			"title": "Valdovai"
 		},
 		"addAngleAnnotationButton": {
-			"title": "I-engeli"
+			"title": "Kampas"
 		},
 		"addMarkAnnotationButton": {
-			"title": "Maka"
+			"title": "ženklas"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Imodi yokusebenzisana 'Akukho'"
+			"title": "Sąveikos režimas „Nėra“"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Imodi yokusebenzisana 'Buka'"
+			"title": "Sąveikos režimas „Žiūrėti“"
 		},
 		"smallAnnotationInteractionPoints": {
-			"title": "Amaphuzu amancane okusebenzisana"
+			"title": "Maži sąveikos taškai"
 		},
 		"largeAnnotationInteractionPoints": {
-			"title": "Amaphoyinti amakhulu okusebenzisana (Isikrini sokuthinta)"
+			"title": "Dideli sąveikos taškai (lietimui jautrus ekranas)"
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
-				"text": "Le dokhumenti ivikelwe ngephasiwedi. Sicela ufake iphasiwedi."
+				"text": "Šis dokumentas yra apsaugotas slaptažodžiu. Įveskite slaptažodį."
 			},
 			"passwordLabel": {
-				"text": "Iphasiwedi:"
+				"text": "Slaptažodis:"
 			},
 			"showPasswordLabel": {
-				"text": "Bonisa iphasiwedi"
+				"text": "Rodyti slaptažodį"
 			},
 			"incorrectPasswordLabel": {
-				"text": "Iphasiwedi engalungile"
+				"text": "Neteisingas slaptažodis"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "Gerai"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Atšaukti"
 			}
 		},
 		"selectImagesDialog": {
 			"imagesLabel": {
-				"text": "Izithombe:"
+				"text": "Vaizdai:"
 			},
 			"currentImageOption": {
-				"text": "Isithombe samanje"
+				"text": "Dabartinis vaizdas"
 			},
 			"allImagesOption": {
-				"text": "Zonke izithombe"
+				"text": "Visi vaizdai"
 			},
 			"customImagesOption": {
-				"text": "Ngokwezifiso"
+				"text": "Pasirinktinis"
 			},
 			"imageRangeLabel": {
-				"text": "Ibanga lesithombe:"
+				"text": "Vaizdo diapazonas:"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Ibanga lekhasi elingavumelekile. Isibonelo: 1-5, 8, 12-15."
+				"text": "Netinkamas puslapių diapazonas. Pavyzdys: 1–5, 8, 12–15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Inkomba ayikho ebangeni lokuqoqwa kwezithombe."
+				"text": "Indeksas nepatenka į vaizdų rinkinio diapazoną."
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "Gerai"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Atšaukti"
 			}
 		},
 		"printImagesDialog": {
 			"imagesLabel": {
-				"text": "Izithombe:"
+				"text": "Vaizdai:"
 			},
 			"currentImageOption": {
-				"text": "Isithombe samanje"
+				"text": "Dabartinis vaizdas"
 			},
 			"allImagesOption": {
-				"text": "Zonke izithombe"
+				"text": "Visi vaizdai"
 			},
 			"customImagesOption": {
-				"text": "Ngokwezifiso"
+				"text": "Pasirinktinis"
 			},
 			"imageRangeLabel": {
-				"text": "Ibanga lesithombe:"
+				"text": "Vaizdo diapazonas:"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Ibanga lekhasi elingavumelekile. Isibonelo: 1-5, 8, 12-15."
+				"text": "Netinkamas puslapių diapazonas. Pavyzdys: 1–5, 8, 12–15."
 			},
 			"outOfRangeErrorMessageLabel": {
-				"text": "Inkomba ayikho ebangeni lokuqoqwa kwezithombe."
+				"text": "Indeksas nepatenka į vaizdų rinkinio diapazoną."
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "Gerai"
 			},
 			"cancelButton": {
-				"value": "Khansela"
+				"value": "Atšaukti"
 			}
 		},
 		"imageViewerSettingsDialog": {
 			"imageDisplayModeLabel": {
-				"text": "Imodi yokubonisa isithombe:"
+				"text": "Vaizdo rodymo režimas:"
 			},
 			"imageAnchorLabel": {
-				"text": "Ihange lesithombe:"
+				"text": "Vaizdo inkaras:"
 			},
 			"noneOption": {
-				"text": "Lutho"
+				"text": "Nė vienas"
 			},
 			"topLeftOption": {
-				"text": "Phezulu|Kwesobunxele"
+				"text": "Viršus | Kairė"
 			},
 			"topOption": {
-				"text": "Phezulu"
+				"text": "Į viršų"
 			},
 			"topRightOption": {
-				"text": "Phezulu|kwesokudla"
+				"text": "Į viršų | Dešinėje"
 			},
 			"rightOption": {
-				"text": "Kulungile"
+				"text": "Teisingai"
 			},
 			"bottomRightOption": {
-				"text": "Phansi|kwesokudla"
+				"text": "Apačia|Dešinėje"
 			},
 			"bottomOption": {
-				"text": "Phansi"
+				"text": "Apačia"
 			},
 			"bottomLeftOption": {
-				"text": "Phansi|Kwesobunxele"
+				"text": "Apačia|Kairėje"
 			},
 			"leftOption": {
-				"text": "Kwesokunxele"
+				"text": "Kairė"
 			},
 			"multipageDisplayModeLabel": {
-				"text": "Imodi yokubonisa yamakhasi amaningi:"
+				"text": "Kelių puslapių rodymo režimas:"
 			},
 			"allImagesOption": {
 				"text": "AllImages"
@@ -408,76 +408,76 @@
 				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
-				"text": "Isiqondiso sesakhiwo:"
+				"text": "Išdėstymo kryptis:"
 			},
 			"horizontalOption": {
-				"text": "Evundlile"
+				"text": "Horizontaliai"
 			},
 			"verticalOption": {
-				"text": "Iqondile"
+				"text": "Vertikalus"
 			},
 			"rowColumnCountLabel": {
-				"text": "Izithombe kumugqa/ikholomu:"
+				"text": "Vaizdai eilutėje / stulpelyje:"
 			},
 			"imagePaddingLabel": {
-				"text": "Ukufakwa kwezithombe:"
+				"text": "Vaizdų užpildymas:"
 			},
 			"appearancesLabel": {
-				"text": "Ukubukeka"
+				"text": "Išvaizdos"
 			},
 			"imageAppearanceLabel": {
-				"text": "Ukubukeka kwesithombe"
+				"text": "Vaizdo išvaizda"
 			},
 			"imageAppearanceBackColorLabel": {
-				"text": "Umbala wangemuva:"
+				"text": "Nugaros spalva:"
 			},
 			"imageAppearanceBorderColorLabel": {
-				"text": "Umbala womngcele:"
+				"text": "Kraštinės spalva:"
 			},
 			"imageAppearanceBorderWidthLabel": {
-				"text": "Ububanzi bomngcele:"
+				"text": "Kraštinės plotis:"
 			},
 			"focusedImageAppearanceLabel": {
-				"text": "Ukubukeka kwesithombe esigxilile"
+				"text": "Fokusuota vaizdo išvaizda"
 			},
 			"focusedImageAppearanceBackColorLabel": {
-				"text": "Umbala wangemuva:"
+				"text": "Nugaros spalva:"
 			},
 			"focusedImageAppearanceBorderColorLabel": {
-				"text": "Umbala womngcele:"
+				"text": "Kraštinės spalva:"
 			},
 			"focusedImageAppearanceBorderWidthLabel": {
-				"text": "Ububanzi bomngcele:"
+				"text": "Kraštinės plotis:"
 			},
 			"useAppearanceInSinglePageModeLabel": {
-				"text": "Sebenzisa ukubukeka kwesithombe kumodi yekhasi elilodwa"
+				"text": "Naudokite vaizdo išvaizdą vieno puslapio režimu"
 			},
 			"renderingSettingsLabel": {
-				"text": "Izilungiselelo zokunikezela"
+				"text": "Atvaizdavimo nustatymai"
 			},
 			"defaultRenderingSettingsLabel": {
-				"text": "Izilungiselelo Ezizenzakalelayo"
+				"text": "Numatytieji nustatymai"
 			},
 			"horizontalResolutionLabel": {
-				"text": "Ukulungiswa Okuvundlile:"
+				"text": "Horizontali skiriamoji geba:"
 			},
 			"verticalResolutionLabel ": {
-				"text": "Ukulungiswa Okuqondile:"
+				"text": "Vertikali skiriamoji geba:"
 			},
 			"smoothingModeLabel": {
-				"text": "Imodi yokushelela:"
+				"text": "Išlyginimo režimas:"
 			},
 			"AntiAlias": {
 				"text": "AntiAlias"
 			},
 			"None": {
-				"text": "Lutho"
+				"text": "Nė vienas"
 			},
 			"interpolationModeLabel": {
-				"text": "Imodi yokuhumusha:"
+				"text": "Interpoliacijos režimas:"
 			},
 			"Bicubic": {
-				"text": "Bicubic"
+				"text": "Bikubinis"
 			},
 			"Bilinear": {
 				"text": "Bilinear"
@@ -492,57 +492,57 @@
 				"text": "NearestNeighbor"
 			},
 			"otherSettingsLabel": {
-				"text": "Ezinye izilungiselelo"
+				"text": "Kiti nustatymai"
 			},
 			"backgroundColorLabel": {
-				"text": "Umbala wangemuva wesibukeli:"
+				"text": "Žiūrovo fono spalva:"
 			},
 			"centerImageLabel": {
-				"text": "Isithombe esimaphakathi:"
+				"text": "Centrinis vaizdas:"
 			},
 			"resizeTimeoutLabel ": {
-				"text": "Shintsha usayizi wesikhathi sokuvala:"
+				"text": "Dydžio keitimo skirtasis laikas:"
 			},
 			"tileSizeLabel": {
-				"text": "Usayizi wethayela:"
+				"text": "Plytelių dydis:"
 			},
 			"colorManagementLabel": {
-				"text": "Nika amandla ukuphathwa kombala:"
+				"text": "Įgalinti spalvų valdymą:"
 			},
 			"useVectorRenderingLabel": {
-				"text": "Sebenzisa i-vector rendering kumadokhumenti:"
+				"text": "Dokumentams naudokite vektorinį atvaizdavimą:"
 			},
 			"vectorContentBackgroundColorLabel": {
-				"text": "Umbala wengemuva lokuqukethwe kweVector:"
+				"text": "Vektorinio turinio fono spalva:"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "Gerai"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Atšaukti"
 			}
 		},
 		"thumbnailViewerSettingsDialog": {
 			"sizeLabel": {
-				"text": "Usayizi:"
+				"text": "Dydis:"
 			},
 			"scaleLabel": {
-				"text": "Isikali:"
+				"text": "Skalė:"
 			},
 			"smallestOption": {
-				"text": "Okuncane kakhulu"
+				"text": "Mažiausias"
 			},
 			"smallOption": {
-				"text": "Encane"
+				"text": "Mažas"
 			},
 			"normalOption": {
-				"text": "Okuvamile"
+				"text": "Normalus"
 			},
 			"largeOption": {
-				"text": "Okukhulu"
+				"text": "Didelis"
 			},
 			"flowStyleLabel": {
-				"text": "Isitayela sokugeleza:"
+				"text": "Srauto stilius:"
 			},
 			"singleColumnOption": {
 				"text": "SingleColumn"
@@ -557,114 +557,114 @@
 				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
-				"text": "Isibalo Sekholomu:"
+				"text": "Stulpelių skaičius:"
 			},
 			"marginLabel": {
-				"text": "Imajini:"
+				"text": "Marža:"
 			},
 			"paddingTopLabel": {
-				"text": "I-Padding Top:"
+				"text": "Viršutinis pamušalas:"
 			},
 			"paddingRightLabel": {
-				"text": "Ukugwedla Kwesokudla:"
+				"text": "Pamušalas dešinėje:"
 			},
 			"paddingBottomLabel": {
-				"text": "I-Padding Bottom:"
+				"text": "Paminkštinimas apačioje:"
 			},
 			"paddingLeftLabel": {
-				"text": "Ukupheqela Kwesokunxele:"
+				"text": "Kairysis užpildas:"
 			},
 			"showCaptionLabel": {
-				"text": "Bonisa Amazwibela:"
+				"text": "Rodyti antraštes:"
 			},
 			"captionFormatLabel": {
-				"text": "Ifomethi yamagama-ncazo:"
+				"text": "Antraštės formatas:"
 			},
 			"captionAnchorLabel": {
-				"text": "Ihange lamagama-ncazo:"
+				"text": "Antraštės prierašas:"
 			},
 			"topLeftOption": {
-				"text": "Phezulu|Kwesobunxele"
+				"text": "Viršus | Kairė"
 			},
 			"topOption": {
-				"text": "Phezulu"
+				"text": "Į viršų"
 			},
 			"topRightOption": {
-				"text": "Phezulu|kwesokudla"
+				"text": "Į viršų | Dešinėje"
 			},
 			"rightOption": {
-				"text": "Kulungile"
+				"text": "Teisingai"
 			},
 			"bottomRightOption": {
-				"text": "Phansi|kwesokudla"
+				"text": "Apačia|Dešinėje"
 			},
 			"bottomOption": {
-				"text": "Phansi"
+				"text": "Apačia"
 			},
 			"bottomLeftOption": {
-				"text": "Phansi|Kwesobunxele"
+				"text": "Apačia|Kairėje"
 			},
 			"leftOption": {
-				"text": "Kwesokunxele"
+				"text": "Kairė"
 			},
 			"centerOption": {
-				"text": "Isikhungo"
+				"text": "centras"
 			},
 			"focusOnHoverLabel": {
-				"text": "Gxila ku-OnHover:"
+				"text": "Focus OnHover:"
 			},
 			"multiSelectLabel": {
-				"text": "Ukukhetha okuningi:"
+				"text": "Keli pasirinkimai:"
 			},
 			"canDragThumbnailsLabel": {
-				"text": "Ingakwazi Ukuhudula Izithonjana:"
+				"text": "Galima vilkti miniatiūras:"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "Gerai"
 			},
 			"сancelButton": {
-				"value": "Khansela"
+				"value": "Atšaukti"
 			}
 		},
 		"rotateImageWithAnnotationsDialog": {
 			"rotationAngleLabel": {
-				"text": "I-engeli:"
+				"text": "Kampas:"
 			},
 			"borderColorTypeLabel": {
-				"text": "Uhlobo lombala womngcele:"
+				"text": "Krašto spalvos tipas:"
 			},
 			"autoDetectOption": {
 				"text": "AutoDetect"
 			},
 			"blackOption": {
-				"text": "Mnyama"
+				"text": "Juoda"
 			},
 			"whiteOption": {
-				"text": "Emhlophe"
+				"text": "Baltas"
 			},
 			"transparentOption": {
-				"text": "Okusobala"
+				"text": "Skaidrus"
 			},
 			"customOption": {
-				"text": "Ngokwezifiso"
+				"text": "Pasirinktinis"
 			},
 			"borderColorLabel": {
-				"text": "Umbala Womngcele:"
+				"text": "Kraštinės spalva:"
 			},
 			"changeSourceLabel": {
-				"text": "Shintsha Umthombo"
+				"text": "Keisti šaltinį"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "Gerai"
 			},
 			"cancelButton": {
-				"value": "Khansela"
+				"value": "Atšaukti"
 			}
 		},
 		"annotationSettingsDialog": {
-			"title": "Izilungiselelo zesichasiselo",
+			"title": "Anotacijos nustatymai",
 			"Border": {
-				"text": "Umngcele:"
+				"text": "Kraštinė:"
 			},
 			"CanMirror": {
 				"text": "CanMirror:"
@@ -685,37 +685,37 @@
 				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
-				"text": "+ Ibhulashi Lokugcwalisa:"
+				"text": "+ FillBrush:"
 			},
 			"Color": {
-				"text": "Umbala:"
+				"text": "Spalva:"
 			},
 			"Type": {
-				"text": "Uhlobo:"
+				"text": "Tipas:"
 			},
 			"+ Font": {
-				"text": "+ Ifonti:"
+				"text": "+ Šriftas:"
 			},
 			"Bold": {
-				"text": "Okugqamile:"
+				"text": "Pusjuodis:"
 			},
 			"FamilyName": {
 				"text": "FamilyName:"
 			},
 			"Italic": {
-				"text": "I-ithalikhi"
+				"text": "Kursyvas:"
 			},
 			"Size": {
-				"text": "Usayizi:"
+				"text": "Dydis:"
 			},
 			"Strikeout": {
-				"text": "Ukushaywa:"
+				"text": "Išbraukti:"
 			},
 			"Underline": {
-				"text": "Dwebela:"
+				"text": "Pabraukimas:"
 			},
 			"Unit": {
-				"text": "Iyunithi:"
+				"text": "Vienetas:"
 			},
 			"+ FontBrush": {
 				"text": "+ FontBrush:"
@@ -724,7 +724,7 @@
 				"text": "FontTransparent:"
 			},
 			"Guid": {
-				"text": "Umhlahlandlela:"
+				"text": "Vadovas:"
 			},
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
@@ -742,7 +742,7 @@
 				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
-				"text": "+ Indawo:"
+				"text": "+ Vieta:"
 			},
 			"x": {
 				"text": "x:"
@@ -754,10 +754,10 @@
 				"text": "ModifiedBy:"
 			},
 			"Name": {
-				"text": "Igama:"
+				"text": "Vardas:"
 			},
 			"+ Outline": {
-				"text": "+ Uhlaka:"
+				"text": "+ Kontūras:"
 			},
 			"DashPattern": {
 				"text": "DashPattern:"
@@ -769,16 +769,16 @@
 				"text": "+ EndCap:"
 			},
 			"+ Size": {
-				"text": "+ Usayizi:"
+				"text": "+ Dydis:"
 			},
 			"width": {
-				"text": "ububanzi:"
+				"text": "plotis:"
 			},
 			"height": {
-				"text": "ubude:"
+				"text": "aukštis:"
 			},
 			"Style": {
-				"text": "Isitayela:"
+				"text": "Stilius:"
 			},
 			"LineJoin": {
 				"text": "LineJoin:"
@@ -787,10 +787,10 @@
 				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
-				"text": "+ I-StartCap:"
+				"text": "+ StartCap:"
 			},
 			"Width": {
-				"text": "Ububanzi:"
+				"text": "Plotis:"
 			},
 			"+ ResizePointTemplate": {
 				"text": "+ ResizePointTemplate:"
@@ -808,19 +808,19 @@
 				"text": "InteractionRadius:"
 			},
 			"Radius": {
-				"text": "Irediyasi:"
+				"text": "Spindulys:"
 			},
 			"Rotation": {
-				"text": "Ukuzungezisa:"
+				"text": "Pasukimas:"
 			},
 			"+ RotationCenterPoint": {
 				"text": "+ RotationCenterPoint:"
 			},
 			"Cursor": {
-				"text": "Ikhesa:"
+				"text": "Žymeklis:"
 			},
 			"+ RotationPoint": {
-				"text": "+ RotationPoint:"
+				"text": "+ Rotation Point:"
 			},
 			"RotationPointDistance": {
 				"text": "RotationPointDistance:"
@@ -829,19 +829,19 @@
 				"text": "+ ShadowBrush:"
 			},
 			"+ ShadowOffset": {
-				"text": "+ I-ShadowOffset:"
+				"text": "+ Šešėlių poslinkis:"
 			},
 			"Symmetry": {
-				"text": "I-Symmetry:"
+				"text": "Simetrija:"
 			},
 			"Text": {
-				"text": "Umbhalo:"
+				"text": "Tekstas:"
 			},
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
 			"+ TextBox": {
-				"text": "+ Ibhokisi Lombhalo:"
+				"text": "+ Teksto laukelis:"
 			},
 			"FontColor": {
 				"text": "FontColor:"
@@ -859,19 +859,19 @@
 				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
-				"text": "+ I-TextPadding:"
+				"text": "+ Teksto užpildymas:"
 			},
 			"left": {
-				"text": "kwesokunxele:"
+				"text": "liko:"
 			},
 			"right": {
-				"text": "kwesokudla:"
+				"text": "dešinėje:"
 			},
 			"top": {
-				"text": "phezulu:"
+				"text": "viršuje:"
 			},
 			"bottom": {
-				"text": "phansi:"
+				"text": "apačioje:"
 			},
 			"ToolTip": {
 				"text": "ToolTip:"
@@ -880,58 +880,58 @@
 				"text": "VerticalMirrored:"
 			},
 			"okButton": {
-				"value": "KULUNGILE"
+				"value": "Gerai"
 			}
 		}
 	},
 	"previouslyUploadedFilesDialog": {
 		"title": {
-			"text": "Amafayela alayishwe ngaphambilini"
+			"text": "Anksčiau įkelti failai"
 		},
 		"openButton": {
-			"text": "Vula"
+			"text": "Atviras"
 		},
 		"closeButton": {
-			"text": "Vala"
+			"text": "Uždaryti"
 		}
 	},
 	"errorMessageDialog": {
 		"title": {
-			"text": "Iphutha"
+			"text": "Klaida"
 		},
 		"closeButton": {
-			"text": "Vala"
+			"text": "Uždaryti"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
-		"vsdv-textSearchPanel-pageLabel": "Ikhasi",
-		"vsdv-openFile-addFileString": "Engeza ifayela",
-		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
-		"vsdv-downloadFile-actionMessage": "Landa ifayela",
-		"vsdv-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
-		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
-		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Shisa izichasiselo",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Londoloza izichasiselo",
-		"vsdv-annotationListPanel-pageLabel": "Ikhasi",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Izici zesichasiselo",
-		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
-		"vsdv-dialog-okButton": "KULUNGILE",
-		"vsdv-dialog-cancelButton": "Khansela",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
-		"vsdv-imageSelectionDialog-title": "Khetha izithombe",
-		"vsdv-imageSelectionDialog-currentImageString": "Isithombe samanje",
-		"vsdv-imageSelectionDialog-allImagesString": "Zonke izithombe",
-		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
-		"vsdv-printImagesDialog-title": "Phrinta izithombe",
-		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
-		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
-		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Zungezisa isithombe ngezichasiselo",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "I-engeli yokuzungezisa kufanele ibe ngaphezu kukaziro.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izungezisa isithombe ngezichasiselo"
+		"vsdv-uploadFileButton-uploadFileString": "Įkelti failą",
+		"vsdv-textSearchPanel-pageLabel": "Puslapis",
+		"vsdv-openFile-addFileString": "Pridėti failą",
+		"vsdv-openFile-authenticateFileString": "Autentifikuoti failą",
+		"vsdv-downloadFile-actionMessage": "Atsisiųsti failą",
+		"vsdv-saveChanges-saveChangesInImages": "Išsaugokite vaizdų pakeitimus",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Išsaugokite komentarų pakeitimus",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Įrašykite komentarus ant vaizdų",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Įrašyti komentarus",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Išsaugoti komentarus",
+		"vsdv-annotationListPanel-pageLabel": "Puslapis",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Anotacijos ypatybės",
+		"vsdv-documentPasswordDialog-title": "Dokumento slaptažodis",
+		"vsdv-dialog-okButton": "Gerai",
+		"vsdv-dialog-cancelButton": "Atšaukti",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Autentifikuoti failą",
+		"vsdv-imageSelectionDialog-title": "Pasirinkite vaizdus",
+		"vsdv-imageSelectionDialog-currentImageString": "Dabartinis vaizdas",
+		"vsdv-imageSelectionDialog-allImagesString": "Visi vaizdai",
+		"vsdv-imageSelectionDialog-customImagesString": "Pasirinktinis",
+		"vsdv-printImagesDialog-title": "Spausdinti vaizdus",
+		"vsdv-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
+		"vsdv-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
+		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Pasukite vaizdą su komentarais",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Sukimosi kampas turi būti didesnis nei nulis.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Sukamasis vaizdas su komentarais"
 	}
 }

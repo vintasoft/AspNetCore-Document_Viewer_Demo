@@ -18,23 +18,29 @@
 		"previousUploadFilesButton": {
 			"title": "Visualizza un elenco di file precedentemente scaricati"
 		},
+		"uploadImageFromUrlButton": {
+			"title": "Carica e apri il file immagine tramite URL"
+		},
 		"printImagesButton": {
 			"title": "Stampa immagini"
 		},
 		"downloadFileButton": {
-			"title": "Scarica il file immagine"
+			"title": "Download file"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Esporta e scarica il file"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Adatta alla larghezza"
 		},
-		"rotateCounterClockwiseButton": {
-			"title": "Ruota l'immagine in senso antiorario"
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Ruota tutte le visualizzazioni in senso antiorario"
 		},
 		"rotateAngleInput": {
 			"title": "Angolo di rotazione"
 		},
-		"rotateClockwiseButton": {
-			"title": "Ruota l'immagine in senso orario"
+		"rotateViewsClockwiseButton": {
+			"title": "Ruota tutte le visualizzazioni in senso orario"
 		},
 		"imageViewerSettingsButton": {
 			"title": "Impostazioni del visualizzatore di immagini"
@@ -138,14 +144,14 @@
 		"showThumbnailViewerPanelButton": {
 			"title": "Miniature"
 		},
-		"showAnnotationsPanelButton": {
-			"title": "Annotazioni"
-		},
 		"showTextSelectionPanelButton": {
 			"title": "Evidenzia il testo"
 		},
 		"showTextSearchPanelButton": {
 			"title": "Cerca testo"
+		},
+		"showAnnotationsPanelButton": {
+			"title": "Annotazioni"
 		},
 		"textSelectionPanel": {
 			"selectionModeLabel": {
@@ -280,32 +286,6 @@
 		"largeAnnotationInteractionPoints": {
 			"title": "Grandi punti di contatto (touchscreen)"
 		},
-		"annotationContextMenu": {
-			"copyAnnotationLabel": {
-				"text": "Copia annotazione"
-			},
-			"pasteAnnotationLabel": {
-				"text": "Inserisci annotazione"
-			},
-			"removeAnnotationLabel": {
-				"text": "Elimina annotazione"
-			},
-			"bringAnnotationToBackLabel": {
-				"text": "Porta in secondo piano"
-			},
-			"bringAnnotationToFrontLabel": {
-				"text": "Porta in primo piano"
-			},
-			"groupAllAnnotationsLabel": {
-				"text": "Raggruppa tutte le annotazioni"
-			},
-			"ungroupAnnotationLabel": {
-				"text": "Separa annotazione"
-			},
-			"annotationPropertiesLabel": {
-				"text": "Proprietà annotazione..."
-			}
-		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
 				"text": "Questo documento è protetto da password. Per favore inserire una password."
@@ -422,10 +402,10 @@
 				"text": "Modalità di visualizzazione multipagina:"
 			},
 			"allImagesOption": {
-				"text": "Tutte le immagini"
+				"text": "AllImages"
 			},
 			"fixedImagesOption": {
-				"text": "Immagini fisse"
+				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
 				"text": "Direzione layout:"
@@ -565,16 +545,16 @@
 				"text": "Stile di posizionamento delle miniature:"
 			},
 			"singleColumnOption": {
-				"text": "Colonna singola"
+				"text": "SingleColumn"
 			},
 			"singleRowOption": {
-				"text": "Una riga"
+				"text": "SingleRow"
 			},
 			"fixedColumnsOption": {
-				"text": "Numero fisso di colonne"
+				"text": "FixedColumns"
 			},
 			"wrappedRowsOption": {
-				"text": "Numero variabile di righe"
+				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
 				"text": "Numero di colonne:"
@@ -636,6 +616,9 @@
 			"multiSelectLabel": {
 				"text": "Consenti la selezione di più miniature:"
 			},
+			"canDragThumbnailsLabel": {
+				"text": "Puoi trascinare le miniature:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -651,7 +634,7 @@
 				"text": "Tipo di colore del bordo:"
 			},
 			"autoDetectOption": {
-				"text": "Rilevamento automatico"
+				"text": "AutoDetect"
 			},
 			"blackOption": {
 				"text": "Nero"
@@ -677,44 +660,29 @@
 			"cancelButton": {
 				"value": "Annulla"
 			}
-		}
-	},
-	"previouslyUploadedFilesDialog": {
-		"title": {
-			"text": "File precedentemente scaricati"
 		},
-		"openButton": {
-			"text": "Apri file"
-		},
-		"closeButton": {
-			"text": "Chiudi"
-		}
-	},
-	"annotationSettingsDialog": {
-		"title": {
-			"text": "Proprietà annotazione"
-		},
-		"annotationPropertyGrid": {
+		"annotationSettingsDialog": {
+			"title": "Impostazioni di annotazione",
 			"Border": {
 				"text": "Confine:"
 			},
 			"CanMirror": {
-				"text": "Puoi rispecchiare:"
+				"text": "CanMirror:"
 			},
 			"CanMove": {
-				"text": "Può muoversi:"
+				"text": "CanMove:"
 			},
 			"CanResize": {
-				"text": "Può essere ridimensionato:"
+				"text": "CanResize:"
 			},
 			"CanRotate": {
-				"text": "Può essere ruotato:"
+				"text": "CanRotate:"
 			},
 			"CreatedBy": {
-				"text": "Autore:"
+				"text": "CreatedBy:"
 			},
 			"CreationTime": {
-				"text": "Tempo di creazione:"
+				"text": "CreationTime:"
 			},
 			"+ FillBrush": {
 				"text": "+ Riempimento:"
@@ -732,7 +700,7 @@
 				"text": "Grassetto:"
 			},
 			"FamilyName": {
-				"text": "Cognome:"
+				"text": "FamilyName:"
 			},
 			"Italic": {
 				"text": "Corsivo:"
@@ -753,25 +721,25 @@
 				"text": "+ Pennello carattere:"
 			},
 			"FontTransparent": {
-				"text": "Carattere trasparente:"
+				"text": "FontTransparent:"
 			},
 			"Guid": {
 				"text": "ID:"
 			},
 			"HorizontalMirrored": {
-				"text": "Capovolto orizzontalmente:"
+				"text": "HorizontalMirrored:"
 			},
 			"IsBuilding": {
-				"text": "L'annotazione è stata creata:"
+				"text": "IsBuilding:"
 			},
 			"IsVisible": {
-				"text": "L'annotazione è visibile:"
+				"text": "IsVisible:"
 			},
 			"LineStyle": {
-				"text": "Stile linea:"
+				"text": "LineStyle:"
 			},
 			"LineStylePatternSize": {
-				"text": "Dimensioni modello stile linea:"
+				"text": "LineStylePatternSize:"
 			},
 			"+ Location": {
 				"text": "+ Posizione:"
@@ -783,10 +751,7 @@
 				"text": "y:"
 			},
 			"ModifiedBy": {
-				"text": "Modificato da:"
-			},
-			"ModifiedTime": {
-				"text": "Tempo di modifica:"
+				"text": "ModifiedBy:"
 			},
 			"Name": {
 				"text": "Nome:"
@@ -795,10 +760,10 @@
 				"text": "+ Schema:"
 			},
 			"DashPattern": {
-				"text": "Schema trattino:"
+				"text": "DashPattern:"
 			},
 			"DashStyle": {
-				"text": "Stile trattino:"
+				"text": "DashStyle:"
 			},
 			"+ EndCap": {
 				"text": "+ Tappo alla fine della riga:"
@@ -816,10 +781,10 @@
 				"text": "Stile:"
 			},
 			"LineJoin": {
-				"text": "Collegamento di linea:"
+				"text": "LineJoin:"
 			},
 			"MiterLimit": {
-				"text": "Limite taglio:"
+				"text": "MiterLimit:"
 			},
 			"+ StartCap": {
 				"text": "+ Limite all'inizio della riga:"
@@ -831,16 +796,16 @@
 				"text": "+ Modello punto di ridimensionamento:"
 			},
 			"BorderColor": {
-				"text": "Colore bordo:"
+				"text": "BorderColor:"
 			},
 			"BorderWidth": {
-				"text": "Larghezza bordo:"
+				"text": "BorderWidth:"
 			},
 			"FillColor": {
-				"text": "Colore riempimento:"
+				"text": "FillColor:"
 			},
 			"InteractionRadius": {
-				"text": "Raggio dell'area di interazione:"
+				"text": "InteractionRadius:"
 			},
 			"Radius": {
 				"text": "Raggio:"
@@ -858,7 +823,7 @@
 				"text": "+ Punto di rotazione:"
 			},
 			"RotationPointDistance": {
-				"text": "Distanza dal punto di rotazione:"
+				"text": "RotationPointDistance:"
 			},
 			"+ ShadowBrush": {
 				"text": "+ Pennello ombra:"
@@ -873,25 +838,25 @@
 				"text": "Testo:"
 			},
 			"TextAlign": {
-				"text": "Allineamento del testo:"
+				"text": "TextAlign:"
 			},
 			"+ TextBox": {
 				"text": "+ Campo di testo:"
 			},
 			"FontColor": {
-				"text": "Colore carattere:"
+				"text": "FontColor:"
 			},
 			"FontFamily": {
-				"text": "Famiglia di caratteri:"
+				"text": "FontFamily:"
 			},
 			"FontSize": {
-				"text": "Dimensione carattere:"
+				"text": "FontSize:"
 			},
 			"TextBoxHeight": {
-				"text": "Altezza campo testo:"
+				"text": "TextBoxHeight:"
 			},
 			"TextBoxWidth": {
-				"text": "Larghezza del campo di testo:"
+				"text": "TextBoxWidth:"
 			},
 			"+ TextPadding": {
 				"text": "+ Rientro del testo:"
@@ -909,14 +874,25 @@
 				"text": "In basso:"
 			},
 			"ToolTip": {
-				"text": "Suggerimento:"
+				"text": "ToolTip:"
 			},
 			"VerticalMirrored": {
-				"text": "Specchio verticale:"
+				"text": "VerticalMirrored:"
+			},
+			"okButton": {
+				"value": "OK"
 			}
+		}
+	},
+	"previouslyUploadedFilesDialog": {
+		"title": {
+			"text": "File precedentemente scaricati"
 		},
-		"okButton": {
-			"text": "OK"
+		"openButton": {
+			"text": "Apri file"
+		},
+		"closeButton": {
+			"text": "Chiudi"
 		}
 	},
 	"errorMessageDialog": {
@@ -928,26 +904,34 @@
 		}
 	},
 	"strings": {
-		"vssde-annotationPanel-pageLabel": "Pagina",
-		"vssde-annotationPanel-annotationPropertiesLabel": "Proprietà annotazione",
-		"vssde-annotationListPanel-pageLabel": "Pagina",
-		"vssde-annotationListPanel-annotationPropertiesLabel": "Proprietà annotazione",
-		"vssde-textSearchPanel-pageLabel": "Pagina",
-		"vssde-documentPasswordDialog-title": "Password documento",
-		"vssde-dialog-okButton": "OK",
-		"vssde-dialog-cancelButton": "Annulla",
-		"vssde-imageSelectionDialog-currentImageString": "Immagine corrente",
-		"vssde-imageSelectionDialog-allImagesString": "Tutte le immagini",
-		"vssde-imageSelectionDialog-customImagesString": "Personalizzato",
-		"vssde-imageSelectionDialog-title": "Seleziona immagini",
-		"vssde-printImagesDialog-withAnnotationsLabel": "con annotazioni",
-		"vssde-printImagesDialog-imagePreparedToPrintString": "L'immagine è in fase di preparazione per la stampa",
-		"vssde-printImagesDialog-title": "Stampa immagini",
-		"vssde-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visualizza le annotazioni sulle miniature:",
-		"vssde-thumbnailViewerSettingDialog-title": "Impostazioni visualizzatore miniature",
-		"vssde-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "L'angolo di rotazione non deve essere 0.",
-		"vssde-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'immagine annotata viene ruotata",
-		"vssde-rotateImageWithAnnotationsDialog-title": "Ruota immagine annotata",
-		"vssde-imageViewerSettingsDialog-title": "Impostazioni del visualizzatore di immagini"
+		"vsdv-uploadFileButton-uploadFileString": "Caricare un file",
+		"vsdv-textSearchPanel-pageLabel": "Pagina",
+		"vsdv-openFile-addFileString": "Aggiungi file",
+		"vsdv-openFile-authenticateFileString": "Autenticare il file",
+		"vsdv-downloadFile-actionMessage": "Download file",
+		"vsdv-saveChanges-saveChangesInImages": "Salva le modifiche alle immagini",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Salva le modifiche nelle annotazioni",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Masterizza annotazioni sulle immagini",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Salva le modifiche nel documento PDF",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Masterizza annotazioni",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salva annotazioni",
+		"vsdv-annotationListPanel-pageLabel": "Pagina",
+		"vsdv-annotationListPanel-annotationPropertiesLabel": "Proprietà annotazione",
+		"vsdv-documentPasswordDialog-title": "Password documento",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Annulla",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Autenticare il file",
+		"vsdv-imageSelectionDialog-title": "Seleziona immagini",
+		"vsdv-imageSelectionDialog-currentImageString": "Immagine corrente",
+		"vsdv-imageSelectionDialog-allImagesString": "Tutte le immagini",
+		"vsdv-imageSelectionDialog-customImagesString": "Personalizzato",
+		"vsdv-printImagesDialog-title": "Stampa immagini",
+		"vsdv-printImagesPanel-imagePrintingString": "L'immagine è in fase di stampa",
+		"vsdv-imageViewerSettingsDialog-title": "Impostazioni del visualizzatore di immagini",
+		"vsdv-thumbnailViewerSettingDialog-title": "Impostazioni visualizzatore miniature",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visualizza le annotazioni sulle miniature:",
+		"vsdv-rotateImageWithAnnotationsDialog-title": "Ruota immagine annotata",
+		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "L'angolo di rotazione non deve essere 0.",
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'immagine annotata viene ruotata"
 	}
 }
