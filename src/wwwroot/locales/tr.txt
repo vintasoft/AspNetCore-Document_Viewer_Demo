@@ -661,6 +661,79 @@
 				"value": "İptal"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Dosya adı:"
+			},
+			"fileFormatLabel": {
+				"text": "Dosya formatı:"
+			},
+			"savePagesLabel": {
+				"text": "Sayfaları kaydedin:"
+			},
+			"allPagesOption": {
+				"text": "Tüm Sayfalar"
+			},
+			"currentPageOption": {
+				"text": "Mevcut sayfa"
+			},
+			"pagesOption": {
+				"text": "Sayfalar"
+			},
+			"saveAnnoLabel": {
+				"text": "Ek açıklamaları kaydet"
+			},
+			"burnAnnoLabel": {
+				"text": "Ek açıklamaları yaz"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görünümü saat yönünde döndür"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görünümü saat yönünün tersine döndür"
+		},
+		"copyAnnotationLabel": {
+			"text": "Açıklamayı Kopyala"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Açıklama Ekle"
+		},
+		"removeAnnotationLabel": {
+			"text": "Açıklamayı Sil"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Arkaya Gönder"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Öne Getir"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Tüm açıklamaları gruplandır"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Açıklamanın Grubunu Çöz"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Ek açıklamaya yorum ekle..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Açıklama özellikleri..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Ek açıklama ayarları",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Özel",
 		"vsdv-printImagesDialog-title": "Görüntüleri Yazdır",
 		"vsdv-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "açıklamalarla",
 		"vsdv-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
 		"vsdv-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Açıklamalı Görüntüyü Döndür",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Dönme açısı 0 olmamalıdır.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Açıklamalı resim döndürülüyor"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Açıklamalı resim döndürülüyor",
+		"vsdv-uploadImageFromUrlDialog-title": "URL'den resim yükle",
+		"vsdv-exportFileSettingsDialog-title": "Dosya ayarlarını dışa aktar"
 	}
 }

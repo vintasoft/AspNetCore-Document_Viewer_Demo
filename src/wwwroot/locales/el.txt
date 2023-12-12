@@ -661,6 +661,79 @@
 				"value": "Ακύρωση"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ονομα αρχείου:"
+			},
+			"fileFormatLabel": {
+				"text": "Μορφή αρχείου:"
+			},
+			"savePagesLabel": {
+				"text": "Αποθήκευση σελίδων:"
+			},
+			"allPagesOption": {
+				"text": "Όλες οι σελίδες"
+			},
+			"currentPageOption": {
+				"text": "Τρέχουσα σελίδα"
+			},
+			"pagesOption": {
+				"text": "Σελίδες"
+			},
+			"saveAnnoLabel": {
+				"text": "Αποθήκευση σχολιασμών"
+			},
+			"burnAnnoLabel": {
+				"text": "Κάψτε σχολιασμούς"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Περιστρέψτε την προβολή δεξιόστροφα"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Περιστρέψτε την προβολή αριστερόστροφα"
+		},
+		"copyAnnotationLabel": {
+			"text": "Αντιγραφή σχολιασμού"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Εισαγωγή σχολιασμού"
+		},
+		"removeAnnotationLabel": {
+			"text": "Διαγραφή σχολιασμού"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Αποστολή στην Πίσω"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Μεταφορά στο μπροστινό μέρος"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Ομαδοποιήστε όλους τους σχολιασμούς"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Κατάργηση ομαδοποίησης σχολιασμού"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Προσθήκη σχολίου στον σχολιασμό..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Ιδιότητες σχολιασμού..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Ρυθμίσεις σχολιασμού",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
 		"vsdv-printImagesDialog-title": "Εκτύπωση εικόνων",
 		"vsdv-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
 		"vsdv-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
 		"vsdv-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Περιστροφή σχολιασμένης εικόνας",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Η γωνία περιστροφής δεν πρέπει να είναι 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται",
+		"vsdv-uploadImageFromUrlDialog-title": "Μεταφόρτωση εικόνας από τη διεύθυνση URL",
+		"vsdv-exportFileSettingsDialog-title": "Εξαγωγή ρυθμίσεων αρχείου"
 	}
 }

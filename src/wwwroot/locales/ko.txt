@@ -661,6 +661,79 @@
 				"value": "취소"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "파일 이름:"
+			},
+			"fileFormatLabel": {
+				"text": "파일 형식:"
+			},
+			"savePagesLabel": {
+				"text": "페이지 저장:"
+			},
+			"allPagesOption": {
+				"text": "모든 페이지"
+			},
+			"currentPageOption": {
+				"text": "현재 페이지"
+			},
+			"pagesOption": {
+				"text": "페이지"
+			},
+			"saveAnnoLabel": {
+				"text": "주석 저장"
+			},
+			"burnAnnoLabel": {
+				"text": "주석 굽기"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "보기를 시계 방향으로 회전"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "시계 반대 방향으로 보기 회전"
+		},
+		"copyAnnotationLabel": {
+			"text": "주석 복사"
+		},
+		"pasteAnnotationLabel": {
+			"text": "주석 삽입"
+		},
+		"removeAnnotationLabel": {
+			"text": "주석 삭제"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "뒤로 보내기"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "앞으로 가져오기"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "모든 주석 그룹화"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "주석 그룹 해제"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "주석에 설명 추가..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "주석 속성..."
+		},
 		"annotationSettingsDialog": {
 			"title": "주석 설정",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "사용자 정의",
 		"vsdv-printImagesDialog-title": "이미지 인쇄",
 		"vsdv-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "주석 포함",
 		"vsdv-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
 		"vsdv-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "주석 이미지 회전",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "회전 각도는 0이 아니어야 합니다.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "주석 이미지 회전 중"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "주석 이미지 회전 중",
+		"vsdv-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드",
+		"vsdv-exportFileSettingsDialog-title": "파일 설정 내보내기"
 	}
 }

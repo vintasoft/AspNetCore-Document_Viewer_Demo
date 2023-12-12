@@ -661,6 +661,79 @@
 				"value": "Annuleren"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Bestandsnaam:"
+			},
+			"fileFormatLabel": {
+				"text": "Bestandsformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Pagina's opslaan:"
+			},
+			"allPagesOption": {
+				"text": "Alle pagina's"
+			},
+			"currentPageOption": {
+				"text": "Huidige pagina"
+			},
+			"pagesOption": {
+				"text": "Pagina's"
+			},
+			"saveAnnoLabel": {
+				"text": "Bewaar annotaties"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotaties branden"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Roteer de weergave met de klok mee"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Draai de weergave tegen de klok in"
+		},
+		"copyAnnotationLabel": {
+			"text": "Annotatie kopiëren"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Annotatie invoegen"
+		},
+		"removeAnnotationLabel": {
+			"text": "Annotatie verwijderen"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Verzenden naar terug"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Naar voren brengen"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Groepeer alle annotaties"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Annotatie degroeperen"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Opmerking toevoegen aan annotatie..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Annotatie-eigenschappen..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Annotatie-instellingen",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Aangepast",
 		"vsdv-printImagesDialog-title": "Afbeeldingen afdrukken",
 		"vsdv-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "met annotaties",
 		"vsdv-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Geannoteerde afbeelding roteren",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotatiehoek mag niet 0 zijn.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde afbeelding wordt geroteerd",
+		"vsdv-uploadImageFromUrlDialog-title": "Upload afbeelding vanaf URL",
+		"vsdv-exportFileSettingsDialog-title": "Bestandsinstellingen exporteren"
 	}
 }

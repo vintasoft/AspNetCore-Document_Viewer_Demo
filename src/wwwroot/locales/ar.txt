@@ -661,6 +661,79 @@
 				"value": "إلغاء"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "اسم الملف:"
+			},
+			"fileFormatLabel": {
+				"text": "تنسيق الملف:"
+			},
+			"savePagesLabel": {
+				"text": "حفظ الصفحات:"
+			},
+			"allPagesOption": {
+				"text": "كافة الصفحات"
+			},
+			"currentPageOption": {
+				"text": "الصفحة الحالية"
+			},
+			"pagesOption": {
+				"text": "الصفحات"
+			},
+			"saveAnnoLabel": {
+				"text": "حفظ التعليقات التوضيحية"
+			},
+			"burnAnnoLabel": {
+				"text": "حرق التعليقات التوضيحية"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "تدوير العرض في اتجاه عقارب الساعة"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "تدوير العرض عكس اتجاه عقارب الساعة"
+		},
+		"copyAnnotationLabel": {
+			"text": "نسخ التعليق التوضيحي"
+		},
+		"pasteAnnotationLabel": {
+			"text": "أدخل تعليقًا توضيحيًا"
+		},
+		"removeAnnotationLabel": {
+			"text": "حذف التعليق التوضيحي"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "إرسال إلى الخلف"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "إحضار إلى الأمام"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "تجميع كافة التعليقات التوضيحية"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "فك تجميع التعليقات التوضيحية"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "إضافة تعليق إلى التعليق التوضيحي..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "خصائص التعليق ..."
+		},
 		"annotationSettingsDialog": {
 			"title": "إعدادات التعليقات التوضيحية",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "مخصص",
 		"vsdv-printImagesDialog-title": "طباعة الصور",
 		"vsdv-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
 		"vsdv-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
 		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "تدوير الصورة المشروحة",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "زاوية الدوران يجب ألا تكون 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة",
+		"vsdv-uploadImageFromUrlDialog-title": "تحميل الصورة من URL",
+		"vsdv-exportFileSettingsDialog-title": "إعدادات ملف التصدير"
 	}
 }

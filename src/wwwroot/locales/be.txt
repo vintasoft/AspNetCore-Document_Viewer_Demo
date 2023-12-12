@@ -103,7 +103,7 @@
 			"title": "Трохвугольнік"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Рэжым узаемадзеяння "Аўтар""
+			"title": "Рэжым узаемадзеяння 'Аўтар'"
 		},
 		"copyAnnotationButton": {
 			"title": "Скапіруйце сфакусаваную анатацыю"
@@ -275,10 +275,10 @@
 			"title": "Марк"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Рэжым узаемадзеяння "Няма""
+			"title": "Рэжым узаемадзеяння 'Няма'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Рэжым узаемадзеяння "Прагляд""
+			"title": "Рэжым узаемадзеяння 'Прагляд'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Малыя кропкі ўзаемадзеяння"
@@ -661,6 +661,79 @@
 				"value": "Адмяніць"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Імя файла:"
+			},
+			"fileFormatLabel": {
+				"text": "Фармат файла:"
+			},
+			"savePagesLabel": {
+				"text": "Захаваць старонкі:"
+			},
+			"allPagesOption": {
+				"text": "Усе старонкі"
+			},
+			"currentPageOption": {
+				"text": "Бягучая старонка"
+			},
+			"pagesOption": {
+				"text": "старонкі"
+			},
+			"saveAnnoLabel": {
+				"text": "Захаваць анатацыі"
+			},
+			"burnAnnoLabel": {
+				"text": "Запісаць анатацыі"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Павярнуць выгляд па гадзіннікавай стрэлцы"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Павярнуць выгляд супраць гадзіннікавай стрэлкі"
+		},
+		"copyAnnotationLabel": {
+			"text": "Капіяваць анатацыю"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Уставіць анатацыю"
+		},
+		"removeAnnotationLabel": {
+			"text": "Выдаліць анатацыю"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Вярнуць назад"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Вывесці наперад"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Згрупуйце ўсе анатацыі"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Разгрупаваць анатацыю"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Дадаць каментарый да анатацыі..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Уласцівасці анатацыі..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Налады анатацый",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Карыстацкі",
 		"vsdv-printImagesDialog-title": "Друк малюнкаў",
 		"vsdv-printImagesPanel-imagePrintingString": "Выява друкуецца",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
 		"vsdv-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Паварот малюнка з анатацыямі",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут павароту павінен быць больш нуля.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі",
+		"vsdv-uploadImageFromUrlDialog-title": "Загрузіць выяву з URL",
+		"vsdv-exportFileSettingsDialog-title": "Экспарт налад файла"
 	}
 }

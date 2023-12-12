@@ -76,7 +76,7 @@ namespace AspNetCoreDocumentViewerDemo.Controllers
 
                     case "TriangleAnnotation":
                         annotationData = new TriangleAnnotationData();
-                        DeserializeLineAnnotationBase(annotationData as LineAnnotationDataBase, annotationInfo);
+                        DeserializeLinesAnnotation(annotationData as LinesAnnotationData, annotationInfo);
                         break;
                 }
             }

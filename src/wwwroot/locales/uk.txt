@@ -103,7 +103,7 @@
 			"title": "Трикутник"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Режим взаємодії «Автор»"
+			"title": "Режим взаємодії 'Автор'"
 		},
 		"copyAnnotationButton": {
 			"title": "Копіювати виділену анотацію"
@@ -275,10 +275,10 @@
 			"title": "Марк"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Режим взаємодії «Немає»"
+			"title": "Режим взаємодії 'Немає'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Режим взаємодії «Перегляд»"
+			"title": "Режим взаємодії 'Перегляд'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Малі точки взаємодії"
@@ -661,6 +661,79 @@
 				"value": "Скасувати"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ім'я файлу:"
+			},
+			"fileFormatLabel": {
+				"text": "Формат файлу:"
+			},
+			"savePagesLabel": {
+				"text": "Збережіть сторінки:"
+			},
+			"allPagesOption": {
+				"text": "Всі сторінки"
+			},
+			"currentPageOption": {
+				"text": "Поточна сторінка"
+			},
+			"pagesOption": {
+				"text": "сторінки"
+			},
+			"saveAnnoLabel": {
+				"text": "Зберегти анотації"
+			},
+			"burnAnnoLabel": {
+				"text": "Записати анотації"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Повернути перегляд за годинниковою стрілкою"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Обернути вигляд проти годинникової стрілки"
+		},
+		"copyAnnotationLabel": {
+			"text": "Копіювати анотацію"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Вставити анотацію"
+		},
+		"removeAnnotationLabel": {
+			"text": "Видалити анотацію"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Віднесіть назад"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "На передній план"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Згрупуйте всі анотації"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Розгрупувати анотацію"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Додати коментар до анотації..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Властивості анотації..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Налаштування анотації",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Custom",
 		"vsdv-printImagesDialog-title": "Друк зображень",
 		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Обертання зображення з анотаціями",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут повороту повинен бути більше нуля.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Зображення, що обертається, з анотаціями"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Зображення, що обертається, з анотаціями",
+		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL",
+		"vsdv-exportFileSettingsDialog-title": "Експортуйте налаштування файлу"
 	}
 }

@@ -661,6 +661,79 @@
 				"value": "Annulla"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annulla"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Nome del file:"
+			},
+			"fileFormatLabel": {
+				"text": "Formato del file:"
+			},
+			"savePagesLabel": {
+				"text": "Salva pagine:"
+			},
+			"allPagesOption": {
+				"text": "Tutte le pagine"
+			},
+			"currentPageOption": {
+				"text": "Pagina corrente"
+			},
+			"pagesOption": {
+				"text": "Pagine"
+			},
+			"saveAnnoLabel": {
+				"text": "Salva annotazioni"
+			},
+			"burnAnnoLabel": {
+				"text": "Masterizza annotazioni"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annulla"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Ruota la vista in senso orario"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Ruota la vista in senso antiorario"
+		},
+		"copyAnnotationLabel": {
+			"text": "Copia annotazione"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Inserisci annotazione"
+		},
+		"removeAnnotationLabel": {
+			"text": "Elimina annotazione"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Porta in secondo piano"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Porta in primo piano"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Raggruppa tutte le annotazioni"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Separa annotazione"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Aggiungi commento all'annotazione..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Proprietà annotazione..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Impostazioni di annotazione",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Personalizzato",
 		"vsdv-printImagesDialog-title": "Stampa immagini",
 		"vsdv-printImagesPanel-imagePrintingString": "L'immagine è in fase di stampa",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "con annotazioni",
 		"vsdv-imageViewerSettingsDialog-title": "Impostazioni del visualizzatore di immagini",
 		"vsdv-thumbnailViewerSettingDialog-title": "Impostazioni visualizzatore miniature",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visualizza le annotazioni sulle miniature:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Ruota immagine annotata",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "L'angolo di rotazione non deve essere 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'immagine annotata viene ruotata"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "L'immagine annotata viene ruotata",
+		"vsdv-uploadImageFromUrlDialog-title": "Carica l'immagine dall'URL",
+		"vsdv-exportFileSettingsDialog-title": "Esporta le impostazioni del file"
 	}
 }

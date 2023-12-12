@@ -103,7 +103,7 @@
 			"title": "Үшбұрыш"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "«Автор» әрекеттесу режимі"
+			"title": "'Автор' әрекеттесу режимі"
 		},
 		"copyAnnotationButton": {
 			"title": "Фокусталған аннотацияны көшіру"
@@ -275,10 +275,10 @@
 			"title": "белгі"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Өзара әрекеттесу режимі «Жоқ»"
+			"title": "Өзара әрекеттесу режимі 'Жоқ'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "«Көру» әрекеттесу режимі"
+			"title": "'Көру' әрекеттесу режимі"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Шағын өзара әрекеттесу нүктелері"
@@ -661,6 +661,79 @@
 				"value": "Болдырмау"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Файл атауы:"
+			},
+			"fileFormatLabel": {
+				"text": "Файл пішімі:"
+			},
+			"savePagesLabel": {
+				"text": "Беттерді сақтау:"
+			},
+			"allPagesOption": {
+				"text": "Барлық беттер"
+			},
+			"currentPageOption": {
+				"text": "Ағымдағы бет"
+			},
+			"pagesOption": {
+				"text": "Беттер"
+			},
+			"saveAnnoLabel": {
+				"text": "Аннотацияларды сақтаңыз"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияларды жазу"
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Көріністі сағат тілімен бұрыңыз"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Көріністі сағат тіліне қарсы бұраңыз"
+		},
+		"copyAnnotationLabel": {
+			"text": "Аннотацияны көшіру"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Аннотацияны қою"
+		},
+		"removeAnnotationLabel": {
+			"text": "Аннотацияны жою"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Артқа әкел"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Алдыңа әкел"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Барлық аннотацияларды топтаңыз"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Аннотацияны топтан шығару"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Аннотацияға түсініктеме қосу..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Аннотация сипаттары..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Аннотация параметрлері",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Арнаулы",
 		"vsdv-printImagesDialog-title": "Суреттерді басып шығару",
 		"vsdv-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Аннотациялары бар кескінді бұрыңыз",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Айналу бұрышы нөлден жоғары болуы керек.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялары бар бұрылатын кескін"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялары бар бұрылатын кескін",
+		"vsdv-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз",
+		"vsdv-exportFileSettingsDialog-title": "Файл параметрлерін экспорттау"
 	}
 }

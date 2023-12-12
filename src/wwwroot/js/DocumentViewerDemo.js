@@ -338,6 +338,20 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var rotateImageWithAnnotationsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebRotateImageWithAnnotationsDialogJS();
     rotateImageWithAnnotationsDialog.render(floatingContainer);
     tempDialogs.push(rotateImageWithAnnotationsDialog);
+
+    var uploadImageFromUrlDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiUploadImageFromUrlDialogJS();
+    uploadImageFromUrlDialog.render(floatingContainer);
+    tempDialogs.push(uploadImageFromUrlDialog);
+
+    var exportFileSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebExportFileSettingsDialogJS();
+    exportFileSettingsDialog.render(floatingContainer);
+    tempDialogs.push(exportFileSettingsDialog);
+
+
+    // create context menu panel
+    var contextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebAnnotationViewerContextMenuJS();
+    contextMenu.render(floatingContainer);
+    tempDialogs.push(contextMenu);
 }
 
 /**
@@ -382,6 +396,11 @@ function __enableUiLocalization() {
 
     // subscribe to the "dialogShown" event of document viewer
     Vintasoft.Shared.subscribeToEvent(_docViewer, "dialogShown", function (event, data) {
+        _localizer.localizeDocument();
+    });
+
+    // subscribe to the "contextMenuShown" event of document viewer
+    Vintasoft.Shared.subscribeToEvent(_docViewer, "contextMenuShown", function (event, data) {
         _localizer.localizeDocument();
     });
 }

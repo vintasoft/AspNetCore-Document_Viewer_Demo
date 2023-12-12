@@ -103,7 +103,7 @@
 			"title": "Kolmnurk"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Interaktsioonirežiim "Autor""
+			"title": "Interaktsioonirežiim 'Autor'"
 		},
 		"copyAnnotationButton": {
 			"title": "Kopeeri fokuseeritud annotatsioon"
@@ -275,10 +275,10 @@
 			"title": "Mark"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Interaktsioonirežiim "Puudub""
+			"title": "Interaktsioonirežiim 'Puudub'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Interaktsioonirežiim "Vaade""
+			"title": "Interaktsioonirežiim 'Vaade'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Väikesed interaktsioonipunktid"
@@ -661,6 +661,79 @@
 				"value": "Tühista"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faili nimi:"
+			},
+			"fileFormatLabel": {
+				"text": "Failiformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Salvesta lehed:"
+			},
+			"allPagesOption": {
+				"text": "Kõik lehed"
+			},
+			"currentPageOption": {
+				"text": "Käesolev lehekülg"
+			},
+			"pagesOption": {
+				"text": "Leheküljed"
+			},
+			"saveAnnoLabel": {
+				"text": "Salvestage märkused"
+			},
+			"burnAnnoLabel": {
+				"text": "Märkuste kirjutamine"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Pöörake vaadet päripäeva"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pöörake vaadet vastupäeva"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopeeri annotatsioon"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Kleebi annotatsioon"
+		},
+		"removeAnnotationLabel": {
+			"text": "Eemalda märkus"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Too tagasi"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Too ette"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Rühmitage kõik märkused"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Lahutage annotatsiooni rühmitamine"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Lisa kommentaarile kommentaar..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Märkuste atribuudid..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Märkuste seaded",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
 		"vsdv-printImagesDialog-title": "Printige pilte",
 		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
 		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Pöörake pilti koos märkustega",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Pöörlemisnurk peaks olema suurem kui null.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Pööratav pilt koos märkustega"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Pööratav pilt koos märkustega",
+		"vsdv-uploadImageFromUrlDialog-title": "Laadige pilt üles URL-ist",
+		"vsdv-exportFileSettingsDialog-title": "Ekspordi faili sätted"
 	}
 }

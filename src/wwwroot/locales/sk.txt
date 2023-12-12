@@ -103,7 +103,7 @@
 			"title": "Trojuholník"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Režim interakcie „Autor“"
+			"title": "Režim interakcie 'Autor'"
 		},
 		"copyAnnotationButton": {
 			"title": "Kopírovať zameranú anotáciu"
@@ -275,10 +275,10 @@
 			"title": "Marka"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Režim interakcie „Žiadny“"
+			"title": "Režim interakcie 'Žiadny'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Režim interakcie „Zobraziť“"
+			"title": "Režim interakcie 'Zobraziť'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Malé interakčné body"
@@ -661,6 +661,79 @@
 				"value": "Zrušiť"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušiť"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Názov súboru:"
+			},
+			"fileFormatLabel": {
+				"text": "Formát súboru:"
+			},
+			"savePagesLabel": {
+				"text": "Uložte si stránky:"
+			},
+			"allPagesOption": {
+				"text": "Všetky strany"
+			},
+			"currentPageOption": {
+				"text": "Aktuálna stránka"
+			},
+			"pagesOption": {
+				"text": "Stránky"
+			},
+			"saveAnnoLabel": {
+				"text": "Uložiť anotácie"
+			},
+			"burnAnnoLabel": {
+				"text": "Vypáliť anotácie"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušiť"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Otočiť pohľad v smere hodinových ručičiek"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Otočiť pohľad proti smeru hodinových ručičiek"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopírovať anotáciu"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Prilepiť anotáciu"
+		},
+		"removeAnnotationLabel": {
+			"text": "Odstrániť anotáciu"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Preniesť späť"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Priveďte dopredu"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Zoskupte všetky anotácie"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Zrušiť zoskupenie anotácie"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Pridať komentár k anotácii..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Vlastnosti anotácie..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Nastavenia anotácií",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Vlastné",
 		"vsdv-printImagesDialog-title": "Tlač obrázkov",
 		"vsdv-printImagesPanel-imagePrintingString": "Tlačí sa obrázok",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "s anotáciami",
 		"vsdv-imageViewerSettingsDialog-title": "Nastavenia prehliadača obrázkov",
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavenia prehliadača miniatúr",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobraziť anotácie:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Otočte obrázok s anotáciami",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Uhol natočenia by mal byť väčší ako nula.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Otočný obrázok s anotáciami"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Otočný obrázok s anotáciami",
+		"vsdv-uploadImageFromUrlDialog-title": "Nahrajte obrázok z adresy URL",
+		"vsdv-exportFileSettingsDialog-title": "Exportujte nastavenia súboru"
 	}
 }

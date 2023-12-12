@@ -103,7 +103,7 @@
 			"title": "Trīsstūris"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Mijiedarbības režīms "Autors""
+			"title": "Mijiedarbības režīms 'Autors'"
 		},
 		"copyAnnotationButton": {
 			"title": "Kopēt fokusēto anotāciju"
@@ -275,10 +275,10 @@
 			"title": "Atzīmēt"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Mijiedarbības režīms “Nav”"
+			"title": "Mijiedarbības režīms 'Nav'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Mijiedarbības režīms "Skatīt""
+			"title": "Mijiedarbības režīms 'Skatīt'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Mazie mijiedarbības punkti"
@@ -661,6 +661,79 @@
 				"value": "Atcelt"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faila nosaukums:"
+			},
+			"fileFormatLabel": {
+				"text": "Faila formāts:"
+			},
+			"savePagesLabel": {
+				"text": "Saglabāt lapas:"
+			},
+			"allPagesOption": {
+				"text": "Visas lapas"
+			},
+			"currentPageOption": {
+				"text": "Pašreizējā lapa"
+			},
+			"pagesOption": {
+				"text": "Lapas"
+			},
+			"saveAnnoLabel": {
+				"text": "Saglabājiet anotācijas"
+			},
+			"burnAnnoLabel": {
+				"text": "Ierakstīt anotācijas"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Pagriezt skatu pulksteņrādītāja virzienā"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pagriezt skatu pretēji pulksteņrādītāja virzienam"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopēt anotāciju"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Ielīmējiet anotāciju"
+		},
+		"removeAnnotationLabel": {
+			"text": "Noņemt anotāciju"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Atnest atpakaļ"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Novietot priekšā"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Grupējiet visas anotācijas"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Atgrupēt anotāciju"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Pievienot komentāru anotācijai..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Anotācijas rekvizīti..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Anotācijas iestatījumi",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
 		"vsdv-printImagesDialog-title": "Drukāt attēlus",
 		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Pagriezt attēlu ar anotācijām",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotācijas leņķim jābūt lielākam par nulli.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotējams attēls ar anotācijām"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotējams attēls ar anotācijām",
+		"vsdv-uploadImageFromUrlDialog-title": "Augšupielādējiet attēlu no URL",
+		"vsdv-exportFileSettingsDialog-title": "Eksportēt faila iestatījumus"
 	}
 }

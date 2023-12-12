@@ -661,6 +661,79 @@
 				"value": "Prekliči"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ime datoteke:"
+			},
+			"fileFormatLabel": {
+				"text": "Format datoteke:"
+			},
+			"savePagesLabel": {
+				"text": "Shrani strani:"
+			},
+			"allPagesOption": {
+				"text": "Vse strani"
+			},
+			"currentPageOption": {
+				"text": "Trenutna stran"
+			},
+			"pagesOption": {
+				"text": "Strani"
+			},
+			"saveAnnoLabel": {
+				"text": "Shranite opombe"
+			},
+			"burnAnnoLabel": {
+				"text": "Zapiši opombe"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zasukaj pogled v smeri urinega kazalca"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zasukaj pogled v nasprotni smeri urinega kazalca"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopiraj opombo"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Prilepi opombo"
+		},
+		"removeAnnotationLabel": {
+			"text": "Odstrani opombo"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Vrni nazaj"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Pripelji spredaj"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Združi vse opombe"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Razdruži opombo"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Dodaj komentar k opombi ..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Lastnosti pripisov ..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Nastavitve pripisov",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Po meri",
 		"vsdv-printImagesDialog-title": "Natisnite slike",
 		"vsdv-printImagesPanel-imagePrintingString": "Slika se tiska",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "z opombami",
 		"vsdv-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Zasukaj sliko z opombami",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kot vrtenja mora biti večji od nič.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Vrteča se slika z opombami"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Vrteča se slika z opombami",
+		"vsdv-uploadImageFromUrlDialog-title": "Naloži sliko z naslova URL",
+		"vsdv-exportFileSettingsDialog-title": "Izvozite nastavitve datoteke"
 	}
 }

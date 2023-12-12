@@ -661,6 +661,79 @@
 				"value": "Hủy"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Tên tập tin:"
+			},
+			"fileFormatLabel": {
+				"text": "Định dạng tập tin:"
+			},
+			"savePagesLabel": {
+				"text": "Lưu các trang:"
+			},
+			"allPagesOption": {
+				"text": "Tất cả các trang"
+			},
+			"currentPageOption": {
+				"text": "Trang hiện tại"
+			},
+			"pagesOption": {
+				"text": "Trang"
+			},
+			"saveAnnoLabel": {
+				"text": "Lưu chú thích"
+			},
+			"burnAnnoLabel": {
+				"text": "Ghi chú thích"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Xoay chế độ xem theo chiều kim đồng hồ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Xoay chế độ xem ngược chiều kim đồng hồ"
+		},
+		"copyAnnotationLabel": {
+			"text": "Sao chép Chú thích"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Chèn chú thích"
+		},
+		"removeAnnotationLabel": {
+			"text": "Xóa chú thích"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Gửi lại"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Đưa lên phía trước"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Nhóm tất cả các chú thích"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Hủy nhóm chú thích"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Thêm nhận xét vào chú thích..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Thuộc tính chú thích..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Cài đặt chú thích",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Tùy chỉnh",
 		"vsdv-printImagesDialog-title": "In ảnh",
 		"vsdv-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "có chú thích",
 		"vsdv-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
 		"vsdv-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Xoay hình ảnh được chú thích",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Góc xoay không được bằng 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Hình ảnh được chú thích đang được xoay"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Hình ảnh được chú thích đang được xoay",
+		"vsdv-uploadImageFromUrlDialog-title": "Tải hình ảnh lên từ URL",
+		"vsdv-exportFileSettingsDialog-title": "Xuất cài đặt tập tin"
 	}
 }

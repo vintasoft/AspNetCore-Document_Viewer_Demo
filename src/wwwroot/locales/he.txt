@@ -661,6 +661,79 @@
 				"value": "בטל"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "שם קובץ:"
+			},
+			"fileFormatLabel": {
+				"text": "פורמט קובץ:"
+			},
+			"savePagesLabel": {
+				"text": "שמור דפים:"
+			},
+			"allPagesOption": {
+				"text": "כל הדפים"
+			},
+			"currentPageOption": {
+				"text": "דף נוכחי"
+			},
+			"pagesOption": {
+				"text": "דפים"
+			},
+			"saveAnnoLabel": {
+				"text": "שמור הערות"
+			},
+			"burnAnnoLabel": {
+				"text": "צריבת הערות"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "סובב את התצוגה בכיוון השעון"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "סובב את התצוגה נגד כיוון השעון"
+		},
+		"copyAnnotationLabel": {
+			"text": "העתק הערה"
+		},
+		"pasteAnnotationLabel": {
+			"text": "הוסף הערה"
+		},
+		"removeAnnotationLabel": {
+			"text": "מחק הערה"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "שלח לגב"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "הבא לחזית"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "קבץ את כל ההערות"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "בטל קבוצה של הערות"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "הוסף תגובה להערה..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "מאפייני הערות..."
+		},
 		"annotationSettingsDialog": {
 			"title": "הגדרות הערות",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "מותאם אישית",
 		"vsdv-printImagesDialog-title": "הדפס תמונות",
 		"vsdv-printImagesPanel-imagePrintingString": "התמונה מודפסת",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "עם הערות",
 		"vsdv-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
 		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "סובב תמונה מוערת",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "זווית הסיבוב לא יכולה להיות 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות",
+		"vsdv-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL",
+		"vsdv-exportFileSettingsDialog-title": "ייצוא הגדרות קובץ"
 	}
 }

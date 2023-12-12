@@ -103,7 +103,7 @@
 			"title": "Եռանկյուն"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Փոխազդեցության ռեժիմ «Հեղինակ»"
+			"title": "Փոխազդեցության ռեժիմ 'Հեղինակ'"
 		},
 		"copyAnnotationButton": {
 			"title": "Պատճենել կենտրոնացված ծանոթագրությունը"
@@ -275,10 +275,10 @@
 			"title": "նշագծել"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Փոխազդեցության ռեժիմ «Ոչ մի»"
+			"title": "Փոխազդեցության ռեժիմ 'Ոչ մի'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Փոխազդեցության ռեժիմ «Դիտել»"
+			"title": "Փոխազդեցության ռեժիմ 'Դիտել'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Փոխազդեցության փոքր կետեր"
@@ -661,6 +661,79 @@
 				"value": "Չեղարկել"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ֆայլի անունը."
+			},
+			"fileFormatLabel": {
+				"text": "Ֆայլի ձևաչափ."
+			},
+			"savePagesLabel": {
+				"text": "Պահպանել էջերը."
+			},
+			"allPagesOption": {
+				"text": "Բոլոր էջերը"
+			},
+			"currentPageOption": {
+				"text": "Ընթացիկ էջ"
+			},
+			"pagesOption": {
+				"text": "Էջեր"
+			},
+			"saveAnnoLabel": {
+				"text": "Պահպանեք ծանոթագրությունները"
+			},
+			"burnAnnoLabel": {
+				"text": "Այրել ծանոթագրությունները"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Պտտեցնել դիտումը ժամացույցի սլաքի ուղղությամբ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Պտտեցնել տեսքը ժամացույցի սլաքի հակառակ ուղղությամբ"
+		},
+		"copyAnnotationLabel": {
+			"text": "Պատճենել ծանոթագրությունը"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Կպցնել անոտացիա"
+		},
+		"removeAnnotationLabel": {
+			"text": "Հեռացնել ծանոթագրությունը"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Հետ բերել"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Առաջ բերել"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Խմբավորել բոլոր ծանոթագրությունները"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Ապախմբավորել ծանոթագրությունը"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Ավելացնել մեկնաբանություն անոտացիային..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Անոտացիայի հատկությունները..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Անոտացիայի կարգավորումներ",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
 		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
 		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Պտտեցնել պատկերը ծանոթագրություններով",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Պտտման անկյունը պետք է լինի զրոյից ավելի:",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Պտտվող պատկեր՝ ծանոթագրություններով"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Պտտվող պատկեր՝ ծանոթագրություններով",
+		"vsdv-uploadImageFromUrlDialog-title": "Վերբեռնեք պատկեր URL-ից",
+		"vsdv-exportFileSettingsDialog-title": "Արտահանել ֆայլի կարգավորումները"
 	}
 }

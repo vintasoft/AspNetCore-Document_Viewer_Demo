@@ -275,10 +275,10 @@
 			"title": "Марк"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Өз ара аракеттенүү режими "Жок""
+			"title": "Өз ара аракеттенүү режими 'Жок'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Өз ара аракеттенүү режими "Көрүү""
+			"title": "Өз ара аракеттенүү режими 'Көрүү'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Чакан өз ара аракеттенүү пункттары"
@@ -661,6 +661,79 @@
 				"value": "Жокко чыгаруу"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "макул"
+			},
+			"cancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Шилтемелер аты:"
+			},
+			"fileFormatLabel": {
+				"text": "Файлдын форматы:"
+			},
+			"savePagesLabel": {
+				"text": "Барактарды сактоо:"
+			},
+			"allPagesOption": {
+				"text": "Бардык баракчалар"
+			},
+			"currentPageOption": {
+				"text": "Учурдагы бет"
+			},
+			"pagesOption": {
+				"text": "Барактар"
+			},
+			"saveAnnoLabel": {
+				"text": "Аннотацияларды сактоо"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияларды күйгүзүү"
+			},
+			"okButton": {
+				"value": "макул"
+			},
+			"cancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Көрүнүштү саат жебеси боюнча буруңуз"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Көрүнүштү саат жебесине каршы буруңуз"
+		},
+		"copyAnnotationLabel": {
+			"text": "Аннотацияны көчүрүү"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Аннотацияны чаптоо"
+		},
+		"removeAnnotationLabel": {
+			"text": "Аннотацияны алып салуу"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Артка алып кел"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Алдыңа алып кел"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Бардык аннотацияларды топтоо"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Аннотацияны жоюу"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Аннотацияга комментарий кошуу..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Аннотация касиеттери..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Аннотация орнотуулары",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
 		"vsdv-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
 		"vsdv-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
 		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Аннотациялар менен сүрөттү буруңуз",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Айлануу бурчу нөлдөн жогору болушу керек.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялар менен айлануучу сүрөт"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялар менен айлануучу сүрөт",
+		"vsdv-uploadImageFromUrlDialog-title": "Сүрөттү URL'ден жүктөө",
+		"vsdv-exportFileSettingsDialog-title": "Файл жөндөөлөрүн экспорттоо"
 	}
 }

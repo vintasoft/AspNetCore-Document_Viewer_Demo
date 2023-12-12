@@ -103,7 +103,7 @@
 			"title": "Өчпочмак"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": ""Автор" үзара бәйләнеш режимы."
+			"title": "'Автор' үзара бәйләнеш режимы."
 		},
 		"copyAnnotationButton": {
 			"title": "Фокуслы аннотацияне күчерегез"
@@ -661,6 +661,79 @@
 				"value": "Баш тарту"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"cancelButton": {
+				"value": "Баш тарту"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Файл исеме:"
+			},
+			"fileFormatLabel": {
+				"text": "Файл форматы:"
+			},
+			"savePagesLabel": {
+				"text": "Битләрне саклагыз:"
+			},
+			"allPagesOption": {
+				"text": "Барлык битләр"
+			},
+			"currentPageOption": {
+				"text": "Хәзерге бит"
+			},
+			"pagesOption": {
+				"text": "Битләр"
+			},
+			"saveAnnoLabel": {
+				"text": "Аннотацияләрне саклагыз"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияләрне яндырыгыз"
+			},
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"cancelButton": {
+				"value": "Баш тарту"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Күренешне сәгать юлы белән әйләндерегез"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Күренешне сәгатенә каршы әйләндерегез"
+		},
+		"copyAnnotationLabel": {
+			"text": "Аннотацияне күчерегез"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Аннотация куегыз"
+		},
+		"removeAnnotationLabel": {
+			"text": "Аннотацияне бетерегез"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Кире кайтар"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Фронтка китерегез"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Барлык аннотацияләрне төркемләгез"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Төркем аннотациясе"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Аннотациягә аңлатма өстәгез ..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Аннотация үзлекләре..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Аннотация көйләүләре",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Гадәт",
 		"vsdv-printImagesDialog-title": "Рәсемнәрне бастыру",
 		"vsdv-printImagesPanel-imagePrintingString": "Рәсем бастырыла",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Рәсем тамашачысы көйләүләре",
 		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз тамашачы көйләүләре",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Рәсемне аннотацияләр белән әйләндерегез",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Әйләнү почмагы нульдән артык булырга тиеш.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотацияләр белән рәсемне әйләндерү"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотацияләр белән рәсемне әйләндерү",
+		"vsdv-uploadImageFromUrlDialog-title": "URL-тан рәсемне йөкләү",
+		"vsdv-exportFileSettingsDialog-title": "Файл көйләүләрен экспортлагыз"
 	}
 }

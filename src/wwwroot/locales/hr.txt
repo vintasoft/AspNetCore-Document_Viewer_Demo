@@ -661,6 +661,79 @@
 				"value": "Odustani"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Odustani"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Naziv datoteke:"
+			},
+			"fileFormatLabel": {
+				"text": "Format datoteke:"
+			},
+			"savePagesLabel": {
+				"text": "Spremi stranice:"
+			},
+			"allPagesOption": {
+				"text": "Sve stranice"
+			},
+			"currentPageOption": {
+				"text": "Trenutna stranica"
+			},
+			"pagesOption": {
+				"text": "Stranice"
+			},
+			"saveAnnoLabel": {
+				"text": "Spremi zabilješke"
+			},
+			"burnAnnoLabel": {
+				"text": "Snimite bilješke"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Odustani"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zakreni pogled u smjeru kazaljke na satu"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zakreni prikaz u smjeru suprotnom od kazaljke na satu"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopiraj komentar"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Umetni komentar"
+		},
+		"removeAnnotationLabel": {
+			"text": "Izbriši komentar"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Pošalji nazad"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Stavi naprijed"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Grupiraj sve bilješke"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Razgrupiraj komentar"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Dodaj komentar napomeni..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Svojstva komentara..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Postavke napomena",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Prilagođeno",
 		"vsdv-printImagesDialog-title": "Ispis slika",
 		"vsdv-printImagesPanel-imagePrintingString": "Slika se ispisuje",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "s komentarima",
 		"vsdv-imageViewerSettingsDialog-title": "Postavke preglednika slika",
 		"vsdv-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Zakreni označenu sliku",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kut rotacije ne smije biti 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Označena slika se rotira"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Označena slika se rotira",
+		"vsdv-uploadImageFromUrlDialog-title": "Prenesi sliku s URL-a",
+		"vsdv-exportFileSettingsDialog-title": "Izvoz postavki datoteke"
 	}
 }

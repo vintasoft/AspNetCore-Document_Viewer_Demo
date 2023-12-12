@@ -661,6 +661,79 @@
 				"value": "Cancel"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "File name:"
+			},
+			"fileFormatLabel": {
+				"text": "File format:"
+			},
+			"savePagesLabel": {
+				"text": "Save pages:"
+			},
+			"allPagesOption": {
+				"text": "All pages"
+			},
+			"currentPageOption": {
+				"text": "Current page"
+			},
+			"pagesOption": {
+				"text": "Pages"
+			},
+			"saveAnnoLabel": {
+				"text": "Save annotations"
+			},
+			"burnAnnoLabel": {
+				"text": "Burn annotations"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Rotate view clockwise"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Rotate view counterclockwise"
+		},
+		"copyAnnotationLabel": {
+			"text": "Copy annotation"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Paste annotation"
+		},
+		"removeAnnotationLabel": {
+			"text": "Remove annotation"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Bring to back"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Bring to front"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Group all annotations"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Ungroup annotation"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Add annotation comment..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Annotation properties..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Annotation settings",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Custom",
 		"vsdv-printImagesDialog-title": "Print images",
 		"vsdv-printImagesPanel-imagePrintingString": "Image is printing",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Image viewer settings",
 		"vsdv-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotate image with annotations",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotation angle should be more than zero.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotating image with annotations"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotating image with annotations",
+		"vsdv-uploadImageFromUrlDialog-title": "Upload image from URL",
+		"vsdv-exportFileSettingsDialog-title": "Export file settings"
 	}
 }

@@ -661,6 +661,79 @@
 				"value": "Отмена"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Имя файла:"
+			},
+			"fileFormatLabel": {
+				"text": "Формат файла:"
+			},
+			"savePagesLabel": {
+				"text": "Сохраните страницы:"
+			},
+			"allPagesOption": {
+				"text": "Всех страницах"
+			},
+			"currentPageOption": {
+				"text": "Текущей странице"
+			},
+			"pagesOption": {
+				"text": "Страницы"
+			},
+			"saveAnnoLabel": {
+				"text": "Сохранить аннотации"
+			},
+			"burnAnnoLabel": {
+				"text": "Прожечь аннотации"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Повернуть вид по часовой стрелке"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Повернуть вид против часовой стрелки"
+		},
+		"copyAnnotationLabel": {
+			"text": "Копировать аннотацию"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Вставить аннотацию"
+		},
+		"removeAnnotationLabel": {
+			"text": "Удалить аннотацию"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Переместить на задний план"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Переместить на передний план"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Группировать все аннотации"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Разгруппировать аннотацию"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Добавить комментарий к аннотации..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Свойства аннотации..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Настройки аннотаций",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Пользовательский",
 		"vsdv-printImagesDialog-title": "Распечатать изображения",
 		"vsdv-printImagesPanel-imagePrintingString": "Изображение печатается",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "с аннотациями",
 		"vsdv-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
 		"vsdv-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Повернуть изображение с аннотациями",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Угол поворота должен быть не равен 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Выполняется поворот изображения с аннотациями"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Выполняется поворот изображения с аннотациями",
+		"vsdv-uploadImageFromUrlDialog-title": "Открыть изображение с URL",
+		"vsdv-exportFileSettingsDialog-title": "Экспортируйте настройки файла"
 	}
 }

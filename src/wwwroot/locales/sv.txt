@@ -661,6 +661,79 @@
 				"value": "Avbryt"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Filnamn:"
+			},
+			"fileFormatLabel": {
+				"text": "Filformat:"
+			},
+			"savePagesLabel": {
+				"text": "Spara sidorna:"
+			},
+			"allPagesOption": {
+				"text": "Alla sidor"
+			},
+			"currentPageOption": {
+				"text": "Aktuell sida"
+			},
+			"pagesOption": {
+				"text": "Sidor"
+			},
+			"saveAnnoLabel": {
+				"text": "Spara kommentarer"
+			},
+			"burnAnnoLabel": {
+				"text": "Bränn anteckningar"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Rotera vyn medurs"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Rotera vyn moturs"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopiera anteckning"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Infoga anteckning"
+		},
+		"removeAnnotationLabel": {
+			"text": "Ta bort anteckning"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Skicka till baksidan"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Ta fram"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Gruppera alla kommentarer"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Avgruppera anteckning"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Lägg till kommentar till anteckning..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Anteckningsegenskaper..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Anteckningsinställningar",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Anpassad",
 		"vsdv-printImagesDialog-title": "Skriv ut bilder",
 		"vsdv-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "med kommentarer",
 		"vsdv-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
 		"vsdv-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotera kommenterad bild",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinkeln får inte vara 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras",
+		"vsdv-uploadImageFromUrlDialog-title": "Ladda upp bild från URL",
+		"vsdv-exportFileSettingsDialog-title": "Exportera filinställningarna"
 	}
 }

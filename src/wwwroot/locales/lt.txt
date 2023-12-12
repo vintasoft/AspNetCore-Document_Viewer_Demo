@@ -103,7 +103,7 @@
 			"title": "Trikampis"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": "Sąveikos režimas „Autorius“"
+			"title": "Sąveikos režimas 'Autorius'"
 		},
 		"copyAnnotationButton": {
 			"title": "Nukopijuokite paryškintą anotaciją"
@@ -275,10 +275,10 @@
 			"title": "ženklas"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "Sąveikos režimas „Nėra“"
+			"title": "Sąveikos režimas 'Nėra'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "Sąveikos režimas „Žiūrėti“"
+			"title": "Sąveikos režimas 'Žiūrėti'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Maži sąveikos taškai"
@@ -661,6 +661,79 @@
 				"value": "Atšaukti"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Failo pavadinimas:"
+			},
+			"fileFormatLabel": {
+				"text": "Dokumento formatas:"
+			},
+			"savePagesLabel": {
+				"text": "Išsaugoti puslapius:"
+			},
+			"allPagesOption": {
+				"text": "Visi puslapiai"
+			},
+			"currentPageOption": {
+				"text": "Dabartinis puslapis"
+			},
+			"pagesOption": {
+				"text": "Puslapiai"
+			},
+			"saveAnnoLabel": {
+				"text": "Išsaugoti komentarus"
+			},
+			"burnAnnoLabel": {
+				"text": "Įrašyti komentarus"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Sukti vaizdą pagal laikrodžio rodyklę"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pasukti vaizdą prieš laikrodžio rodyklę"
+		},
+		"copyAnnotationLabel": {
+			"text": "Nukopijuoti anotaciją"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Įklijuoti anotaciją"
+		},
+		"removeAnnotationLabel": {
+			"text": "Pašalinti anotaciją"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Atnešk atgal"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Atnešti į priekį"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Grupuokite visus komentarus"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Išgrupuoti anotaciją"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Pridėti komentarą prie anotacijos..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Komentarų ypatybės..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Anotacijos nustatymai",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pasirinktinis",
 		"vsdv-printImagesDialog-title": "Spausdinti vaizdus",
 		"vsdv-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Pasukite vaizdą su komentarais",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Sukimosi kampas turi būti didesnis nei nulis.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Sukamasis vaizdas su komentarais"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Sukamasis vaizdas su komentarais",
+		"vsdv-uploadImageFromUrlDialog-title": "Įkelti vaizdą iš URL",
+		"vsdv-exportFileSettingsDialog-title": "Eksportuoti failo nustatymus"
 	}
 }

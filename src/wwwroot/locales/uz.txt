@@ -103,7 +103,7 @@
 			"title": "Uchburchak"
 		},
 		"authorAnnotationInteractionMode": {
-			"title": ""Muallif" o'zaro aloqa rejimi"
+			"title": "'Muallif' o'zaro aloqa rejimi"
 		},
 		"copyAnnotationButton": {
 			"title": "Fokuslangan izohni nusxalash"
@@ -275,10 +275,10 @@
 			"title": "Mark"
 		},
 		"noneAnnotationInteractionMode": {
-			"title": "O'zaro aloqa rejimi "Yo'q""
+			"title": "O'zaro aloqa rejimi 'Yo'q'"
 		},
 		"viewAnnotationInteractionMode": {
-			"title": "O'zaro aloqa rejimi "Ko'rish""
+			"title": "O'zaro aloqa rejimi 'Ko'rish'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kichik o'zaro ta'sir nuqtalari"
@@ -661,6 +661,79 @@
 				"value": "Bekor qilish"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Fayl nomi:"
+			},
+			"fileFormatLabel": {
+				"text": "Fayl formati:"
+			},
+			"savePagesLabel": {
+				"text": "Sahifalarni saqlang:"
+			},
+			"allPagesOption": {
+				"text": "Barcha sahifalar"
+			},
+			"currentPageOption": {
+				"text": "Joriy sahifa"
+			},
+			"pagesOption": {
+				"text": "Sahifalar"
+			},
+			"saveAnnoLabel": {
+				"text": "Izohlarni saqlang"
+			},
+			"burnAnnoLabel": {
+				"text": "Izohlarni yoqish"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Ko'rinishni soat yo'nalishi bo'yicha aylantiring"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Ko'rinishni soat sohasi farqli ravishda aylantiring"
+		},
+		"copyAnnotationLabel": {
+			"text": "Izohni nusxalash"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Izohni joylashtirish"
+		},
+		"removeAnnotationLabel": {
+			"text": "Izohni olib tashlang"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Orqaga olib keling"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Oldinga olib keling"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Barcha izohlarni guruhlash"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Izohni guruhdan chiqarish"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Izohga izoh qo'shish..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Izoh xususiyatlari..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Annotatsiya sozlamalari",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Maxsus",
 		"vsdv-printImagesDialog-title": "Rasmlarni chop etish",
 		"vsdv-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
 		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Tasvirni izohlar bilan aylantiring",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Burilish burchagi noldan ortiq bo'lishi kerak.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izohlar bilan aylantiriladigan rasm"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izohlar bilan aylantiriladigan rasm",
+		"vsdv-uploadImageFromUrlDialog-title": "Rasmni URL manzilidan yuklang",
+		"vsdv-exportFileSettingsDialog-title": "Fayl sozlamalarini eksport qiling"
 	}
 }

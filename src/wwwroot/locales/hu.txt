@@ -661,6 +661,79 @@
 				"value": "Mégse"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Fájl név:"
+			},
+			"fileFormatLabel": {
+				"text": "Fájlformátum:"
+			},
+			"savePagesLabel": {
+				"text": "Oldalak mentése:"
+			},
+			"allPagesOption": {
+				"text": "Minden oldal"
+			},
+			"currentPageOption": {
+				"text": "Aktuális oldal"
+			},
+			"pagesOption": {
+				"text": "Oldalak"
+			},
+			"saveAnnoLabel": {
+				"text": "Megjegyzések mentése"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotációk írása"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Nézet forgatása az óramutató járásával megegyező irányba"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Nézet elforgatása az óramutató járásával ellentétes irányba"
+		},
+		"copyAnnotationLabel": {
+			"text": "Jegyzet másolása"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Jegyzet beszúrása"
+		},
+		"removeAnnotationLabel": {
+			"text": "Jegyzet törlése"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Küldés vissza"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Előre hozza"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Az összes megjegyzés csoportosítása"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "A megjegyzés csoportosítása"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Megjegyzés hozzáadása a kommentárhoz..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Annotáció tulajdonságai..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Annotáció beállításai",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Egyedi",
 		"vsdv-printImagesDialog-title": "Képek nyomtatása",
 		"vsdv-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
 		"vsdv-imageViewerSettingsDialog-title": "A képnézegető beállításai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "A megjegyzésekkel ellátott kép elforgatása",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Az elforgatási szög nem lehet 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "A megjegyzésekkel ellátott kép elforgatása folyamatban van"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "A megjegyzésekkel ellátott kép elforgatása folyamatban van",
+		"vsdv-uploadImageFromUrlDialog-title": "Kép feltöltése az URL-ről",
+		"vsdv-exportFileSettingsDialog-title": "Fájlbeállítások exportálása"
 	}
 }

@@ -661,6 +661,79 @@
 				"value": "Бекор кардан"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Номи парванда:"
+			},
+			"fileFormatLabel": {
+				"text": "Формати файл:"
+			},
+			"savePagesLabel": {
+				"text": "Саҳифаҳоро захира кунед:"
+			},
+			"allPagesOption": {
+				"text": "Ҳама саҳифаҳо"
+			},
+			"currentPageOption": {
+				"text": "Саҳифаи ҷорӣ"
+			},
+			"pagesOption": {
+				"text": "Саҳифаҳо"
+			},
+			"saveAnnoLabel": {
+				"text": "Эзоҳҳоро захира кунед"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияҳоро сӯзондан"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Намоишро бо ақрабаки соат гардонед"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Намоишро ба муқобили ақрабаки соат гардонед"
+		},
+		"copyAnnotationLabel": {
+			"text": "Аннотацияро нусхабардорӣ кунед"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Аннотацияро часбонед"
+		},
+		"removeAnnotationLabel": {
+			"text": "Аннотацияро хориҷ кунед"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Ба пас оваред"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Ба пеш оваред"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Ҳама эзоҳҳоро гурӯҳбандӣ кунед"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Аннотацияро ҷудо кунед"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Илова кардани шарҳ ба эзоҳ..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Хусусиятҳои эзоҳ..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Танзимоти эзоҳ",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
 		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
 		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
 		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Тасвирро бо эзоҳҳо гардиш кунед",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кунҷи гардиш бояд аз сифр зиёд бошад.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Тасвирро даврзананда бо эзоҳҳо"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Тасвирро даврзананда бо эзоҳҳо",
+		"vsdv-uploadImageFromUrlDialog-title": "Тасвирро аз URL бор кунед",
+		"vsdv-exportFileSettingsDialog-title": "Танзимоти файлро содир кунед"
 	}
 }

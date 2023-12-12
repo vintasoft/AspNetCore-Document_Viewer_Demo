@@ -661,6 +661,79 @@
 				"value": "Kanselleer"
 			}
 		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Lêernaam:"
+			},
+			"fileFormatLabel": {
+				"text": "Lêerformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Stoor bladsye:"
+			},
+			"allPagesOption": {
+				"text": "Alle bladsye"
+			},
+			"currentPageOption": {
+				"text": "Huidige bladsy"
+			},
+			"pagesOption": {
+				"text": "Bladsye"
+			},
+			"saveAnnoLabel": {
+				"text": "Stoor aantekeninge"
+			},
+			"burnAnnoLabel": {
+				"text": "Brand aantekeninge"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Draai aansig kloksgewys"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Draai aansig antikloksgewys"
+		},
+		"copyAnnotationLabel": {
+			"text": "Kopieer aantekening"
+		},
+		"pasteAnnotationLabel": {
+			"text": "Voeg aantekening in"
+		},
+		"removeAnnotationLabel": {
+			"text": "Vee aantekening uit"
+		},
+		"bringAnnotationToBackLabel": {
+			"text": "Stuur na rug"
+		},
+		"bringAnnotationToFrontLabel": {
+			"text": "Bring na voor"
+		},
+		"groupAllAnnotationsLabel": {
+			"text": "Groep alle aantekeninge"
+		},
+		"ungroupAnnotationLabel": {
+			"text": "Ongroepeer annotasie"
+		},
+		"addAnnotationCommentLabel": {
+			"text": "Voeg opmerking by aantekening..."
+		},
+		"annotationPropertiesLabel": {
+			"text": "Annotasie-eienskappe..."
+		},
 		"annotationSettingsDialog": {
 			"title": "Aantekening-instellings",
 			"Border": {
@@ -927,11 +1000,14 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Gepasmaak",
 		"vsdv-printImagesDialog-title": "Druk prente",
 		"vsdv-printImagesPanel-imagePrintingString": "Prent word druk",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "met aantekeninge",
 		"vsdv-imageViewerSettingsDialog-title": "Beeldkyker-instellings",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kleinkiekie-kyker-instellings",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:",
 		"vsdv-rotateImageWithAnnotationsDialog-title": "Draai geannoteerde prent",
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotasiehoek moet nie 0 wees nie.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde prent word gedraai"
+		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Geannoteerde prent word gedraai",
+		"vsdv-uploadImageFromUrlDialog-title": "Laai prent op vanaf URL",
+		"vsdv-exportFileSettingsDialog-title": "Voer lêerinstellings uit"
 	}
 }
