@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Аннотацияҳо"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Файлро бор кунед ва кушоед"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Файлро бор кунед ва илова кунед"
 		},
 		"previousUploadFilesButton": {
 			"title": "Файлҳои қаблан боршуда"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Файли тасвириро тавассути URL бор кунед ва кушоед"
+		"openFileFromUrlButton": {
+			"title": "Файлро аз URL кушоед"
 		},
 		"printImagesButton": {
 			"title": "Тасвирҳоро чоп кунед"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Файлро содирот ва зеркашӣ кунед"
+		},
+		"clearSessionCacheButton": {
+			"title": "Тоза кардани кэши сессия"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ба паҳнои мувофиқ"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "Интихоби бисёрҷониба:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Барои эскиз қуттиҳои қайдкуниро истифода баред:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Панели амалҳоро барои эскиз истифода баред:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Метавонад эскизҳоро кашад:"
 			},
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Файлро бор кунед",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлро бор кунед ва кушоед",
+		"vsdv-uploadAndAddFileButton-addFileString": "Файлро бор кунед ва илова кунед",
 		"vsdv-textSearchPanel-pageLabel": "Саҳифа",
 		"vsdv-openFile-addFileString": "Илова кардани файл",
 		"vsdv-openFile-authenticateFileString": "Файлро тасдиқ кунед",
@@ -1000,7 +1013,7 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
 		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
 		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
 		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
 		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кунҷи гардиш бояд аз сифр зиёд бошад.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Тасвирро даврзананда бо эзоҳҳо",
 		"vsdv-uploadImageFromUrlDialog-title": "Тасвирро аз URL бор кунед",
-		"vsdv-exportFileSettingsDialog-title": "Танзимоти файлро содир кунед"
+		"vsdv-exportFileSettingsDialog-title": "Танзимот барои содироти файл"
 	}
 }

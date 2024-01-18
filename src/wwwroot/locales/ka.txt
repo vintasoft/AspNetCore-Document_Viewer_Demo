@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "ანოტაციები"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "ატვირთეთ და გახსენით ფაილი"
+		},
+		"uploadAndAddFileButton": {
+			"title": "ატვირთეთ და დაამატეთ ფაილი"
 		},
 		"previousUploadFilesButton": {
 			"title": "ადრე ატვირთული ფაილები"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "ატვირთეთ და გახსენით სურათის ფაილი URL-ით"
+		"openFileFromUrlButton": {
+			"title": "გახსენით ფაილი URL-დან"
 		},
 		"printImagesButton": {
 			"title": "სურათების დაბეჭდვა"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "ფაილის ექსპორტი და ჩამოტვირთვა"
+		},
+		"clearSessionCacheButton": {
+			"title": "სესიის ქეშის გასუფთავება"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "მოერგება სიგანეს"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "მრავალჯერადი შერჩევა:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "გამოიყენეთ მოსანიშნი ველები ესკიზებისთვის:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "გამოიყენეთ მოქმედებების პანელი ესკიზისთვის:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "შეუძლია მინიატურების გადატანა:"
 			},
@@ -677,7 +689,7 @@
 				"text": "Ფაილის ფორმატი:"
 			},
 			"savePagesLabel": {
-				"text": "გვერდების შენახვა:"
+				"text": "შეინახეთ გვერდები:"
 			},
 			"allPagesOption": {
 				"text": "ყველა გვერდი"
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Ატვირთე ფაილი",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "ატვირთეთ და გახსენით ფაილი",
+		"vsdv-uploadAndAddFileButton-addFileString": "ატვირთეთ და დაამატეთ ფაილი",
 		"vsdv-textSearchPanel-pageLabel": "გვერდი",
 		"vsdv-openFile-addFileString": "Ფაილის დამატება",
 		"vsdv-openFile-authenticateFileString": "ფაილის ავთენტიფიკაცია",
@@ -1000,7 +1013,7 @@
 		"vsdv-imageSelectionDialog-customImagesString": "საბაჟო",
 		"vsdv-printImagesDialog-title": "სურათების დაბეჭდვა",
 		"vsdv-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ანოტაციებით",
 		"vsdv-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
 		"vsdv-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "ბრუნვის კუთხე უნდა იყოს ნულზე მეტი.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "მბრუნავი სურათი ანოტაციებით",
 		"vsdv-uploadImageFromUrlDialog-title": "ატვირთეთ სურათი URL-დან",
-		"vsdv-exportFileSettingsDialog-title": "ფაილის პარამეტრების ექსპორტი"
+		"vsdv-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის"
 	}
 }

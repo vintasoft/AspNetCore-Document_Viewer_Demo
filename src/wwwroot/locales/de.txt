@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Anmerkungen"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Datei herunterladen und öffnen"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Datei hochladen und hinzufügen"
 		},
 		"previousUploadFilesButton": {
 			"title": "Zeigen Sie eine Liste der zuvor heruntergeladenen Dateien an"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Bilddatei per URL hochladen und öffnen"
+		"openFileFromUrlButton": {
+			"title": "Datei über URL öffnen"
 		},
 		"printImagesButton": {
 			"title": "Bilder drucken"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Datei exportieren und herunterladen"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sitzungscache leeren"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "An Breite anpassen"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "Auswahl mehrerer Miniaturansichten zulassen:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Kontrollkästchen für Miniaturansichten verwenden:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Verwenden Sie das Aktionsfeld für Miniaturansichten:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kann Miniaturansichten ziehen:"
 			},
@@ -677,7 +689,7 @@
 				"text": "Datei Format:"
 			},
 			"savePagesLabel": {
-				"text": "Seiten speichern:"
+				"text": "Speichern Sie die Seiten:"
 			},
 			"allPagesOption": {
 				"text": "Alle Seiten"
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Datei hochladen",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Datei herunterladen und öffnen",
+		"vsdv-uploadAndAddFileButton-addFileString": "Datei hochladen und hinzufügen",
 		"vsdv-textSearchPanel-pageLabel": "Seite",
 		"vsdv-openFile-addFileString": "Datei hinzufügen",
 		"vsdv-openFile-authenticateFileString": "Datei authentifizieren",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationswinkel darf nicht 0 sein.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Das mit Anmerkungen versehene Bild wird gedreht",
 		"vsdv-uploadImageFromUrlDialog-title": "Bild von URL hochladen",
-		"vsdv-exportFileSettingsDialog-title": "Dateieinstellungen exportieren"
+		"vsdv-exportFileSettingsDialog-title": "Die Einstellungen zum Exportieren der Datei"
 	}
 }

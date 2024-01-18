@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Анотації"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Завантажте та відкрийте файл"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Завантажити та додати файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Раніше завантажені файли"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Завантажте та відкрийте файл зображення за URL-адресою"
+		"openFileFromUrlButton": {
+			"title": "Відкрити файл з URL"
 		},
 		"printImagesButton": {
 			"title": "Друк зображень"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Експортуйте та завантажуйте файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Очистити кеш сесії"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Підгонка по ширині"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "Множинний вибір:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Використовуйте прапорці для мініатюри:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Використовуйте панель дій для мініатюри:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Можна перетягувати мініатюри:"
 			},
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Завантажити файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Завантажте та відкрийте файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Завантажити та додати файл",
 		"vsdv-textSearchPanel-pageLabel": "Сторінка",
 		"vsdv-openFile-addFileString": "Додати файл",
 		"vsdv-openFile-authenticateFileString": "Автентифікувати файл",
@@ -1000,7 +1013,7 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Custom",
 		"vsdv-printImagesDialog-title": "Друк зображень",
 		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "з анотаціями",
 		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут повороту повинен бути більше нуля.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Зображення, що обертається, з анотаціями",
 		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL",
-		"vsdv-exportFileSettingsDialog-title": "Експортуйте налаштування файлу"
+		"vsdv-exportFileSettingsDialog-title": "Параметри експорту файлу"
 	}
 }

@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Bilješke"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Preuzmi i otvori datoteku"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Prenesi i dodaj datoteku"
 		},
 		"previousUploadFilesButton": {
 			"title": "Pogledajte popis prethodno preuzetih datoteka"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Prenesite i otvorite slikovnu datoteku prema URL-u"
+		"openFileFromUrlButton": {
+			"title": "Otvori datoteku s URL-a"
 		},
 		"printImagesButton": {
 			"title": "Ispis slika"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Izvoz i preuzimanje datoteke"
+		},
+		"clearSessionCacheButton": {
+			"title": "Očisti predmemoriju sesije"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prilagodi širini"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "Dopusti odabir više sličica:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Koristite potvrdne okvire za minijaturu:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Koristite radnu ploču za minijaturu:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Mogu povlačiti sličice:"
 			},
@@ -677,7 +689,7 @@
 				"text": "Format datoteke:"
 			},
 			"savePagesLabel": {
-				"text": "Spremi stranice:"
+				"text": "Spremite stranice:"
 			},
 			"allPagesOption": {
 				"text": "Sve stranice"
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Učitaj datoteku",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Preuzmi i otvori datoteku",
+		"vsdv-uploadAndAddFileButton-addFileString": "Prenesi i dodaj datoteku",
 		"vsdv-textSearchPanel-pageLabel": "Stranica",
 		"vsdv-openFile-addFileString": "Dodaj datoteku",
 		"vsdv-openFile-authenticateFileString": "Ovjerite datoteku",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kut rotacije ne smije biti 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Označena slika se rotira",
 		"vsdv-uploadImageFromUrlDialog-title": "Prenesi sliku s URL-a",
-		"vsdv-exportFileSettingsDialog-title": "Izvoz postavki datoteke"
+		"vsdv-exportFileSettingsDialog-title": "Postavke za izvoz datoteke"
 	}
 }

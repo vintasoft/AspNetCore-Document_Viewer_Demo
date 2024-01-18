@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Anotace"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Stáhněte a otevřete soubor"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Nahrajte a přidejte soubor"
 		},
 		"previousUploadFilesButton": {
 			"title": "Zobrazit seznam dříve stažených souborů"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Nahrajte a otevřete soubor obrázku podle adresy URL"
+		"openFileFromUrlButton": {
+			"title": "Otevřete soubor z adresy URL"
 		},
 		"printImagesButton": {
 			"title": "Tisk obrázků"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportujte a stáhněte soubor"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vymazat mezipaměť relace"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Přizpůsobit šířce"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "Povolit výběr více miniatur:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Použijte zaškrtávací políčka pro miniatury:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Použijte panel akcí pro miniaturu:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Může přetahovat miniatury:"
 			},
@@ -677,7 +689,7 @@
 				"text": "Formát souboru:"
 			},
 			"savePagesLabel": {
-				"text": "Uložit stránky:"
+				"text": "Uložte stránky:"
 			},
 			"allPagesOption": {
 				"text": "Všechny stránky"
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Nahrát soubor",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Stáhněte a otevřete soubor",
+		"vsdv-uploadAndAddFileButton-addFileString": "Nahrajte a přidejte soubor",
 		"vsdv-textSearchPanel-pageLabel": "Stránka",
 		"vsdv-openFile-addFileString": "Přidat soubor",
 		"vsdv-openFile-authenticateFileString": "Ověření souboru",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Úhel otočení nesmí být 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Anotovaný obrázek se otáčí",
 		"vsdv-uploadImageFromUrlDialog-title": "Nahrajte obrázek z adresy URL",
-		"vsdv-exportFileSettingsDialog-title": "Export nastavení souboru"
+		"vsdv-exportFileSettingsDialog-title": "Nastavení pro export souboru"
 	}
 }

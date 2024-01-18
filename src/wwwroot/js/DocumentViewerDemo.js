@@ -80,7 +80,7 @@ function __initMenu(docViewerSettings) {
 
     var uploadFileButton = items.getItemByRegisteredId("uploadFileButton");
     if (uploadFileButton != null)
-        uploadFileButton.set_FileExtensionFilter(".bmp, .emf, .gif, .ico, .cur, .jpg, .jpeg, .jls, .pcx, .png, .tif, .tiff, .wmf, .jb2, .jbig2, .jp2, .j2k, .j2c, .jpc, .pdf, .docx, .doc, .xlsx, .xls");
+        uploadFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff, .xlsx, .xls");
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");
@@ -90,7 +90,7 @@ function __initMenu(docViewerSettings) {
         var fileMenuPanelItems = fileMenuPanel.get_Items();
 
         // add the "Previous uploaded files" button to the menu panel
-        fileMenuPanelItems.insertItem(1, "previousUploadFilesButton");
+        fileMenuPanelItems.insertItem(2, "previousUploadFilesButton");
     }
 
     // get the "Visual tools" menu panel
@@ -443,6 +443,8 @@ function __main() {
     // specify that document viewer should show "Export and download file" button instead of "Download file" button
     docViewerSettings.set_CanExportAndDownloadFile(true);
     docViewerSettings.set_CanDownloadFile(false);
+    docViewerSettings.set_CanAddFile(true);
+    docViewerSettings.set_CanClearSessionCache(true);
 
     // initialize main menu of document viewer
     __initMenu(docViewerSettings);

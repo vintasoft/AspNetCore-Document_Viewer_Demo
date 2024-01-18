@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Chú thích"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Tải xuống và mở tệp"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Tải lên và thêm tập tin"
 		},
 		"previousUploadFilesButton": {
 			"title": "Xem danh sách các tệp đã tải xuống trước đó"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Tải lên và mở tệp hình ảnh bằng URL"
+		"openFileFromUrlButton": {
+			"title": "Mở tệp từ URL"
 		},
 		"printImagesButton": {
 			"title": "In ảnh"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Xuất và tải xuống tệp"
+		},
+		"clearSessionCacheButton": {
+			"title": "Xóa bộ nhớ đệm phiên"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Vừa với Chiều rộng"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "Cho phép lựa chọn nhiều hình thu nhỏ:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Sử dụng các hộp kiểm cho hình thu nhỏ:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Sử dụng bảng hành động cho hình thu nhỏ:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Có thể kéo hình thu nhỏ:"
 			},
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Tải xuống và mở tệp",
+		"vsdv-uploadAndAddFileButton-addFileString": "Tải lên và thêm tập tin",
 		"vsdv-textSearchPanel-pageLabel": "Trang",
 		"vsdv-openFile-addFileString": "Thêm tập tin",
 		"vsdv-openFile-authenticateFileString": "Xác thực tập tin",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Góc xoay không được bằng 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Hình ảnh được chú thích đang được xoay",
 		"vsdv-uploadImageFromUrlDialog-title": "Tải hình ảnh lên từ URL",
-		"vsdv-exportFileSettingsDialog-title": "Xuất cài đặt tập tin"
+		"vsdv-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin"
 	}
 }

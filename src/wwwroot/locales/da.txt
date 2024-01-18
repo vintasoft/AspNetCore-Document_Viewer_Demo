@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Annoteringer"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Download og åbn fil"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Upload og tilføj fil"
 		},
 		"previousUploadFilesButton": {
 			"title": "Se en liste over tidligere downloadede filer"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Upload og åbn billedfil ved URL"
+		"openFileFromUrlButton": {
+			"title": "Åbn fil fra URL"
 		},
 		"printImagesButton": {
 			"title": "Udskriv billeder"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Eksporter og download fil"
+		},
+		"clearSessionCacheButton": {
+			"title": "Ryd sessionscache"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Tilpas til bredde"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "Tillad valg af flere miniaturebilleder:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Brug afkrydsningsfelter til thumbnail:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Brug handlingspanelet til thumbnail:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan trække miniaturebilleder:"
 			},
@@ -677,7 +689,7 @@
 				"text": "Filformat:"
 			},
 			"savePagesLabel": {
-				"text": "Gem sider:"
+				"text": "Gem siderne:"
 			},
 			"allPagesOption": {
 				"text": "Alle sider"
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Upload fil",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Download og åbn fil",
+		"vsdv-uploadAndAddFileButton-addFileString": "Upload og tilføj fil",
 		"vsdv-textSearchPanel-pageLabel": "Side",
 		"vsdv-openFile-addFileString": "Tilføj fil",
 		"vsdv-openFile-authenticateFileString": "Godkend fil",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinklen må ikke være 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenteret billede bliver roteret",
 		"vsdv-uploadImageFromUrlDialog-title": "Upload billede fra URL",
-		"vsdv-exportFileSettingsDialog-title": "Eksporter filindstillinger"
+		"vsdv-exportFileSettingsDialog-title": "Indstillingerne for at eksportere fil"
 	}
 }

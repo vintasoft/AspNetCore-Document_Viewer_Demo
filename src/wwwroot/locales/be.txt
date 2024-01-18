@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Анатацыі"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Загрузіць і адкрыць файл"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Загрузіць і дадаць файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Раней загружаныя файлы"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Загрузіце і адкрыйце файл выявы па URL"
+		"openFileFromUrlButton": {
+			"title": "Адкрыць файл з URL"
 		},
 		"printImagesButton": {
 			"title": "Друк малюнкаў"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Экспартаваць і спампаваць файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Ачысціць кэш сеанса"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Падганяць па шырыні"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "Множны выбар:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Выкарыстоўвайце сцяжкі для мініяцюр:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Выкарыстоўвайце панэль дзеянняў для мініяцюры:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Можна перацягваць эскізы:"
 			},
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Загрузіць файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузіць і адкрыць файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Загрузіць і дадаць файл",
 		"vsdv-textSearchPanel-pageLabel": "старонка",
 		"vsdv-openFile-addFileString": "Дадаць файл",
 		"vsdv-openFile-authenticateFileString": "Аўтэнтыфікаваць файл",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут павароту павінен быць больш нуля.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Паваротная выява з анатацыямі",
 		"vsdv-uploadImageFromUrlDialog-title": "Загрузіць выяву з URL",
-		"vsdv-exportFileSettingsDialog-title": "Экспарт налад файла"
+		"vsdv-exportFileSettingsDialog-title": "Налады для экспарту файла"
 	}
 }

@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Opombe"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Naloži in odpri datoteko"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Naložite in dodajte datoteko"
 		},
 		"previousUploadFilesButton": {
 			"title": "Prej naložene datoteke"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Naložite in odprite slikovno datoteko po URL-ju"
+		"openFileFromUrlButton": {
+			"title": "Odpri datoteko z naslova URL"
 		},
 		"printImagesButton": {
 			"title": "Natisnite slike"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Izvozi in prenesi datoteko"
+		},
+		"clearSessionCacheButton": {
+			"title": "Počisti predpomnilnik seje"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prilagodi širini"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "Večkratna izbira:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Uporabite potrditvena polja za sličico:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Uporabi ploščo z dejanji za sličico:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Lahko povlečete sličice:"
 			},
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Naloži in odpri datoteko",
+		"vsdv-uploadAndAddFileButton-addFileString": "Naložite in dodajte datoteko",
 		"vsdv-textSearchPanel-pageLabel": "Stran",
 		"vsdv-openFile-addFileString": "Dodaj datoteko",
 		"vsdv-openFile-authenticateFileString": "Preveri pristnost datoteke",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Kot vrtenja mora biti večji od nič.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Vrteča se slika z opombami",
 		"vsdv-uploadImageFromUrlDialog-title": "Naloži sliko z naslova URL",
-		"vsdv-exportFileSettingsDialog-title": "Izvozite nastavitve datoteke"
+		"vsdv-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke"
 	}
 }

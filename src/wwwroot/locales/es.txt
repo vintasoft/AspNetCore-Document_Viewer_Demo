@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Anotaciones"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Descargar y abrir archivo"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Subir y agregar archivo"
 		},
 		"previousUploadFilesButton": {
 			"title": "Ver una lista de archivos descargados previamente"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Cargar y abrir archivo de imagen por URL"
+		"openFileFromUrlButton": {
+			"title": "Abrir archivo desde URL"
 		},
 		"printImagesButton": {
 			"title": "Imprimir imágenes"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportar y descargar archivo"
+		},
+		"clearSessionCacheButton": {
+			"title": "Borrar caché de sesión"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ajustar al ancho"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "Permitir selección múltiple de miniaturas:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Utilice casillas de verificación para la miniatura:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Utilice el panel de acciones para la miniatura:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Puede arrastrar miniaturas:"
 			},
@@ -677,7 +689,7 @@
 				"text": "Formato de archivo:"
 			},
 			"savePagesLabel": {
-				"text": "Guardar páginas:"
+				"text": "Guarde las páginas:"
 			},
 			"allPagesOption": {
 				"text": "Todas las páginas"
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Subir archivo",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descargar y abrir archivo",
+		"vsdv-uploadAndAddFileButton-addFileString": "Subir y agregar archivo",
 		"vsdv-textSearchPanel-pageLabel": "Página",
 		"vsdv-openFile-addFileString": "Agregar archivo",
 		"vsdv-openFile-authenticateFileString": "autenticar archivo",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "El ángulo de rotación no debe ser 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "La imagen anotada se está rotando",
 		"vsdv-uploadImageFromUrlDialog-title": "Subir imagen desde URL",
-		"vsdv-exportFileSettingsDialog-title": "Exportar configuración de archivos"
+		"vsdv-exportFileSettingsDialog-title": "La configuración para exportar el archivo."
 	}
 }

@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "Anteckningar"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Ladda ner och öppna filen"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Ladda upp och lägg till fil"
 		},
 		"previousUploadFilesButton": {
 			"title": "Visa en lista över tidigare nedladdade filer"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Ladda upp och öppna bildfilen via URL"
+		"openFileFromUrlButton": {
+			"title": "Öppna filen från URL"
 		},
 		"printImagesButton": {
 			"title": "Skriv ut bilder"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportera och ladda ner fil"
+		},
+		"clearSessionCacheButton": {
+			"title": "Rensa sessionscache"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Anpassa till bredd"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "Tillåt val av flera miniatyrer:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Använd kryssrutor för miniatyr:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Använd åtgärdspanelen för miniatyr:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan dra miniatyrer:"
 			},
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Ladda upp fil",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Ladda ner och öppna filen",
+		"vsdv-uploadAndAddFileButton-addFileString": "Ladda upp och lägg till fil",
 		"vsdv-textSearchPanel-pageLabel": "Sida",
 		"vsdv-openFile-addFileString": "Lägg till fil",
 		"vsdv-openFile-authenticateFileString": "Autentisera fil",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinkeln får inte vara 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras",
 		"vsdv-uploadImageFromUrlDialog-title": "Ladda upp bild från URL",
-		"vsdv-exportFileSettingsDialog-title": "Exportera filinställningarna"
+		"vsdv-exportFileSettingsDialog-title": "Inställningarna för att exportera filen"
 	}
 }

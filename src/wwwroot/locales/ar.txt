@@ -12,14 +12,17 @@
 		"annotationsLabel": {
 			"text": "التعليقات التوضيحية"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "تحميل وفتح الملف"
+		},
+		"uploadAndAddFileButton": {
+			"title": "تحميل وإضافة الملف"
 		},
 		"previousUploadFilesButton": {
 			"title": "عرض قائمة بالملفات التي تم تنزيلها مسبقًا"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "تحميل وفتح ملف الصورة عن طريق URL"
+		"openFileFromUrlButton": {
+			"title": "افتح الملف من URL"
 		},
 		"printImagesButton": {
 			"title": "طباعة الصور"
@@ -29,6 +32,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "تصدير وتنزيل الملف"
+		},
+		"clearSessionCacheButton": {
+			"title": "مسح ذاكرة التخزين المؤقت للجلسة"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "ملائم للعرض"
@@ -616,6 +622,12 @@
 			"multiSelectLabel": {
 				"text": "السماح باختيار صور مصغرة متعددة:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "استخدم مربعات الاختيار للصورة المصغرة:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "استخدم لوحة الإجراءات للصورة المصغرة:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "يمكن سحب الصور المصغرة:"
 			},
@@ -977,7 +989,8 @@
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "رفع ملف",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "تحميل وفتح الملف",
+		"vsdv-uploadAndAddFileButton-addFileString": "تحميل وإضافة الملف",
 		"vsdv-textSearchPanel-pageLabel": "الصفحة",
 		"vsdv-openFile-addFileString": "اضف ملف",
 		"vsdv-openFile-authenticateFileString": "مصادقة الملف",
@@ -1008,6 +1021,6 @@
 		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "زاوية الدوران يجب ألا تكون 0.",
 		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "يتم تدوير الصورة المشروحة",
 		"vsdv-uploadImageFromUrlDialog-title": "تحميل الصورة من URL",
-		"vsdv-exportFileSettingsDialog-title": "إعدادات ملف التصدير"
+		"vsdv-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف"
 	}
 }
