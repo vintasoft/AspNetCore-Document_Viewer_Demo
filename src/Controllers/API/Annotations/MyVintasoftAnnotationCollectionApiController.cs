@@ -1,10 +1,10 @@
 ﻿using System;
-
 using Microsoft.AspNetCore.Hosting;
-
-using Vintasoft.Data;
+using Microsoft.AspNetCore.Mvc;
 using Vintasoft.Imaging.Annotation.AspNetCore.ApiControllers;
 using Vintasoft.Imaging.Annotation.Formatters;
+using Vintasoft.Imaging.Annotation.Web.Services;
+using Vintasoft.Shared.Web;
 
 namespace AspNetCoreDocumentViewerDemo.Controllers
 {
@@ -27,5 +27,6 @@ namespace AspNetCoreDocumentViewerDemo.Controllers
             // set the custom annotation formatter
             Formatter = new CustomAnnotationJsonFormatter();
         }
+
     }
 }

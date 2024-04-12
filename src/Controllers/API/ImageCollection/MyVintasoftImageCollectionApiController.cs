@@ -1,5 +1,9 @@
 ﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using Vintasoft.Imaging.AspNetCore.ApiControllers;
+using Vintasoft.Imaging.Web.Services;
+using Vintasoft.Shared.Web;
 
 namespace AspNetCoreDocumentViewerDemo.Controllers
 {

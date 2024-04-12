@@ -480,6 +480,7 @@ function __main() {
     progressImage.src = __getApplicationUrl() + "Images/fileUploadProgress.gif";
     // specify that the image viewer must use the progress image for indicating the image loading progress
     imageViewer1.set_ProgressImage(progressImage);
+    imageViewer1.set_ChangeFocusedImageWhenScrolling(true);
 
     // get the visual tool
     var annotationNavigationTextSelectionTool = _docViewer.getVisualToolById("AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool");
