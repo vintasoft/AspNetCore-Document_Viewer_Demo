@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "افتح الملف من URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "إعدادات تخطيط المستند"
+		},
 		"printImagesButton": {
 			"title": "طباعة الصور"
 		},
@@ -338,6 +341,41 @@
 				"value": "موافق"
 			},
 			"сancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "استخدم إعدادات التخطيط الافتراضية"
+			},
+			"showHiddenContentLabel": {
+				"text": "إظهار المحتوى المخفي"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "استخدم عرض ورقة العمل كعرض الصفحة"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "استخدم ارتفاع ورقة العمل كارتفاع الصفحة"
+			},
+			"usePrintAreaLabel": {
+				"text": "استخدام منطقة الطباعة"
+			},
+			"usePageMarginLabel": {
+				"text": "استخدام هامش الصفحة"
+			},
+			"usePageScaleLabel": {
+				"text": "استخدم مقياس الصفحة"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "إظهار أوراق العمل المخفية"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "إظهار الرسومات المخفية"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
 				"value": "إلغاء"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "الصورة الحالية",
 		"vsdv-imageSelectionDialog-allImagesString": "كل الصور",
 		"vsdv-imageSelectionDialog-customImagesString": "مخصص",
+		"vsdv-documentLayoutSettingsDialog-title": "إعدادات تخطيط المستند",
 		"vsdv-printImagesDialog-title": "طباعة الصور",
 		"vsdv-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",

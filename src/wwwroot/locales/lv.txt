@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Atveriet failu no URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Dokumenta izkārtojuma iestatījumi"
+		},
 		"printImagesButton": {
 			"title": "Drukāt attēlus"
 		},
@@ -338,6 +341,41 @@
 				"value": "labi"
 			},
 			"сancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Izmantojiet noklusējuma izkārtojuma iestatījumus"
+			},
+			"showHiddenContentLabel": {
+				"text": "Rādīt slēpto saturu"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Izmantojiet darblapas platumu kā lapas platumu"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Izmantojiet darblapas augstumu kā lapas augstumu"
+			},
+			"usePrintAreaLabel": {
+				"text": "Izmantojiet drukas apgabalu"
+			},
+			"usePageMarginLabel": {
+				"text": "Izmantojiet lapas malu"
+			},
+			"usePageScaleLabel": {
+				"text": "Izmantojiet lapas mērogu"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Rādīt slēptās darblapas"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Rādīt slēptās grafikas"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
 				"value": "Atcelt"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Pašreizējais attēls",
 		"vsdv-imageSelectionDialog-allImagesString": "Visi attēli",
 		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumenta izkārtojuma iestatījumi",
 		"vsdv-printImagesDialog-title": "Drukāt attēlus",
 		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "ar anotācijām",

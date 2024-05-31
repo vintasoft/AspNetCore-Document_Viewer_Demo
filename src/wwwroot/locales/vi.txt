@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Mở tệp từ URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Cài đặt bố cục tài liệu"
+		},
 		"printImagesButton": {
 			"title": "In ảnh"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Sử dụng cài đặt bố cục mặc định"
+			},
+			"showHiddenContentLabel": {
+				"text": "Hiển thị nội dung ẩn"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Sử dụng chiều rộng trang tính làm chiều rộng trang"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Sử dụng chiều cao trang tính làm chiều cao trang"
+			},
+			"usePrintAreaLabel": {
+				"text": "Sử dụng vùng in"
+			},
+			"usePageMarginLabel": {
+				"text": "Sử dụng lề trang"
+			},
+			"usePageScaleLabel": {
+				"text": "Sử dụng tỷ lệ trang"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Hiển thị các bảng tính ẩn"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Hiển thị đồ họa ẩn"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Hủy"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
 		"vsdv-imageSelectionDialog-allImagesString": "Tất cả hình ảnh",
 		"vsdv-imageSelectionDialog-customImagesString": "Tùy chỉnh",
+		"vsdv-documentLayoutSettingsDialog-title": "Cài đặt bố cục tài liệu",
 		"vsdv-printImagesDialog-title": "In ảnh",
 		"vsdv-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "có chú thích",

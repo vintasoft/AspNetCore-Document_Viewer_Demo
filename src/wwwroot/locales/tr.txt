@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Dosyayı URL'den aç"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Belge düzeni ayarları"
+		},
 		"printImagesButton": {
 			"title": "Görüntüleri Yazdır"
 		},
@@ -338,6 +341,41 @@
 				"value": "Tamam"
 			},
 			"сancelButton": {
+				"value": "İptal"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Varsayılan düzen ayarlarını kullan"
+			},
+			"showHiddenContentLabel": {
+				"text": "Gizli içeriği göster"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Çalışma sayfası genişliğini sayfa genişliği olarak kullan"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Çalışma sayfası yüksekliğini sayfa yüksekliği olarak kullan"
+			},
+			"usePrintAreaLabel": {
+				"text": "Yazdırma alanını kullan"
+			},
+			"usePageMarginLabel": {
+				"text": "Sayfa kenar boşluğunu kullan"
+			},
+			"usePageScaleLabel": {
+				"text": "Sayfa ölçeğini kullan"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Gizli çalışma sayfalarını göster"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Gizli grafikleri göster"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
 				"value": "İptal"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Geçerli Resim",
 		"vsdv-imageSelectionDialog-allImagesString": "Tüm resimler",
 		"vsdv-imageSelectionDialog-customImagesString": "Özel",
+		"vsdv-documentLayoutSettingsDialog-title": "Belge düzeni ayarları",
 		"vsdv-printImagesDialog-title": "Görüntüleri Yazdır",
 		"vsdv-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "açıklamalarla",

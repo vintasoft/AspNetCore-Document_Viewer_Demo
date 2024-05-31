@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Ava fail URL-ist"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Dokumendi paigutuse seaded"
+		},
 		"printImagesButton": {
 			"title": "Printige pilte"
 		},
@@ -338,6 +341,41 @@
 				"value": "Okei"
 			},
 			"сancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Kasutage paigutuse vaikesätteid"
+			},
+			"showHiddenContentLabel": {
+				"text": "Kuva peidetud sisu"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Kasutage lehe laiuseks töölehe laiust"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Kasutage lehe kõrgusena töölehe kõrgust"
+			},
+			"usePrintAreaLabel": {
+				"text": "Kasutage prindiala"
+			},
+			"usePageMarginLabel": {
+				"text": "Kasutage lehe veerist"
+			},
+			"usePageScaleLabel": {
+				"text": "Kasutage lehe skaalat"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Kuva peidetud töölehed"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Näita peidetud graafikat"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
 				"value": "Tühista"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Praegune pilt",
 		"vsdv-imageSelectionDialog-allImagesString": "Kõik pildid",
 		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumendi paigutuse seaded",
 		"vsdv-printImagesDialog-title": "Printige pilte",
 		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",

@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "פתח קובץ מ-URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "הגדרות פריסת מסמך"
+		},
 		"printImagesButton": {
 			"title": "הדפס תמונות"
 		},
@@ -338,6 +341,41 @@
 				"value": "בסדר"
 			},
 			"сancelButton": {
+				"value": "בטל"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "השתמש בהגדרות ברירת המחדל של פריסה"
+			},
+			"showHiddenContentLabel": {
+				"text": "הצג תוכן מוסתר"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "השתמש ברוחב גליון העבודה בתור רוחב העמוד"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "השתמש בגובה גליון העבודה כגובה העמוד"
+			},
+			"usePrintAreaLabel": {
+				"text": "השתמש באזור ההדפסה"
+			},
+			"usePageMarginLabel": {
+				"text": "השתמש בשולי העמוד"
+			},
+			"usePageScaleLabel": {
+				"text": "השתמש בסולם עמודים"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "הצג גליונות עבודה נסתרים"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "הצג גרפיקה נסתרת"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
 				"value": "בטל"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "תמונה נוכחית",
 		"vsdv-imageSelectionDialog-allImagesString": "כל התמונות",
 		"vsdv-imageSelectionDialog-customImagesString": "מותאם אישית",
+		"vsdv-documentLayoutSettingsDialog-title": "הגדרות פריסת מסמך",
 		"vsdv-printImagesDialog-title": "הדפס תמונות",
 		"vsdv-printImagesPanel-imagePrintingString": "התמונה מודפסת",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "עם הערות",

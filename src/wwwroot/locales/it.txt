@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Apri il file dall'URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Impostazioni del layout del documento"
+		},
 		"printImagesButton": {
 			"title": "Stampa immagini"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Annulla"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Utilizza le impostazioni di layout predefinite"
+			},
+			"showHiddenContentLabel": {
+				"text": "Mostra contenuto nascosto"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Utilizza la larghezza del foglio di lavoro come larghezza della pagina"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Utilizza l'altezza del foglio di lavoro come altezza della pagina"
+			},
+			"usePrintAreaLabel": {
+				"text": "Utilizza l'area di stampa"
+			},
+			"usePageMarginLabel": {
+				"text": "Utilizza il margine della pagina"
+			},
+			"usePageScaleLabel": {
+				"text": "Utilizza la scala della pagina"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Mostra fogli di lavoro nascosti"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Mostra grafica nascosta"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Annulla"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Immagine corrente",
 		"vsdv-imageSelectionDialog-allImagesString": "Tutte le immagini",
 		"vsdv-imageSelectionDialog-customImagesString": "Personalizzato",
+		"vsdv-documentLayoutSettingsDialog-title": "Impostazioni del layout del documento",
 		"vsdv-printImagesDialog-title": "Stampa immagini",
 		"vsdv-printImagesPanel-imagePrintingString": "L'immagine è in fase di stampa",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "con annotazioni",

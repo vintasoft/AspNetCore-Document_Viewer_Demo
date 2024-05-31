@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Maak lêer oop vanaf URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Dokumentuitleginstellings"
+		},
 		"printImagesButton": {
 			"title": "Druk prente"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Gebruik verstekuitleginstellings"
+			},
+			"showHiddenContentLabel": {
+				"text": "Wys verborge inhoud"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Gebruik werkbladwydte as bladsywydte"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Gebruik werkbladhoogte as bladsyhoogte"
+			},
+			"usePrintAreaLabel": {
+				"text": "Gebruik drukarea"
+			},
+			"usePageMarginLabel": {
+				"text": "Gebruik bladsymarge"
+			},
+			"usePageScaleLabel": {
+				"text": "Gebruik bladsyskaal"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Wys versteekte werkblaaie"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Wys verborge grafika"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Kanselleer"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Huidige prent",
 		"vsdv-imageSelectionDialog-allImagesString": "Alle beelde",
 		"vsdv-imageSelectionDialog-customImagesString": "Gepasmaak",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumentuitleginstellings",
 		"vsdv-printImagesDialog-title": "Druk prente",
 		"vsdv-printImagesPanel-imagePrintingString": "Prent word druk",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "met aantekeninge",

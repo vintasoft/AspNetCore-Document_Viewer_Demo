@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Avaa tiedosto URL-osoitteesta"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Asiakirjan asetteluasetukset"
+		},
 		"printImagesButton": {
 			"title": "Tulosta kuvat"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Käytä oletusasetteluasetuksia"
+			},
+			"showHiddenContentLabel": {
+				"text": "Näytä piilotettu sisältö"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Käytä laskentataulukon leveyttä sivun leveyteenä"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Käytä laskentataulukon korkeutta sivun korkeudena"
+			},
+			"usePrintAreaLabel": {
+				"text": "Käytä tulostusaluetta"
+			},
+			"usePageMarginLabel": {
+				"text": "Käytä sivun marginaalia"
+			},
+			"usePageScaleLabel": {
+				"text": "Käytä sivun mittakaavaa"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Näytä piilotetut laskentataulukot"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Näytä piilotetut grafiikat"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Peruuta"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Nykyinen kuva",
 		"vsdv-imageSelectionDialog-allImagesString": "Kaikki kuvat",
 		"vsdv-imageSelectionDialog-customImagesString": "Mukautettu",
+		"vsdv-documentLayoutSettingsDialog-title": "Asiakirjan asetteluasetukset",
 		"vsdv-printImagesDialog-title": "Tulosta kuvat",
 		"vsdv-printImagesPanel-imagePrintingString": "Kuva tulostuu",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "huomautuksilla",

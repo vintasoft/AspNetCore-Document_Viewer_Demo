@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Datei über URL öffnen"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Dokumentlayouteinstellungen"
+		},
 		"printImagesButton": {
 			"title": "Bilder drucken"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Abbrechen"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Standardlayouteinstellungen verwenden"
+			},
+			"showHiddenContentLabel": {
+				"text": "Versteckte Inhalte anzeigen"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Arbeitsblattbreite als Seitenbreite verwenden"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Arbeitsblatthöhe als Seitenhöhe verwenden"
+			},
+			"usePrintAreaLabel": {
+				"text": "Druckbereich verwenden"
+			},
+			"usePageMarginLabel": {
+				"text": "Seitenrand verwenden"
+			},
+			"usePageScaleLabel": {
+				"text": "Seitenmaßstab verwenden"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Versteckte Arbeitsblätter anzeigen"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Versteckte Grafiken anzeigen"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Abbrechen"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Aktuelles Bild",
 		"vsdv-imageSelectionDialog-allImagesString": "Alle Bilder",
 		"vsdv-imageSelectionDialog-customImagesString": "Benutzerdefiniert",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumentlayouteinstellungen",
 		"vsdv-printImagesDialog-title": "Bilder drucken",
 		"vsdv-printImagesPanel-imagePrintingString": "Bild wird gedruckt",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "mit Anmerkungen",

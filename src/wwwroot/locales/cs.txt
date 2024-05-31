@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Otevřete soubor z adresy URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Nastavení rozvržení dokumentu"
+		},
 		"printImagesButton": {
 			"title": "Tisk obrázků"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Použít výchozí nastavení rozvržení"
+			},
+			"showHiddenContentLabel": {
+				"text": "Zobrazit skrytý obsah"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Jako šířku stránky použijte šířku listu"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Jako výšku stránky použijte výšku listu"
+			},
+			"usePrintAreaLabel": {
+				"text": "Použijte oblast tisku"
+			},
+			"usePageMarginLabel": {
+				"text": "Použít okraj stránky"
+			},
+			"usePageScaleLabel": {
+				"text": "Použijte měřítko stránky"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Zobrazit skryté listy"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Zobrazit skrytou grafiku"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Zrušit"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Aktuální obrázek",
 		"vsdv-imageSelectionDialog-allImagesString": "Všechny obrázky",
 		"vsdv-imageSelectionDialog-customImagesString": "Vlastní",
+		"vsdv-documentLayoutSettingsDialog-title": "Nastavení rozvržení dokumentu",
 		"vsdv-printImagesDialog-title": "Tisk obrázků",
 		"vsdv-printImagesPanel-imagePrintingString": "Obrázek se tiskne",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "s poznámkami",

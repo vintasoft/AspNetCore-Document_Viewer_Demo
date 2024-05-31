@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "URL से फ़ाइल खोलें"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "दस्तावेज़ लेआउट सेटिंग"
+		},
 		"printImagesButton": {
 			"title": "छवियाँ मुद्रित करें"
 		},
@@ -338,6 +341,41 @@
 				"value": "ठीक है"
 			},
 			"сancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "डिफ़ॉल्ट लेआउट सेटिंग का उपयोग करें"
+			},
+			"showHiddenContentLabel": {
+				"text": "छिपी हुई सामग्री दिखाएँ"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "वर्कशीट की चौड़ाई को पेज की चौड़ाई के रूप में उपयोग करें"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "वर्कशीट की ऊँचाई को पेज की ऊँचाई के रूप में उपयोग करें"
+			},
+			"usePrintAreaLabel": {
+				"text": "प्रिंट क्षेत्र का उपयोग करें"
+			},
+			"usePageMarginLabel": {
+				"text": "पेज मार्जिन का उपयोग करें"
+			},
+			"usePageScaleLabel": {
+				"text": "पेज स्केल का उपयोग करें"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "छिपी हुई वर्कशीट दिखाएँ"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "छिपे हुए ग्राफ़िक्स दिखाएँ"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
 				"value": "रद्द करें"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "वर्तमान छवि",
 		"vsdv-imageSelectionDialog-allImagesString": "सभी छवियाँ",
 		"vsdv-imageSelectionDialog-customImagesString": "कस्टम",
+		"vsdv-documentLayoutSettingsDialog-title": "दस्तावेज़ लेआउट सेटिंग",
 		"vsdv-printImagesDialog-title": "छवियाँ मुद्रित करें",
 		"vsdv-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",

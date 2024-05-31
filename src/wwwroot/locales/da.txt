@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Åbn fil fra URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Indstillinger for dokumentlayout"
+		},
 		"printImagesButton": {
 			"title": "Udskriv billeder"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Brug standardlayoutindstillinger"
+			},
+			"showHiddenContentLabel": {
+				"text": "Vis skjult indhold"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Brug regnearksbredde som sidebredde"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Brug regnearkshøjde som sidehøjde"
+			},
+			"usePrintAreaLabel": {
+				"text": "Brug udskriftsområde"
+			},
+			"usePageMarginLabel": {
+				"text": "Brug sidemargen"
+			},
+			"usePageScaleLabel": {
+				"text": "Brug sideskala"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Vis skjulte regneark"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Vis skjult grafik"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Annuller"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Aktuelt billede",
 		"vsdv-imageSelectionDialog-allImagesString": "Alle billeder",
 		"vsdv-imageSelectionDialog-customImagesString": "Brugerdefineret",
+		"vsdv-documentLayoutSettingsDialog-title": "Indstillinger for dokumentlayout",
 		"vsdv-printImagesDialog-title": "Udskriv billeder",
 		"vsdv-printImagesPanel-imagePrintingString": "Billedet udskrives",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "med anmærkninger",

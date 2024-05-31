@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Άνοιγμα αρχείου από τη διεύθυνση URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Ρυθμίσεις διάταξης εγγράφου"
+		},
 		"printImagesButton": {
 			"title": "Εκτύπωση εικόνων"
 		},
@@ -338,6 +341,41 @@
 				"value": "ΟΚ"
 			},
 			"сancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Χρησιμοποιήστε τις προεπιλεγμένες ρυθμίσεις διάταξης"
+			},
+			"showHiddenContentLabel": {
+				"text": "Εμφάνιση κρυφού περιεχομένου"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Χρησιμοποιήστε το πλάτος του φύλλου εργασίας ως πλάτος σελίδας"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Χρησιμοποιήστε το ύψος του φύλλου εργασίας ως ύψος σελίδας"
+			},
+			"usePrintAreaLabel": {
+				"text": "Χρησιμοποιήστε την περιοχή εκτύπωσης"
+			},
+			"usePageMarginLabel": {
+				"text": "Χρησιμοποιήστε το περιθώριο σελίδας"
+			},
+			"usePageScaleLabel": {
+				"text": "Χρησιμοποιήστε κλίμακα σελίδας"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Εμφάνιση κρυφών φύλλων εργασίας"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Εμφάνιση κρυφών γραφικών"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
 				"value": "Ακύρωση"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
 		"vsdv-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
 		"vsdv-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
+		"vsdv-documentLayoutSettingsDialog-title": "Ρυθμίσεις διάταξης εγγράφου",
 		"vsdv-printImagesDialog-title": "Εκτύπωση εικόνων",
 		"vsdv-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",

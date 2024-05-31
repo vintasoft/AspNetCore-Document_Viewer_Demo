@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Deschideți fișierul de la URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Setări de aspect al documentului"
+		},
 		"printImagesButton": {
 			"title": "Tipărește imagini"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Utilizați setările implicite de aspect"
+			},
+			"showHiddenContentLabel": {
+				"text": "Afișează conținut ascuns"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Utilizați lățimea foii de lucru ca lățime a paginii"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Utilizați înălțimea foii de lucru ca înălțime a paginii"
+			},
+			"usePrintAreaLabel": {
+				"text": "Utilizați zona de imprimare"
+			},
+			"usePageMarginLabel": {
+				"text": "Utilizați marginea paginii"
+			},
+			"usePageScaleLabel": {
+				"text": "Utilizați scara paginii"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Afișați foile de lucru ascunse"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Afișează elemente grafice ascunse"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Anulează"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Imaginea curentă",
 		"vsdv-imageSelectionDialog-allImagesString": "Toate imaginile",
 		"vsdv-imageSelectionDialog-customImagesString": "Personalizat",
+		"vsdv-documentLayoutSettingsDialog-title": "Setări de aspect al documentului",
 		"vsdv-printImagesDialog-title": "Tipărește imagini",
 		"vsdv-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "cu adnotări",

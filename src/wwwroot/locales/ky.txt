@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Файлды URL'ден ачыңыз"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Документтин жайгашуу орнотуулары"
+		},
 		"printImagesButton": {
 			"title": "Сүрөттөрдү басып чыгаруу"
 		},
@@ -338,6 +341,41 @@
 				"value": "макул"
 			},
 			"сancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Демейки жайгашуу орнотууларын колдонуңуз"
+			},
+			"showHiddenContentLabel": {
+				"text": "Жашыруун мазмунду көрсөтүү"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Барактын туурасы катары иш барагынын туурасын колдонуңуз"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Барактын бийиктиги катары жумушчу барактын бийиктигин колдонуңуз"
+			},
+			"usePrintAreaLabel": {
+				"text": "Басып чыгаруу аймагын колдонуңуз"
+			},
+			"usePageMarginLabel": {
+				"text": "Барактын маржасын колдонуңуз"
+			},
+			"usePageScaleLabel": {
+				"text": "Барактын масштабын колдонуңуз"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Жашыруун иш барактарын көрсөтүү"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Жашыруун графиканы көрсөтүү"
+			},
+			"okButton": {
+				"value": "макул"
+			},
+			"cancelButton": {
 				"value": "Жокко чыгаруу"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Учурдагы сүрөт",
 		"vsdv-imageSelectionDialog-allImagesString": "Бардык сүрөттөр",
 		"vsdv-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
+		"vsdv-documentLayoutSettingsDialog-title": "Документтин жайгашуу орнотуулары",
 		"vsdv-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
 		"vsdv-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялар менен",

@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "URLからファイルを開く"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "ドキュメントのレイアウト設定"
+		},
 		"printImagesButton": {
 			"title": "画像を印刷"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "デフォルトのレイアウト設定を使用する"
+			},
+			"showHiddenContentLabel": {
+				"text": "非表示のコンテンツを表示する"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "ワークシートの幅をページ幅として使用する"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "ワークシートの高さをページの高さとして使用する"
+			},
+			"usePrintAreaLabel": {
+				"text": "印刷領域を使用する"
+			},
+			"usePageMarginLabel": {
+				"text": "ページ余白を使用する"
+			},
+			"usePageScaleLabel": {
+				"text": "ページスケールを使用する"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "非表示のワークシートを表示する"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "非表示のグラフィックを表示する"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "キャンセル"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "現在の画像",
 		"vsdv-imageSelectionDialog-allImagesString": "すべての画像",
 		"vsdv-imageSelectionDialog-customImagesString": "カスタム",
+		"vsdv-documentLayoutSettingsDialog-title": "ドキュメントのレイアウト設定",
 		"vsdv-printImagesDialog-title": "画像を印刷",
 		"vsdv-printImagesPanel-imagePrintingString": "画像を印刷中です",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "注釈あり",

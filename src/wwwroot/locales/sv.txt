@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Öppna filen från URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Inställningar för dokumentlayout"
+		},
 		"printImagesButton": {
 			"title": "Skriv ut bilder"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Använd standardlayoutinställningar"
+			},
+			"showHiddenContentLabel": {
+				"text": "Visa dolt innehåll"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Använd kalkylbladsbredd som sidbredd"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Använd kalkylbladshöjd som sidhöjd"
+			},
+			"usePrintAreaLabel": {
+				"text": "Använd utskriftsområdet"
+			},
+			"usePageMarginLabel": {
+				"text": "Använd sidmarginal"
+			},
+			"usePageScaleLabel": {
+				"text": "Använd sidskala"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Visa dolda kalkylblad"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Visa dold grafik"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Avbryt"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Aktuell bild",
 		"vsdv-imageSelectionDialog-allImagesString": "Alla bilder",
 		"vsdv-imageSelectionDialog-customImagesString": "Anpassad",
+		"vsdv-documentLayoutSettingsDialog-title": "Inställningar för dokumentlayout",
 		"vsdv-printImagesDialog-title": "Skriv ut bilder",
 		"vsdv-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "med kommentarer",

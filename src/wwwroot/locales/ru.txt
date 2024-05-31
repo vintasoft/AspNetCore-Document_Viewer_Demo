@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Открыть файл по URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Настройки макета документа"
+		},
 		"printImagesButton": {
 			"title": "Распечатать изображения"
 		},
@@ -338,6 +341,41 @@
 				"value": "ОК"
 			},
 			"сancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Использовать настройки макета по умолчанию"
+			},
+			"showHiddenContentLabel": {
+				"text": "Показать скрытый контент"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Использовать ширину листа как ширину страницы"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Использовать высоту листа как высоту страницы"
+			},
+			"usePrintAreaLabel": {
+				"text": "Использовать область печати"
+			},
+			"usePageMarginLabel": {
+				"text": "Использовать поля страницы"
+			},
+			"usePageScaleLabel": {
+				"text": "Использовать масштаб страницы"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Показать скрытые листы"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Показать скрытую графику"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
 				"value": "Отмена"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Текущее изображение",
 		"vsdv-imageSelectionDialog-allImagesString": "Все изображения",
 		"vsdv-imageSelectionDialog-customImagesString": "Пользовательский",
+		"vsdv-documentLayoutSettingsDialog-title": "Настройки макета документа",
 		"vsdv-printImagesDialog-title": "Распечатать изображения",
 		"vsdv-printImagesPanel-imagePrintingString": "Изображение печатается",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "с аннотациями",

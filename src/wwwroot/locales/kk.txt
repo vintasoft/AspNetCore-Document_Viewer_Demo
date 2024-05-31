@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "URL мекенжайынан файлды ашыңыз"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Құжат орналасу параметрлері"
+		},
 		"printImagesButton": {
 			"title": "Суреттерді басып шығару"
 		},
@@ -338,6 +341,41 @@
 				"value": "ЖАРАЙДЫ МА"
 			},
 			"сancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Әдепкі орналасу параметрлерін пайдаланыңыз"
+			},
+			"showHiddenContentLabel": {
+				"text": "Жасырын мазмұнды көрсету"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Жұмыс парағының енін бет ені ретінде пайдаланыңыз"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Жұмыс парағының биіктігін бет биіктігі ретінде пайдаланыңыз"
+			},
+			"usePrintAreaLabel": {
+				"text": "Басып шығару аймағын пайдаланыңыз"
+			},
+			"usePageMarginLabel": {
+				"text": "Бет жиегін пайдаланыңыз"
+			},
+			"usePageScaleLabel": {
+				"text": "Бет масштабын пайдаланыңыз"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Жасырын жұмыс парақтарын көрсету"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Жасырын графиканы көрсету"
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
 				"value": "Болдырмау"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Ағымдағы сурет",
 		"vsdv-imageSelectionDialog-allImagesString": "Барлық суреттер",
 		"vsdv-imageSelectionDialog-customImagesString": "Арнаулы",
+		"vsdv-documentLayoutSettingsDialog-title": "Құжат орналасу параметрлері",
 		"vsdv-printImagesDialog-title": "Суреттерді басып шығару",
 		"vsdv-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялармен",

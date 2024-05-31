@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Fungua faili kutoka kwa URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Mipangilio ya mpangilio wa hati"
+		},
 		"printImagesButton": {
 			"title": "Chapisha picha"
 		},
@@ -338,6 +341,41 @@
 				"value": "sawa"
 			},
 			"сancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Tumia mipangilio ya mpangilio chaguomsingi"
+			},
+			"showHiddenContentLabel": {
+				"text": "Onyesha maudhui yaliyofichwa"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Tumia upana wa laha ya kazi kama upana wa ukurasa"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Tumia urefu wa laha ya kazi kama urefu wa ukurasa"
+			},
+			"usePrintAreaLabel": {
+				"text": "Tumia eneo la kuchapisha"
+			},
+			"usePageMarginLabel": {
+				"text": "Tumia ukingo wa ukurasa"
+			},
+			"usePageScaleLabel": {
+				"text": "Tumia mizani ya ukurasa"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Onyesha laha za kazi zilizofichwa"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Onyesha michoro iliyofichwa"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
 				"value": "Ghairi"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Picha ya sasa",
 		"vsdv-imageSelectionDialog-allImagesString": "Picha zote",
 		"vsdv-imageSelectionDialog-customImagesString": "Desturi",
+		"vsdv-documentLayoutSettingsDialog-title": "Mipangilio ya mpangilio wa hati",
 		"vsdv-printImagesDialog-title": "Chapisha picha",
 		"vsdv-printImagesPanel-imagePrintingString": "Picha inachapishwa",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "yenye maelezo",

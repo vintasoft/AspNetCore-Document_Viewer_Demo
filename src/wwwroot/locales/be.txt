@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Адкрыць файл з URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Налады макета дакумента"
+		},
 		"printImagesButton": {
 			"title": "Друк малюнкаў"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Выкарыстоўвайце налады макета па змаўчанні"
+			},
+			"showHiddenContentLabel": {
+				"text": "Паказаць схаваны кантэнт"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Выкарыстоўвайце шырыню аркуша як шырыню старонкі"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Выкарыстоўвайце вышыню аркуша як вышыню старонкі"
+			},
+			"usePrintAreaLabel": {
+				"text": "Выкарыстоўвайце вобласць друку"
+			},
+			"usePageMarginLabel": {
+				"text": "Выкарыстоўвайце поле старонкі"
+			},
+			"usePageScaleLabel": {
+				"text": "Выкарыстоўвайце маштаб старонкі"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Паказаць схаваныя аркушы"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Паказаць схаваную графіку"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Адмяніць"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Актуальны малюнак",
 		"vsdv-imageSelectionDialog-allImagesString": "Усе выявы",
 		"vsdv-imageSelectionDialog-customImagesString": "Карыстацкі",
+		"vsdv-documentLayoutSettingsDialog-title": "Налады макета дакумента",
 		"vsdv-printImagesDialog-title": "Друк малюнкаў",
 		"vsdv-printImagesPanel-imagePrintingString": "Выява друкуецца",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "з анатацыямі",

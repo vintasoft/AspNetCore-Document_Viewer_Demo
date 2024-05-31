@@ -24,6 +24,9 @@
 		"openFileFromUrlButton": {
 			"title": "Bestand openen vanaf URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Instellingen voor documentlay-out"
+		},
 		"printImagesButton": {
 			"title": "Afbeeldingen afdrukken"
 		},
@@ -338,6 +341,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Gebruik standaard lay-outinstellingen"
+			},
+			"showHiddenContentLabel": {
+				"text": "Toon verborgen inhoud"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Gebruik werkbladbreedte als paginabreedte"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Gebruik werkbladhoogte als paginahoogte"
+			},
+			"usePrintAreaLabel": {
+				"text": "Gebruik afdrukgebied"
+			},
+			"usePageMarginLabel": {
+				"text": "Gebruik paginamarge"
+			},
+			"usePageScaleLabel": {
+				"text": "Gebruik paginaschaal"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Toon verborgen werkbladen"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Toon verborgen afbeeldingen"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Annuleren"
 			}
 		},
@@ -1011,6 +1049,7 @@
 		"vsdv-imageSelectionDialog-currentImageString": "Huidige afbeelding",
 		"vsdv-imageSelectionDialog-allImagesString": "Alle afbeeldingen",
 		"vsdv-imageSelectionDialog-customImagesString": "Aangepast",
+		"vsdv-documentLayoutSettingsDialog-title": "Instellingen voor documentlay-out",
 		"vsdv-printImagesDialog-title": "Afbeeldingen afdrukken",
 		"vsdv-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
 		"vsdv-printImagesPanel-withAnnotationsLabel": "met annotaties",
