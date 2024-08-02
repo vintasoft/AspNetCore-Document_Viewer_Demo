@@ -25,7 +25,7 @@
 			"title": "Open file from URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Document layout settings"
+			"title": "Layout settings"
 		},
 		"printImagesButton": {
 			"title": "Print images"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Use default layout settings"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Page Size"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Show hidden content"
