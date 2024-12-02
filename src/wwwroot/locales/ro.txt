@@ -25,7 +25,7 @@
 			"title": "Deschideți fișierul de la URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Setări de aspect al documentului"
+			"title": "Setări de aspect"
 		},
 		"printImagesButton": {
 			"title": "Tipărește imagini"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "Selectare scară"
+		},
+		"showMobileMenuButton": {
+			"title": "Mai multe"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "Dreptunghi"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Puncte de interacțiune din mijloc"
-		},
-		"showMobileMenuButton": {
-			"title": "Mai multe"
 		},
 		"sidePanelCloseButton": {
 			"title": "Afișează bara laterală"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Utilizați setările implicite de aspect"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Dimensiunea paginii"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Afișează conținut ascuns"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Poate trage miniaturi:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Poate naviga prin miniaturi folosind tastatura:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Poate selecta miniaturi folosind tastatura:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Poate șterge miniaturile folosind tastatura:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "Setări de adnotare",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "Dimensiune font automat:"
+			},
 			"Border": {
 				"text": "Delimitare:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descărcați și deschideți fișierul",
 		"vsdv-uploadAndAddFileButton-addFileString": "Încărcați și adăugați fișier",
-		"vsdv-textSearchPanel-pageLabel": "Pagină",
+		"vsui-textSearchPanel-pageLabel": "Pagină",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ardeți adnotări",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salvați adnotările",
+		"vsui-annotationListPanel-pageLabel": "Pagină",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Proprietăți de adnotare",
 		"vsdv-openFile-addFileString": "Adauga fisier",
 		"vsdv-openFile-authenticateFileString": "Autentificați fișierul",
 		"vsdv-downloadFile-actionMessage": "Descărcare fișier",
 		"vsdv-saveChanges-saveChangesInImages": "Salvați modificările în imagini",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Ardeți adnotări",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Salvați adnotările",
-		"vsdv-annotationListPanel-pageLabel": "Pagină",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Proprietăți de adnotare",
-		"vsdv-documentPasswordDialog-title": "Parola documentului",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "Descărcați și deschideți fișierul",
+		"vsui-uploadAndAddFileButton-addFileString": "Încărcați și adăugați fișier",
+		"vsui-openFile-addFileString": "Adauga fisier",
+		"vsui-openFile-authenticateFileString": "Autentificați fișierul",
+		"vsui-downloadFile-actionMessage": "Descărcare fișier",
+		"vsui-saveChanges-saveChangesInImages": "Salvați modificările în imagini",
+		"vsui-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
+		"vsui-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
+		"vsui-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "Ardeți adnotări",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "Salvați adnotările",
+		"vsui-documentPasswordDialog-title": "Parola documentului",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Anulează",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
+		"vsui-imageSelectionDialog-title": "Selectați imagini",
+		"vsui-imageSelectionDialog-currentImageString": "Imaginea curentă",
+		"vsui-imageSelectionDialog-allImagesString": "Toate imaginile",
+		"vsui-imageSelectionDialog-customImagesString": "Personalizat",
+		"vsui-documentLayoutSettingsDialog-title": "Setări de aspect al documentului",
+		"vsui-printImagesDialog-title": "Tipărește imagini",
+		"vsui-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
+		"vsui-printImagesPanel-withAnnotationsLabel": "cu adnotări",
+		"vsui-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
+		"vsui-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Rotire imaginea adnotată",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Unghiul de rotație nu trebuie să fie 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Imaginea adnotată este rotită",
+		"vsui-uploadImageFromUrlDialog-title": "Încărcați imaginea de la URL",
+		"vsui-exportFileSettingsDialog-title": "Setările pentru exportul fișierului",
+		"vsdv-documentLayoutSettingsDialog-title": "Setări de aspect al documentului",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Anulează",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
-		"vsdv-imageSelectionDialog-title": "Selectați imagini",
-		"vsdv-imageSelectionDialog-currentImageString": "Imaginea curentă",
-		"vsdv-imageSelectionDialog-allImagesString": "Toate imaginile",
-		"vsdv-imageSelectionDialog-customImagesString": "Personalizat",
-		"vsdv-documentLayoutSettingsDialog-title": "Setări de aspect al documentului",
-		"vsdv-printImagesDialog-title": "Tipărește imagini",
-		"vsdv-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "cu adnotări",
-		"vsdv-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
-		"vsdv-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotire imaginea adnotată",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Unghiul de rotație nu trebuie să fie 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Imaginea adnotată este rotită",
-		"vsdv-uploadImageFromUrlDialog-title": "Încărcați imaginea de la URL",
-		"vsdv-exportFileSettingsDialog-title": "Setările pentru exportul fișierului"
+		"vsdv-uploadImageFromUrlDialog-title": "Încărcați imaginea de la URL"
 	}
 }

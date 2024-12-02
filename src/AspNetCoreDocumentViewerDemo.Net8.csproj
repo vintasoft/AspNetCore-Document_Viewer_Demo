@@ -2,34 +2,34 @@
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
-		<Version>12.5.11.1</Version>
+		<Version>14.0.0.1</Version>
 		<EnableDefaultItems>false</EnableDefaultItems>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.0" />
-		<PackageReference Include="SkiaSharp" Version="2.88.6" />
+		<PackageReference Include="SkiaSharp" Version="2.88.9" />
 		<PackageReference Include="System.IO.Packaging" Version="8.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-    <PackageReference Include="Vintasoft.Shared" Version="4.3.0.1" />
-    <PackageReference Include="Vintasoft.Imaging" Version="12.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="12.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="12.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.Pdf" Version="12.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="7.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="9.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="8.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="4.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.5.11.1" />
-    <PackageReference Include="Vintasoft.Shared.Web" Version="4.3.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="12.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="12.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.Web.Services" Version="12.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.Annotation.AspNetCore.ApiControllers" Version="12.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.DocCleanup.Web.Services" Version="7.5.11.1" />
-    <PackageReference Include="Vintasoft.Imaging.DocCleanup.AspNetCore.ApiControllers" Version="7.5.11.1" />
+    <PackageReference Include="Vintasoft.Shared" Version="4.4.0.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="14.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="14.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation" Version="14.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.Pdf" Version="14.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.DocCleanup" Version="9.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="11.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="10.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="6.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="11.0.0.1" />
+    <PackageReference Include="Vintasoft.Shared.Web" Version="4.4.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="14.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="14.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.Web.Services" Version="14.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Annotation.AspNetCore.ApiControllers" Version="14.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.DocCleanup.Web.Services" Version="9.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.DocCleanup.AspNetCore.ApiControllers" Version="9.0.0.1" />
 	</ItemGroup>
 <ItemGroup>
   <Compile Include="Controllers\API\Annotations\CustomAnnotations\AnnotationsMath.cs" />
@@ -42,6 +42,7 @@
   <Compile Include="Controllers\API\Annotations\MyVintasoftAnnotationCollectionApiController.cs" />
   <Compile Include="Controllers\API\DocumentPasswordManager.cs" />
   <Compile Include="Controllers\API\File\MyVintasoftFileApiController.cs" />
+  <Compile Include="Controllers\API\File\MyVintasoftFileWebService.cs" />
   <Compile Include="Controllers\API\File\UploadedFilesListResponseParams.cs" />
   <Compile Include="Controllers\API\ImageCollection\MyVintasoftImageCollectionApiController.cs" />
   <Compile Include="Controllers\API\ImageRendering\MyVintasoftImageApiController.cs" />
@@ -61,8 +62,8 @@
   <Content Include="Views\Shared\_DemoViewLayout.cshtml" />
   <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
   <Content Include="wwwroot\lib\jquery\LICENSE.txt" />
+  <Content Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.Annotation.css" />
   <Content Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.css" />
-  <Content Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.DocumentViewer.css" />
   <Content Include="Views\Shared\UI\Dialogs\BlockUiDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\ErrorMessageDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\PreviouslyUploadedFilesDialog.cshtml" />
@@ -122,6 +123,7 @@
   <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
   <None Include="wwwroot\lib\bootstrap\LICENSE" />
   <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+  <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.Annotation.Dialogs.Bootstrap.js" />
   <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.Annotation.js" />
   <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.Dialogs.Bootstrap.js" />
   <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.DocumentViewer.Dialogs.Bootstrap.js" />
@@ -130,6 +132,7 @@
   <None Include="wwwroot\lib\Vintasoft\Vintasoft.Shared.js" />
   <None Include="wwwroot\Resources\DefaultCMYK.icc" />
   <None Include="wwwroot\Resources\DefaultRGB.icc" />
+  <EmbeddedResource Include="wwwroot\Resources\EmptyDocument.docx" />
   <None Include="wwwroot\UploadedImageFiles\VintasoftImagingDemo.pdf" />
   <Folder Include="wwwroot\VintasoftCache\" />
 </ItemGroup>

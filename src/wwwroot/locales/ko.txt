@@ -25,7 +25,7 @@
 			"title": "URL에서 파일 열기"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "문서 레이아웃 설정"
+			"title": "레이아웃 설정"
 		},
 		"printImagesButton": {
 			"title": "이미지 인쇄"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "축척 선택"
+		},
+		"showMobileMenuButton": {
+			"title": "더보기"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "직사각형"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "중간 상호 작용 지점"
-		},
-		"showMobileMenuButton": {
-			"title": "더보기"
 		},
 		"sidePanelCloseButton": {
 			"title": "사이드바 보기"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "기본 레이아웃 설정 사용"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "페이지 크기"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "숨겨진 콘텐츠 표시"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "썸네일 드래그 가능:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "키보드를 사용하여 썸네일 탐색 가능:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "키보드를 사용하여 썸네일 선택 가능:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "키보드를 사용하여 썸네일 삭제 가능:"
+			},
 			"okButton": {
 				"value": "확인"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "주석 설정",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "경계:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "파일 다운로드 및 열기",
 		"vsdv-uploadAndAddFileButton-addFileString": "파일 업로드 및 추가",
-		"vsdv-textSearchPanel-pageLabel": "페이지",
+		"vsui-textSearchPanel-pageLabel": "페이지",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "주석 굽기",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "주석 저장",
+		"vsui-annotationListPanel-pageLabel": "페이지",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "주석 속성",
 		"vsdv-openFile-addFileString": "파일 추가",
 		"vsdv-openFile-authenticateFileString": "파일 인증",
 		"vsdv-downloadFile-actionMessage": "파일 다운로드",
 		"vsdv-saveChanges-saveChangesInImages": "이미지 변경사항 저장",
 		"vsdv-saveChanges-saveChangesInAnnotations": "주석 변경사항 저장",
 		"vsdv-saveChanges-burnAnnotationsInImages": "이미지에 주석 굽기",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "주석 굽기",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "주석 저장",
-		"vsdv-annotationListPanel-pageLabel": "페이지",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "주석 속성",
-		"vsdv-documentPasswordDialog-title": "문서 비밀번호",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "파일 다운로드 및 열기",
+		"vsui-uploadAndAddFileButton-addFileString": "파일 업로드 및 추가",
+		"vsui-openFile-addFileString": "파일 추가",
+		"vsui-openFile-authenticateFileString": "파일 인증",
+		"vsui-downloadFile-actionMessage": "파일 다운로드",
+		"vsui-saveChanges-saveChangesInImages": "이미지 변경사항 저장",
+		"vsui-saveChanges-saveChangesInAnnotations": "주석 변경사항 저장",
+		"vsui-saveChanges-burnAnnotationsInImages": "이미지에 주석 굽기",
+		"vsui-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "주석 굽기",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "주석 저장",
+		"vsui-documentPasswordDialog-title": "문서 비밀번호",
+		"vsui-dialog-okButton": "확인",
+		"vsui-dialog-cancelButton": "취소",
+		"vsui-documentPasswordPanel-authenticateFileString": "파일 인증",
+		"vsui-imageSelectionDialog-title": "이미지 선택",
+		"vsui-imageSelectionDialog-currentImageString": "현재 이미지",
+		"vsui-imageSelectionDialog-allImagesString": "모든 이미지",
+		"vsui-imageSelectionDialog-customImagesString": "사용자 정의",
+		"vsui-documentLayoutSettingsDialog-title": "문서 레이아웃 설정",
+		"vsui-printImagesDialog-title": "이미지 인쇄",
+		"vsui-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
+		"vsui-printImagesPanel-withAnnotationsLabel": "주석 포함",
+		"vsui-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
+		"vsui-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "주석 이미지 회전",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "회전 각도는 0이 아니어야 합니다.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "주석 이미지 회전 중",
+		"vsui-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드",
+		"vsui-exportFileSettingsDialog-title": "파일을 내보내는 설정",
+		"vsdv-documentLayoutSettingsDialog-title": "문서 레이아웃 설정",
 		"vsdv-dialog-okButton": "확인",
 		"vsdv-dialog-cancelButton": "취소",
-		"vsdv-documentPasswordPanel-authenticateFileString": "파일 인증",
-		"vsdv-imageSelectionDialog-title": "이미지 선택",
-		"vsdv-imageSelectionDialog-currentImageString": "현재 이미지",
-		"vsdv-imageSelectionDialog-allImagesString": "모든 이미지",
-		"vsdv-imageSelectionDialog-customImagesString": "사용자 정의",
-		"vsdv-documentLayoutSettingsDialog-title": "문서 레이아웃 설정",
-		"vsdv-printImagesDialog-title": "이미지 인쇄",
-		"vsdv-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "주석 포함",
-		"vsdv-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
-		"vsdv-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "주석 이미지 회전",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "회전 각도는 0이 아니어야 합니다.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "주석 이미지 회전 중",
-		"vsdv-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드",
-		"vsdv-exportFileSettingsDialog-title": "파일을 내보내는 설정"
+		"vsdv-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드"
 	}
 }

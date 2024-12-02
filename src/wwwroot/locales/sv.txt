@@ -25,7 +25,7 @@
 			"title": "Öppna filen från URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Inställningar för dokumentlayout"
+			"title": "Layoutinställningar"
 		},
 		"printImagesButton": {
 			"title": "Skriv ut bilder"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skalval"
+		},
+		"showMobileMenuButton": {
+			"title": "Mer"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "Rektangel"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mellan interaktionspunkter"
-		},
-		"showMobileMenuButton": {
-			"title": "Mer"
 		},
 		"sidePanelCloseButton": {
 			"title": "Visa sidofältet"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Använd standardlayoutinställningar"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Sidstorlek"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Visa dolt innehåll"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan dra miniatyrer:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan navigera miniatyrer med tangentbordet:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan välja miniatyrer med tangentbordet:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan ta bort miniatyrer med tangentbordet:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "Anteckningsinställningar",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "Autofontstorlek:"
+			},
 			"Border": {
 				"text": "Gräns:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Ladda ner och öppna filen",
 		"vsdv-uploadAndAddFileButton-addFileString": "Ladda upp och lägg till fil",
-		"vsdv-textSearchPanel-pageLabel": "Sida",
+		"vsui-textSearchPanel-pageLabel": "Sida",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Bränn anteckningar",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Spara kommentarer",
+		"vsui-annotationListPanel-pageLabel": "Sida",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Anteckningsegenskaper",
 		"vsdv-openFile-addFileString": "Lägg till fil",
 		"vsdv-openFile-authenticateFileString": "Autentisera fil",
 		"vsdv-downloadFile-actionMessage": "Nedladdning fil",
 		"vsdv-saveChanges-saveChangesInImages": "Spara ändringar i bilder",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Spara ändringar i kommentarer",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Bränn kommentarer på bilder",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Spara ändringar i PDF-dokument",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Bränn anteckningar",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Spara kommentarer",
-		"vsdv-annotationListPanel-pageLabel": "Sida",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Anteckningsegenskaper",
-		"vsdv-documentPasswordDialog-title": "Dokumentlösenord",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "Ladda ner och öppna filen",
+		"vsui-uploadAndAddFileButton-addFileString": "Ladda upp och lägg till fil",
+		"vsui-openFile-addFileString": "Lägg till fil",
+		"vsui-openFile-authenticateFileString": "Autentisera fil",
+		"vsui-downloadFile-actionMessage": "Nedladdning fil",
+		"vsui-saveChanges-saveChangesInImages": "Spara ändringar i bilder",
+		"vsui-saveChanges-saveChangesInAnnotations": "Spara ändringar i kommentarer",
+		"vsui-saveChanges-burnAnnotationsInImages": "Bränn kommentarer på bilder",
+		"vsui-saveChanges-saveChangesInPdfDocument": "Spara ändringar i PDF-dokument",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "Bränn anteckningar",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "Spara kommentarer",
+		"vsui-documentPasswordDialog-title": "Dokumentlösenord",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Avbryt",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentisera fil",
+		"vsui-imageSelectionDialog-title": "Välj bilder",
+		"vsui-imageSelectionDialog-currentImageString": "Aktuell bild",
+		"vsui-imageSelectionDialog-allImagesString": "Alla bilder",
+		"vsui-imageSelectionDialog-customImagesString": "Anpassad",
+		"vsui-documentLayoutSettingsDialog-title": "Inställningar för dokumentlayout",
+		"vsui-printImagesDialog-title": "Skriv ut bilder",
+		"vsui-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
+		"vsui-printImagesPanel-withAnnotationsLabel": "med kommentarer",
+		"vsui-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
+		"vsui-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Rotera kommenterad bild",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinkeln får inte vara 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras",
+		"vsui-uploadImageFromUrlDialog-title": "Ladda upp bild från URL",
+		"vsui-exportFileSettingsDialog-title": "Inställningarna för att exportera filen",
+		"vsdv-documentLayoutSettingsDialog-title": "Inställningar för dokumentlayout",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Avbryt",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentisera fil",
-		"vsdv-imageSelectionDialog-title": "Välj bilder",
-		"vsdv-imageSelectionDialog-currentImageString": "Aktuell bild",
-		"vsdv-imageSelectionDialog-allImagesString": "Alla bilder",
-		"vsdv-imageSelectionDialog-customImagesString": "Anpassad",
-		"vsdv-documentLayoutSettingsDialog-title": "Inställningar för dokumentlayout",
-		"vsdv-printImagesDialog-title": "Skriv ut bilder",
-		"vsdv-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "med kommentarer",
-		"vsdv-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
-		"vsdv-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotera kommenterad bild",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinkeln får inte vara 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenterad bild roteras",
-		"vsdv-uploadImageFromUrlDialog-title": "Ladda upp bild från URL",
-		"vsdv-exportFileSettingsDialog-title": "Inställningarna för att exportera filen"
+		"vsdv-uploadImageFromUrlDialog-title": "Ladda upp bild från URL"
 	}
 }

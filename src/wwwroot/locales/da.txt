@@ -25,7 +25,7 @@
 			"title": "Åbn fil fra URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Indstillinger for dokumentlayout"
+			"title": "Layoutindstillinger"
 		},
 		"printImagesButton": {
 			"title": "Udskriv billeder"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skalavalg"
+		},
+		"showMobileMenuButton": {
+			"title": "Mere"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "Rektangel"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mellem interaktionspunkter"
-		},
-		"showMobileMenuButton": {
-			"title": "Mere"
 		},
 		"sidePanelCloseButton": {
 			"title": "Vis sidebjælke"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Brug standardlayoutindstillinger"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Sidestørrelse"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Vis skjult indhold"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan trække miniaturebilleder:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan navigere i miniaturebilleder ved hjælp af tastatur:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan vælge miniaturebilleder ved hjælp af tastatur:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan slette miniaturer ved hjælp af tastatur:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "Anmærkningsindstillinger",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "Autofontstørrelse:"
+			},
 			"Border": {
 				"text": "Grænse:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Download og åbn fil",
 		"vsdv-uploadAndAddFileButton-addFileString": "Upload og tilføj fil",
-		"vsdv-textSearchPanel-pageLabel": "Side",
+		"vsui-textSearchPanel-pageLabel": "Side",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Brænd annoteringer",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Gem annoteringer",
+		"vsui-annotationListPanel-pageLabel": "Side",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaber",
 		"vsdv-openFile-addFileString": "Tilføj fil",
 		"vsdv-openFile-authenticateFileString": "Godkend fil",
 		"vsdv-downloadFile-actionMessage": "Download fil",
 		"vsdv-saveChanges-saveChangesInImages": "Gem ændringer i billeder",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Gem ændringer i annoteringer",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brænd annoteringer på billeder",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Gem ændringer i PDF-dokument",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Brænd annoteringer",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Gem annoteringer",
-		"vsdv-annotationListPanel-pageLabel": "Side",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annoteringsegenskaber",
-		"vsdv-documentPasswordDialog-title": "Dokumentadgangskode",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "Download og åbn fil",
+		"vsui-uploadAndAddFileButton-addFileString": "Upload og tilføj fil",
+		"vsui-openFile-addFileString": "Tilføj fil",
+		"vsui-openFile-authenticateFileString": "Godkend fil",
+		"vsui-downloadFile-actionMessage": "Download fil",
+		"vsui-saveChanges-saveChangesInImages": "Gem ændringer i billeder",
+		"vsui-saveChanges-saveChangesInAnnotations": "Gem ændringer i annoteringer",
+		"vsui-saveChanges-burnAnnotationsInImages": "Brænd annoteringer på billeder",
+		"vsui-saveChanges-saveChangesInPdfDocument": "Gem ændringer i PDF-dokument",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "Brænd annoteringer",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "Gem annoteringer",
+		"vsui-documentPasswordDialog-title": "Dokumentadgangskode",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Annuller",
+		"vsui-documentPasswordPanel-authenticateFileString": "Godkend fil",
+		"vsui-imageSelectionDialog-title": "Vælg billeder",
+		"vsui-imageSelectionDialog-currentImageString": "Aktuelt billede",
+		"vsui-imageSelectionDialog-allImagesString": "Alle billeder",
+		"vsui-imageSelectionDialog-customImagesString": "Brugerdefineret",
+		"vsui-documentLayoutSettingsDialog-title": "Indstillinger for dokumentlayout",
+		"vsui-printImagesDialog-title": "Udskriv billeder",
+		"vsui-printImagesPanel-imagePrintingString": "Billedet udskrives",
+		"vsui-printImagesPanel-withAnnotationsLabel": "med anmærkninger",
+		"vsui-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser",
+		"vsui-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Roter kommenteret billede",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinklen må ikke være 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenteret billede bliver roteret",
+		"vsui-uploadImageFromUrlDialog-title": "Upload billede fra URL",
+		"vsui-exportFileSettingsDialog-title": "Indstillingerne for at eksportere fil",
+		"vsdv-documentLayoutSettingsDialog-title": "Indstillinger for dokumentlayout",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Annuller",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Godkend fil",
-		"vsdv-imageSelectionDialog-title": "Vælg billeder",
-		"vsdv-imageSelectionDialog-currentImageString": "Aktuelt billede",
-		"vsdv-imageSelectionDialog-allImagesString": "Alle billeder",
-		"vsdv-imageSelectionDialog-customImagesString": "Brugerdefineret",
-		"vsdv-documentLayoutSettingsDialog-title": "Indstillinger for dokumentlayout",
-		"vsdv-printImagesDialog-title": "Udskriv billeder",
-		"vsdv-printImagesPanel-imagePrintingString": "Billedet udskrives",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "med anmærkninger",
-		"vsdv-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser",
-		"vsdv-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Roter kommenteret billede",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotationsvinklen må ikke være 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Kommenteret billede bliver roteret",
-		"vsdv-uploadImageFromUrlDialog-title": "Upload billede fra URL",
-		"vsdv-exportFileSettingsDialog-title": "Indstillingerne for at eksportere fil"
+		"vsdv-uploadImageFromUrlDialog-title": "Upload billede fra URL"
 	}
 }

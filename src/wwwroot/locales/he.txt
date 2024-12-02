@@ -25,7 +25,7 @@
 			"title": "פתח קובץ מ-URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "הגדרות פריסת מסמך"
+			"title": "הגדרות פריסה"
 		},
 		"printImagesButton": {
 			"title": "הדפס תמונות"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "בחירת קנה מידה"
+		},
+		"showMobileMenuButton": {
+			"title": "עוד"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "מלבן"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "נקודות אינטראקציה בינוניות"
-		},
-		"showMobileMenuButton": {
-			"title": "עוד"
 		},
 		"sidePanelCloseButton": {
 			"title": "הצג סרגל צד"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "השתמש בהגדרות ברירת המחדל של פריסה"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "גודל עמוד"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "הצג תוכן מוסתר"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "יכול לגרור תמונות ממוזערות:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "יכול לנווט בתמונות ממוזערות באמצעות מקלדת:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "יכול לבחור תמונות ממוזערות באמצעות מקלדת:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "יכול למחוק תמונות ממוזערות באמצעות מקלדת:"
+			},
 			"okButton": {
 				"value": "בסדר"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "הגדרות הערות",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "גודל גופן אוטומטי:"
+			},
 			"Border": {
 				"text": "גבול:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "הורד ופתח את הקובץ",
 		"vsdv-uploadAndAddFileButton-addFileString": "העלה והוסף קובץ",
-		"vsdv-textSearchPanel-pageLabel": "דף",
+		"vsui-textSearchPanel-pageLabel": "דף",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "צריבת הערות",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "שמור הערות",
+		"vsui-annotationListPanel-pageLabel": "דף",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "מאפייני הערה",
 		"vsdv-openFile-addFileString": "הוסף קובץ",
 		"vsdv-openFile-authenticateFileString": "אימות קובץ",
 		"vsdv-downloadFile-actionMessage": "הורד קובץ",
 		"vsdv-saveChanges-saveChangesInImages": "שמור שינויים בתמונות",
 		"vsdv-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
 		"vsdv-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "צריבת הערות",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "שמור הערות",
-		"vsdv-annotationListPanel-pageLabel": "דף",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "מאפייני הערה",
-		"vsdv-documentPasswordDialog-title": "סיסמת מסמך",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "הורד ופתח את הקובץ",
+		"vsui-uploadAndAddFileButton-addFileString": "העלה והוסף קובץ",
+		"vsui-openFile-addFileString": "הוסף קובץ",
+		"vsui-openFile-authenticateFileString": "אימות קובץ",
+		"vsui-downloadFile-actionMessage": "הורד קובץ",
+		"vsui-saveChanges-saveChangesInImages": "שמור שינויים בתמונות",
+		"vsui-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
+		"vsui-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
+		"vsui-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "צריבת הערות",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "שמור הערות",
+		"vsui-documentPasswordDialog-title": "סיסמת מסמך",
+		"vsui-dialog-okButton": "בסדר",
+		"vsui-dialog-cancelButton": "בטל",
+		"vsui-documentPasswordPanel-authenticateFileString": "אימות קובץ",
+		"vsui-imageSelectionDialog-title": "בחר תמונות",
+		"vsui-imageSelectionDialog-currentImageString": "תמונה נוכחית",
+		"vsui-imageSelectionDialog-allImagesString": "כל התמונות",
+		"vsui-imageSelectionDialog-customImagesString": "מותאם אישית",
+		"vsui-documentLayoutSettingsDialog-title": "הגדרות פריסת מסמך",
+		"vsui-printImagesDialog-title": "הדפס תמונות",
+		"vsui-printImagesPanel-imagePrintingString": "התמונה מודפסת",
+		"vsui-printImagesPanel-withAnnotationsLabel": "עם הערות",
+		"vsui-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
+		"vsui-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "סובב תמונה מוערת",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "זווית הסיבוב לא יכולה להיות 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות",
+		"vsui-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL",
+		"vsui-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ",
+		"vsdv-documentLayoutSettingsDialog-title": "הגדרות פריסת מסמך",
 		"vsdv-dialog-okButton": "בסדר",
 		"vsdv-dialog-cancelButton": "בטל",
-		"vsdv-documentPasswordPanel-authenticateFileString": "אימות קובץ",
-		"vsdv-imageSelectionDialog-title": "בחר תמונות",
-		"vsdv-imageSelectionDialog-currentImageString": "תמונה נוכחית",
-		"vsdv-imageSelectionDialog-allImagesString": "כל התמונות",
-		"vsdv-imageSelectionDialog-customImagesString": "מותאם אישית",
-		"vsdv-documentLayoutSettingsDialog-title": "הגדרות פריסת מסמך",
-		"vsdv-printImagesDialog-title": "הדפס תמונות",
-		"vsdv-printImagesPanel-imagePrintingString": "התמונה מודפסת",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "עם הערות",
-		"vsdv-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
-		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "סובב תמונה מוערת",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "זווית הסיבוב לא יכולה להיות 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "מסובב תמונה עם הערות",
-		"vsdv-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL",
-		"vsdv-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ"
+		"vsdv-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL"
 	}
 }

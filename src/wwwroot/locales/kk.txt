@@ -25,7 +25,7 @@
 			"title": "URL мекенжайынан файлды ашыңыз"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Құжат орналасу параметрлері"
+			"title": "Орналасу параметрлері"
 		},
 		"printImagesButton": {
 			"title": "Суреттерді басып шығару"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "Масштабтау таңдау"
+		},
+		"showMobileMenuButton": {
+			"title": "Көбірек"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "Тіктөртбұрыш"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Орташа әрекеттесу нүктелері"
-		},
-		"showMobileMenuButton": {
-			"title": "Көбірек"
 		},
 		"sidePanelCloseButton": {
 			"title": "Бүйірлік тақтаны көрсету"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Әдепкі орналасу параметрлерін пайдаланыңыз"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Бет өлшемі"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Жасырын мазмұнды көрсету"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Нобайларды сүйреп апара алады:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Пернетақта арқылы нобайларды шарлай алады:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Пернетақта арқылы нобайларды таңдай алады:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Пернетақта арқылы нобайларды жоя алады:"
+			},
 			"okButton": {
 				"value": "ЖАРАЙДЫ МА"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "Аннотация параметрлері",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Шекара:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлды жүктеп алыңыз және ашыңыз",
 		"vsdv-uploadAndAddFileButton-addFileString": "Файлды жүктеп салыңыз және қосыңыз",
-		"vsdv-textSearchPanel-pageLabel": "Бет",
+		"vsui-textSearchPanel-pageLabel": "Бет",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Аннотацияларды жазу",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Аннотацияларды сақтаңыз",
+		"vsui-annotationListPanel-pageLabel": "Бет",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Аннотация сипаттары",
 		"vsdv-openFile-addFileString": "Файл қосу",
 		"vsdv-openFile-authenticateFileString": "Файлдың аутентификациясы",
 		"vsdv-downloadFile-actionMessage": "Файлды жүктеп алу",
 		"vsdv-saveChanges-saveChangesInImages": "Суреттердегі өзгерістерді сақтаңыз",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотациялардағы өзгерістерді сақтаңыз",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Суреттерге аннотацияларды жазу",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Өзгерістерді PDF құжатында сақтаңыз",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Аннотацияларды жазу",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Аннотацияларды сақтаңыз",
-		"vsdv-annotationListPanel-pageLabel": "Бет",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Аннотация сипаттары",
-		"vsdv-documentPasswordDialog-title": "Құжат құпия сөзі",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "Файлды жүктеп алыңыз және ашыңыз",
+		"vsui-uploadAndAddFileButton-addFileString": "Файлды жүктеп салыңыз және қосыңыз",
+		"vsui-openFile-addFileString": "Файл қосу",
+		"vsui-openFile-authenticateFileString": "Файлдың аутентификациясы",
+		"vsui-downloadFile-actionMessage": "Файлды жүктеп алу",
+		"vsui-saveChanges-saveChangesInImages": "Суреттердегі өзгерістерді сақтаңыз",
+		"vsui-saveChanges-saveChangesInAnnotations": "Аннотациялардағы өзгерістерді сақтаңыз",
+		"vsui-saveChanges-burnAnnotationsInImages": "Суреттерге аннотацияларды жазу",
+		"vsui-saveChanges-saveChangesInPdfDocument": "Өзгерістерді PDF құжатында сақтаңыз",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "Аннотацияларды жазу",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "Аннотацияларды сақтаңыз",
+		"vsui-documentPasswordDialog-title": "Құжат құпия сөзі",
+		"vsui-dialog-okButton": "ЖАРАЙДЫ МА",
+		"vsui-dialog-cancelButton": "Болдырмау",
+		"vsui-documentPasswordPanel-authenticateFileString": "Файлдың аутентификациясы",
+		"vsui-imageSelectionDialog-title": "Суреттерді таңдаңыз",
+		"vsui-imageSelectionDialog-currentImageString": "Ағымдағы сурет",
+		"vsui-imageSelectionDialog-allImagesString": "Барлық суреттер",
+		"vsui-imageSelectionDialog-customImagesString": "Арнаулы",
+		"vsui-documentLayoutSettingsDialog-title": "Құжат орналасу параметрлері",
+		"vsui-printImagesDialog-title": "Суреттерді басып шығару",
+		"vsui-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
+		"vsui-printImagesPanel-withAnnotationsLabel": "аннотациялармен",
+		"vsui-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
+		"vsui-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Аннотациялары бар кескінді бұрыңыз",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Айналу бұрышы нөлден жоғары болуы керек.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялары бар бұрылатын кескін",
+		"vsui-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз",
+		"vsui-exportFileSettingsDialog-title": "Файлды экспорттауға арналған параметрлер",
+		"vsdv-documentLayoutSettingsDialog-title": "Құжат орналасу параметрлері",
 		"vsdv-dialog-okButton": "ЖАРАЙДЫ МА",
 		"vsdv-dialog-cancelButton": "Болдырмау",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Файлдың аутентификациясы",
-		"vsdv-imageSelectionDialog-title": "Суреттерді таңдаңыз",
-		"vsdv-imageSelectionDialog-currentImageString": "Ағымдағы сурет",
-		"vsdv-imageSelectionDialog-allImagesString": "Барлық суреттер",
-		"vsdv-imageSelectionDialog-customImagesString": "Арнаулы",
-		"vsdv-documentLayoutSettingsDialog-title": "Құжат орналасу параметрлері",
-		"vsdv-printImagesDialog-title": "Суреттерді басып шығару",
-		"vsdv-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялармен",
-		"vsdv-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
-		"vsdv-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Аннотациялары бар кескінді бұрыңыз",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Айналу бұрышы нөлден жоғары болуы керек.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Аннотациялары бар бұрылатын кескін",
-		"vsdv-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз",
-		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттауға арналған параметрлер"
+		"vsdv-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз"
 	}
 }

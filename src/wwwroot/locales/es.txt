@@ -25,7 +25,7 @@
 			"title": "Abrir archivo desde URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Configuración de diseño del documento"
+			"title": "Configuración de diseño"
 		},
 		"printImagesButton": {
 			"title": "Imprimir imágenes"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "Selección de escala"
+		},
+		"showMobileMenuButton": {
+			"title": "Más"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "Rectángulo"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Puntos de Interacción Medios"
-		},
-		"showMobileMenuButton": {
-			"title": "Más"
 		},
 		"sidePanelCloseButton": {
 			"title": "Mostrar barra lateral"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Usar la configuración de diseño predeterminada"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Tamaño de página"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Mostrar contenido oculto"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Puede arrastrar miniaturas:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Puede navegar por las miniaturas mediante el teclado:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Puede seleccionar miniaturas mediante el teclado:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Puede eliminar miniaturas mediante el teclado:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "Configuración de anotaciones",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Límite:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descargar y abrir archivo",
 		"vsdv-uploadAndAddFileButton-addFileString": "Subir y agregar archivo",
-		"vsdv-textSearchPanel-pageLabel": "Página",
+		"vsui-textSearchPanel-pageLabel": "Página",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Grabar anotaciones",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Guardar anotaciones",
+		"vsui-annotationListPanel-pageLabel": "Página",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Propiedades de la anotación",
 		"vsdv-openFile-addFileString": "Agregar archivo",
 		"vsdv-openFile-authenticateFileString": "autenticar archivo",
 		"vsdv-downloadFile-actionMessage": "Descargar archivo",
 		"vsdv-saveChanges-saveChangesInImages": "Guardar cambios en imágenes.",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Guardar cambios en anotaciones",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Grabar anotaciones en imágenes",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Guardar cambios en un documento PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Grabar anotaciones",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Guardar anotaciones",
-		"vsdv-annotationListPanel-pageLabel": "Página",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Propiedades de la anotación",
-		"vsdv-documentPasswordDialog-title": "Contraseña del documento",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "Descargar y abrir archivo",
+		"vsui-uploadAndAddFileButton-addFileString": "Subir y agregar archivo",
+		"vsui-openFile-addFileString": "Agregar archivo",
+		"vsui-openFile-authenticateFileString": "autenticar archivo",
+		"vsui-downloadFile-actionMessage": "Descargar archivo",
+		"vsui-saveChanges-saveChangesInImages": "Guardar cambios en imágenes.",
+		"vsui-saveChanges-saveChangesInAnnotations": "Guardar cambios en anotaciones",
+		"vsui-saveChanges-burnAnnotationsInImages": "Grabar anotaciones en imágenes",
+		"vsui-saveChanges-saveChangesInPdfDocument": "Guardar cambios en un documento PDF",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "Grabar anotaciones",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "Guardar anotaciones",
+		"vsui-documentPasswordDialog-title": "Contraseña del documento",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Cancelar",
+		"vsui-documentPasswordPanel-authenticateFileString": "autenticar archivo",
+		"vsui-imageSelectionDialog-title": "Seleccionar imágenes",
+		"vsui-imageSelectionDialog-currentImageString": "Imagen actual",
+		"vsui-imageSelectionDialog-allImagesString": "Todas las imágenes",
+		"vsui-imageSelectionDialog-customImagesString": "Personalizado",
+		"vsui-documentLayoutSettingsDialog-title": "Configuración de diseño del documento",
+		"vsui-printImagesDialog-title": "Imprimir imágenes",
+		"vsui-printImagesPanel-imagePrintingString": "La imagen se está imprimiendo",
+		"vsui-printImagesPanel-withAnnotationsLabel": "con anotaciones",
+		"vsui-imageViewerSettingsDialog-title": "Configuración del visor de imágenes",
+		"vsui-thumbnailViewerSettingDialog-title": "Configuración del visor de miniaturas",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Mostrar anotaciones en miniaturas:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Rotar imagen anotada",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "El ángulo de rotación no debe ser 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "La imagen anotada se está rotando",
+		"vsui-uploadImageFromUrlDialog-title": "Subir imagen desde URL",
+		"vsui-exportFileSettingsDialog-title": "La configuración para exportar el archivo.",
+		"vsdv-documentLayoutSettingsDialog-title": "Configuración de diseño del documento",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Cancelar",
-		"vsdv-documentPasswordPanel-authenticateFileString": "autenticar archivo",
-		"vsdv-imageSelectionDialog-title": "Seleccionar imágenes",
-		"vsdv-imageSelectionDialog-currentImageString": "Imagen actual",
-		"vsdv-imageSelectionDialog-allImagesString": "Todas las imágenes",
-		"vsdv-imageSelectionDialog-customImagesString": "Personalizado",
-		"vsdv-documentLayoutSettingsDialog-title": "Configuración de diseño del documento",
-		"vsdv-printImagesDialog-title": "Imprimir imágenes",
-		"vsdv-printImagesPanel-imagePrintingString": "La imagen se está imprimiendo",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "con anotaciones",
-		"vsdv-imageViewerSettingsDialog-title": "Configuración del visor de imágenes",
-		"vsdv-thumbnailViewerSettingDialog-title": "Configuración del visor de miniaturas",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Mostrar anotaciones en miniaturas:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotar imagen anotada",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "El ángulo de rotación no debe ser 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "La imagen anotada se está rotando",
-		"vsdv-uploadImageFromUrlDialog-title": "Subir imagen desde URL",
-		"vsdv-exportFileSettingsDialog-title": "La configuración para exportar el archivo."
+		"vsdv-uploadImageFromUrlDialog-title": "Subir imagen desde URL"
 	}
 }

@@ -25,7 +25,7 @@
 			"title": "Vula ifayela ku-URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Izilungiselelo zesakhiwo sedokhumenti"
+			"title": "Izilungiselelo zesakhiwo"
 		},
 		"printImagesButton": {
 			"title": "Phrinta izithombe"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "Ukukhetha kokusondeza"
+		},
+		"showMobileMenuButton": {
+			"title": "Okuningi"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "Unxande"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Amaphoyinti okusebenzelana amaphakathi"
-		},
-		"showMobileMenuButton": {
-			"title": "Okuningi"
 		},
 		"sidePanelCloseButton": {
 			"title": "Bonisa Iphaneli Eseceleni"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Sebenzisa izilungiselelo zesakhiwo esizenzakalelayo"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Usayizi Wekhasi"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Bonisa okuqukethwe okufihliwe"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Ingakwazi Ukuhudula Izithonjana:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Ingakwazi Ukuzulazula Izithonjana Ngokusebenzisa Ikhibhodi:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Ungakhetha Izithonjana Usebenzisa Ikhibhodi:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Ingasusa Izithonjana Ngokusebenzisa Ikhibhodi:"
+			},
 			"okButton": {
 				"value": "KULUNGILE"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "Izilungiselelo zesichasiselo",
+			"AutoFontMaxSize": {
+				"text": "I-AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "I-AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Umngcele:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Layisha futhi uvule ifayela",
 		"vsdv-uploadAndAddFileButton-addFileString": "Layisha futhi wengeze ifayela",
-		"vsdv-textSearchPanel-pageLabel": "Ikhasi",
+		"vsui-textSearchPanel-pageLabel": "Ikhasi",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Shisa izichasiselo",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Londoloza izichasiselo",
+		"vsui-annotationListPanel-pageLabel": "Ikhasi",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Izici zesichasiselo",
 		"vsdv-openFile-addFileString": "Engeza ifayela",
 		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
 		"vsdv-downloadFile-actionMessage": "Landa ifayela",
 		"vsdv-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Shisa izichasiselo",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Londoloza izichasiselo",
-		"vsdv-annotationListPanel-pageLabel": "Ikhasi",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Izici zesichasiselo",
-		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "Layisha futhi uvule ifayela",
+		"vsui-uploadAndAddFileButton-addFileString": "Layisha futhi wengeze ifayela",
+		"vsui-openFile-addFileString": "Engeza ifayela",
+		"vsui-openFile-authenticateFileString": "Qinisekisa ifayela",
+		"vsui-downloadFile-actionMessage": "Landa ifayela",
+		"vsui-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
+		"vsui-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
+		"vsui-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
+		"vsui-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "Shisa izichasiselo",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "Londoloza izichasiselo",
+		"vsui-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
+		"vsui-dialog-okButton": "KULUNGILE",
+		"vsui-dialog-cancelButton": "Khansela",
+		"vsui-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
+		"vsui-imageSelectionDialog-title": "Khetha izithombe",
+		"vsui-imageSelectionDialog-currentImageString": "Isithombe samanje",
+		"vsui-imageSelectionDialog-allImagesString": "Zonke izithombe",
+		"vsui-imageSelectionDialog-customImagesString": "Ngokwezifiso",
+		"vsui-documentLayoutSettingsDialog-title": "Izilungiselelo zesakhiwo sedokhumenti",
+		"vsui-printImagesDialog-title": "Phrinta izithombe",
+		"vsui-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
+		"vsui-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
+		"vsui-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Zungezisa isithombe ngezichasiselo",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "I-engeli yokuzungezisa kufanele ibe ngaphezu kukaziro.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izungezisa isithombe ngezichasiselo",
+		"vsui-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL",
+		"vsui-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela",
+		"vsdv-documentLayoutSettingsDialog-title": "Izilungiselelo zesakhiwo sedokhumenti",
 		"vsdv-dialog-okButton": "KULUNGILE",
 		"vsdv-dialog-cancelButton": "Khansela",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
-		"vsdv-imageSelectionDialog-title": "Khetha izithombe",
-		"vsdv-imageSelectionDialog-currentImageString": "Isithombe samanje",
-		"vsdv-imageSelectionDialog-allImagesString": "Zonke izithombe",
-		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
-		"vsdv-documentLayoutSettingsDialog-title": "Izilungiselelo zesakhiwo sedokhumenti",
-		"vsdv-printImagesDialog-title": "Phrinta izithombe",
-		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
-		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
-		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Zungezisa isithombe ngezichasiselo",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "I-engeli yokuzungezisa kufanele ibe ngaphezu kukaziro.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Izungezisa isithombe ngezichasiselo",
-		"vsdv-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL",
-		"vsdv-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela"
+		"vsdv-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL"
 	}
 }

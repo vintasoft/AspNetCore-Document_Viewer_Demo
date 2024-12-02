@@ -25,7 +25,7 @@
 			"title": "從 URL 開啟文件"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "文档布局设置"
+			"title": "布局设置"
 		},
 		"printImagesButton": {
 			"title": "打印图像"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "缩放选择"
+		},
+		"showMobileMenuButton": {
+			"title": "更多的"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "长方形"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "中等交互点"
-		},
-		"showMobileMenuButton": {
-			"title": "更多的"
 		},
 		"sidePanelCloseButton": {
 			"title": "显示侧面板"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "使用默认布局设置"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "页面大小"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "显示隐藏内容"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "可以拖动缩略图："
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "可以使用键盘浏览缩略图："
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "可以使用键盘选择缩略图："
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "可以使用键盘删除缩略图："
+			},
 			"okButton": {
 				"value": "好的"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "注释设置",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize："
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize："
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize："
+			},
 			"Border": {
 				"text": "边界："
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "上传并打开文件",
 		"vsdv-uploadAndAddFileButton-addFileString": "上傳並新增文件",
-		"vsdv-textSearchPanel-pageLabel": "页",
+		"vsui-textSearchPanel-pageLabel": "页",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "刻录注释",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "保存注释",
+		"vsui-annotationListPanel-pageLabel": "页",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "注释属性",
 		"vsdv-openFile-addFileString": "添加文件",
 		"vsdv-openFile-authenticateFileString": "验证文件",
 		"vsdv-downloadFile-actionMessage": "下载文件",
 		"vsdv-saveChanges-saveChangesInImages": "保存图像中的更改",
 		"vsdv-saveChanges-saveChangesInAnnotations": "保存注释中的更改",
 		"vsdv-saveChanges-burnAnnotationsInImages": "在图像上刻录注释",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "刻录注释",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "保存注释",
-		"vsdv-annotationListPanel-pageLabel": "页",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "注释属性",
-		"vsdv-documentPasswordDialog-title": "文档密码",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "上传并打开文件",
+		"vsui-uploadAndAddFileButton-addFileString": "上傳並新增文件",
+		"vsui-openFile-addFileString": "添加文件",
+		"vsui-openFile-authenticateFileString": "验证文件",
+		"vsui-downloadFile-actionMessage": "下载文件",
+		"vsui-saveChanges-saveChangesInImages": "保存图像中的更改",
+		"vsui-saveChanges-saveChangesInAnnotations": "保存注释中的更改",
+		"vsui-saveChanges-burnAnnotationsInImages": "在图像上刻录注释",
+		"vsui-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "刻录注释",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "保存注释",
+		"vsui-documentPasswordDialog-title": "文档密码",
+		"vsui-dialog-okButton": "好的",
+		"vsui-dialog-cancelButton": "取消",
+		"vsui-documentPasswordPanel-authenticateFileString": "验证文件",
+		"vsui-imageSelectionDialog-title": "选择图像",
+		"vsui-imageSelectionDialog-currentImageString": "当前图像",
+		"vsui-imageSelectionDialog-allImagesString": "所有图片",
+		"vsui-imageSelectionDialog-customImagesString": "风俗",
+		"vsui-documentLayoutSettingsDialog-title": "文档布局设置",
+		"vsui-printImagesDialog-title": "打印图像",
+		"vsui-printImagesPanel-imagePrintingString": "图像正在打印",
+		"vsui-printImagesPanel-withAnnotationsLabel": "带注释",
+		"vsui-imageViewerSettingsDialog-title": "图像查看器设置",
+		"vsui-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
+		"vsui-rotateImageWithAnnotationsDialog-title": "旋转带有注释的图像",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "旋转角度应大于零。",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "带注释旋转图像",
+		"vsui-uploadImageFromUrlDialog-title": "從 URL 上傳圖像",
+		"vsui-exportFileSettingsDialog-title": "匯出文件的設置",
+		"vsdv-documentLayoutSettingsDialog-title": "文档布局设置",
 		"vsdv-dialog-okButton": "好的",
 		"vsdv-dialog-cancelButton": "取消",
-		"vsdv-documentPasswordPanel-authenticateFileString": "验证文件",
-		"vsdv-imageSelectionDialog-title": "选择图像",
-		"vsdv-imageSelectionDialog-currentImageString": "当前图像",
-		"vsdv-imageSelectionDialog-allImagesString": "所有图片",
-		"vsdv-imageSelectionDialog-customImagesString": "风俗",
-		"vsdv-documentLayoutSettingsDialog-title": "文档布局设置",
-		"vsdv-printImagesDialog-title": "打印图像",
-		"vsdv-printImagesPanel-imagePrintingString": "图像正在打印",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "带注释",
-		"vsdv-imageViewerSettingsDialog-title": "图像查看器设置",
-		"vsdv-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "旋转带有注释的图像",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "旋转角度应大于零。",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "带注释旋转图像",
-		"vsdv-uploadImageFromUrlDialog-title": "從 URL 上傳圖像",
-		"vsdv-exportFileSettingsDialog-title": "匯出文件的設置"
+		"vsdv-uploadImageFromUrlDialog-title": "從 URL 上傳圖像"
 	}
 }

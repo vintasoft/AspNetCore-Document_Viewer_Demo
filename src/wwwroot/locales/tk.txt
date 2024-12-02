@@ -25,7 +25,7 @@
 			"title": "URL-den faýl açyň"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Resminamanyň ýerleşiş sazlamalary"
+			"title": "Salgy sazlamalary"
 		},
 		"printImagesButton": {
 			"title": "Suratlary çap ediň"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "Ulaltmak"
+		},
+		"showMobileMenuButton": {
+			"title": "Has köp"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "Gönüburçluk"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Orta täsir nokatlary"
-		},
-		"showMobileMenuButton": {
-			"title": "Has köp"
 		},
 		"sidePanelCloseButton": {
 			"title": "Tarap paneli görkez"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Adaty tertip sazlamalaryny ulanyň"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Sahypanyň ululygy"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Gizlin mazmuny görkez"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Suratlary süýräp biler:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiaturany ulanyp, kiçijik suratlary dolandyryp bilersiňiz:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiaturany ulanyp kiçijik suratlary saýlap bilersiňiz:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiatura arkaly kiçijik suratlary pozup bilersiňiz:"
+			},
 			"okButton": {
 				"value": "Bolýar"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "Annotasiýa sazlamalary",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Serhet:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faýly ýükläň we açyň",
 		"vsdv-uploadAndAddFileButton-addFileString": "Faýl ýükläň we goşuň",
-		"vsdv-textSearchPanel-pageLabel": "Sahypa",
+		"vsui-textSearchPanel-pageLabel": "Sahypa",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotasiýalary ýakyň",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Bellikleri ýazdyryň",
+		"vsui-annotationListPanel-pageLabel": "Sahypa",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Annotasiýa aýratynlyklary",
 		"vsdv-openFile-addFileString": "Faýl goşuň",
 		"vsdv-openFile-authenticateFileString": "Faýly tassyklamak",
 		"vsdv-downloadFile-actionMessage": "Faýly göçürip al",
 		"vsdv-saveChanges-saveChangesInImages": "Suratlardaky üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotasiýalary ýakyň",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Bellikleri ýazdyryň",
-		"vsdv-annotationListPanel-pageLabel": "Sahypa",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotasiýa aýratynlyklary",
-		"vsdv-documentPasswordDialog-title": "Resminamanyň paroly",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "Faýly ýükläň we açyň",
+		"vsui-uploadAndAddFileButton-addFileString": "Faýl ýükläň we goşuň",
+		"vsui-openFile-addFileString": "Faýl goşuň",
+		"vsui-openFile-authenticateFileString": "Faýly tassyklamak",
+		"vsui-downloadFile-actionMessage": "Faýly göçürip al",
+		"vsui-saveChanges-saveChangesInImages": "Suratlardaky üýtgeşmeleri ýazdyryň",
+		"vsui-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
+		"vsui-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
+		"vsui-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "Annotasiýalary ýakyň",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "Bellikleri ýazdyryň",
+		"vsui-documentPasswordDialog-title": "Resminamanyň paroly",
+		"vsui-dialog-okButton": "Bolýar",
+		"vsui-dialog-cancelButton": "Elatyr",
+		"vsui-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
+		"vsui-imageSelectionDialog-title": "Suratlary saýlaň",
+		"vsui-imageSelectionDialog-currentImageString": "Häzirki surat",
+		"vsui-imageSelectionDialog-allImagesString": "Imageshli suratlar",
+		"vsui-imageSelectionDialog-customImagesString": "Omörite",
+		"vsui-documentLayoutSettingsDialog-title": "Resminamanyň ýerleşiş sazlamalary",
+		"vsui-printImagesDialog-title": "Suratlary çap ediň",
+		"vsui-printImagesPanel-imagePrintingString": "Surat çap edilýär",
+		"vsui-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
+		"vsui-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
+		"vsui-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Suraty düşündirişler bilen aýlaň",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Aýlanma burçy noldan köp bolmaly.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiýa bilen şekili aýlamak",
+		"vsui-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň",
+		"vsui-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar",
+		"vsdv-documentLayoutSettingsDialog-title": "Resminamanyň ýerleşiş sazlamalary",
 		"vsdv-dialog-okButton": "Bolýar",
 		"vsdv-dialog-cancelButton": "Elatyr",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
-		"vsdv-imageSelectionDialog-title": "Suratlary saýlaň",
-		"vsdv-imageSelectionDialog-currentImageString": "Häzirki surat",
-		"vsdv-imageSelectionDialog-allImagesString": "Imageshli suratlar",
-		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
-		"vsdv-documentLayoutSettingsDialog-title": "Resminamanyň ýerleşiş sazlamalary",
-		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
-		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
-		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
-		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Suraty düşündirişler bilen aýlaň",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Aýlanma burçy noldan köp bolmaly.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiýa bilen şekili aýlamak",
-		"vsdv-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň",
-		"vsdv-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar"
+		"vsdv-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň"
 	}
 }

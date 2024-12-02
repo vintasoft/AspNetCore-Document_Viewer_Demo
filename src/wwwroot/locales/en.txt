@@ -72,6 +72,9 @@
 		"zoomSelectionToolButton": {
 			"title": "Zoom selection"
 		},
+		"showMobileMenuButton": {
+			"title": "More"
+		},
 		"addRectangleAnnotationButton": {
 			"title": "Rectangle"
 		},
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Medium interaction points"
-		},
-		"showMobileMenuButton": {
-			"title": "More"
 		},
 		"sidePanelCloseButton": {
 			"title": "Show Side Panel"
@@ -674,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Can Drag Thumbnails:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Can Navigate Thumbnails Using Keyboard:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Can Select Thumbnails Using Keyboard:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Can Delete Thumbnails Using Keyboard:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -791,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "Annotation settings",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Border:"
 			},
@@ -1034,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Upload and open file",
 		"vsdv-uploadAndAddFileButton-addFileString": "Upload and add file",
-		"vsdv-textSearchPanel-pageLabel": "Page",
+		"vsui-textSearchPanel-pageLabel": "Page",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Burn annotations",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Save annotations",
+		"vsui-annotationListPanel-pageLabel": "Page",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Annotation Properties",
 		"vsdv-openFile-addFileString": "Add file",
 		"vsdv-openFile-authenticateFileString": "Authenticate file",
 		"vsdv-downloadFile-actionMessage": "Download file",
 		"vsdv-saveChanges-saveChangesInImages": "Save changes in images",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Save changes in annotations",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Burn annotations on images",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Save changes in PDF document",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Burn annotations",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Save annotations",
-		"vsdv-annotationListPanel-pageLabel": "Page",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotation Properties",
-		"vsdv-documentPasswordDialog-title": "Document password",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "Upload and open file",
+		"vsui-uploadAndAddFileButton-addFileString": "Upload and add file",
+		"vsui-openFile-addFileString": "Add file",
+		"vsui-openFile-authenticateFileString": "Authenticate file",
+		"vsui-downloadFile-actionMessage": "Download file",
+		"vsui-saveChanges-saveChangesInImages": "Save changes in images",
+		"vsui-saveChanges-saveChangesInAnnotations": "Save changes in annotations",
+		"vsui-saveChanges-burnAnnotationsInImages": "Burn annotations on images",
+		"vsui-saveChanges-saveChangesInPdfDocument": "Save changes in PDF document",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "Burn annotations",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "Save annotations",
+		"vsui-documentPasswordDialog-title": "Document password",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Cancel",
+		"vsui-documentPasswordPanel-authenticateFileString": "Authenticate file",
+		"vsui-imageSelectionDialog-title": "Select images",
+		"vsui-imageSelectionDialog-currentImageString": "Current image",
+		"vsui-imageSelectionDialog-allImagesString": "All images",
+		"vsui-imageSelectionDialog-customImagesString": "Custom",
+		"vsui-documentLayoutSettingsDialog-title": "Document layout settings",
+		"vsui-printImagesDialog-title": "Print images",
+		"vsui-printImagesPanel-imagePrintingString": "Image is printing",
+		"vsui-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsui-imageViewerSettingsDialog-title": "Image viewer settings",
+		"vsui-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Rotate image with annotations",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotation angle should be more than zero.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotating image with annotations",
+		"vsui-uploadImageFromUrlDialog-title": "Upload image from URL",
+		"vsui-exportFileSettingsDialog-title": "Export file settings",
+		"vsdv-documentLayoutSettingsDialog-title": "Document layout settings",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Cancel",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Authenticate file",
-		"vsdv-imageSelectionDialog-title": "Select images",
-		"vsdv-imageSelectionDialog-currentImageString": "Current image",
-		"vsdv-imageSelectionDialog-allImagesString": "All images",
-		"vsdv-imageSelectionDialog-customImagesString": "Custom",
-		"vsdv-documentLayoutSettingsDialog-title": "Document layout settings",
-		"vsdv-printImagesDialog-title": "Print images",
-		"vsdv-printImagesPanel-imagePrintingString": "Image is printing",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
-		"vsdv-imageViewerSettingsDialog-title": "Image viewer settings",
-		"vsdv-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Rotate image with annotations",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Rotation angle should be more than zero.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Rotating image with annotations",
-		"vsdv-uploadImageFromUrlDialog-title": "Upload image from URL",
-		"vsdv-exportFileSettingsDialog-title": "Export file settings"
+		"vsdv-uploadImageFromUrlDialog-title": "Upload image from URL"
 	}
 }

@@ -48,7 +48,7 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
  Creates UI button for activating the visual tool, which allows to select text and work with annotations in image viewer.
 */
 function __createTextSelectionAndAnnotationToolButton() {
-    return new Vintasoft.Imaging.DocumentViewer.UIElements.WebUiVisualToolButtonJS({
+    return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
         cssClass: "vsdv-tools-textSelectionToolButton",
         title: "Annotations, Document navigation, Text selection",
         localizationId: "annotationAndNavigationAndTextSelectionToolButton"
@@ -78,9 +78,13 @@ function __initMenu(docViewerSettings) {
     // get items of document viewer
     var items = docViewerSettings.get_Items();
 
-    var uploadFileButton = items.getItemByRegisteredId("uploadFileButton");
-    if (uploadFileButton != null)
-        uploadFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff, .xlsx, .xls");
+    var uploadAndOpenFileButton = items.getItemByRegisteredId("uploadAndOpenFileButton");
+    if (uploadAndOpenFileButton != null)
+        uploadAndOpenFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .rtf, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff, .xlsx, .xls");
+
+    var uploadAndAddFileButton = items.getItemByRegisteredId("uploadAndAddFileButton");
+    if (uploadAndAddFileButton != null)
+        uploadAndAddFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .rtf, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff, .xlsx, .xls");
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");
@@ -143,7 +147,7 @@ function __initSidePanel(docViewerSettings) {
 */
 function __createPageSearchResultHeaderContent(image, imageIndex, searchResults) {
     return [new Vintasoft.Imaging.UI.UIElements.WebUiLabelElementJS({
-        text: Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-textSearchPanel-pageLabel") + " #" + (imageIndex + 1),
+        text: Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsui-textSearchPanel-pageLabel") + " #" + (imageIndex + 1),
         css: { cursor: "pointer" }
     })];
 }
@@ -291,6 +295,37 @@ function __getApplicationUrl() {
 
 
 
+// === Open TXT ===
+
+/**
+ Adds ".txt" file extension in file extension filter for upload buttons in web document viewer.
+*/
+function __addTxtFileExtensionToUploadButtonsInWebDocumentViewer() {
+    // get upload buttons
+    var uploadAndOpenFileButtons = _docViewer.get_Items().getItemsByRegisteredId("uploadAndOpenFileButton");
+    __addTextFileExtesionToUploadButtons(uploadAndOpenFileButtons);
+
+    var uploadAndAddFileButtons = _docViewer.get_Items().getItemsByRegisteredId("uploadAndAddFileButton");
+    __addTextFileExtesionToUploadButtons(uploadAndAddFileButtons);
+}
+
+/**
+ Adds ".txt" file extension in file extension filter for upload buttons.
+*/
+function __addTextFileExtesionToUploadButtons(uploadButtons) {
+    for (var i = 0; i < uploadButtons.length; i++) {
+        // get current extension filter
+        var currentExtensionFilter = uploadButtons[i].get_FileExtensionFilter();
+        // add ".txt" extension
+        currentExtensionFilter += ", .txt";
+
+        // set new filter
+        uploadButtons[i].set_FileExtensionFilter(currentExtensionFilter);
+    }
+}
+
+
+
 // === Localization ===
 
 /**
@@ -322,41 +357,41 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     documentPasswordDialog.render(floatingContainer);
     tempDialogs.push(documentPasswordDialog);
 
-    var imageSelectionDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageSelectionDialogJS();
+    var imageSelectionDialog = new Vintasoft.Imaging.UI.Dialogs.WebImageSelectionDialogJS();
     imageSelectionDialog.render(floatingContainer);
     tempDialogs.push(imageSelectionDialog);
 
-    var documentLayoutSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebDocumentLayoutSettingsDialogJS();
+    var documentLayoutSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebDocumentLayoutSettingsDialogJS();
     documentLayoutSettingsDialog.render(floatingContainer);
     tempDialogs.push(documentLayoutSettingsDialog);
     
-    var printImagesDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebPrintImagesDialogJS();
+    var printImagesDialog = new Vintasoft.Imaging.UI.Dialogs.WebPrintImagesDialogJS();
     printImagesDialog.render(floatingContainer);
     tempDialogs.push(printImagesDialog);
 
-    var imageViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageViewerSettingsDialogJS();
+    var imageViewerSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebImageViewerSettingsDialogJS();
     imageViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(imageViewerSettingsDialog);
 
-    var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebThumbnailViewerSettingsDialogJS();
+    var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebThumbnailViewerSettingsDialogJS();
     thumbnailViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(thumbnailViewerSettingsDialog);
 
-    var rotateImageWithAnnotationsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebRotateImageWithAnnotationsDialogJS();
+    var rotateImageWithAnnotationsDialog = new Vintasoft.Imaging.Annotation.UI.Dialogs.WebRotateImageWithAnnotationsDialogJS();
     rotateImageWithAnnotationsDialog.render(floatingContainer);
     tempDialogs.push(rotateImageWithAnnotationsDialog);
 
-    var uploadImageFromUrlDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiUploadImageFromUrlDialogJS();
+    var uploadImageFromUrlDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiUploadImageFromUrlDialogJS();
     uploadImageFromUrlDialog.render(floatingContainer);
     tempDialogs.push(uploadImageFromUrlDialog);
 
-    var exportFileSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebExportFileSettingsDialogJS();
+    var exportFileSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebExportFileSettingsDialogJS();
     exportFileSettingsDialog.render(floatingContainer);
     tempDialogs.push(exportFileSettingsDialog);
 
 
     // create context menu panel
-    var contextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebAnnotationViewerContextMenuJS();
+    var contextMenu = new Vintasoft.Imaging.Annotation.UI.UIElements.WebAnnotationViewerContextMenuJS();
     contextMenu.render(floatingContainer);
     tempDialogs.push(contextMenu);
 }
@@ -493,6 +528,9 @@ function __main() {
     var annotationNavigationTextSelectionTool = _docViewer.getVisualToolById("AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool");
     _docViewer.set_MandatoryVisualTool(annotationNavigationTextSelectionTool);
     _docViewer.set_CurrentVisualTool(annotationNavigationTextSelectionTool);
+
+    // add ".txt" file extension in file extension filter for upload buttons in web document viewer
+    __addTxtFileExtensionToUploadButtonsInWebDocumentViewer();
 
     // copy the default file to the uploaded image files directory and open the file
     _openFileHelper = new OpenFileHelperJS(_docViewer, __showErrorMessage);

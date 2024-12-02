@@ -25,7 +25,7 @@
 			"title": "Відкрити файл з URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Параметри оформлення документа"
+			"title": "Налаштування макета"
 		},
 		"printImagesButton": {
 			"title": "Друк зображень"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "Вибір масштабу"
+		},
+		"showMobileMenuButton": {
+			"title": "більше"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "Прямокутник"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Середні точки взаємодії"
-		},
-		"showMobileMenuButton": {
-			"title": "більше"
 		},
 		"sidePanelCloseButton": {
 			"title": "Показати бічну панель"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Використовуйте налаштування макета за замовчуванням"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Розмір сторінки"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Показати прихований вміст"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Можна перетягувати мініатюри:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Можна переміщатися мініатюрами за допомогою клавіатури:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Можна вибрати мініатюри за допомогою клавіатури:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Можна видалити мініатюри за допомогою клавіатури:"
+			},
 			"okButton": {
 				"value": "В порядку"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "Налаштування анотації",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Кордон:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Завантажте та відкрийте файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Завантажити та додати файл",
-		"vsdv-textSearchPanel-pageLabel": "Сторінка",
+		"vsui-textSearchPanel-pageLabel": "Сторінка",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Записати анотації",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Зберегти анотації",
+		"vsui-annotationListPanel-pageLabel": "Сторінка",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Властивості анотації",
 		"vsdv-openFile-addFileString": "Додати файл",
 		"vsdv-openFile-authenticateFileString": "Автентифікувати файл",
 		"vsdv-downloadFile-actionMessage": "Завантажити файл",
 		"vsdv-saveChanges-saveChangesInImages": "Збережіть зміни в зображеннях",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Збережіть зміни в анотаціях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запис анотацій на зображеннях",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Записати анотації",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Зберегти анотації",
-		"vsdv-annotationListPanel-pageLabel": "Сторінка",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Властивості анотації",
-		"vsdv-documentPasswordDialog-title": "Пароль документа",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "Завантажте та відкрийте файл",
+		"vsui-uploadAndAddFileButton-addFileString": "Завантажити та додати файл",
+		"vsui-openFile-addFileString": "Додати файл",
+		"vsui-openFile-authenticateFileString": "Автентифікувати файл",
+		"vsui-downloadFile-actionMessage": "Завантажити файл",
+		"vsui-saveChanges-saveChangesInImages": "Збережіть зміни в зображеннях",
+		"vsui-saveChanges-saveChangesInAnnotations": "Збережіть зміни в анотаціях",
+		"vsui-saveChanges-burnAnnotationsInImages": "Запис анотацій на зображеннях",
+		"vsui-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "Записати анотації",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "Зберегти анотації",
+		"vsui-documentPasswordDialog-title": "Пароль документа",
+		"vsui-dialog-okButton": "В порядку",
+		"vsui-dialog-cancelButton": "Скасувати",
+		"vsui-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
+		"vsui-imageSelectionDialog-title": "Виберіть зображення",
+		"vsui-imageSelectionDialog-currentImageString": "Поточне зображення",
+		"vsui-imageSelectionDialog-allImagesString": "Всі зображення",
+		"vsui-imageSelectionDialog-customImagesString": "Custom",
+		"vsui-documentLayoutSettingsDialog-title": "Параметри оформлення документа",
+		"vsui-printImagesDialog-title": "Друк зображень",
+		"vsui-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsui-printImagesPanel-withAnnotationsLabel": "з анотаціями",
+		"vsui-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
+		"vsui-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Обертання зображення з анотаціями",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут повороту повинен бути більше нуля.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Зображення, що обертається, з анотаціями",
+		"vsui-uploadImageFromUrlDialog-title": "Завантажте зображення з URL",
+		"vsui-exportFileSettingsDialog-title": "Параметри експорту файлу",
+		"vsdv-documentLayoutSettingsDialog-title": "Параметри оформлення документа",
 		"vsdv-dialog-okButton": "В порядку",
 		"vsdv-dialog-cancelButton": "Скасувати",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
-		"vsdv-imageSelectionDialog-title": "Виберіть зображення",
-		"vsdv-imageSelectionDialog-currentImageString": "Поточне зображення",
-		"vsdv-imageSelectionDialog-allImagesString": "Всі зображення",
-		"vsdv-imageSelectionDialog-customImagesString": "Custom",
-		"vsdv-documentLayoutSettingsDialog-title": "Параметри оформлення документа",
-		"vsdv-printImagesDialog-title": "Друк зображень",
-		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "з анотаціями",
-		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
-		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Обертання зображення з анотаціями",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Кут повороту повинен бути більше нуля.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Зображення, що обертається, з анотаціями",
-		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL",
-		"vsdv-exportFileSettingsDialog-title": "Параметри експорту файлу"
+		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL"
 	}
 }

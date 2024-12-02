@@ -25,7 +25,7 @@
 			"title": "URL-dən faylı açın"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Sənəd tərtibatı parametrləri"
+			"title": "Layout parametrləri"
 		},
 		"printImagesButton": {
 			"title": "Şəkilləri çap edin"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "Zoom seçimi"
+		},
+		"showMobileMenuButton": {
+			"title": "Daha çox"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "Düzbucaqlı"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Orta qarşılıqlı əlaqə nöqtələri"
-		},
-		"showMobileMenuButton": {
-			"title": "Daha çox"
 		},
 		"sidePanelCloseButton": {
 			"title": "Yan Paneli göstərin"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Defolt tərtibat parametrlərindən istifadə edin"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Səhifə ölçüsü"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Gizli məzmunu göstərin"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Miniatürləri sürükləyə bilər:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviaturadan istifadə edərək miniatürləri gəzə bilər:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviaturadan istifadə edərək miniatürləri seçə bilər:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviaturadan istifadə edərək kiçik şəkilləri silə bilər:"
+			},
 			"okButton": {
 				"value": "tamam"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "Annotasiya parametrləri",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Sərhəd:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faylı yükləyin və açın",
 		"vsdv-uploadAndAddFileButton-addFileString": "Fayl yükləyin və əlavə edin",
-		"vsdv-textSearchPanel-pageLabel": "Səhifə",
+		"vsui-textSearchPanel-pageLabel": "Səhifə",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotasiyaları yandırın",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Annotasiyaları yadda saxlayın",
+		"vsui-annotationListPanel-pageLabel": "Səhifə",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Annotasiya Xüsusiyyətləri",
 		"vsdv-openFile-addFileString": "Fayl əlavə edin",
 		"vsdv-openFile-authenticateFileString": "Faylı doğrulayın",
 		"vsdv-downloadFile-actionMessage": "Faylı yüklə",
 		"vsdv-saveChanges-saveChangesInImages": "Şəkillərdə dəyişiklikləri yadda saxlayın",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiyalarda dəyişiklikləri yadda saxlayın",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Şəkillərdə annotasiyaları yandırın",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Dəyişiklikləri PDF sənədində qeyd edin",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Annotasiyaları yandırın",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Annotasiyaları yadda saxlayın",
-		"vsdv-annotationListPanel-pageLabel": "Səhifə",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Annotasiya Xüsusiyyətləri",
-		"vsdv-documentPasswordDialog-title": "Sənəd parolu",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "Faylı yükləyin və açın",
+		"vsui-uploadAndAddFileButton-addFileString": "Fayl yükləyin və əlavə edin",
+		"vsui-openFile-addFileString": "Fayl əlavə edin",
+		"vsui-openFile-authenticateFileString": "Faylı doğrulayın",
+		"vsui-downloadFile-actionMessage": "Faylı yüklə",
+		"vsui-saveChanges-saveChangesInImages": "Şəkillərdə dəyişiklikləri yadda saxlayın",
+		"vsui-saveChanges-saveChangesInAnnotations": "Annotasiyalarda dəyişiklikləri yadda saxlayın",
+		"vsui-saveChanges-burnAnnotationsInImages": "Şəkillərdə annotasiyaları yandırın",
+		"vsui-saveChanges-saveChangesInPdfDocument": "Dəyişiklikləri PDF sənədində qeyd edin",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "Annotasiyaları yandırın",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "Annotasiyaları yadda saxlayın",
+		"vsui-documentPasswordDialog-title": "Sənəd parolu",
+		"vsui-dialog-okButton": "tamam",
+		"vsui-dialog-cancelButton": "Ləğv et",
+		"vsui-documentPasswordPanel-authenticateFileString": "Faylı doğrulayın",
+		"vsui-imageSelectionDialog-title": "Şəkilləri seçin",
+		"vsui-imageSelectionDialog-currentImageString": "Cari şəkil",
+		"vsui-imageSelectionDialog-allImagesString": "Bütün şəkillər",
+		"vsui-imageSelectionDialog-customImagesString": "Xüsusi",
+		"vsui-documentLayoutSettingsDialog-title": "Sənəd tərtibatı parametrləri",
+		"vsui-printImagesDialog-title": "Şəkilləri çap edin",
+		"vsui-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
+		"vsui-printImagesPanel-withAnnotationsLabel": "annotasiyalarla",
+		"vsui-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
+		"vsui-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Annotasiyalarla şəkli fırladın",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Fırlanma bucağı sıfırdan çox olmalıdır.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiyalarla fırlanan şəkil",
+		"vsui-uploadImageFromUrlDialog-title": "URL-dən şəkil yükləyin",
+		"vsui-exportFileSettingsDialog-title": "Faylı ixrac etmək üçün parametrlər",
+		"vsdv-documentLayoutSettingsDialog-title": "Sənəd tərtibatı parametrləri",
 		"vsdv-dialog-okButton": "tamam",
 		"vsdv-dialog-cancelButton": "Ləğv et",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Faylı doğrulayın",
-		"vsdv-imageSelectionDialog-title": "Şəkilləri seçin",
-		"vsdv-imageSelectionDialog-currentImageString": "Cari şəkil",
-		"vsdv-imageSelectionDialog-allImagesString": "Bütün şəkillər",
-		"vsdv-imageSelectionDialog-customImagesString": "Xüsusi",
-		"vsdv-documentLayoutSettingsDialog-title": "Sənəd tərtibatı parametrləri",
-		"vsdv-printImagesDialog-title": "Şəkilləri çap edin",
-		"vsdv-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "annotasiyalarla",
-		"vsdv-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
-		"vsdv-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Annotasiyalarla şəkli fırladın",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Fırlanma bucağı sıfırdan çox olmalıdır.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Annotasiyalarla fırlanan şəkil",
-		"vsdv-uploadImageFromUrlDialog-title": "URL-dən şəkil yükləyin",
-		"vsdv-exportFileSettingsDialog-title": "Faylı ixrac etmək üçün parametrlər"
+		"vsdv-uploadImageFromUrlDialog-title": "URL-dən şəkil yükləyin"
 	}
 }

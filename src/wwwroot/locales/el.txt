@@ -25,7 +25,7 @@
 			"title": "Άνοιγμα αρχείου από τη διεύθυνση URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Ρυθμίσεις διάταξης εγγράφου"
+			"title": "Ρυθμίσεις διάταξης"
 		},
 		"printImagesButton": {
 			"title": "Εκτύπωση εικόνων"
@@ -71,6 +71,9 @@
 		},
 		"zoomSelectionToolButton": {
 			"title": "Επιλογή κλίμακας"
+		},
+		"showMobileMenuButton": {
+			"title": "Περισσότερα"
 		},
 		"addRectangleAnnotationButton": {
 			"title": "Ορθογώνιο"
@@ -143,9 +146,6 @@
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Μεσαία σημεία αλληλεπίδρασης"
-		},
-		"showMobileMenuButton": {
-			"title": "Περισσότερα"
 		},
 		"sidePanelCloseButton": {
 			"title": "Εμφάνιση πλαϊνής γραμμής"
@@ -347,6 +347,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Χρησιμοποιήστε τις προεπιλεγμένες ρυθμίσεις διάταξης"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Μέγεθος σελίδας"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Εμφάνιση κρυφού περιεχομένου"
@@ -669,6 +674,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Μπορεί να σύρει μικρογραφίες:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Μπορεί να πλοηγηθεί στις μικρογραφίες χρησιμοποιώντας το πληκτρολόγιο:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Μπορεί να επιλέξει μικρογραφίες χρησιμοποιώντας το πληκτρολόγιο:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Μπορείτε να διαγράψετε μικρογραφίες χρησιμοποιώντας το πληκτρολόγιο:"
+			},
 			"okButton": {
 				"value": "ΟΚ"
 			},
@@ -786,6 +800,15 @@
 		},
 		"annotationSettingsDialog": {
 			"title": "Ρυθμίσεις σχολιασμού",
+			"AutoFontMaxSize": {
+				"text": "AutoFontMaxSize:"
+			},
+			"AutoFontMinSize": {
+				"text": "AutoFontMinSize:"
+			},
+			"AutoFontSize": {
+				"text": "AutoFontSize:"
+			},
 			"Border": {
 				"text": "Όριο:"
 			},
@@ -1029,37 +1052,51 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Λήψη και άνοιγμα αρχείου",
 		"vsdv-uploadAndAddFileButton-addFileString": "Μεταφόρτωση και προσθήκη αρχείου",
-		"vsdv-textSearchPanel-pageLabel": "Σελίδα",
+		"vsui-textSearchPanel-pageLabel": "Σελίδα",
+		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Κάψτε σχολιασμούς",
+		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Αποθήκευση σχολιασμών",
+		"vsui-annotationListPanel-pageLabel": "Σελίδα",
+		"vsui-annotationListPanel-annotationPropertiesLabel": "Ιδιότητες σχολιασμού",
 		"vsdv-openFile-addFileString": "Προσθήκη αρχείου",
 		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
 		"vsdv-downloadFile-actionMessage": "Λήψη αρχείου",
 		"vsdv-saveChanges-saveChangesInImages": "Αποθηκεύστε τις αλλαγές στις εικόνες",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
-		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Κάψτε σχολιασμούς",
-		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Αποθήκευση σχολιασμών",
-		"vsdv-annotationListPanel-pageLabel": "Σελίδα",
-		"vsdv-annotationListPanel-annotationPropertiesLabel": "Ιδιότητες σχολιασμού",
-		"vsdv-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
+		"vsui-uploadAndOpenFileButton-uploadFileString": "Λήψη και άνοιγμα αρχείου",
+		"vsui-uploadAndAddFileButton-addFileString": "Μεταφόρτωση και προσθήκη αρχείου",
+		"vsui-openFile-addFileString": "Προσθήκη αρχείου",
+		"vsui-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
+		"vsui-downloadFile-actionMessage": "Λήψη αρχείου",
+		"vsui-saveChanges-saveChangesInImages": "Αποθηκεύστε τις αλλαγές στις εικόνες",
+		"vsui-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
+		"vsui-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
+		"vsui-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
+		"vsui-burnAnnotationsButton-burnAnnotationsString": "Κάψτε σχολιασμούς",
+		"vsui-saveAnnotationsButton-saveAnnotationsString": "Αποθήκευση σχολιασμών",
+		"vsui-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
+		"vsui-dialog-okButton": "ΟΚ",
+		"vsui-dialog-cancelButton": "Ακύρωση",
+		"vsui-documentPasswordPanel-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
+		"vsui-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
+		"vsui-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
+		"vsui-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
+		"vsui-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
+		"vsui-documentLayoutSettingsDialog-title": "Ρυθμίσεις διάταξης εγγράφου",
+		"vsui-printImagesDialog-title": "Εκτύπωση εικόνων",
+		"vsui-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
+		"vsui-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
+		"vsui-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
+		"vsui-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
+		"vsui-rotateImageWithAnnotationsDialog-title": "Περιστροφή σχολιασμένης εικόνας",
+		"vsui-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Η γωνία περιστροφής δεν πρέπει να είναι 0.",
+		"vsui-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται",
+		"vsui-uploadImageFromUrlDialog-title": "Μεταφόρτωση εικόνας από τη διεύθυνση URL",
+		"vsui-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου",
+		"vsdv-documentLayoutSettingsDialog-title": "Ρυθμίσεις διάταξης εγγράφου",
 		"vsdv-dialog-okButton": "ΟΚ",
 		"vsdv-dialog-cancelButton": "Ακύρωση",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
-		"vsdv-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
-		"vsdv-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
-		"vsdv-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
-		"vsdv-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
-		"vsdv-documentLayoutSettingsDialog-title": "Ρυθμίσεις διάταξης εγγράφου",
-		"vsdv-printImagesDialog-title": "Εκτύπωση εικόνων",
-		"vsdv-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
-		"vsdv-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
-		"vsdv-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
-		"vsdv-rotateImageWithAnnotationsDialog-title": "Περιστροφή σχολιασμένης εικόνας",
-		"vsdv-rotateImageWithAnnotationsDialog-rotationAngleCannotBeZeroString": "Η γωνία περιστροφής δεν πρέπει να είναι 0.",
-		"vsdv-rotateImageWithAnnotationsDialog-rotatingImageWithAnnotationsString": "Η σχολιασμένη εικόνα περιστρέφεται",
-		"vsdv-uploadImageFromUrlDialog-title": "Μεταφόρτωση εικόνας από τη διεύθυνση URL",
-		"vsdv-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου"
+		"vsdv-uploadImageFromUrlDialog-title": "Μεταφόρτωση εικόνας από τη διεύθυνση URL"
 	}
 }
