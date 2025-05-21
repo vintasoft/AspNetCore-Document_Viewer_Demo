@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Jooned"
 		},
+		"addInkAnnotationButton": {
+			"title": "Tint"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Hulknurk"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Tee uuesti"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Luba režiim 'Märkuste kustutuskumm'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Keskmised interaktsioonipunktid"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaktsioonirežiim 'Vaade'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaktsioonirežiim 'Märkuste kustutuskumm'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaktsioonirežiim 'Pliiatsi kustutuskumm'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Väikesed interaktsioonipunktid"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Dokumendi paigutuse seaded",
 		"vsdv-dialog-okButton": "Okei",
 		"vsdv-dialog-cancelButton": "Tühista",
-		"vsdv-uploadImageFromUrlDialog-title": "Laadige pilt üles URL-ist"
+		"vsdv-uploadImageFromUrlDialog-title": "Laadige pilt üles URL-ist",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Luba tagasivõtmine/teha uuesti",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Keela tagasivõtmine/teha uuesti",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Luba režiim 'Märkuste kustutuskumm'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Keela 'Märkuste kustutuskumm'",
+		"vsui-documentNavigationTool-getActions": "Hankige toiminguid"
 	}
 }

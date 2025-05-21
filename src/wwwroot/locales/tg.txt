@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Хатҳо"
 		},
+		"addInkAnnotationButton": {
+			"title": "Сиёҳ"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Бисёркунҷа"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Такрор кунед"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Ҳолати мутақобиларо фаъол созед 'Расзер барои эзоҳҳо'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Нуқтаҳои мутақобилаи миёна"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Ҳолати ҳамкорӣ 'Намоиш'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Ҳолати мутақобила 'Расзер барои эзоҳҳо'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Ҳолати мутақобила 'Расзер барои қалам'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Нуқтаҳои хурди мутақобила"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Танзимоти тарҳбандии ҳуҷҷат",
 		"vsdv-dialog-okButton": "ДУРУСТ",
 		"vsdv-dialog-cancelButton": "Бекор кардан",
-		"vsdv-uploadImageFromUrlDialog-title": "Тасвирро аз URL бор кунед"
+		"vsdv-uploadImageFromUrlDialog-title": "Тасвирро аз URL бор кунед",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Барқарор/бозкоркуниро фаъол созед",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Бекор кардан/бозор карданро хомӯш кунед",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Ҳолати мутақобиларо фаъол созед 'Расзер барои эзоҳҳо'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Хомӯш кардани 'Хафкунаки эзоҳ'",
+		"vsui-documentNavigationTool-getActions": "Амалҳо гиред"
 	}
 }

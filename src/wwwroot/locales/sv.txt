@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyline"
 		},
+		"addInkAnnotationButton": {
+			"title": "Bläck"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polygon"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Upprepa"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Aktivera läget 'Radergummi för kommentarer'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mellan interaktionspunkter"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaktionsläge 'Visa'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaktionsläge 'Radergummi för kommentarer'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaktionsläge 'Suddgummi för penna'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Små interaktionspunkter"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Inställningar för dokumentlayout",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Avbryt",
-		"vsdv-uploadImageFromUrlDialog-title": "Ladda upp bild från URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Ladda upp bild från URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Aktivera ändringshistorik",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Inaktivera ångra/gör om",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Aktivera läget 'Radergummi för kommentarer'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Inaktivera 'Annotationsraderare'",
+		"vsui-documentNavigationTool-getActions": "Få åtgärder"
 	}
 }

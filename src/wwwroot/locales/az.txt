@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Xətlər"
 		},
+		"addInkAnnotationButton": {
+			"title": "Mürəkkəb"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poliqon"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Yenidən edin"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "'Annotasiya silgisini' aktivləşdirin"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Orta qarşılıqlı əlaqə nöqtələri"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Qarşılıqlı əlaqə rejimi 'Görünüş'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Qarşılıqlı əlaqə rejimi 'Annotasiya silgisi'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Qarşılıqlı əlaqə rejimi 'Qələm silgisi'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kiçik qarşılıqlı əlaqə nöqtələri"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Sənəd tərtibatı parametrləri",
 		"vsdv-dialog-okButton": "tamam",
 		"vsdv-dialog-cancelButton": "Ləğv et",
-		"vsdv-uploadImageFromUrlDialog-title": "URL-dən şəkil yükləyin"
+		"vsdv-uploadImageFromUrlDialog-title": "URL-dən şəkil yükləyin",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Geri al/təkrar et",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Geri al/təkrar etməyi deaktiv edin",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Annotasiya silgisini' aktivləşdirin",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Annotasiya silgisini' deaktiv edin",
+		"vsui-documentNavigationTool-getActions": "Tədbirlər alın"
 	}
 }

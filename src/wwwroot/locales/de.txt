@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polylinie"
 		},
+		"addInkAnnotationButton": {
+			"title": "Freihandeingabe"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polygon"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Wiederholen"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "'Radiergummi für Anmerkungen' aktivieren"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mittlere Interaktionspunkte"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaktionsmodus 'Ansicht'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaktionsmodus 'Radiergummi für Anmerkungen'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaktionsmodus 'Radiergummi für Bleistift'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kleine Interaktionspunkte"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Dokumentlayouteinstellungen",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Abbrechen",
-		"vsdv-uploadImageFromUrlDialog-title": "Bild von URL hochladen"
+		"vsdv-uploadImageFromUrlDialog-title": "Bild von URL hochladen",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Änderungsverlauf aktivieren",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Rückgängig/Wiederholen deaktivieren",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Radiergummi für Anmerkungen' aktivieren",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Anmerkungsradierer deaktivieren",
+		"vsui-documentNavigationTool-getActions": "Aktionen abrufen"
 	}
 }

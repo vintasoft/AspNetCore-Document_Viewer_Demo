@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "다중선"
 		},
+		"addInkAnnotationButton": {
+			"title": "잉크"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "다각형"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "반복"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "'주석 지우개' 모드 활성화"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "중간 상호 작용 지점"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "상호작용 모드 '보기'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "'주석 지우개' 상호 작용 모드"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "'연필 지우개' 상호 작용 모드"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "작은 상호 작용 지점"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "문서 레이아웃 설정",
 		"vsdv-dialog-okButton": "확인",
 		"vsdv-dialog-cancelButton": "취소",
-		"vsdv-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드"
+		"vsdv-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "변경 내역 활성화",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "실행 취소/다시 실행 비활성화",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'주석 지우개' 모드 활성화",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'주석 지우개' 비활성화",
+		"vsui-documentNavigationTool-getActions": "작업 가져오기"
 	}
 }

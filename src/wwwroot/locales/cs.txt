@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Křivka"
 		},
+		"addInkAnnotationButton": {
+			"title": "Inkoust"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Mnohoúhelník"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Opakujte"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Povolit 'Guma pro anotace'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Střední body interakce"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Režim interakce 'Zobrazit'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Režim interakce 'Guma pro anotace'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Režim interakce 'Guma pro tužku'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Malé interakční body"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Nastavení rozvržení dokumentu",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Zrušit",
-		"vsdv-uploadImageFromUrlDialog-title": "Nahrajte obrázek z adresy URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Nahrajte obrázek z adresy URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Povolit historii změn",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Zakázat vrácení/znovu",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Povolit 'Guma pro anotace'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Zakázat 'gumu anotací'",
+		"vsui-documentNavigationTool-getActions": "Získejte akce"
 	}
 }

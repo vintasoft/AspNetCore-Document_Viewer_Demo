@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyviiva"
 		},
+		"addInkAnnotationButton": {
+			"title": "Muste"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Monikulmio"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Toista"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Ota käyttöön tila 'Pyyheen merkintöjä varten'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Keskitason vuorovaikutuspisteet"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Vuorovaikutustilan 'View'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Vuorovaikutustila 'Pyykki merkintöjä varten'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Vuorovaikutustila 'Pyyhekynälle'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Pienet vuorovaikutuskohdat"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Asiakirjan asetteluasetukset",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Peruuta",
-		"vsdv-uploadImageFromUrlDialog-title": "Lataa kuva URL-osoitteesta"
+		"vsdv-uploadImageFromUrlDialog-title": "Lataa kuva URL-osoitteesta",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Ota muutoshistoria käyttöön",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Poista kumoa/toista käytöstä",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Ota käyttöön tila 'Pyyheen merkintöjä varten'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Poista merkintöjen pyyhekumi käytöstä",
+		"vsui-documentNavigationTool-getActions": "Hanki toimia"
 	}
 }

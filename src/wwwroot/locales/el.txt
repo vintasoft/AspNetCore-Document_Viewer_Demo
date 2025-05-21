@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Πολυγραμμή"
 		},
+		"addInkAnnotationButton": {
+			"title": "Μελάνι"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Πολύγωνο"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Επανάληψη"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Ενεργοποίηση 'Γόμα για σχολιασμούς'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Μεσαία σημεία αλληλεπίδρασης"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Λειτουργία αλληλεπίδρασης 'Προβολή'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Λειτουργία αλληλεπίδρασης 'Γόμα για σχολιασμούς'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Λειτουργία αλληλεπίδρασης 'Γόμα για μολύβι'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Μικρά σημεία αλληλεπίδρασης"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Ρυθμίσεις διάταξης εγγράφου",
 		"vsdv-dialog-okButton": "ΟΚ",
 		"vsdv-dialog-cancelButton": "Ακύρωση",
-		"vsdv-uploadImageFromUrlDialog-title": "Μεταφόρτωση εικόνας από τη διεύθυνση URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Μεταφόρτωση εικόνας από τη διεύθυνση URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Ενεργοποίηση ιστορικού αλλαγών",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Απενεργοποίηση αναίρεσης/εκ νέου",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Ενεργοποίηση 'Γόμα για σχολιασμούς'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Απενεργοποίηση 'Γόμα σχολίων'",
+		"vsui-documentNavigationTool-getActions": "Λάβετε ενέργειες"
 	}
 }

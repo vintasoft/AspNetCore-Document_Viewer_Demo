@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polylijn"
 		},
+		"addInkAnnotationButton": {
+			"title": "Inkt"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Veelhoek"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Herhalen"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Modus 'Gum voor aantekeningen' inschakelen"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middelste interactiepunten"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interactiemodus 'Weergeven'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interactiemodus 'Gum voor aantekeningen'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interactiemodus 'Gum voor potlood'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kleine interactiepunten"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Instellingen voor documentlay-out",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Annuleren",
-		"vsdv-uploadImageFromUrlDialog-title": "Upload afbeelding vanaf URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Upload afbeelding vanaf URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Wijzigingsgeschiedenis inschakelen",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Ongedaan maken/opnieuw uitvoeren uitschakelen",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Modus 'Gum voor aantekeningen' inschakelen",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Annotatie-gum' uitschakelen",
+		"vsui-documentNavigationTool-getActions": "Acties ophalen"
 	}
 }

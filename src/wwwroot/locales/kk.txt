@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Сызықтар"
 		},
+		"addInkAnnotationButton": {
+			"title": "Сия"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Көпбұрыш"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Қайталау"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "'Аннотациялар үшін өшіргіш' режимін қосу"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Орташа әрекеттесу нүктелері"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "'Көру' әрекеттесу режимі"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "'Аннотациялар үшін өшіргіш' өзара әрекеттесу режимі"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "'Қарындаш үшін өшіргіш' әрекеттесу режимі"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Шағын өзара әрекеттесу нүктелері"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Құжат орналасу параметрлері",
 		"vsdv-dialog-okButton": "ЖАРАЙДЫ МА",
 		"vsdv-dialog-cancelButton": "Болдырмау",
-		"vsdv-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз"
+		"vsdv-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Болдырмау/қайталау мүмкіндігін қосыңыз",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Болдырмауды/қайталауды өшіріңіз",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Аннотациялар үшін өшіргіш' режимін қосу",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Аннотация өшіргішін' өшіру",
+		"vsui-documentNavigationTool-getActions": "Әрекеттерді алыңыз"
 	}
 }

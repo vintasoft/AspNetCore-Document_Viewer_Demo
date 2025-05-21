@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyline"
 		},
+		"addInkAnnotationButton": {
+			"title": "Blæk"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polygon"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Gentag"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Aktiver 'Viskelæder for annoteringer'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mellem interaktionspunkter"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaktionstilstand 'Vis'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaktionstilstand 'Viskelæder til annoteringer'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaktionstilstand 'Viskelæder til blyant'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Små interaktionspunkter"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Indstillinger for dokumentlayout",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Annuller",
-		"vsdv-uploadImageFromUrlDialog-title": "Upload billede fra URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Upload billede fra URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Aktiver ændringshistorik",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Deaktiver fortryd/gentag",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Aktiver 'Viskelæder for annoteringer'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Deaktiver 'Annotations viskelæder'",
+		"vsui-documentNavigationTool-getActions": "Få handlinger"
 	}
 }

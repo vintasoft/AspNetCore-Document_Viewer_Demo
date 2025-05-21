@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyligne"
 		},
+		"addInkAnnotationButton": {
+			"title": "Encre"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polygone"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Répéter"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Activer le mode 'Gomme pour les annotations'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Points d'interaction intermédiaires"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Mode d'interaction 'Afficher'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Mode d'interaction 'Gomme pour les annotations'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Mode d'interaction 'Gomme pour le crayon'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Petits points d'interaction"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Paramètres de mise en page du document",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Annuler",
-		"vsdv-uploadImageFromUrlDialog-title": "Télécharger une image à partir d'une URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Télécharger une image à partir d'une URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Activer l'historique des modifications",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Désactiver l'annulation/le rétablissement",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Activer le mode 'Gomme pour les annotations'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Désactiver la 'gomme d'annotation'",
+		"vsui-documentNavigationTool-getActions": "Obtenir les actions"
 	}
 }

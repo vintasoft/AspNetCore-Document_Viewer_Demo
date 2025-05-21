@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Imigqa"
 		},
+		"addInkAnnotationButton": {
+			"title": "Uyinki"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Ipholigoni"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Yenza futhi"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Nika amandla imodi 'Isisuli sezichasiselo'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Amaphoyinti okusebenzelana amaphakathi"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Imodi yokusebenzisana 'Buka'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Imodi yokusebenzisana 'Isisuli sezichasiselo'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Imodi yokusebenzisana 'Isisuli sepensela'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Amaphuzu amancane okusebenzisana"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Izilungiselelo zesakhiwo sedokhumenti",
 		"vsdv-dialog-okButton": "KULUNGILE",
 		"vsdv-dialog-cancelButton": "Khansela",
-		"vsdv-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Nika amandla ukuhlehlisa/ukwenza futhi",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Khubaza ukuhlehlisa/ukwenza futhi",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Nika amandla imodi 'Isisuli sezichasiselo'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Khubaza 'isisuli sesichasiselo'",
+		"vsui-documentNavigationTool-getActions": "Thola izenzo"
 	}
 }

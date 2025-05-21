@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Setirler"
 		},
+		"addInkAnnotationButton": {
+			"title": "Syýa"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Köpburçluk"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Gaýtadan işlediň"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Özara täsir ediş tertibini işjeňleşdiriň 'Bellikler üçin pozujy'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Orta täsir nokatlary"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Özara täsir tertibi 'Görmek'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Özara täsir ediş tertibi 'Bellikler üçin pozujy'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Özara täsir tertibi 'Bellikler üçin öçüriji'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kiçijik täsir ediş nokatlary"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Resminamanyň ýerleşiş sazlamalary",
 		"vsdv-dialog-okButton": "Bolýar",
 		"vsdv-dialog-cancelButton": "Elatyr",
-		"vsdv-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň"
+		"vsdv-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Yzyna / yzyna gaýtarmaga mümkinçilik beriň",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Yzyna / yzyna gaýtarmagy öçüriň",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Özara täsir ediş tertibini işjeňleşdiriň 'Bellikler üçin pozujy'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Annotasiýa öçürijini' öçüriň",
+		"vsui-documentNavigationTool-getActions": "Hereket ediň"
 	}
 }

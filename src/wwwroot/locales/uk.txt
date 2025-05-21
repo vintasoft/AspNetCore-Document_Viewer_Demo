@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Лінії"
 		},
+		"addInkAnnotationButton": {
+			"title": "Чорнило"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Багатокутник"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Повторити"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Увімкнути режим «Гумка для анотацій»"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Середні точки взаємодії"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Режим взаємодії 'Перегляд'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Режим взаємодії «Гумка для анотацій»"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Режим взаємодії «Гумка для олівця»"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Малі точки взаємодії"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Параметри оформлення документа",
 		"vsdv-dialog-okButton": "В порядку",
 		"vsdv-dialog-cancelButton": "Скасувати",
-		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Увімкнути скасування/повторення",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Вимкнути скасування/повторення",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Увімкнути режим «Гумка для анотацій»",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Вимкнути 'Стирання анотацій'",
+		"vsui-documentNavigationTool-getActions": "Отримати дії"
 	}
 }

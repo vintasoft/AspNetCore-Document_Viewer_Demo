@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Līnijas"
 		},
+		"addInkAnnotationButton": {
+			"title": "Tinte"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Daudzstūris"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Atkārtoti"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Iespējot režīmu 'Dzēšgumija anotācijām'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Vidēji mijiedarbības punkti"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Mijiedarbības režīms 'Skatīt'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Mijiedarbības režīms 'Dzēšgumija anotācijām'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Mijiedarbības režīms 'Dzēšgumija zīmulim'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Mazie mijiedarbības punkti"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Dokumenta izkārtojuma iestatījumi",
 		"vsdv-dialog-okButton": "labi",
 		"vsdv-dialog-cancelButton": "Atcelt",
-		"vsdv-uploadImageFromUrlDialog-title": "Augšupielādējiet attēlu no URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Augšupielādējiet attēlu no URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Iespējot atsaukšanu/atcelšanu",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Atspējot atsaukšanu/atcelšanu",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Iespējot režīmu 'Dzēšgumija anotācijām'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Atspējot anotācijas dzēšgumiju",
+		"vsui-documentNavigationTool-getActions": "Iegūstiet darbības"
 	}
 }

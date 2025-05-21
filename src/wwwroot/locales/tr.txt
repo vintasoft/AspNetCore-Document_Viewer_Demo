@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Poliline"
 		},
+		"addInkAnnotationButton": {
+			"title": "Mürekkep"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Çokgen"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Tekrarla"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "'Açıklamalar için silgi' modunu etkinleştir"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Orta Etkileşim Noktaları"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Etkileşim Modu 'Görüntüle'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "'Açıklamalar için silgi' etkileşim modu"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "'Kalem için silgi' etkileşim modu"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Küçük etkileşim noktaları"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Belge düzeni ayarları",
 		"vsdv-dialog-okButton": "Tamam",
 		"vsdv-dialog-cancelButton": "İptal",
-		"vsdv-uploadImageFromUrlDialog-title": "URL'den resim yükle"
+		"vsdv-uploadImageFromUrlDialog-title": "URL'den resim yükle",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Değişiklik geçmişini etkinleştir",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Geri al/yeniden yap'ı devre dışı bırak",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Açıklamalar için silgi' modunu etkinleştir",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Açıklama silgisi'ni devre dışı bırak",
+		"vsui-documentNavigationTool-getActions": "Eylemleri al"
 	}
 }

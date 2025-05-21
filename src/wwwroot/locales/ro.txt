@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polilinie"
 		},
+		"addInkAnnotationButton": {
+			"title": "Cerneală"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poligon"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Repetă"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Activați modul 'Goma de șters pentru adnotări'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Puncte de interacțiune din mijloc"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Modul de interacțiune 'Vizualizare'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Modul de interacțiune 'Germă pentru adnotări'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Modul de interacțiune 'Goma de șters pentru creion'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Puncte de interacțiune mici"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Setări de aspect al documentului",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Anulează",
-		"vsdv-uploadImageFromUrlDialog-title": "Încărcați imaginea de la URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Încărcați imaginea de la URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Activați istoricul modificărilor",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Dezactivează anularea/refacerea",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Activați modul 'Goma de șters pentru adnotări'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Dezactivați 'Ștergerea adnotărilor'",
+		"vsui-documentNavigationTool-getActions": "Obțineți acțiuni"
 	}
 }

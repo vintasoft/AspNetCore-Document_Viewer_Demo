@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Сызыклар"
 		},
+		"addInkAnnotationButton": {
+			"title": "Сыя"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Күппочмак"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Кабатлау"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Interзара бәйләнеш режимын кушу 'Аннотация бетерүче'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Урта үзара бәйләнеш нокталары"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interзара бәйләнеш режимы"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interзара бәйләнеш режимы 'Аннотация бетерүче'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interзара бәйләнеш режимы 'Карандаш Эразер'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Кечкенә үзара бәйләнеш нокталары"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Документация көйләүләре",
 		"vsdv-dialog-okButton": "ЯРАРМЫ",
 		"vsdv-dialog-cancelButton": "Баш тарту",
-		"vsdv-uploadImageFromUrlDialog-title": "URL-тан рәсемне йөкләү"
+		"vsdv-uploadImageFromUrlDialog-title": "URL-тан рәсемне йөкләү",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Кире кайтару / кире кайтару",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Кире кайтару / кире кайтару",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Interзара бәйләнеш режимын кушу 'Аннотация бетерүче'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Аннотация бетергеч' сүндерегез",
+		"vsui-documentNavigationTool-getActions": "Эшләр"
 	}
 }

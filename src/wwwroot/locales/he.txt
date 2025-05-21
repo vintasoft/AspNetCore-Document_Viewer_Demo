@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "פוליליין"
 		},
+		"addInkAnnotationButton": {
+			"title": "דְיוֹ"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "מצולע"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "חזור"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "הפעל מצב 'מחק להערות'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "נקודות אינטראקציה בינוניות"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "מצב אינטראקציה 'תצוגה'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "מצב אינטראקציה 'מחק להערות'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "מצב אינטראקציה 'מחק לעיפרון'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "נקודות אינטראקציה קטנות"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "הגדרות פריסת מסמך",
 		"vsdv-dialog-okButton": "בסדר",
 		"vsdv-dialog-cancelButton": "בטל",
-		"vsdv-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL"
+		"vsdv-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "אפשר היסטוריית שינויים",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "השבת את ביטול/בצע מחדש",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "הפעל מצב 'מחק להערות'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "השבת את 'מחק הערות'",
+		"vsui-documentNavigationTool-getActions": "קבל פעולות"
 	}
 }

@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Chiziqlar"
 		},
+		"addInkAnnotationButton": {
+			"title": "Siyoh"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poligon"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Qayta qiling"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "'Izohlar uchun o'chirgich' rejimini yoqish"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "O'rta o'zaro ta'sir nuqtalari"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "O'zaro aloqa rejimi 'Ko'rish'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "O'zaro ta'sir qilish rejimi 'Izohlar uchun o'chirgich'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "O'zaro ta'sir rejimi 'Qalam uchun o'chirgich'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kichik o'zaro ta'sir nuqtalari"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Hujjatlarni joylashtirish sozlamalari",
 		"vsdv-dialog-okButton": "KELISHDIKMI",
 		"vsdv-dialog-cancelButton": "Bekor qilish",
-		"vsdv-uploadImageFromUrlDialog-title": "Rasmni URL manzilidan yuklang"
+		"vsdv-uploadImageFromUrlDialog-title": "Rasmni URL manzilidan yuklang",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Bekor qilish/qayta qilishni yoqish",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Bekor qilish/qayta bajarishni o‘chirib qo‘ying",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Izohlar uchun o'chirgich' rejimini yoqish",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Izohlarni o'chirish' ni o'chirib qo'ying",
+		"vsui-documentNavigationTool-getActions": "Amallarni oling"
 	}
 }

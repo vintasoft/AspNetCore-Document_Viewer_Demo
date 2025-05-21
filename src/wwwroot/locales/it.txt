@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polilinea"
 		},
+		"addInkAnnotationButton": {
+			"title": "Inchiostro"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poligono"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Ripeti"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Abilita modalità 'Gomma per annotazioni'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Punti di interazione intermedi"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Modalità di interazione 'Visualizza'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Modalità interazione 'Gomma per annotazioni'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Modalità interazione 'Gomma per matita'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Piccoli punti di interazione"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Impostazioni del layout del documento",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Annulla",
-		"vsdv-uploadImageFromUrlDialog-title": "Carica l'immagine dall'URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Carica l'immagine dall'URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Abilita la cronologia delle modifiche",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Disabilita Annulla/Ripristina",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Abilita modalità 'Gomma per annotazioni'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Disabilita 'Gomma per annotazioni'",
+		"vsui-documentNavigationTool-getActions": "Ottieni azioni"
 	}
 }

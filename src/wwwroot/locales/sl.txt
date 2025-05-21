@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Črte"
 		},
+		"addInkAnnotationButton": {
+			"title": "Črnilo"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poligon"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Ponovi"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Omogoči način 'Radirka za opombe'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Srednje interakcijske točke"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Način interakcije 'Pogled'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Način interakcije 'Radirka za opombe'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Način interakcije 'Radirka za svinčnik'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Majhne interakcijske točke"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Nastavitve postavitve dokumenta",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Prekliči",
-		"vsdv-uploadImageFromUrlDialog-title": "Naloži sliko z naslova URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Naloži sliko z naslova URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Omogoči razveljavitev/ponovitev",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Onemogoči razveljavitev/ponovitev",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Omogoči način 'Radirka za opombe'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Onemogoči 'Radirko pripisov'",
+		"vsui-documentNavigationTool-getActions": "Pridobite dejanja"
 	}
 }

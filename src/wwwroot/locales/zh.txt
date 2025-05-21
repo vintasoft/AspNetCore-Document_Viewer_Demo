@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "线路"
 		},
+		"addInkAnnotationButton": {
+			"title": "墨迹"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "多边形"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "重做"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "启用'注释橡皮擦'模式"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "中等交互点"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "交互模式'查看'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "交互模式'注释橡皮擦'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "交互模式'铅笔橡皮擦'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "小互动点"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "文档布局设置",
 		"vsdv-dialog-okButton": "好的",
 		"vsdv-dialog-cancelButton": "取消",
-		"vsdv-uploadImageFromUrlDialog-title": "從 URL 上傳圖像"
+		"vsdv-uploadImageFromUrlDialog-title": "從 URL 上傳圖像",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "启用撤消/重做",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "禁用撤消/重做",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "启用'注释橡皮擦'模式",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "禁用'注释橡皮擦'",
+		"vsui-documentNavigationTool-getActions": "获取操作"
 	}
 }

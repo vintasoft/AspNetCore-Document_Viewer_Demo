@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "ポリライン"
 		},
+		"addInkAnnotationButton": {
+			"title": "インク"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "多角形"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "繰り返し"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "「注釈用消しゴム」モードを有効にする"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "中間のインタラクション ポイント"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "インタラクション モード「表示」"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "「注釈用消しゴム」インタラクション モード"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "「鉛筆用消しゴム」インタラクション モード"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "小さな相互作用ポイント"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "ドキュメントのレイアウト設定",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "キャンセル",
-		"vsdv-uploadImageFromUrlDialog-title": "URLから画像をアップロード"
+		"vsdv-uploadImageFromUrlDialog-title": "URLから画像をアップロード",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "変更履歴を有効にする",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "元に戻す/やり直しを無効にする",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "「注釈用消しゴム」モードを有効にする",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "「注釈消しゴム」を無効にする",
+		"vsui-documentNavigationTool-getActions": "アクションを取得"
 	}
 }

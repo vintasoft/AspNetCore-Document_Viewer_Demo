@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polilínea"
 		},
+		"addInkAnnotationButton": {
+			"title": "Tinta"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polígono"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Repetir"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Habilitar 'Borrador para anotaciones'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Puntos de Interacción Medios"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Modo de interacción 'Ver'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Modo de interacción 'Borrador para anotaciones'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Modo de interacción 'Borrador para lápiz'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Pequeños puntos de interacción"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Configuración de diseño del documento",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Cancelar",
-		"vsdv-uploadImageFromUrlDialog-title": "Subir imagen desde URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Subir imagen desde URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Habilitar historial de cambios",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Deshabilitar deshacer/rehacer",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Habilitar 'Borrador para anotaciones'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Deshabilitar el borrador de anotaciones",
+		"vsui-documentNavigationTool-getActions": "Obtener acciones"
 	}
 }

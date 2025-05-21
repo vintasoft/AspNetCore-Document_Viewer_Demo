@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Саптар"
 		},
+		"addInkAnnotationButton": {
+			"title": "сыя"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Полигон"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Redo"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "'Аннотациялар үчүн өчүргүч' режимин иштетүү"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Орточо өз ара аракеттенүү пункттары"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Өз ара аракеттенүү режими 'Көрүү'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Өз ара аракеттенүү режими 'Аннотациялар үчүн өчүргүч'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Өз ара аракеттенүү режими 'Карандаш үчүн өчүргүч'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Чакан өз ара аракеттенүү пункттары"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Документтин жайгашуу орнотуулары",
 		"vsdv-dialog-okButton": "макул",
 		"vsdv-dialog-cancelButton": "Жокко чыгаруу",
-		"vsdv-uploadImageFromUrlDialog-title": "Сүрөттү URL'ден жүктөө"
+		"vsdv-uploadImageFromUrlDialog-title": "Сүрөттү URL'ден жүктөө",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Артка кайтаруу/кайталоону иштетүү",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Артка кайтаруу/кайталоону өчүрүү",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Аннотациялар үчүн өчүргүч' режимин иштетүү",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Аннотация өчүргүчтү' өчүрүү",
+		"vsui-documentNavigationTool-getActions": "Аракеттерди алыңыз"
 	}
 }

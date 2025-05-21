@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polilinija"
 		},
+		"addInkAnnotationButton": {
+			"title": "Tinta"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poligon"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Ponovi"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Omogući način rada 'Brisač za bilješke'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Srednje točke interakcije"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Način interakcije 'Pogled'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Način interakcije 'Brisač za bilješke'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Način interakcije 'Gumica za olovku'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Male interakcijske točke"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Postavke izgleda dokumenta",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Odustani",
-		"vsdv-uploadImageFromUrlDialog-title": "Prenesi sliku s URL-a"
+		"vsdv-uploadImageFromUrlDialog-title": "Prenesi sliku s URL-a",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Omogući povijest promjena",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Onemogući poništi/ponovi",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Omogući način rada 'Brisač za bilješke'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Onemogući 'Brisač zabilješki'",
+		"vsui-documentNavigationTool-getActions": "Zauzmite radnje"
 	}
 }

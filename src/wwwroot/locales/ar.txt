@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "متعدد الخطوط"
 		},
+		"addInkAnnotationButton": {
+			"title": "حبر"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "مضلع"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "كرر"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "تفعيل 'ممحاة التعليقات التوضيحية'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "نقاط التفاعل المتوسطة"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "وضع التفاعل 'عرض'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "وضع التفاعل 'ممحاة التعليقات التوضيحية'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "وضع التفاعل 'ممحاة قلم رصاص'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "نقاط تفاعل صغيرة"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "إعدادات تخطيط المستند",
 		"vsdv-dialog-okButton": "موافق",
 		"vsdv-dialog-cancelButton": "إلغاء",
-		"vsdv-uploadImageFromUrlDialog-title": "تحميل الصورة من URL"
+		"vsdv-uploadImageFromUrlDialog-title": "تحميل الصورة من URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "تمكين محفوظات التغيير",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "تعطيل التراجع/الإعادة",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "تفعيل 'ممحاة التعليقات التوضيحية'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "تعطيل 'ممحاة التعليقات التوضيحية'",
+		"vsui-documentNavigationTool-getActions": "الحصول على الإجراءات"
 	}
 }

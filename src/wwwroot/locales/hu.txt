@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Vonallánc"
 		},
+		"addInkAnnotationButton": {
+			"title": "Tinta"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Sokszög"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Ismétlés"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Engedélyezze a 'Jegyzetek radírja' módot"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Közepes interakciós pontok"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interakciós mód 'View'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interakciós mód 'Jegyzetek radírja'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interakciós mód 'Eraser for ceruza'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Kis interakciós pontok"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Dokumentum elrendezési beállítások",
 		"vsdv-dialog-okButton": "Rendben",
 		"vsdv-dialog-cancelButton": "Mégse",
-		"vsdv-uploadImageFromUrlDialog-title": "Kép feltöltése az URL-ről"
+		"vsdv-uploadImageFromUrlDialog-title": "Kép feltöltése az URL-ről",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Változástörténet engedélyezése",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "A visszavonás/újrakészítés letiltása",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Engedélyezze a 'Jegyzetek radírja' módot",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "A 'Jegyzetradír' letiltása",
+		"vsui-documentNavigationTool-getActions": "Szerezzen akciókat"
 	}
 }

@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Đa tuyến"
 		},
+		"addInkAnnotationButton": {
+			"title": "Mực"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Đa giác"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Lặp lại"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Bật chế độ 'Tẩy cho chú thích'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Điểm tương tác trung bình"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Chế độ tương tác 'Xem'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Chế độ tương tác 'Tẩy cho chú thích'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Chế độ tương tác 'Tẩy cho bút chì'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Điểm tương tác nhỏ"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Cài đặt bố cục tài liệu",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Hủy",
-		"vsdv-uploadImageFromUrlDialog-title": "Tải hình ảnh lên từ URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Tải hình ảnh lên từ URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Bật lịch sử thay đổi",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Vô hiệu hóa hoàn tác/làm lại",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Bật chế độ 'Tẩy cho chú thích'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Vô hiệu hóa 'Công cụ xóa chú thích'",
+		"vsui-documentNavigationTool-getActions": "Nhận hành động"
 	}
 }

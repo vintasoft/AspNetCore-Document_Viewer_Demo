@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Радкі"
 		},
+		"addInkAnnotationButton": {
+			"title": "чарніла"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Шматкутнік"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Паўтарыць"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Уключыць 'Ласцік анатацый'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Сярэднія кропкі ўзаемадзеяння"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Рэжым узаемадзеяння 'Прагляд'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Рэжым узаемадзеяння 'Ласцік анатацый'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Рэжым узаемадзеяння 'Ласцік алоўка'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Малыя кропкі ўзаемадзеяння"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Налады макета дакумента",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Адмяніць",
-		"vsdv-uploadImageFromUrlDialog-title": "Загрузіць выяву з URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Загрузіць выяву з URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Уключыць адмену/паўтарэнне",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Адключыць адмену/паўтарэнне",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Уключыць 'Ласцік анатацый'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Адключыць 'Сціральнік анатацый'",
+		"vsui-documentNavigationTool-getActions": "Атрымаць дзеянні"
 	}
 }

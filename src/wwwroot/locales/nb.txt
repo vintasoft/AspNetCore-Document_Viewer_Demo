@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyline"
 		},
+		"addInkAnnotationButton": {
+			"title": "Blekk"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polygon"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Gjenta"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Aktiver modus 'Viskelær for merknader'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middels interaksjonspunkter"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaksjonsmodus 'Vis'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaksjonsmodus 'Viskelær for merknader'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaksjonsmodus 'Viskelær for blyant'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Små interaksjonspunkter"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Innstillinger for dokumentlayout",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Avbryt",
-		"vsdv-uploadImageFromUrlDialog-title": "Last opp bilde fra URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Last opp bilde fra URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Aktiver endringshistorikk",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Deaktiver angre/gjør om",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Aktiver modus 'Viskelær for merknader'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Deaktiver 'merknadsviskere'",
+		"vsui-documentNavigationTool-getActions": "Få handlinger"
 	}
 }

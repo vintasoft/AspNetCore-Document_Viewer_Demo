@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "पॉलीलाइन"
 		},
+		"addInkAnnotationButton": {
+			"title": "इंक"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "बहुभुज"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "दोहराएँ"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "सक्षम मोड 'एनोटेशन के लिए इरेज़र'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "मध्य इंटरेक्शन बिंदु"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "इंटरैक्शन मोड 'देखें'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "इंटरैक्शन मोड 'एनोटेशन के लिए इरेज़र'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "इंटरैक्शन मोड 'पेंसिल के लिए इरेज़र'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "छोटे इंटरेक्शन बिंदु"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "दस्तावेज़ लेआउट सेटिंग",
 		"vsdv-dialog-okButton": "ठीक है",
 		"vsdv-dialog-cancelButton": "रद्द करें",
-		"vsdv-uploadImageFromUrlDialog-title": "यूआरएल से छवि अपलोड करें"
+		"vsdv-uploadImageFromUrlDialog-title": "यूआरएल से छवि अपलोड करें",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "परिवर्तन इतिहास सक्षम करें",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "पूर्ववत/पुनः करें अक्षम करें",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "सक्षम मोड 'एनोटेशन के लिए इरेज़र'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'एनोटेशन इरेज़र' अक्षम करें",
+		"vsui-documentNavigationTool-getActions": "कार्रवाई पाएँ"
 	}
 }

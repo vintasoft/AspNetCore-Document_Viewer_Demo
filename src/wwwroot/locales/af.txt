@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Polyline"
 		},
+		"addInkAnnotationButton": {
+			"title": "Ink"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Veelhoek"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Herhaal"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Aktiveer 'Annotasie-uitveër'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middelinteraksiepunte"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaksiemodus 'Bekyk'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaksiemodus 'Annotasie-uitveër'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaksiemodus 'Potlooduitveër'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Klein interaksiepunte"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Dokumentuitleginstellings",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Kanselleer",
-		"vsdv-uploadImageFromUrlDialog-title": "Laai prent op vanaf URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Laai prent op vanaf URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Aktiveer veranderingsgeskiedenis",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Deaktiveer ontdoen/herdoen",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Aktiveer 'Annotasie-uitveër'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Deaktiveer 'Annotasie-uitveër'",
+		"vsui-documentNavigationTool-getActions": "Kry aksies"
 	}
 }

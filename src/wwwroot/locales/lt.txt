@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Linijos"
 		},
+		"addInkAnnotationButton": {
+			"title": "Rašalas"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poligonas"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Perdaryti"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Įjungti režimą 'Komentarų trintukas'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Vidutinės sąveikos taškai"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Sąveikos režimas 'Žiūrėti'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Sąveikos režimas 'Komentarų trintukas'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Sąveikos režimas 'Pieštuko trintukas'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Maži sąveikos taškai"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Dokumento maketavimo nustatymai",
 		"vsdv-dialog-okButton": "Gerai",
 		"vsdv-dialog-cancelButton": "Atšaukti",
-		"vsdv-uploadImageFromUrlDialog-title": "Įkelti vaizdą iš URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Įkelti vaizdą iš URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Įgalinti anuliuoti / perdaryti",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Išjungti anuliavimą / perdarymą",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Įjungti režimą 'Komentarų trintukas'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Išjungti 'Komentarų trintuką'",
+		"vsui-documentNavigationTool-getActions": "Gaukite veiksmų"
 	}
 }

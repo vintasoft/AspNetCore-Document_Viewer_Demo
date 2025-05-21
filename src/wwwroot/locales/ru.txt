@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Ломаная линия"
 		},
+		"addInkAnnotationButton": {
+			"title": "Чернила"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Многоугольник"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Повторить"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Включить 'Ластик аннотаций'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Средние точки взаимодействия"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Режим взаимодействия 'Просмотр'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Режим взаимодействия 'Ластик аннотаций'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Режим взаимодействия 'Ластик карандаша'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Маленькие точки взаимодействия"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Настройки макета документа",
 		"vsdv-dialog-okButton": "ОК",
 		"vsdv-dialog-cancelButton": "Отмена",
-		"vsdv-uploadImageFromUrlDialog-title": "Загрузить изображение с URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Загрузить изображение с URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Включить ведение истории изменений",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Отключить ведение истории изменений",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Включить 'Ластик аннотаций'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Отключить 'Ластик аннотаций'",
+		"vsui-documentNavigationTool-getActions": "Получить действия"
 	}
 }

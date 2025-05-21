@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Lines"
 		},
+		"addInkAnnotationButton": {
+			"title": "Ink"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Polygon"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Redo"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Enable annotation eraser"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Medium interaction points"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Interaction mode 'View'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Interaction mode 'Annotation eraser'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Interaction mode 'Pencil eraser'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Small interaction points"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Document layout settings",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Cancel",
-		"vsdv-uploadImageFromUrlDialog-title": "Upload image from URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Upload image from URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Enable undo/redo",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Disable undo/redo",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Enable annotation eraser",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Disable annotation eraser",
+		"vsui-documentNavigationTool-getActions": "Get actions"
 	}
 }

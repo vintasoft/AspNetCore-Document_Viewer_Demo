@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Գծեր"
 		},
+		"addInkAnnotationButton": {
+			"title": "Թանաք"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Բազմանկյուն"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Կրկնել"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Միացնել 'Ջնջիչ ծանոթագրությունների համար' ռեժիմը"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Միջին փոխազդեցության կետեր"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Փոխազդեցության ռեժիմ 'Դիտել'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Փոխազդեցության ռեժիմ 'Ջնջիչ ծանոթագրությունների համար'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Փոխազդեցության ռեժիմ 'Ջնջիչ մատիտի համար'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Փոխազդեցության փոքր կետեր"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Փաստաթղթի դասավորության կարգավորումներ",
 		"vsdv-dialog-okButton": "լավ",
 		"vsdv-dialog-cancelButton": "Չեղարկել",
-		"vsdv-uploadImageFromUrlDialog-title": "Վերբեռնեք պատկեր URL-ից"
+		"vsdv-uploadImageFromUrlDialog-title": "Վերբեռնեք պատկեր URL-ից",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Միացնել հետարկել/վերագործարկել",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Անջատել հետարկել/վերագործարկել",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Միացնել 'Ջնջիչ ծանոթագրությունների համար' ռեժիմը",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Անջատել 'Ծանոթագրությունների ջնջիչը'",
+		"vsui-documentNavigationTool-getActions": "Ստացեք գործողություններ"
 	}
 }

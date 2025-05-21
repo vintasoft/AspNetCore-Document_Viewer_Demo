@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "Mistari"
 		},
+		"addInkAnnotationButton": {
+			"title": "Wino"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "Poligoni"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "Rudia"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "Washa hali ya 'Eraser kwa maelezo'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Pointi za mwingiliano wa kati"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "Hali ya mwingiliano 'Tazama'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "Hali ya mwingiliano 'Eraser kwa maelezo'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "Njia ya mwingiliano 'Eraser kwa penseli'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "Pointi ndogo za mwingiliano"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "Mipangilio ya mpangilio wa hati",
 		"vsdv-dialog-okButton": "sawa",
 		"vsdv-dialog-cancelButton": "Ghairi",
-		"vsdv-uploadImageFromUrlDialog-title": "Pakia picha kutoka kwa URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Pakia picha kutoka kwa URL",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "Washa kutendua/rudia",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Lemaza kutendua/rudia",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Washa hali ya 'Eraser kwa maelezo'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Lemaza 'Kifutio cha Dokezo'",
+		"vsui-documentNavigationTool-getActions": "Pata vitendo"
 	}
 }

@@ -105,6 +105,9 @@
 		"addLinesAnnotationButton": {
 			"title": "ხაზები"
 		},
+		"addInkAnnotationButton": {
+			"title": "მელანი"
+		},
 		"addPolygonAnnotationButton": {
 			"title": "მრავალკუთხედი"
 		},
@@ -143,6 +146,9 @@
 		},
 		"redoAnnotationHistoryButton": {
 			"title": "ხელახლა"
+		},
+		"enableAnnotationEraserButton": {
+			"title": "ჩართეთ რეჟიმი 'საშლელი ანოტაციებისთვის'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "საშუალო ურთიერთქმედების წერტილები"
@@ -288,6 +294,12 @@
 		},
 		"viewAnnotationInteractionMode": {
 			"title": "ურთიერთქმედების რეჟიმი 'ნახვა'"
+		},
+		"annotationEraserAnnotationInteractionMode": {
+			"title": "ურთიერთქმედების რეჟიმი 'საშლელი ანოტაციებისთვის'"
+		},
+		"pencilEraserAnnotationInteractionMode": {
+			"title": "ურთიერთქმედების რეჟიმი 'საშლელი ფანქრისთვის'"
 		},
 		"smallAnnotationInteractionPoints": {
 			"title": "ურთიერთქმედების მცირე წერტილები"
@@ -1097,6 +1109,11 @@
 		"vsdv-documentLayoutSettingsDialog-title": "დოკუმენტის განლაგების პარამეტრები",
 		"vsdv-dialog-okButton": "კარგი",
 		"vsdv-dialog-cancelButton": "გაუქმება",
-		"vsdv-uploadImageFromUrlDialog-title": "ატვირთეთ სურათი URL-დან"
+		"vsdv-uploadImageFromUrlDialog-title": "ატვირთეთ სურათი URL-დან",
+		"vsdv-enableAnnotationHistoryButton-enableUndoRedo": "ჩართეთ გაუქმება/გამეორება",
+		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "გამორთეთ გაუქმება/გამეორება",
+		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "ჩართეთ რეჟიმი 'საშლელი ანოტაციებისთვის'",
+		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "გამორთეთ 'ანოტაციის საშლელი'",
+		"vsui-documentNavigationTool-getActions": "მიიღეთ მოქმედებები"
 	}
 }
