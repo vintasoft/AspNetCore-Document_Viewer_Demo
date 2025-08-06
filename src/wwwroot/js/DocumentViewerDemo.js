@@ -50,9 +50,9 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
 function __createTextSelectionAndAnnotationToolButton() {
     return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
         cssClass: "vsdv-tools-textSelectionToolButton",
-        title: "Annotations, Document navigation, Text selection",
+        title: "Annotations, Document navigation, Text selection, Pan, Zoom",
         localizationId: "annotationAndNavigationAndTextSelectionToolButton"
-    }, "AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool");
+    }, "AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool,PanTool,ZoomTool");
 }
 
 
@@ -534,7 +534,7 @@ function __main2() {
     imageViewer1.set_ChangeFocusedImageWhenScrolling(true);
 
     // get the visual tool
-    var annotationNavigationTextSelectionTool = _docViewer.getVisualToolById("AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool");
+    var annotationNavigationTextSelectionTool = _docViewer.getVisualToolById("AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool,PanTool,ZoomTool");
     _docViewer.set_MandatoryVisualTool(annotationNavigationTextSelectionTool);
     _docViewer.set_CurrentVisualTool(annotationNavigationTextSelectionTool);
 
