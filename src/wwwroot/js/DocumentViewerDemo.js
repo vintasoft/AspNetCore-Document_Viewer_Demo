@@ -48,11 +48,19 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
  Creates UI button for activating the visual tool, which allows to select text and work with annotations in image viewer.
 */
 function __createTextSelectionAndAnnotationToolButton() {
+    // names of visual tools in composite visual tool
+    var visualToolNames = "AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool,PanTool";
+    // if touch device is used
+    if (__isTouchDevice()) {
+        // add name of zoom tool to the names of visual tools of composite visual tool
+        visualToolNames = visualToolNames + ",ZoomTool";
+    }
+
     return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
         cssClass: "vsdv-tools-textSelectionToolButton",
-        title: "Annotations, Document navigation, Text selection, Pan, Zoom",
+        title: "Annotations, Document navigation, Text selection, Pan , Zoom",
         localizationId: "annotationAndNavigationAndTextSelectionToolButton"
-    }, "AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool,PanTool,ZoomTool");
+    }, visualToolNames);
 }
 
 
@@ -182,17 +190,19 @@ function __thumbnailsPanelActivated() {
  @param {object} docViewer The document viewer.
 */
 function __initializeVisualTools(docViewer) {
-    var panTool = docViewer.getVisualToolById("PanTool");
-    panTool.set_DisableContextMenu(true);
+    if (!__isTouchDevice()) {
+        var panTool = docViewer.getVisualToolById("PanTool");
+        panTool.set_DisableContextMenu(true);
 
-    var magnifierTool = docViewer.getVisualToolById("MagnifierTool");
-    magnifierTool.set_DisableContextMenu(true);
+        var magnifierTool = docViewer.getVisualToolById("MagnifierTool");
+        magnifierTool.set_DisableContextMenu(true);
 
-    var zoomTool = docViewer.getVisualToolById("ZoomTool");
-    zoomTool.set_DisableContextMenu(true);
+        var zoomTool = docViewer.getVisualToolById("ZoomTool");
+        zoomTool.set_DisableContextMenu(true);
 
-    var zoomSelectionTool = docViewer.getVisualToolById("ZoomSelectionTool");
-    zoomSelectionTool.set_DisableContextMenu(true);
+        var zoomSelectionTool = docViewer.getVisualToolById("ZoomSelectionTool");
+        zoomSelectionTool.set_DisableContextMenu(true);
+    }
 
     // get navigation tool
     var documentNavigationTool = docViewer.getVisualToolById("DocumentNavigationTool");
@@ -437,6 +447,13 @@ function __enableUiLocalization() {
     });
 }
 
+/**
+ Returns a value indicating whether touch device is used.
+*/
+function __isTouchDevice() {
+    return (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
+}
+
 
 
 // === Main ===
@@ -533,8 +550,20 @@ function __main2() {
     imageViewer1.set_ProgressImage(progressImage);
     imageViewer1.set_ChangeFocusedImageWhenScrolling(true);
 
+    // names of visual tools in composite visual tool
+    var visualToolNames = "AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool,PanTool";
+    // if touch device is used
+    if (__isTouchDevice()) {
+        // get zoom tool from document viewer
+        var zoomTool = _docViewer.getVisualToolById("ZoomTool");
+        // specify that zoom tool should not disable context menu
+        zoomTool.set_DisableContextMenu(false);
+
+        // add name of zoom tool to the names of visual tools of composite visual tool
+        visualToolNames = visualToolNames + ",ZoomTool";
+    }
     // get the visual tool
-    var annotationNavigationTextSelectionTool = _docViewer.getVisualToolById("AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool,PanTool,ZoomTool");
+    var annotationNavigationTextSelectionTool = _docViewer.getVisualToolById(visualToolNames);
     _docViewer.set_MandatoryVisualTool(annotationNavigationTextSelectionTool);
     _docViewer.set_CurrentVisualTool(annotationNavigationTextSelectionTool);
 
