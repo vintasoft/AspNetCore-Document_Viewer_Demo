@@ -191,9 +191,6 @@ function __thumbnailsPanelActivated() {
 */
 function __initializeVisualTools(docViewer) {
     if (!__isTouchDevice()) {
-        var panTool = docViewer.getVisualToolById("PanTool");
-        panTool.set_DisableContextMenu(true);
-
         var magnifierTool = docViewer.getVisualToolById("MagnifierTool");
         magnifierTool.set_DisableContextMenu(true);
 
