@@ -451,6 +451,25 @@ function __isTouchDevice() {
     return (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
 }
 
+/**
+ Returns a value indicating whether application is executing on mobile device.
+*/
+function __isMobileDevice() {
+    const toMatch = [
+        /Android/i,
+        /webOS/i,
+        /iPhone/i,
+        /iPad/i,
+        /iPod/i,
+        /BlackBerry/i,
+        /Windows Phone/i
+    ];
+
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
+}
+
 
 
 // === Main ===
@@ -510,6 +529,11 @@ function __main2() {
     docViewerSettings.set_CanDownloadFile(false);
     docViewerSettings.set_CanAddFile(true);
     docViewerSettings.set_CanClearSessionCache(true);
+    // if application is executing on desktop (not a mobile device)
+    if (!__isMobileDevice()) {
+        // specify that undo-redo panel should show the undo action list
+        docViewerSettings.set_ShowUndoActionList(true);
+    }
 
     // initialize main menu of document viewer
     __initMenu(docViewerSettings);

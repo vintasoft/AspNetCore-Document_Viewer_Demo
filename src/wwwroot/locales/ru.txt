@@ -16,7 +16,7 @@
 			"title": "Загрузить и открыть файл"
 		},
 		"uploadAndAddFileButton": {
-			"title": "Загрузите и добавьте файл"
+			"title": "Загрузить и добавить файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Посмотреть список ранее загруженных файлов"
@@ -31,7 +31,7 @@
 			"title": "Распечатать изображения"
 		},
 		"downloadFileButton": {
-			"title": "Загрузить файл"
+			"title": "Скачать файл"
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Экспортировать и скачать файл"
@@ -1063,7 +1063,7 @@
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузить и открыть файл",
-		"vsdv-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Загрузить и добавить файл",
 		"vsui-textSearchPanel-pageLabel": "Страница",
 		"vsdv-burnAnnotationsButton-burnAnnotationsString": "Прожечь аннотации",
 		"vsdv-saveAnnotationsButton-saveAnnotationsString": "Сохранить аннотации",
@@ -1071,15 +1071,15 @@
 		"vsui-annotationListPanel-annotationPropertiesLabel": "Свойства аннотации",
 		"vsdv-openFile-addFileString": "Добавить файл",
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
-		"vsdv-downloadFile-actionMessage": "Загрузить файл",
+		"vsdv-downloadFile-actionMessage": "Скачать файл",
 		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
 		"vsui-uploadAndOpenFileButton-uploadFileString": "Загрузить и открыть файл",
-		"vsui-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
+		"vsui-uploadAndAddFileButton-addFileString": "Загрузить и добавить файл",
 		"vsui-openFile-addFileString": "Добавить файл",
 		"vsui-openFile-authenticateFileString": "Аутентификация файла",
-		"vsui-downloadFile-actionMessage": "Загрузить файл",
+		"vsui-downloadFile-actionMessage": "Скачать файл",
 		"vsui-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
 		"vsui-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
 		"vsui-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",

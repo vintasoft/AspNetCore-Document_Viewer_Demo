@@ -15,10 +15,10 @@
 </head>
 <body>
     <div class="demo-body">
-        <div class="header">
+        <div class="header" id="demoHeader">
             @RenderSection("demoDescription", false)
         </div>
-        
+
         <input type="hidden" id="hiddenSessionField" value="@Context.Session.Id" />
         @RenderSection("demoContent", true)
 

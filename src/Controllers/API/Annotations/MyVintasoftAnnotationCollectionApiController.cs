@@ -1,10 +1,6 @@
-﻿using System;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Hosting;
 using Vintasoft.Imaging.Annotation.AspNetCore.ApiControllers;
 using Vintasoft.Imaging.Annotation.Formatters;
-using Vintasoft.Imaging.Annotation.Web.Services;
-using Vintasoft.Shared.Web;
 
 namespace AspNetCoreDocumentViewerDemo.Controllers
 {
