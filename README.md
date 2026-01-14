@@ -1,4 +1,4 @@
-# VintaSoft ASP.NET Core Document Viewer Demo
+﻿# VintaSoft ASP.NET Core Document Viewer Demo
 
 This ASP.NET Core project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a>.
 The client-side of project uses HTML+JavaScript+CSS. The server-side of project uses ASP.NET Core API controllers.<br />
@@ -33,9 +33,9 @@ The project demonstrates how to view and annotate documents in ASP.NET Core:
    Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
    ```
 
-3. Build the project ("AspNetCoreDocumentViewerDemo.Net8.csproj" file) in Visual Studio or using .NET CLI:
+3. Build the project ("AspNetCoreDocumentViewerDemo.Net10.csproj" file) in Visual Studio or using .NET CLI:
    ```
-   dotnet build AspNetCoreDocumentViewerDemo.Net8.csproj
+   dotnet build AspNetCoreDocumentViewerDemo.Net10.csproj
    ```
 
 4. Run compiled application and try to view and annotate images and documents.
