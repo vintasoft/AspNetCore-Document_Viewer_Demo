@@ -58,19 +58,19 @@
 			"title": "Pisipiltide vaataja seaded"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Märkused, dokumendis navigeerimine, tekstivalik"
+			"title": "Märkused, dokumendi navigeerimine, teksti valimine, panoraamimine, suumimine"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Luup"
-		},
-		"zoomToolButton": {
-			"title": "Suumi"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Suumi valik"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Ristkülikukujuline valik"
+		},
+		"magnifierToolButton": {
+			"title": "Luup"
 		},
 		"showMobileMenuButton": {
 			"title": "Rohkem"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Pöörake pilti koos märkustega"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Luba tagasivõtmine/teha uuesti"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Võta tagasi"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Tee uuesti"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Luba režiim 'Märkuste kustutuskumm'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Keskmised interaktsioonipunktid"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Luba tagasivõtmise/uuesti tegemise ajalugu"
 		},
 		"sidePanelCloseButton": {
 			"title": "Näita külgpaneeli"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks pildikogu ulatusest väljas."
+			},
+			"withAnnotationsLabel": {
+				"text": "Märkustega"
+			},
+			"pageSettingsLabel": {
+				"text": "Lehe seaded:"
+			},
+			"columnCountLabel": {
+				"text": "Veergude arv:"
+			},
+			"rowCountLabel": {
+				"text": "Ridade arv:"
+			},
+			"imagePaddingLabel": {
+				"text": "Pildi täitmine:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Tsentreeri horisontaalselt"
 			},
 			"okButton": {
 				"value": "Okei"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Keela tagasivõtmine/teha uuesti",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Luba režiim 'Märkuste kustutuskumm'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Keela 'Märkuste kustutuskumm'",
-		"vsui-documentNavigationTool-getActions": "Hankige toiminguid"
+		"vsui-documentNavigationTool-getActions": "Hankige toiminguid",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Luba tagasivõtmise/uuesti tegemise ajalugu",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Keela tagasivõtmise/uuesti tegemise ajalugu",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Tühista toiming",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Tee toiming uuesti",
+		"vsui-annotationViewerUndoMonitor-moved": "Teisaldatud",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Teisaldatud märkused:",
+		"vsui-annotationViewer-pasteAnnotation": "Kleebi märkus",
+		"vsui-annotationViewer-groupAllAnnotations": "Grupeeri kõik märkused",
+		"vsui-annotationViewer-ungroupAnnotation": "Märkuse rühmituse tühistamine",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Sisesta",
+		"vsui-annotationViewCollectionUndoAction-remove": "Eemalda",
+		"vsui-annotationViewCollectionUndoAction-move": "Teisalda",
+		"vsui-annotationViewCollectionUndoAction-swap": "Vaheta",
+		"vsui-annotationViewCollectionUndoAction-set": "Määra",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Lisa"
 	}
 }

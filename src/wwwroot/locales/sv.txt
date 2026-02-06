@@ -58,19 +58,19 @@
 			"title": "Inställningar för miniatyrvisning"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anteckningar, dokumentnavigering, textval"
+			"title": "Anteckningar, Dokumentnavigering, Textmarkering, Panorera, Zooma"
 		},
 		"panToolButton": {
 			"title": "Panera"
 		},
-		"magnifierToolButton": {
-			"title": "Förstoringsglas"
-		},
-		"zoomToolButton": {
-			"title": "Skala"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Skalval"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Rektangulärt urval"
+		},
+		"magnifierToolButton": {
+			"title": "Förstoringsglas"
 		},
 		"showMobileMenuButton": {
 			"title": "Mer"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Rotera kommenterad bild"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Aktivera ändringshistorik"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Avbryt"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Upprepa"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Aktivera läget 'Radergummi för kommentarer'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mellan interaktionspunkter"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Aktivera ångra-/gör om-historiken"
 		},
 		"sidePanelCloseButton": {
 			"title": "Visa sidofältet"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indexet ligger inte inom bildsamlingens indexintervall."
+			},
+			"withAnnotationsLabel": {
+				"text": "Med anteckningar"
+			},
+			"pageSettingsLabel": {
+				"text": "Sidinställningar:"
+			},
+			"columnCountLabel": {
+				"text": "Antal kolumner:"
+			},
+			"rowCountLabel": {
+				"text": "Radantal:"
+			},
+			"imagePaddingLabel": {
+				"text": "Bildfyllning:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrera horisontellt"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Inaktivera ångra/gör om",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Aktivera läget 'Radergummi för kommentarer'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Inaktivera 'Annotationsraderare'",
-		"vsui-documentNavigationTool-getActions": "Få åtgärder"
+		"vsui-documentNavigationTool-getActions": "Få åtgärder",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Aktivera ångra-/gör om-historiken",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Inaktivera ångra-/gör om-historiken",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Ångra åtgärden",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Gör om åtgärden",
+		"vsui-annotationViewerUndoMonitor-moved": "Flyttade",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Flyttade anteckningar:",
+		"vsui-annotationViewer-pasteAnnotation": "Klistra in anteckning",
+		"vsui-annotationViewer-groupAllAnnotations": "Gruppera alla anteckningar",
+		"vsui-annotationViewer-ungroupAnnotation": "Dela upp anteckning",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Infoga",
+		"vsui-annotationViewCollectionUndoAction-remove": "Ta bort",
+		"vsui-annotationViewCollectionUndoAction-move": "Flytta",
+		"vsui-annotationViewCollectionUndoAction-swap": "Byt",
+		"vsui-annotationViewCollectionUndoAction-set": "Ange",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Lägg till"
 	}
 }

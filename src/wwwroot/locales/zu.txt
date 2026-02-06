@@ -58,19 +58,19 @@
 			"title": "Izilungiselelo zesibukeli sesithonjana"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Izichasiselo, Ukuzulazula kwedokhumenti, Ukukhetha umbhalo"
+			"title": "Izichasiselo, Ukuzulazula kwedokhumenti, Ukukhetha umbhalo, i-Pan, i-Zoom"
 		},
 		"panToolButton": {
 			"title": "Ipani"
 		},
-		"magnifierToolButton": {
-			"title": "Isikhulisi"
-		},
-		"zoomToolButton": {
-			"title": "Sondeza"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Ukukhetha kokusondeza"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Ukukhetha unxande"
+		},
+		"magnifierToolButton": {
+			"title": "Isikhulisi"
 		},
 		"showMobileMenuButton": {
 			"title": "Okuningi"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Zungezisa isithombe ngezichasiselo"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Nika amandla ukuhlehlisa/ukwenza futhi"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Hlehlisa"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Yenza futhi"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Nika amandla imodi 'Isisuli sezichasiselo'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Amaphoyinti okusebenzelana amaphakathi"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Nika amandla ukuhlehlisa/ukwenza kabusha umlando"
 		},
 		"sidePanelCloseButton": {
 			"title": "Bonisa Iphaneli Eseceleni"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Inkomba ayikho ebangeni lokuqoqwa kwezithombe."
+			},
+			"withAnnotationsLabel": {
+				"text": "Ngezichasiselo"
+			},
+			"pageSettingsLabel": {
+				"text": "Izilungiselelo zekhasi:"
+			},
+			"columnCountLabel": {
+				"text": "Inani lekholomu:"
+			},
+			"rowCountLabel": {
+				"text": "Inani lemigqa:"
+			},
+			"imagePaddingLabel": {
+				"text": "Ukufiphaza isithombe:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Phakamisa phakathi nendawo ngokuvundlile"
 			},
 			"okButton": {
 				"value": "KULUNGILE"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Khubaza ukuhlehlisa/ukwenza futhi",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Nika amandla imodi 'Isisuli sezichasiselo'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Khubaza 'isisuli sesichasiselo'",
-		"vsui-documentNavigationTool-getActions": "Thola izenzo"
+		"vsui-documentNavigationTool-getActions": "Thola izenzo",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Nika amandla ukuhlehlisa/ukwenza kabusha umlando",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Khubaza ukuhlehlisa/ukwenza kabusha umlando",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Hlehlisa isenzo",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Phinda wenze isenzo",
+		"vsui-annotationViewerUndoMonitor-moved": "Kuthuthiwe",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Kuthuthwe Amazwana:",
+		"vsui-annotationViewer-pasteAnnotation": "Namathisela Amazwana",
+		"vsui-annotationViewer-groupAllAnnotations": "Qoqa Wonke Amazwana",
+		"vsui-annotationViewer-ungroupAnnotation": "Hlukanisa Amazwana",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Faka",
+		"vsui-annotationViewCollectionUndoAction-remove": "Susa",
+		"vsui-annotationViewCollectionUndoAction-move": "Hambisa",
+		"vsui-annotationViewCollectionUndoAction-swap": "Shintsha",
+		"vsui-annotationViewCollectionUndoAction-set": "Setha",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Engeza"
 	}
 }

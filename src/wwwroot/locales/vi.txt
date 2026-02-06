@@ -58,19 +58,19 @@
 			"title": "Cài đặt trình xem hình thu nhỏ"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Chú thích, Điều hướng tài liệu, Lựa chọn văn bản"
+			"title": "Chú thích, Điều hướng tài liệu, Chọn văn bản, Di chuyển, Phóng to"
 		},
 		"panToolButton": {
 			"title": "Xoay"
 		},
-		"magnifierToolButton": {
-			"title": "Kính lúp"
-		},
-		"zoomToolButton": {
-			"title": "Tỷ lệ"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Lựa chọn tỷ lệ"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Lựa chọn hình chữ nhật"
+		},
+		"magnifierToolButton": {
+			"title": "Kính lúp"
 		},
 		"showMobileMenuButton": {
 			"title": "Thêm"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Xoay hình ảnh được chú thích"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Bật lịch sử thay đổi"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Hủy bỏ"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Lặp lại"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Bật chế độ 'Tẩy cho chú thích'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Điểm tương tác trung bình"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Bật lịch sử hoàn tác/làm lại"
 		},
 		"sidePanelCloseButton": {
 			"title": "Hiển thị thanh bên"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Chỉ mục không nằm trong phạm vi chỉ mục của bộ sưu tập hình ảnh."
+			},
+			"withAnnotationsLabel": {
+				"text": "Với chú thích"
+			},
+			"pageSettingsLabel": {
+				"text": "Cài đặt trang:"
+			},
+			"columnCountLabel": {
+				"text": "Số lượng cột:"
+			},
+			"rowCountLabel": {
+				"text": "Số hàng:"
+			},
+			"imagePaddingLabel": {
+				"text": "Khoảng cách lề hình ảnh:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Căn giữa theo chiều ngang"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Vô hiệu hóa hoàn tác/làm lại",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Bật chế độ 'Tẩy cho chú thích'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Vô hiệu hóa 'Công cụ xóa chú thích'",
-		"vsui-documentNavigationTool-getActions": "Nhận hành động"
+		"vsui-documentNavigationTool-getActions": "Nhận hành động",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Bật lịch sử hoàn tác/làm lại",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Tắt lịch sử hoàn tác/làm lại",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Hoàn tác hành động",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Làm lại hành động",
+		"vsui-annotationViewerUndoMonitor-moved": "Đã di chuyển",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Chú thích đã di chuyển:",
+		"vsui-annotationViewer-pasteAnnotation": "Dán chú thích",
+		"vsui-annotationViewer-groupAllAnnotations": "Nhóm tất cả chú thích",
+		"vsui-annotationViewer-ungroupAnnotation": "Bỏ nhóm chú thích",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Chèn",
+		"vsui-annotationViewCollectionUndoAction-remove": "Xóa",
+		"vsui-annotationViewCollectionUndoAction-move": "Di chuyển",
+		"vsui-annotationViewCollectionUndoAction-swap": "Hoán đổi",
+		"vsui-annotationViewCollectionUndoAction-set": "Đặt",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Thêm"
 	}
 }

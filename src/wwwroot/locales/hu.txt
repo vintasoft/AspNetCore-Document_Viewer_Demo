@@ -58,19 +58,19 @@
 			"title": "Miniatűr-nézegető beállításai"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Jegyzetek, Dokumentumnavigáció, Szövegkijelölés"
+			"title": "Jegyzetek, Dokumentumnavigáció, Szövegkijelölés, Pásztázás, Nagyítás"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Nagyító"
-		},
-		"zoomToolButton": {
-			"title": "Skála"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Skála kiválasztása"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Téglalap alakú kiválasztás"
+		},
+		"magnifierToolButton": {
+			"title": "Nagyító"
 		},
 		"showMobileMenuButton": {
 			"title": "Továbbiak"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "A megjegyzésekkel ellátott kép elforgatása"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Változástörténet engedélyezése"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Mégse"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Ismétlés"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Engedélyezze a 'Jegyzetek radírja' módot"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Közepes interakciós pontok"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Visszavonás/ismétlés előzmények engedélyezése"
 		},
 		"sidePanelCloseButton": {
 			"title": "Oldalsáv megjelenítése"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Az index nincs a képgyűjtemény indextartományán belül."
+			},
+			"withAnnotationsLabel": {
+				"text": "Jegyzetekkel"
+			},
+			"pageSettingsLabel": {
+				"text": "Oldalbeállítások:"
+			},
+			"columnCountLabel": {
+				"text": "Oszlopok száma:"
+			},
+			"rowCountLabel": {
+				"text": "Sorok száma:"
+			},
+			"imagePaddingLabel": {
+				"text": "Képkitöltés:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Vízszintes középre igazítás"
 			},
 			"okButton": {
 				"value": "Rendben"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "A visszavonás/újrakészítés letiltása",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Engedélyezze a 'Jegyzetek radírja' módot",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "A 'Jegyzetradír' letiltása",
-		"vsui-documentNavigationTool-getActions": "Szerezzen akciókat"
+		"vsui-documentNavigationTool-getActions": "Szerezzen akciókat",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Visszavonás/ismétlés előzmények engedélyezése",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Visszavonás/ismétlés előzmények letiltása",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Művelet visszavonása",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Művelet újravégzése",
+		"vsui-annotationViewerUndoMonitor-moved": "Áthelyezve",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Áthelyezve jegyzetek:",
+		"vsui-annotationViewer-pasteAnnotation": "Jegyzet beillesztése",
+		"vsui-annotationViewer-groupAllAnnotations": "Összes jegyzet csoportosítása",
+		"vsui-annotationViewer-ungroupAnnotation": "Jegyzet csoportosításának felbontása",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Beszúrás",
+		"vsui-annotationViewCollectionUndoAction-remove": "Eltávolítás",
+		"vsui-annotationViewCollectionUndoAction-move": "Áthelyezés",
+		"vsui-annotationViewCollectionUndoAction-swap": "Csere",
+		"vsui-annotationViewCollectionUndoAction-set": "Beállítás",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Hozzáadás"
 	}
 }

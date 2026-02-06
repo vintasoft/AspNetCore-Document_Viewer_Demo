@@ -58,19 +58,19 @@
 			"title": "Нобайды қарау құралының параметрлері"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Аннотациялар, Құжатты шарлау, Мәтінді таңдау"
+			"title": "Аннотациялар, Құжаттарды шарлау, Мәтінді таңдау, Панорамалау, Масштабтау"
 		},
 		"panToolButton": {
 			"title": "Пан"
 		},
-		"magnifierToolButton": {
-			"title": "Үлкейткіш"
-		},
-		"zoomToolButton": {
-			"title": "Масштабтау"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Масштабтау таңдау"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Тікбұрышты таңдау"
+		},
+		"magnifierToolButton": {
+			"title": "Үлкейткіш"
 		},
 		"showMobileMenuButton": {
 			"title": "Көбірек"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Аннотациялары бар кескінді бұрыңыз"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Болдырмау/қайталау мүмкіндігін қосыңыз"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Болдырмау"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Қайталау"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "'Аннотациялар үшін өшіргіш' режимін қосу"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Орташа әрекеттесу нүктелері"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Болдырмау/қайталау журналын қосыңыз"
 		},
 		"sidePanelCloseButton": {
 			"title": "Бүйірлік тақтаны көрсету"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс кескіндер жинағының ауқымынан тыс."
+			},
+			"withAnnotationsLabel": {
+				"text": "Аннотациялармен"
+			},
+			"pageSettingsLabel": {
+				"text": "Бет параметрлері:"
+			},
+			"columnCountLabel": {
+				"text": "Бағанды ​​санау:"
+			},
+			"rowCountLabel": {
+				"text": "Қатар саны:"
+			},
+			"imagePaddingLabel": {
+				"text": "Сурет толтыруы:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Көлденеңінен ортаға орналастыру"
 			},
 			"okButton": {
 				"value": "ЖАРАЙДЫ МА"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Болдырмауды/қайталауды өшіріңіз",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Аннотациялар үшін өшіргіш' режимін қосу",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Аннотация өшіргішін' өшіру",
-		"vsui-documentNavigationTool-getActions": "Әрекеттерді алыңыз"
+		"vsui-documentNavigationTool-getActions": "Әрекеттерді алыңыз",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Болдырмау/қайталау журналын қосыңыз",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Болдырмау/қайталау журналын өшіріңіз",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Әрекетті болдырмау",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Әрекетті қайталаңыз",
+		"vsui-annotationViewerUndoMonitor-moved": "Жылжытылған",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Аңдатпаларды жылжыту:",
+		"vsui-annotationViewer-pasteAnnotation": "Аңдатпаны қою",
+		"vsui-annotationViewer-groupAllAnnotations": "Барлық аннотацияларды топтастыру",
+		"vsui-annotationViewer-ungroupAnnotation": "Аңдатпаны топтан шығару",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Кірістіру",
+		"vsui-annotationViewCollectionUndoAction-remove": "Алып тастау",
+		"vsui-annotationViewCollectionUndoAction-move": "Жылжыту",
+		"vsui-annotationViewCollectionUndoAction-swap": "Ауыстыру",
+		"vsui-annotationViewCollectionUndoAction-set": "Орнату",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Қосу"
 	}
 }

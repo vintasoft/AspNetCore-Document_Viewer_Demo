@@ -58,19 +58,19 @@
 			"title": "Эскиз тамашачы көйләүләре"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Аннотацияләр, Документация навигациясе, Текстны сайлау"
+			"title": "Аннотацияләр, Документ навигациясе, Текст сайлау, Панорамалау, Зурайту"
 		},
 		"panToolButton": {
 			"title": "Пан"
 		},
-		"magnifierToolButton": {
-			"title": "Зурайткыч"
-		},
-		"zoomToolButton": {
-			"title": "Зурайту"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Зурлау сайлау"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Турыпочмаклы сайлау"
+		},
+		"magnifierToolButton": {
+			"title": "Зурайткыч"
 		},
 		"showMobileMenuButton": {
 			"title": "Күбрәк"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Рәсемне аннотацияләр белән әйләндерегез"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Кире кайтару / кире кайтару"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Кире кайтару"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Кабатлау"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Interзара бәйләнеш режимын кушу 'Аннотация бетерүче'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Урта үзара бәйләнеш нокталары"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Тарихны кире кайтару / яңадан җибәрү"
 		},
 		"sidePanelCloseButton": {
 			"title": "Ян панельне күрсәт"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Рәсем җыю диапазоныннан индекс."
+			},
+			"withAnnotationsLabel": {
+				"text": "Аннотацияләр белән"
+			},
+			"pageSettingsLabel": {
+				"text": "Бит көйләүләре:"
+			},
+			"columnCountLabel": {
+				"text": "Багана саны:"
+			},
+			"rowCountLabel": {
+				"text": "Рәтләр саны:"
+			},
+			"imagePaddingLabel": {
+				"text": "Рәсем тулылыгы:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Горизонталь рәвештә үзәккә кую"
 			},
 			"okButton": {
 				"value": "ЯРАРМЫ"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Кире кайтару / кире кайтару",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Interзара бәйләнеш режимын кушу 'Аннотация бетерүче'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Аннотация бетергеч' сүндерегез",
-		"vsui-documentNavigationTool-getActions": "Эшләр"
+		"vsui-documentNavigationTool-getActions": "Эшләр",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Тарихны кире кайтару / яңадан җибәрү",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Тарихны кире кайтару / кире кайтару",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Эшне кире кайтар",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Акцияне кабатлау",
+		"vsui-annotationViewerUndoMonitor-moved": "Күчерелгән",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Күчерелгән аннотацияләр:",
+		"vsui-annotationViewer-pasteAnnotation": "Аннотацияне урнаштыру",
+		"vsui-annotationViewer-groupAllAnnotations": "Барлык аннотацияләрне төркемләү",
+		"vsui-annotationViewer-ungroupAnnotation": "Аннотацияне төркемнән чыгару",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Керү",
+		"vsui-annotationViewCollectionUndoAction-remove": "Бетерү",
+		"vsui-annotationViewCollectionUndoAction-move": "Күчерү",
+		"vsui-annotationViewCollectionUndoAction-swap": "Алыштыру",
+		"vsui-annotationViewCollectionUndoAction-set": "Урнаштыру",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Өстәү"
 	}
 }

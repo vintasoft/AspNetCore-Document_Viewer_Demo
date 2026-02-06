@@ -58,19 +58,19 @@
 			"title": "Nastavitve pregledovalnika sličic"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Opombe, navigacija po dokumentu, izbira besedila"
+			"title": "Opombe, Navigacija po dokumentu, Izbira besedila, Pomikanje, Povečava"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Povečevalno steklo"
-		},
-		"zoomToolButton": {
-			"title": "Zoom"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Izbira povečave"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Pravokotna izbira"
+		},
+		"magnifierToolButton": {
+			"title": "Povečevalno steklo"
 		},
 		"showMobileMenuButton": {
 			"title": "Več"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Zasukaj sliko z opombami"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Omogoči razveljavitev/ponovitev"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Razveljavi"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Ponovi"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Omogoči način 'Radirka za opombe'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Srednje interakcijske točke"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Omogoči zgodovino razveljavitev/ponovitev"
 		},
 		"sidePanelCloseButton": {
 			"title": "Pokaži stransko ploščo"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks izven obsega zbirke slik."
+			},
+			"withAnnotationsLabel": {
+				"text": "Z opombami"
+			},
+			"pageSettingsLabel": {
+				"text": "Nastavitve strani:"
+			},
+			"columnCountLabel": {
+				"text": "Število stolpcev:"
+			},
+			"rowCountLabel": {
+				"text": "Število vrstic:"
+			},
+			"imagePaddingLabel": {
+				"text": "Odmik slike:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Vodoravno centriranje"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Onemogoči razveljavitev/ponovitev",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Omogoči način 'Radirka za opombe'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Onemogoči 'Radirko pripisov'",
-		"vsui-documentNavigationTool-getActions": "Pridobite dejanja"
+		"vsui-documentNavigationTool-getActions": "Pridobite dejanja",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Omogoči zgodovino razveljavitev/ponovitev",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Onemogoči zgodovino razveljavitev/ponovitev",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Razveljavi dejanje",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Ponovi dejanje",
+		"vsui-annotationViewerUndoMonitor-moved": "Premaknjeno",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Premaknjene opombe:",
+		"vsui-annotationViewer-pasteAnnotation": "Prilepi opombo",
+		"vsui-annotationViewer-groupAllAnnotations": "Združi vse opombe",
+		"vsui-annotationViewer-ungroupAnnotation": "Razdruži opombo",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Vstavi",
+		"vsui-annotationViewCollectionUndoAction-remove": "Odstrani",
+		"vsui-annotationViewCollectionUndoAction-move": "Premakni",
+		"vsui-annotationViewCollectionUndoAction-swap": "Zamenjaj",
+		"vsui-annotationViewCollectionUndoAction-set": "Nastavi",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Dodaj"
 	}
 }

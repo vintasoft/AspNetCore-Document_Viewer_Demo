@@ -58,19 +58,19 @@
 			"title": "Indstillinger for miniaturefremviser"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Annotationer, dokumentnavigation, tekstvalg"
+			"title": "Annotationer, Dokumentnavigation, Tekstmarkering, Panorering, Zoom"
 		},
 		"panToolButton": {
 			"title": "Panér"
 		},
-		"magnifierToolButton": {
-			"title": "Forstørrelsesglas"
-		},
-		"zoomToolButton": {
-			"title": "Skala"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Skalavalg"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Rektangulært udvalg"
+		},
+		"magnifierToolButton": {
+			"title": "Forstørrelsesglas"
 		},
 		"showMobileMenuButton": {
 			"title": "Mere"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Roter kommenteret billede"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Aktiver ændringshistorik"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Annuller"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Gentag"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Aktiver 'Viskelæder for annoteringer'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mellem interaktionspunkter"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Aktivér fortryd/fortryd-historikken"
 		},
 		"sidePanelCloseButton": {
 			"title": "Vis sidebjælke"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indekset er ikke inden for billedsamlingens indeksområde."
+			},
+			"withAnnotationsLabel": {
+				"text": "Med annotationer"
+			},
+			"pageSettingsLabel": {
+				"text": "Sideindstillinger:"
+			},
+			"columnCountLabel": {
+				"text": "Kolonneantal:"
+			},
+			"rowCountLabel": {
+				"text": "Rækkeantal:"
+			},
+			"imagePaddingLabel": {
+				"text": "Billedpolstring:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrer vandret"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Deaktiver fortryd/gentag",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Aktiver 'Viskelæder for annoteringer'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Deaktiver 'Annotations viskelæder'",
-		"vsui-documentNavigationTool-getActions": "Få handlinger"
+		"vsui-documentNavigationTool-getActions": "Få handlinger",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Aktivér fortryd/fortryd-historikken",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Deaktiver fortryd/fortryd-historikken",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Fortryd handlingen",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Fortryd handlingen",
+		"vsui-annotationViewerUndoMonitor-moved": "Flyttet",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Flyttede annotationer:",
+		"vsui-annotationViewer-pasteAnnotation": "Indsæt annotation",
+		"vsui-annotationViewer-groupAllAnnotations": "Gruppér alle annotationer",
+		"vsui-annotationViewer-ungroupAnnotation": "Ophæv gruppe af annotation",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Indsæt",
+		"vsui-annotationViewCollectionUndoAction-remove": "Fjern",
+		"vsui-annotationViewCollectionUndoAction-move": "Flyt",
+		"vsui-annotationViewCollectionUndoAction-swap": "Byt",
+		"vsui-annotationViewCollectionUndoAction-set": "Indstil",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Tilføj"
 	}
 }

@@ -58,19 +58,19 @@
 			"title": "მინიატურების მაყურებლის პარამეტრები"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "ანოტაციები, დოკუმენტის ნავიგაცია, ტექსტის შერჩევა"
+			"title": "ანოტაციები, დოკუმენტის ნავიგაცია, ტექსტის შერჩევა, პანორამირება, მასშტაბირება"
 		},
 		"panToolButton": {
 			"title": "პან"
 		},
-		"magnifierToolButton": {
-			"title": "ლუპა"
-		},
-		"zoomToolButton": {
-			"title": "მასშტაბირება"
-		},
 		"zoomSelectionToolButton": {
 			"title": "მასშტაბირების შერჩევა"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "მართკუთხა შერჩევა"
+		},
+		"magnifierToolButton": {
+			"title": "ლუპა"
 		},
 		"showMobileMenuButton": {
 			"title": "მეტი"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "სურათის როტაცია ანოტაციებით"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "ჩართეთ გაუქმება/გამეორება"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "გაუქმება"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "ხელახლა"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "ჩართეთ რეჟიმი 'საშლელი ანოტაციებისთვის'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "საშუალო ურთიერთქმედების წერტილები"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "გაუქმების/განმეორების ისტორიის ჩართვა"
 		},
 		"sidePanelCloseButton": {
 			"title": "გვერდითი პანელის ჩვენება"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "ინდექსი სურათების შეგროვების დიაპაზონის გარეთ."
+			},
+			"withAnnotationsLabel": {
+				"text": "ანოტაციებით"
+			},
+			"pageSettingsLabel": {
+				"text": "გვერდის პარამეტრები:"
+			},
+			"columnCountLabel": {
+				"text": "სვეტების რაოდენობა:"
+			},
+			"rowCountLabel": {
+				"text": "სტრიქონების რაოდენობა:"
+			},
+			"imagePaddingLabel": {
+				"text": "სურათის შევსება:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "ჰორიზონტალურად ცენტრირება"
 			},
 			"okButton": {
 				"value": "კარგი"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "გამორთეთ გაუქმება/გამეორება",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "ჩართეთ რეჟიმი 'საშლელი ანოტაციებისთვის'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "გამორთეთ 'ანოტაციის საშლელი'",
-		"vsui-documentNavigationTool-getActions": "მიიღეთ მოქმედებები"
+		"vsui-documentNavigationTool-getActions": "მიიღეთ მოქმედებები",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "გაუქმების/განმეორების ისტორიის ჩართვა",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "გაუქმების/განმეორების ისტორიის გამორთვა",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "მოქმედების გაუქმება",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "მოქმედების ხელახლა შესრულება",
+		"vsui-annotationViewerUndoMonitor-moved": "გადატანილი",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "გადატანილი ანოტაციები:",
+		"vsui-annotationViewer-pasteAnnotation": "ანოტაციის ჩასმა",
+		"vsui-annotationViewer-groupAllAnnotations": "ყველა ანოტაციის დაჯგუფება",
+		"vsui-annotationViewer-ungroupAnnotation": "ანოტაციის განჯგუფება",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "ჩასმა",
+		"vsui-annotationViewCollectionUndoAction-remove": "წაშლა",
+		"vsui-annotationViewCollectionUndoAction-move": "გადატანა",
+		"vsui-annotationViewCollectionUndoAction-swap": "ჩანაცვლება",
+		"vsui-annotationViewCollectionUndoAction-set": "დაყენება",
+		"vsui-annotationViewCollectionUndoMonitor-add": "დამატება"
 	}
 }

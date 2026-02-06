@@ -58,19 +58,19 @@
 			"title": "إعدادات عارض الصور المصغرة"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "التعليقات التوضيحية ، التنقل في المستند ، تحديد النص"
+			"title": "التعليقات التوضيحية، التنقل بين المستندات، تحديد النص، التحريك، التكبير/التصغير"
 		},
 		"panToolButton": {
 			"title": "عموم"
 		},
-		"magnifierToolButton": {
-			"title": "المكبر"
-		},
-		"zoomToolButton": {
-			"title": "مقياس"
-		},
 		"zoomSelectionToolButton": {
 			"title": "تحديد الحجم"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "اختيار مستطيل"
+		},
+		"magnifierToolButton": {
+			"title": "المكبر"
 		},
 		"showMobileMenuButton": {
 			"title": "المزيد"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "تدوير الصورة المشروحة"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "تمكين محفوظات التغيير"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "إلغاء"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "كرر"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "تفعيل 'ممحاة التعليقات التوضيحية'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "نقاط التفاعل المتوسطة"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "تفعيل سجل التراجع/الإعادة"
 		},
 		"sidePanelCloseButton": {
 			"title": "إظهار الشريط الجانبي"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "الفهرس ليس ضمن نطاق الفهرس لمجموعة الصور."
+			},
+			"withAnnotationsLabel": {
+				"text": "مع التعليقات التوضيحية"
+			},
+			"pageSettingsLabel": {
+				"text": "إعدادات الصفحة:"
+			},
+			"columnCountLabel": {
+				"text": "عدد الأعمدة:"
+			},
+			"rowCountLabel": {
+				"text": "عدد الصفوف:"
+			},
+			"imagePaddingLabel": {
+				"text": "تباعد الصورة:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "توسيط أفقي"
 			},
 			"okButton": {
 				"value": "موافق"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "تعطيل التراجع/الإعادة",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "تفعيل 'ممحاة التعليقات التوضيحية'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "تعطيل 'ممحاة التعليقات التوضيحية'",
-		"vsui-documentNavigationTool-getActions": "الحصول على الإجراءات"
+		"vsui-documentNavigationTool-getActions": "الحصول على الإجراءات",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "تفعيل سجل التراجع/الإعادة",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "تعطيل سجل التراجع/الإعادة",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "التراجع عن الإجراء",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "إعادة الإجراء",
+		"vsui-annotationViewerUndoMonitor-moved": "تم النقل",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "تم نقل التعليقات التوضيحية:",
+		"vsui-annotationViewer-pasteAnnotation": "لصق التعليق التوضيحي",
+		"vsui-annotationViewer-groupAllAnnotations": "تجميع جميع التعليقات التوضيحية",
+		"vsui-annotationViewer-ungroupAnnotation": "فك تجميع التعليق التوضيحي",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "إدراج",
+		"vsui-annotationViewCollectionUndoAction-remove": "إزالة",
+		"vsui-annotationViewCollectionUndoAction-move": "نقل",
+		"vsui-annotationViewCollectionUndoAction-swap": "تبديل",
+		"vsui-annotationViewCollectionUndoAction-set": "تعيين",
+		"vsui-annotationViewCollectionUndoMonitor-add": "إضافة"
 	}
 }

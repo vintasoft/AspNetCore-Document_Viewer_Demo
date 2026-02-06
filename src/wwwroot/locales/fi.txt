@@ -58,19 +58,19 @@
 			"title": "Pikkukuvien katseluohjelman asetukset"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Merkinnät, asiakirjanavigointi, tekstin valinta"
+			"title": "Merkinnät, Asiakirjan navigointi, Tekstin valinta, Panorointi, Zoomaus"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Suurennuslasi"
-		},
-		"zoomToolButton": {
-			"title": "Asteikko"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Skaalan valinta"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Suorakaiteen muotoinen valinta"
+		},
+		"magnifierToolButton": {
+			"title": "Suurennuslasi"
 		},
 		"showMobileMenuButton": {
 			"title": "Lisää"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Kierrä huomautettua kuvaa"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Ota muutoshistoria käyttöön"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Peruuta"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Toista"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Ota käyttöön tila 'Pyyheen merkintöjä varten'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Keskitason vuorovaikutuspisteet"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Ota käyttöön kumoa/tee uudelleen -historia"
 		},
 		"sidePanelCloseButton": {
 			"title": "Näytä sivupalkki"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Hakemisto ei ole kuvakokoelman indeksialueella."
+			},
+			"withAnnotationsLabel": {
+				"text": "Merkintöjen kanssa"
+			},
+			"pageSettingsLabel": {
+				"text": "Sivun asetukset:"
+			},
+			"columnCountLabel": {
+				"text": "Sarakkeiden määrä:"
+			},
+			"rowCountLabel": {
+				"text": "Rivien määrä:"
+			},
+			"imagePaddingLabel": {
+				"text": "Kuvan täyttö:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Keskitä vaakasuunnassa"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Poista kumoa/toista käytöstä",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Ota käyttöön tila 'Pyyheen merkintöjä varten'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Poista merkintöjen pyyhekumi käytöstä",
-		"vsui-documentNavigationTool-getActions": "Hanki toimia"
+		"vsui-documentNavigationTool-getActions": "Hanki toimia",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Ota käyttöön kumoa/tee uudelleen -historia",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Poista käytöstä kumoa/tee uudelleen -historia",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Kumoa toiminto",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Tee toiminto uudelleen",
+		"vsui-annotationViewerUndoMonitor-moved": "Siirretty",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Siirretyt merkinnät:",
+		"vsui-annotationViewer-pasteAnnotation": "Liitä merkinnät",
+		"vsui-annotationViewer-groupAllAnnotations": "Ryhmittele kaikki merkinnät",
+		"vsui-annotationViewer-ungroupAnnotation": "Pura merkintöjen ryhmittely",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Lisää",
+		"vsui-annotationViewCollectionUndoAction-remove": "Poista",
+		"vsui-annotationViewCollectionUndoAction-move": "Siirrä",
+		"vsui-annotationViewCollectionUndoAction-swap": "Vaihda",
+		"vsui-annotationViewCollectionUndoAction-set": "Aseta",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Lisää"
 	}
 }

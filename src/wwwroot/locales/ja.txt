@@ -58,19 +58,19 @@
 			"title": "サムネイル ビューアの設定"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "注釈、ドキュメント ナビゲーション、テキスト選択"
+			"title": "注釈、ドキュメントナビゲーション、テキスト選択、パン、ズーム"
 		},
 		"panToolButton": {
 			"title": "パン"
 		},
-		"magnifierToolButton": {
-			"title": "拡大鏡"
-		},
-		"zoomToolButton": {
-			"title": "スケール"
-		},
 		"zoomSelectionToolButton": {
 			"title": "スケールの選択"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "長方形の選択範囲"
+		},
+		"magnifierToolButton": {
+			"title": "拡大鏡"
 		},
 		"showMobileMenuButton": {
 			"title": "詳細"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "注釈付き画像を回転"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "変更履歴を有効にする"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "キャンセル"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "繰り返し"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "「注釈用消しゴム」モードを有効にする"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "中間のインタラクション ポイント"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "元に戻す/やり直し履歴を有効にする"
 		},
 		"sidePanelCloseButton": {
 			"title": "サイドバーを表示"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "インデックスはイメージ コレクションのインデックス範囲内にありません。"
+			},
+			"withAnnotationsLabel": {
+				"text": "注釈付き"
+			},
+			"pageSettingsLabel": {
+				"text": "ページ設定："
+			},
+			"columnCountLabel": {
+				"text": "列数:"
+			},
+			"rowCountLabel": {
+				"text": "行数："
+			},
+			"imagePaddingLabel": {
+				"text": "画像のパディング："
+			},
+			"centerHorizontallyLabel": {
+				"text": "水平中央揃え"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "元に戻す/やり直しを無効にする",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "「注釈用消しゴム」モードを有効にする",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "「注釈消しゴム」を無効にする",
-		"vsui-documentNavigationTool-getActions": "アクションを取得"
+		"vsui-documentNavigationTool-getActions": "アクションを取得",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "元に戻す/やり直し履歴を有効にする",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "元に戻す/やり直し履歴を無効にする",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "操作を元に戻す",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "操作をやり直す",
+		"vsui-annotationViewerUndoMonitor-moved": "移動",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "移動した注釈:",
+		"vsui-annotationViewer-pasteAnnotation": "注釈を貼り付け",
+		"vsui-annotationViewer-groupAllAnnotations": "すべての注釈をグループ化",
+		"vsui-annotationViewer-ungroupAnnotation": "注釈のグループ解除",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "挿入",
+		"vsui-annotationViewCollectionUndoAction-remove": "削除",
+		"vsui-annotationViewCollectionUndoAction-move": "移動",
+		"vsui-annotationViewCollectionUndoAction-swap": "入れ替え",
+		"vsui-annotationViewCollectionUndoAction-set": "設定",
+		"vsui-annotationViewCollectionUndoMonitor-add": "追加"
 	}
 }

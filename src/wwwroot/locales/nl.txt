@@ -58,19 +58,19 @@
 			"title": "Miniatuurweergave-instellingen"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Annotaties, documentnavigatie, tekstselectie"
+			"title": "Annotaties, documentnavigatie, tekstselectie, pannen, zoomen"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Vergrootglas"
-		},
-		"zoomToolButton": {
-			"title": "Schaal"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Schaalselectie"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Rechthoekige selectie"
+		},
+		"magnifierToolButton": {
+			"title": "Vergrootglas"
 		},
 		"showMobileMenuButton": {
 			"title": "Meer"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Geannoteerde afbeelding roteren"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Wijzigingsgeschiedenis inschakelen"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Annuleren"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Herhalen"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Modus 'Gum voor aantekeningen' inschakelen"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middelste interactiepunten"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "De geschiedenis van ongedaan maken/opnieuw uitvoeren inschakelen"
 		},
 		"sidePanelCloseButton": {
 			"title": "Toon zijbalk"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "De index valt niet binnen het indexbereik van de afbeeldingencollectie."
+			},
+			"withAnnotationsLabel": {
+				"text": "Met annotaties"
+			},
+			"pageSettingsLabel": {
+				"text": "Pagina-instellingen:"
+			},
+			"columnCountLabel": {
+				"text": "Aantal kolommen:"
+			},
+			"rowCountLabel": {
+				"text": "Aantal rijen:"
+			},
+			"imagePaddingLabel": {
+				"text": "Afbeeldingsafstand:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Horizontaal centreren"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Ongedaan maken/opnieuw uitvoeren uitschakelen",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Modus 'Gum voor aantekeningen' inschakelen",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Annotatie-gum' uitschakelen",
-		"vsui-documentNavigationTool-getActions": "Acties ophalen"
+		"vsui-documentNavigationTool-getActions": "Acties ophalen",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "De geschiedenis van ongedaan maken/opnieuw uitvoeren inschakelen",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "De geschiedenis van ongedaan maken/opnieuw uitvoeren uitschakelen",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "De actie ongedaan maken",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "De actie opnieuw uitvoeren",
+		"vsui-annotationViewerUndoMonitor-moved": "Verplaatst",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Verplaatste annotaties:",
+		"vsui-annotationViewer-pasteAnnotation": "Annotatie plakken",
+		"vsui-annotationViewer-groupAllAnnotations": "Alle annotaties groeperen",
+		"vsui-annotationViewer-ungroupAnnotation": "Annotatie degroeperen",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Invoegen",
+		"vsui-annotationViewCollectionUndoAction-remove": "Verwijderen",
+		"vsui-annotationViewCollectionUndoAction-move": "Verplaatsen",
+		"vsui-annotationViewCollectionUndoAction-swap": "Wisselen",
+		"vsui-annotationViewCollectionUndoAction-set": "Instellen",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Toevoegen"
 	}
 }

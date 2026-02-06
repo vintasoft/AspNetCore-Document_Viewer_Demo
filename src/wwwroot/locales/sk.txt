@@ -58,19 +58,19 @@
 			"title": "Nastavenia prehliadača miniatúr"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anotácie, Navigácia v dokumente, Výber textu"
+			"title": "Anotácie, Navigácia v dokumente, Výber textu, Posúvanie, Priblíženie"
 		},
 		"panToolButton": {
 			"title": "Panvica"
 		},
-		"magnifierToolButton": {
-			"title": "Lupa"
-		},
-		"zoomToolButton": {
-			"title": "Zoom"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Výber priblíženia"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Obdĺžnikový výber"
+		},
+		"magnifierToolButton": {
+			"title": "Lupa"
 		},
 		"showMobileMenuButton": {
 			"title": "Viac"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Otočte obrázok s anotáciami"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Povoliť vrátenie/znova"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Vrátenie späť"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Znovu"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Povoliť režim 'Guma pre anotácie'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Stredné interakčné body"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Povoliť históriu vrátenia/opakovania"
 		},
 		"sidePanelCloseButton": {
 			"title": "Zobraziť bočný panel"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Index je mimo rozsahu zbierky obrázkov."
+			},
+			"withAnnotationsLabel": {
+				"text": "S anotáciami"
+			},
+			"pageSettingsLabel": {
+				"text": "Nastavenia stránky:"
+			},
+			"columnCountLabel": {
+				"text": "Počet stĺpcov:"
+			},
+			"rowCountLabel": {
+				"text": "Počet riadkov:"
+			},
+			"imagePaddingLabel": {
+				"text": "Odsadenie obrázka:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Vodorovne vycentrovať"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Zakázať vrátenie/znova",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Povoliť režim 'Guma pre anotácie'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Zakázať 'gumu anotácií'",
-		"vsui-documentNavigationTool-getActions": "Získajte akcie"
+		"vsui-documentNavigationTool-getActions": "Získajte akcie",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Povoliť históriu vrátenia/opakovania",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Zakázať históriu vrátenia/opakovania",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Vrátiť akciu späť",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Znovu vykonať akciu",
+		"vsui-annotationViewerUndoMonitor-moved": "Presunuté",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Presunuté anotácie:",
+		"vsui-annotationViewer-pasteAnnotation": "Vložiť anotáciu",
+		"vsui-annotationViewer-groupAllAnnotations": "Zoskupiť všetky anotácie",
+		"vsui-annotationViewer-ungroupAnnotation": "Rozdeliť anotáciu",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Vložiť",
+		"vsui-annotationViewCollectionUndoAction-remove": "Odstrániť",
+		"vsui-annotationViewCollectionUndoAction-move": "Presunúť",
+		"vsui-annotationViewCollectionUndoAction-swap": "Vymeniť",
+		"vsui-annotationViewCollectionUndoAction-set": "Nastaviť",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Pridať"
 	}
 }

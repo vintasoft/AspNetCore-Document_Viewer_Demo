@@ -58,19 +58,19 @@
 			"title": "Մանրապատկերների դիտման կարգավորումներ"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Անոտացիաներ, Փաստաթղթերի նավարկություն, Տեքստի ընտրություն"
+			"title": "Նշումներ, Փաստաթղթի նավիգացիա, Տեքստի ընտրություն, Տեղաշարժում, Մեծացում"
 		},
 		"panToolButton": {
 			"title": "Պան"
 		},
-		"magnifierToolButton": {
-			"title": "Խոշորացույց"
-		},
-		"zoomToolButton": {
-			"title": "Մեծացնել"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Մեծացնելու ընտրություն"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Ուղղանկյուն ընտրություն"
+		},
+		"magnifierToolButton": {
+			"title": "Խոշորացույց"
 		},
 		"showMobileMenuButton": {
 			"title": "Ավելին"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Պտտեցնել պատկերը ծանոթագրություններով"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Միացնել հետարկել/վերագործարկել"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Հետարկել"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Կրկնել"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Միացնել 'Ջնջիչ ծանոթագրությունների համար' ռեժիմը"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Միջին փոխազդեցության կետեր"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Միացնել չեղարկման/վերադարձման պատմությունը"
 		},
 		"sidePanelCloseButton": {
 			"title": "Ցույց տալ կողային վահանակը"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Ինդեքս՝ պատկերների հավաքածուից դուրս:"
+			},
+			"withAnnotationsLabel": {
+				"text": "Նշումներով"
+			},
+			"pageSettingsLabel": {
+				"text": "Էջի կարգավորումներ՝"
+			},
+			"columnCountLabel": {
+				"text": "Սյունակների քանակը."
+			},
+			"rowCountLabel": {
+				"text": "Տողերի քանակ՝"
+			},
+			"imagePaddingLabel": {
+				"text": "Պատկերի լրացում՝"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Կենտրոնացնել հորիզոնական"
 			},
 			"okButton": {
 				"value": "լավ"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Անջատել հետարկել/վերագործարկել",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Միացնել 'Ջնջիչ ծանոթագրությունների համար' ռեժիմը",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Անջատել 'Ծանոթագրությունների ջնջիչը'",
-		"vsui-documentNavigationTool-getActions": "Ստացեք գործողություններ"
+		"vsui-documentNavigationTool-getActions": "Ստացեք գործողություններ",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Միացնել չեղարկման/վերադարձման պատմությունը",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Անջատել չեղարկման/վերադարձման պատմությունը",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Չեղարկել գործողությունը",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Կրկնել գործողությունը",
+		"vsui-annotationViewerUndoMonitor-moved": "Տեղափոխված",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Տեղափոխված նշումներ՝",
+		"vsui-annotationViewer-pasteAnnotation": "Տեղադրել նշումը",
+		"vsui-annotationViewer-groupAllAnnotations": "Խմբավորել բոլոր նշումները",
+		"vsui-annotationViewer-ungroupAnnotation": "Անխմբավորել նշումը",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Տեղադրեք",
+		"vsui-annotationViewCollectionUndoAction-remove": "Հեռացնել",
+		"vsui-annotationViewCollectionUndoAction-move": "Տեղափոխել",
+		"vsui-annotationViewCollectionUndoAction-swap": "Փոխանակել",
+		"vsui-annotationViewCollectionUndoAction-set": "Սահմանել",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Ավելացնել"
 	}
 }

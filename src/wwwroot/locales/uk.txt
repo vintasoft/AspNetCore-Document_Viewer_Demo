@@ -58,19 +58,19 @@
 			"title": "Налаштування перегляду мініатюр"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Анотації, Навігація документом, Виділення тексту"
+			"title": "Анотації, Навігація по документу, Виділення тексту, Панорамування, Масштаб"
 		},
 		"panToolButton": {
 			"title": "Пан"
 		},
-		"magnifierToolButton": {
-			"title": "лупа"
-		},
-		"zoomToolButton": {
-			"title": "Збільшити"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Вибір масштабу"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Прямокутне виділення"
+		},
+		"magnifierToolButton": {
+			"title": "лупа"
 		},
 		"showMobileMenuButton": {
 			"title": "більше"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Обертання зображення з анотаціями"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Увімкнути скасування/повторення"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Скасувати"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Повторити"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Увімкнути режим «Гумка для анотацій»"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Середні точки взаємодії"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Увімкнути історію скасування/повторення"
 		},
 		"sidePanelCloseButton": {
 			"title": "Показати бічну панель"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Індекс поза діапазоном колекції зображень."
+			},
+			"withAnnotationsLabel": {
+				"text": "З анотаціями"
+			},
+			"pageSettingsLabel": {
+				"text": "Налаштування сторінки:"
+			},
+			"columnCountLabel": {
+				"text": "Кількість стовпців:"
+			},
+			"rowCountLabel": {
+				"text": "Кількість рядків:"
+			},
+			"imagePaddingLabel": {
+				"text": "Відступи від зображення:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Вирівняти по центру по горизонталі"
 			},
 			"okButton": {
 				"value": "В порядку"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Вимкнути скасування/повторення",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Увімкнути режим «Гумка для анотацій»",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Вимкнути 'Стирання анотацій'",
-		"vsui-documentNavigationTool-getActions": "Отримати дії"
+		"vsui-documentNavigationTool-getActions": "Отримати дії",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Увімкнути історію скасування/повторення",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Вимкнути історію скасування/повторення",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Скасувати дію",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Повторити дію",
+		"vsui-annotationViewerUndoMonitor-moved": "Переміщено",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Переміщені анотації:",
+		"vsui-annotationViewer-pasteAnnotation": "Вставити анотацію",
+		"vsui-annotationViewer-groupAllAnnotations": "Згрупувати всі анотації",
+		"vsui-annotationViewer-ungroupAnnotation": "Розгрупувати анотацію",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Вставка",
+		"vsui-annotationViewCollectionUndoAction-remove": "Видалити",
+		"vsui-annotationViewCollectionUndoAction-move": "Перемістити",
+		"vsui-annotationViewCollectionUndoAction-swap": "Поміняти місцями",
+		"vsui-annotationViewCollectionUndoAction-set": "Встановити",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Додати"
 	}
 }

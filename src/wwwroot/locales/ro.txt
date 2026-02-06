@@ -58,19 +58,19 @@
 			"title": "Setări pentru vizualizatorul de miniaturi"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Adnotări, Navigare document, Selectare text"
+			"title": "Adnotări, Navigare documente, Selecție text, Panoramare, Zoom"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Lupă"
-		},
-		"zoomToolButton": {
-			"title": "Scală"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Selectare scară"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Selecție dreptunghiulară"
+		},
+		"magnifierToolButton": {
+			"title": "Lupă"
 		},
 		"showMobileMenuButton": {
 			"title": "Mai multe"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Rotire imaginea adnotată"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Activați istoricul modificărilor"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Anulează"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Repetă"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Activați modul 'Goma de șters pentru adnotări'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Puncte de interacțiune din mijloc"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Activare istoric anulări/refacere"
 		},
 		"sidePanelCloseButton": {
 			"title": "Afișează bara laterală"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indexul nu se află în intervalul de index al colecției de imagini."
+			},
+			"withAnnotationsLabel": {
+				"text": "Cu adnotări"
+			},
+			"pageSettingsLabel": {
+				"text": "Setări pagină:"
+			},
+			"columnCountLabel": {
+				"text": "Număr de coloane:"
+			},
+			"rowCountLabel": {
+				"text": "Număr de rânduri:"
+			},
+			"imagePaddingLabel": {
+				"text": "Ciclu de imagini:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrare pe orizontală"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Dezactivează anularea/refacerea",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Activați modul 'Goma de șters pentru adnotări'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Dezactivați 'Ștergerea adnotărilor'",
-		"vsui-documentNavigationTool-getActions": "Obțineți acțiuni"
+		"vsui-documentNavigationTool-getActions": "Obțineți acțiuni",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Activare istoric anulări/refacere",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Dezactivare istoric anulări/refacere",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Anulare acțiune",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Refacere acțiune",
+		"vsui-annotationViewerUndoMonitor-moved": "Mutat",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Adnotări mutate:",
+		"vsui-annotationViewer-pasteAnnotation": "Lipire adnotare",
+		"vsui-annotationViewer-groupAllAnnotations": "Grupare toate adnotările",
+		"vsui-annotationViewer-ungroupAnnotation": "Degrupare adnotare",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Inserare",
+		"vsui-annotationViewCollectionUndoAction-remove": "Eliminare",
+		"vsui-annotationViewCollectionUndoAction-move": "Mutare",
+		"vsui-annotationViewCollectionUndoAction-swap": "Schimbare",
+		"vsui-annotationViewCollectionUndoAction-set": "Setare",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Adăugare"
 	}
 }

@@ -58,19 +58,19 @@
 			"title": "Configuración del visor de miniaturas"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anotaciones, Navegación de documentos, Selección de texto"
+			"title": "Anotaciones, Navegación del documento, Selección de texto, Desplazamiento, Zoom"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Lupa"
-		},
-		"zoomToolButton": {
-			"title": "Escala"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Selección de escala"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Selección rectangular"
+		},
+		"magnifierToolButton": {
+			"title": "Lupa"
 		},
 		"showMobileMenuButton": {
 			"title": "Más"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Rotar imagen anotada"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Habilitar historial de cambios"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Cancelar"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Repetir"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Habilitar 'Borrador para anotaciones'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Puntos de Interacción Medios"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Habilitar el historial de deshacer/rehacer"
 		},
 		"sidePanelCloseButton": {
 			"title": "Mostrar barra lateral"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "El índice no está dentro del rango de índice de la colección de imágenes."
+			},
+			"withAnnotationsLabel": {
+				"text": "Con anotaciones"
+			},
+			"pageSettingsLabel": {
+				"text": "Configuración de página:"
+			},
+			"columnCountLabel": {
+				"text": "Recuento de columnas:"
+			},
+			"rowCountLabel": {
+				"text": "Número de filas:"
+			},
+			"imagePaddingLabel": {
+				"text": "Relleno de imagen:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrar horizontalmente"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Deshabilitar deshacer/rehacer",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Habilitar 'Borrador para anotaciones'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Deshabilitar el borrador de anotaciones",
-		"vsui-documentNavigationTool-getActions": "Obtener acciones"
+		"vsui-documentNavigationTool-getActions": "Obtener acciones",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Habilitar el historial de deshacer/rehacer",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Deshabilitar el historial de deshacer/rehacer",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Deshacer la acción",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Rehacer la acción",
+		"vsui-annotationViewerUndoMonitor-moved": "Movido",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Anotaciones movidas:",
+		"vsui-annotationViewer-pasteAnnotation": "Pegar anotación",
+		"vsui-annotationViewer-groupAllAnnotations": "Agrupar todas las anotaciones",
+		"vsui-annotationViewer-ungroupAnnotation": "Desagrupar anotación",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Insertar",
+		"vsui-annotationViewCollectionUndoAction-remove": "Eliminar",
+		"vsui-annotationViewCollectionUndoAction-move": "Mover",
+		"vsui-annotationViewCollectionUndoAction-swap": "Intercambiar",
+		"vsui-annotationViewCollectionUndoAction-set": "Establecer",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Añadir"
 	}
 }

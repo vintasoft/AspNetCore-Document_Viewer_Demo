@@ -58,19 +58,19 @@
 			"title": "Ρυθμίσεις προβολής μικρογραφιών"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Σχολιασμοί, Πλοήγηση εγγράφων, Επιλογή κειμένου"
+			"title": "Σχολιασμοί, Πλοήγηση εγγράφου, Επιλογή κειμένου, Μετατόπιση, Ζουμ"
 		},
 		"panToolButton": {
 			"title": "Παν"
 		},
-		"magnifierToolButton": {
-			"title": "Μεγεθυντικός φακός"
-		},
-		"zoomToolButton": {
-			"title": "Κλίμακα"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Επιλογή κλίμακας"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Ορθογώνια επιλογή"
+		},
+		"magnifierToolButton": {
+			"title": "Μεγεθυντικός φακός"
 		},
 		"showMobileMenuButton": {
 			"title": "Περισσότερα"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Περιστροφή σχολιασμένης εικόνας"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Ενεργοποίηση ιστορικού αλλαγών"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Ακύρωση"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Επανάληψη"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Ενεργοποίηση 'Γόμα για σχολιασμούς'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Μεσαία σημεία αλληλεπίδρασης"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Ενεργοποίηση ιστορικού αναίρεσης/επανάληψης"
 		},
 		"sidePanelCloseButton": {
 			"title": "Εμφάνιση πλαϊνής γραμμής"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Το ευρετήριο δεν βρίσκεται εντός του εύρους ευρετηρίου της συλλογής εικόνων."
+			},
+			"withAnnotationsLabel": {
+				"text": "Με σχολιασμούς"
+			},
+			"pageSettingsLabel": {
+				"text": "Ρυθμίσεις σελίδας:"
+			},
+			"columnCountLabel": {
+				"text": "Πλήθος στηλών:"
+			},
+			"rowCountLabel": {
+				"text": "Αριθμός γραμμών:"
+			},
+			"imagePaddingLabel": {
+				"text": "Επένδυση εικόνας:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Κεντράρισμα οριζόντια"
 			},
 			"okButton": {
 				"value": "ΟΚ"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Απενεργοποίηση αναίρεσης/εκ νέου",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Ενεργοποίηση 'Γόμα για σχολιασμούς'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Απενεργοποίηση 'Γόμα σχολίων'",
-		"vsui-documentNavigationTool-getActions": "Λάβετε ενέργειες"
+		"vsui-documentNavigationTool-getActions": "Λάβετε ενέργειες",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Ενεργοποίηση ιστορικού αναίρεσης/επανάληψης",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Απενεργοποίηση ιστορικού αναίρεσης/επανάληψης",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Αναίρεση της ενέργειας",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Επανάληψη της ενέργειας",
+		"vsui-annotationViewerUndoMonitor-moved": "Μετακινήθηκε",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Μετακινημένες Σχολιασμοί:",
+		"vsui-annotationViewer-pasteAnnotation": "Επικόλληση Σχολιασμού",
+		"vsui-annotationViewer-groupAllAnnotations": "Ομαδοποίηση όλων των Σχολιασμών",
+		"vsui-annotationViewer-ungroupAnnotation": "Κατάργηση ομαδοποίησης Σχολιασμού",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Εισαγωγή",
+		"vsui-annotationViewCollectionUndoAction-remove": "Αφαίρεση",
+		"vsui-annotationViewCollectionUndoAction-move": "Μετακίνηση",
+		"vsui-annotationViewCollectionUndoAction-swap": "Ανταλλαγή",
+		"vsui-annotationViewCollectionUndoAction-set": "Ορισμός",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Προσθήκη"
 	}
 }

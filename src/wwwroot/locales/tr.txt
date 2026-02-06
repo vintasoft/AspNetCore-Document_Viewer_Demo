@@ -58,19 +58,19 @@
 			"title": "Küçük Resim Görüntüleyici Ayarları"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Açıklamalar, Belgede Gezinme, Metin Seçimi"
+			"title": "Ek açıklamalar, Belge navigasyonu, Metin seçimi, Kaydırma, Yakınlaştırma"
 		},
 		"panToolButton": {
 			"title": "Kaydır"
 		},
-		"magnifierToolButton": {
-			"title": "Büyüteç"
-		},
-		"zoomToolButton": {
-			"title": "Ölçek"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Ölçek Seçimi"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Dikdörtgen seçim"
+		},
+		"magnifierToolButton": {
+			"title": "Büyüteç"
 		},
 		"showMobileMenuButton": {
 			"title": "Daha fazla"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Açıklamalı Görüntüyü Döndür"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Değişiklik geçmişini etkinleştir"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "İptal"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Tekrarla"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "'Açıklamalar için silgi' modunu etkinleştir"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Orta Etkileşim Noktaları"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Geri al/yeniden yap geçmişini etkinleştir"
 		},
 		"sidePanelCloseButton": {
 			"title": "Kenar çubuğunu göster"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Dizin, görüntü koleksiyonunun indeks aralığında değil."
+			},
+			"withAnnotationsLabel": {
+				"text": "Ek açıklamalarla birlikte"
+			},
+			"pageSettingsLabel": {
+				"text": "Sayfa ayarları:"
+			},
+			"columnCountLabel": {
+				"text": "Sütun sayısı:"
+			},
+			"rowCountLabel": {
+				"text": "Satır sayısı:"
+			},
+			"imagePaddingLabel": {
+				"text": "Görüntü dolgusu:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Yatay olarak ortala"
 			},
 			"okButton": {
 				"value": "Tamam"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Geri al/yeniden yap'ı devre dışı bırak",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Açıklamalar için silgi' modunu etkinleştir",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Açıklama silgisi'ni devre dışı bırak",
-		"vsui-documentNavigationTool-getActions": "Eylemleri al"
+		"vsui-documentNavigationTool-getActions": "Eylemleri al",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Geri al/yeniden yap geçmişini etkinleştir",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Geri al/yeniden yap geçmişini devre dışı bırak",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Eylemi geri al",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Eylemi yeniden yap",
+		"vsui-annotationViewerUndoMonitor-moved": "Taşındı",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Taşınan Ek Açıklamalar:",
+		"vsui-annotationViewer-pasteAnnotation": "Ek Açıklama Yapıştır",
+		"vsui-annotationViewer-groupAllAnnotations": "Tüm Ek Açıklamaları Gruplandır",
+		"vsui-annotationViewer-ungroupAnnotation": "Ek Açıklamanın Gruplandırmasını Kaldır",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Ekle",
+		"vsui-annotationViewCollectionUndoAction-remove": "Kaldır",
+		"vsui-annotationViewCollectionUndoAction-move": "Taşı",
+		"vsui-annotationViewCollectionUndoAction-swap": "Değiştir",
+		"vsui-annotationViewCollectionUndoAction-set": "Ayarla",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Ekle"
 	}
 }

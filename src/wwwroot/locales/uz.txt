@@ -58,19 +58,19 @@
 			"title": "Eskizni ko'rish sozlamalari"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Izohlar, Hujjatlarni navigatsiya qilish, Matn tanlash"
+			"title": "Izohlar, Hujjat navigatsiyasi, Matn tanlash, Panorama, Masshtablash"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Kattalashtiruvchi"
-		},
-		"zoomToolButton": {
-			"title": "Kattalashtirish"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Kattalashtirish tanlovi"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "To'rtburchaklar tanlovi"
+		},
+		"magnifierToolButton": {
+			"title": "Kattalashtiruvchi"
 		},
 		"showMobileMenuButton": {
 			"title": "Ko'proq"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Tasvirni izohlar bilan aylantiring"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Bekor qilish/qayta qilishni yoqish"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Bekor qilish"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Qayta qiling"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "'Izohlar uchun o'chirgich' rejimini yoqish"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "O'rta o'zaro ta'sir nuqtalari"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Bekor qilish/qayta tiklash tarixini yoqing"
 		},
 		"sidePanelCloseButton": {
 			"title": "Yon panelni ko'rsatish"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks tasvirlar to‘plami doirasidan tashqarida."
+			},
+			"withAnnotationsLabel": {
+				"text": "Izohlar bilan"
+			},
+			"pageSettingsLabel": {
+				"text": "Sahifa sozlamalari:"
+			},
+			"columnCountLabel": {
+				"text": "Ustunlar soni:"
+			},
+			"rowCountLabel": {
+				"text": "Qatorlar soni:"
+			},
+			"imagePaddingLabel": {
+				"text": "Tasvir to'ldirilishi:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Gorizontal ravishda markazlashtiriladi"
 			},
 			"okButton": {
 				"value": "KELISHDIKMI"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Bekor qilish/qayta bajarishni o‘chirib qo‘ying",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Izohlar uchun o'chirgich' rejimini yoqish",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Izohlarni o'chirish' ni o'chirib qo'ying",
-		"vsui-documentNavigationTool-getActions": "Amallarni oling"
+		"vsui-documentNavigationTool-getActions": "Amallarni oling",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Bekor qilish/qayta tiklash tarixini yoqing",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Bekor qilish/qayta tiklash tarixini o'chiring",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Amalni bekor qiling",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Amalni qayta bajaring",
+		"vsui-annotationViewerUndoMonitor-moved": "Ko'chirildi",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Ko'chirilgan izohlar:",
+		"vsui-annotationViewer-pasteAnnotation": "Izohni joylashtirish",
+		"vsui-annotationViewer-groupAllAnnotations": "Barcha izohlarni guruhlash",
+		"vsui-annotationViewer-ungroupAnnotation": "Izohlarni guruhdan chiqarish",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Kiritmoq",
+		"vsui-annotationViewCollectionUndoAction-remove": "Olib tashlash",
+		"vsui-annotationViewCollectionUndoAction-move": "Ko'chirish",
+		"vsui-annotationViewCollectionUndoAction-swap": "Almashtirish",
+		"vsui-annotationViewCollectionUndoAction-set": "O'rnatish",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Qo'shish"
 	}
 }

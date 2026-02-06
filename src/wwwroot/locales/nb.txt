@@ -58,19 +58,19 @@
 			"title": "Innstillinger for miniatyrbildevisning"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anmerkninger, dokumentnavigering, tekstvalg"
+			"title": "Annoteringer, Dokumentnavigasjon, Tekstvalg, Panorering, Zoom"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Forstørrelsesglass"
-		},
-		"zoomToolButton": {
-			"title": "Skala"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Skalavalg"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Rektangulært utvalg"
+		},
+		"magnifierToolButton": {
+			"title": "Forstørrelsesglass"
 		},
 		"showMobileMenuButton": {
 			"title": "Mer"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Roter annotert bilde"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Aktiver endringshistorikk"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Avbryt"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Gjenta"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Aktiver modus 'Viskelær for merknader'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middels interaksjonspunkter"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Aktiver angre-/gjenta-historikk"
 		},
 		"sidePanelCloseButton": {
 			"title": "Vis sidefelt"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeksen er ikke innenfor indeksområdet til bildesamlingen."
+			},
+			"withAnnotationsLabel": {
+				"text": "Med annoteringer"
+			},
+			"pageSettingsLabel": {
+				"text": "Sideinnstillinger:"
+			},
+			"columnCountLabel": {
+				"text": "Antall kolonner:"
+			},
+			"rowCountLabel": {
+				"text": "Radtall:"
+			},
+			"imagePaddingLabel": {
+				"text": "Bildepolstring:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Sentrer horisontalt"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Deaktiver angre/gjør om",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Aktiver modus 'Viskelær for merknader'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Deaktiver 'merknadsviskere'",
-		"vsui-documentNavigationTool-getActions": "Få handlinger"
+		"vsui-documentNavigationTool-getActions": "Få handlinger",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Aktiver angre-/gjenta-historikk",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Deaktiver angre-/gjenta-historikk",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Angre handlingen",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Gjenta handlingen",
+		"vsui-annotationViewerUndoMonitor-moved": "Flyttet",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Flyttet Annoteringer:",
+		"vsui-annotationViewer-pasteAnnotation": "Lim inn annotering",
+		"vsui-annotationViewer-groupAllAnnotations": "Gruppér alle annoteringer",
+		"vsui-annotationViewer-ungroupAnnotation": "Fjern gruppe annotering",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Sett inn",
+		"vsui-annotationViewCollectionUndoAction-remove": "Fjern",
+		"vsui-annotationViewCollectionUndoAction-move": "Flytt",
+		"vsui-annotationViewCollectionUndoAction-swap": "Bytt",
+		"vsui-annotationViewCollectionUndoAction-set": "Angi",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Legg til"
 	}
 }

@@ -58,19 +58,19 @@
 			"title": "Sīktēlu skatītāja iestatījumi"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anotācijas, Dokumentu navigācija, Teksta atlase"
+			"title": "Anotācijas, Dokumentu navigācija, Teksta atlase, Pārvietošana, Tālummaiņa"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Lupa"
-		},
-		"zoomToolButton": {
-			"title": "Tālummaiņa"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Tālummaiņas izvēle"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Taisnstūra izvēle"
+		},
+		"magnifierToolButton": {
+			"title": "Lupa"
 		},
 		"showMobileMenuButton": {
 			"title": "Vairāk"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Pagriezt attēlu ar anotācijām"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Iespējot atsaukšanu/atcelšanu"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Atsaukt"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Atkārtoti"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Iespējot režīmu 'Dzēšgumija anotācijām'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Vidēji mijiedarbības punkti"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Iespējot atsaukšanas/atkārtošanas vēsturi"
 		},
 		"sidePanelCloseButton": {
 			"title": "Rādīt sānu paneli"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indekss ir ārpus attēlu kolekcijas diapazona."
+			},
+			"withAnnotationsLabel": {
+				"text": "Ar anotācijām"
+			},
+			"pageSettingsLabel": {
+				"text": "Lapas iestatījumi:"
+			},
+			"columnCountLabel": {
+				"text": "Kolonnu skaits:"
+			},
+			"rowCountLabel": {
+				"text": "Rindu skaits:"
+			},
+			"imagePaddingLabel": {
+				"text": "Attēlu papildināšana:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrēt horizontāli"
 			},
 			"okButton": {
 				"value": "labi"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Atspējot atsaukšanu/atcelšanu",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Iespējot režīmu 'Dzēšgumija anotācijām'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Atspējot anotācijas dzēšgumiju",
-		"vsui-documentNavigationTool-getActions": "Iegūstiet darbības"
+		"vsui-documentNavigationTool-getActions": "Iegūstiet darbības",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Iespējot atsaukšanas/atkārtošanas vēsturi",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Atspējot atsaukšanas/atkārtošanas vēsturi",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Atsaukt darbību",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Atkārtot darbību",
+		"vsui-annotationViewerUndoMonitor-moved": "Pārvietots",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Pārvietotās anotācijas:",
+		"vsui-annotationViewer-pasteAnnotation": "Ielīmēt anotāciju",
+		"vsui-annotationViewer-groupAllAnnotations": "Grupēt visas anotācijas",
+		"vsui-annotationViewer-ungroupAnnotation": "Atgrupēt anotāciju",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Ievietot",
+		"vsui-annotationViewCollectionUndoAction-remove": "Noņemt",
+		"vsui-annotationViewCollectionUndoAction-move": "Pārvietot",
+		"vsui-annotationViewCollectionUndoAction-swap": "Apmainīt",
+		"vsui-annotationViewCollectionUndoAction-set": "Iestatīt",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Pievienot"
 	}
 }

@@ -58,19 +58,19 @@
 			"title": "थंबनेल व्यूअर सेटिंग्स"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "एनोटेशन, दस्तावेज़ नेविगेशन, पाठ चयन"
+			"title": "एनोटेशन, डॉक्यूमेंट नेविगेशन, टेक्स्ट सिलेक्शन, पैन, ज़ूम"
 		},
 		"panToolButton": {
 			"title": "पैन"
 		},
-		"magnifierToolButton": {
-			"title": "आवर्धक"
-		},
-		"zoomToolButton": {
-			"title": "पैमाना"
-		},
 		"zoomSelectionToolButton": {
 			"title": "पैमाने का चयन"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "आयताकार चयन"
+		},
+		"magnifierToolButton": {
+			"title": "आवर्धक"
 		},
 		"showMobileMenuButton": {
 			"title": "अधिक"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "एनोटेटेड छवि घुमाएँ"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "परिवर्तन इतिहास सक्षम करें"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "रद्द करें"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "दोहराएँ"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "सक्षम मोड 'एनोटेशन के लिए इरेज़र'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "मध्य इंटरेक्शन बिंदु"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "पूर्ववत/पुनः करें इतिहास सक्षम करें"
 		},
 		"sidePanelCloseButton": {
 			"title": "साइडबार दिखाएँ"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "सूचकांक छवि संग्रह की अनुक्रमणिका सीमा के भीतर नहीं है।"
+			},
+			"withAnnotationsLabel": {
+				"text": "एनोटेशन के साथ"
+			},
+			"pageSettingsLabel": {
+				"text": "पेज सेटिंग:"
+			},
+			"columnCountLabel": {
+				"text": "कॉलम गिनती:"
+			},
+			"rowCountLabel": {
+				"text": "रो काउंट:"
+			},
+			"imagePaddingLabel": {
+				"text": "इमेज पैडिंग:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "हॉरिजॉन्टली सेंटर करें"
 			},
 			"okButton": {
 				"value": "ठीक है"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "पूर्ववत/पुनः करें अक्षम करें",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "सक्षम मोड 'एनोटेशन के लिए इरेज़र'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'एनोटेशन इरेज़र' अक्षम करें",
-		"vsui-documentNavigationTool-getActions": "कार्रवाई पाएँ"
+		"vsui-documentNavigationTool-getActions": "कार्रवाई पाएँ",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "पूर्ववत/पुनः करें इतिहास सक्षम करें",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "पूर्ववत/पुनः करें इतिहास अक्षम करें",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "कार्रवाई पूर्ववत करें",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "कार्रवाई पुनः करें",
+		"vsui-annotationViewerUndoMonitor-moved": "ले जाएँ",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "ले जाएँ एनोटेशन:",
+		"vsui-annotationViewer-pasteAnnotation": "एनोटेशन पेस्ट करें",
+		"vsui-annotationViewer-groupAllAnnotations": "सभी एनोटेशन को ग्रुप करें",
+		"vsui-annotationViewer-ungroupAnnotation": "एनोटेशन को अनग्रुप करें",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "सम्मिलित करें",
+		"vsui-annotationViewCollectionUndoAction-remove": "हटाएँ",
+		"vsui-annotationViewCollectionUndoAction-move": "ले जाएँ",
+		"vsui-annotationViewCollectionUndoAction-swap": "बदलें",
+		"vsui-annotationViewCollectionUndoAction-set": "सेट करें",
+		"vsui-annotationViewCollectionUndoMonitor-add": "जोड़ें"
 	}
 }

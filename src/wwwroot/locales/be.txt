@@ -58,19 +58,19 @@
 			"title": "Налады прагляду эскізаў"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Анатацыі, навігацыя па дакументах, выбар тэксту"
+			"title": "Анатацыі, навігацыя па дакуменце, вылучэнне тэксту, панарамаванне, маштабаванне"
 		},
 		"panToolButton": {
 			"title": "Пан"
 		},
-		"magnifierToolButton": {
-			"title": "Лупа"
-		},
-		"zoomToolButton": {
-			"title": "Маштабаванне"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Выбар маштабу"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Прамавугольнае вылучэнне"
+		},
+		"magnifierToolButton": {
+			"title": "Лупа"
 		},
 		"showMobileMenuButton": {
 			"title": "Яшчэ"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Паварот малюнка з анатацыямі"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Уключыць адмену/паўтарэнне"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Адмяніць"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Паўтарыць"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Уключыць 'Ласцік анатацый'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Сярэднія кропкі ўзаемадзеяння"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Уключыць гісторыю адмены/паўтору"
 		},
 		"sidePanelCloseButton": {
 			"title": "Паказаць бакавую панэль"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Індэкс па-за дыяпазонам калекцыі малюнкаў."
+			},
+			"withAnnotationsLabel": {
+				"text": "З анатацыямі"
+			},
+			"pageSettingsLabel": {
+				"text": "Налады старонкі:"
+			},
+			"columnCountLabel": {
+				"text": "Колькасць слупкоў:"
+			},
+			"rowCountLabel": {
+				"text": "Колькасць радкоў:"
+			},
+			"imagePaddingLabel": {
+				"text": "Адступы да выявы:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Гарызантальна адцэнтраваць"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Адключыць адмену/паўтарэнне",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Уключыць 'Ласцік анатацый'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Адключыць 'Сціральнік анатацый'",
-		"vsui-documentNavigationTool-getActions": "Атрымаць дзеянні"
+		"vsui-documentNavigationTool-getActions": "Атрымаць дзеянні",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Уключыць гісторыю адмены/паўтору",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Адключыць гісторыю адмены/паўтору",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Адмяніць дзеянне",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Паўтарыць дзеянне",
+		"vsui-annotationViewerUndoMonitor-moved": "Перамясціць",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Перамешчаны анатацыі:",
+		"vsui-annotationViewer-pasteAnnotation": "Уставіць анатацыю",
+		"vsui-annotationViewer-groupAllAnnotations": "Згрупаваць усе анатацыі",
+		"vsui-annotationViewer-ungroupAnnotation": "Разгрупаваць анатацыю",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Устаўка",
+		"vsui-annotationViewCollectionUndoAction-remove": "Выдаліць",
+		"vsui-annotationViewCollectionUndoAction-move": "Перамясціць",
+		"vsui-annotationViewCollectionUndoAction-swap": "Памяняць месцамі",
+		"vsui-annotationViewCollectionUndoAction-set": "Устанавіць",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Дадаць"
 	}
 }

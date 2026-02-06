@@ -58,19 +58,19 @@
 			"title": "Настройки за преглед на миниатюри"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Пояснения, Навигация в документа, Избор на текст"
+			"title": "Анотации, Навигация в документа, Избор на текст, Панорамиране, Мащабиране"
 		},
 		"panToolButton": {
 			"title": "Панорамиране"
 		},
-		"magnifierToolButton": {
-			"title": "Лупа"
-		},
-		"zoomToolButton": {
-			"title": "Мащаб"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Избор на мащаб"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Правоъгълна селекция"
+		},
+		"magnifierToolButton": {
+			"title": "Лупа"
 		},
 		"showMobileMenuButton": {
 			"title": "Още"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Завъртане на анотираното изображение"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Активиране на историята на промените"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Отказ"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Повторете"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Активирайте 'Гумичка за анотации'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Средни точки на взаимодействие"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Активиране на историята на отмяната/повтарянето"
 		},
 		"sidePanelCloseButton": {
 			"title": "Показване на страничната лента"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индексът не е в обхвата на индекса на колекцията от изображения."
+			},
+			"withAnnotationsLabel": {
+				"text": "С анотации"
+			},
+			"pageSettingsLabel": {
+				"text": "Настройки на страницата:"
+			},
+			"columnCountLabel": {
+				"text": "Брой колони:"
+			},
+			"rowCountLabel": {
+				"text": "Брой редове:"
+			},
+			"imagePaddingLabel": {
+				"text": "Подреждане на изображението:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Центриране хоризонтално"
 			},
 			"okButton": {
 				"value": "ОК"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Деактивиране на отмяна/възстановяване",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Активирайте 'Гумичка за анотации'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Деактивирайте 'Изтриване на пояснения'",
-		"vsui-documentNavigationTool-getActions": "Вземете действия"
+		"vsui-documentNavigationTool-getActions": "Вземете действия",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Активиране на историята на отмяната/повтарянето",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Деактивиране на историята на отмяната/повтарянето",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Отмяна на действието",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Повторно действие",
+		"vsui-annotationViewerUndoMonitor-moved": "Преместване",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Преместени анотации:",
+		"vsui-annotationViewer-pasteAnnotation": "Поставяне на анотация",
+		"vsui-annotationViewer-groupAllAnnotations": "Групиране на всички анотации",
+		"vsui-annotationViewer-ungroupAnnotation": "Разгрупиране на анотацията",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Вмъкване",
+		"vsui-annotationViewCollectionUndoAction-remove": "Премахване",
+		"vsui-annotationViewCollectionUndoAction-move": "Преместване",
+		"vsui-annotationViewCollectionUndoAction-swap": "Размяна",
+		"vsui-annotationViewCollectionUndoAction-set": "Задаване",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Добавяне"
 	}
 }

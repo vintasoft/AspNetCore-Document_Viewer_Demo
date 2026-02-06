@@ -58,19 +58,19 @@
 			"title": "Танзимоти намоишгари ангора"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Эзоҳҳо, паймоиши ҳуҷҷат, Интихоби матн"
+			"title": "Шарҳҳо, Навигатсияи ҳуҷҷатҳо, Интихоби матн, Панорама, Масштабкунӣ"
 		},
 		"panToolButton": {
 			"title": "Пан"
 		},
-		"magnifierToolButton": {
-			"title": "Бузургкунанда"
-		},
-		"zoomToolButton": {
-			"title": "Масштаб"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Интихоби масштаб"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Интихоби росткунҷа"
+		},
+		"magnifierToolButton": {
+			"title": "Бузургкунанда"
 		},
 		"showMobileMenuButton": {
 			"title": "Бештар"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Тасвирро бо эзоҳҳо гардиш кунед"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Барқарор/бозкоркуниро фаъол созед"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Бекор кардан"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Такрор кунед"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Ҳолати мутақобиларо фаъол созед 'Расзер барои эзоҳҳо'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Нуқтаҳои мутақобилаи миёна"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Таърихи бозгардонидан/аз навро фаъол созед"
 		},
 		"sidePanelCloseButton": {
 			"title": "Намоиши панели паҳлӯ"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс аз доираи ҷамъоварии тасвирҳо берун аст."
+			},
+			"withAnnotationsLabel": {
+				"text": "Бо шарҳҳо"
+			},
+			"pageSettingsLabel": {
+				"text": "Танзимоти саҳифа:"
+			},
+			"columnCountLabel": {
+				"text": "Шумораи сутунҳо:"
+			},
+			"rowCountLabel": {
+				"text": "Шумораи сатрҳо:"
+			},
+			"imagePaddingLabel": {
+				"text": "Пӯшиши тасвир:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Ба таври уфуқӣ дар марказ ҷойгир кунед"
 			},
 			"okButton": {
 				"value": "ДУРУСТ"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Бекор кардан/бозор карданро хомӯш кунед",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Ҳолати мутақобиларо фаъол созед 'Расзер барои эзоҳҳо'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Хомӯш кардани 'Хафкунаки эзоҳ'",
-		"vsui-documentNavigationTool-getActions": "Амалҳо гиред"
+		"vsui-documentNavigationTool-getActions": "Амалҳо гиред",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Таърихи бозгардонидан/аз навро фаъол созед",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Таърихи бозгардонидан/бозгаштро ғайрифаъол кунед",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Амалро бекор кунед",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Амалро такрор кунед",
+		"vsui-annotationViewerUndoMonitor-moved": "Кӯчонидашуда",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Аннотатсияҳои кӯчонидашуда:",
+		"vsui-annotationViewer-pasteAnnotation": "Часондани аннотатсия",
+		"vsui-annotationViewer-groupAllAnnotations": "Гурӯҳбандии ҳамаи аннотатсияҳо",
+		"vsui-annotationViewer-ungroupAnnotation": "Гузариш додани аннотатсияҳо",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Ворид кунед",
+		"vsui-annotationViewCollectionUndoAction-remove": "Хориҷ кардан",
+		"vsui-annotationViewCollectionUndoAction-move": "Кӯчонидан",
+		"vsui-annotationViewCollectionUndoAction-swap": "Иваз кардан",
+		"vsui-annotationViewCollectionUndoAction-set": "Муқаррар кардан",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Илова кардан"
 	}
 }

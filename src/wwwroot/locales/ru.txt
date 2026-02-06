@@ -58,19 +58,19 @@
 			"title": "Настройки просмотрщика миниатюр"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Аннотации, Навигация по документу, Выбор текста"
+			"title": "Аннотации, Навигация по документу, Выделение текста, Панорамирование, Масштабирование"
 		},
 		"panToolButton": {
 			"title": "Панорамирование"
 		},
-		"magnifierToolButton": {
-			"title": "Лупа"
-		},
-		"zoomToolButton": {
-			"title": "Масштаб"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Масштабирование выделения"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Прямоугольное выделение"
+		},
+		"magnifierToolButton": {
+			"title": "Лупа"
 		},
 		"showMobileMenuButton": {
 			"title": "Еще"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Повернуть изображение с аннотациями"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Включить ведение истории изменений"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Отменить"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Повторить"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Включить 'Ластик аннотаций'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Средние точки взаимодействия"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Включить историю отмен/повторов"
 		},
 		"sidePanelCloseButton": {
 			"title": "Показать боковую панель"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс не попадает в диапазон индексов коллекции изображений."
+			},
+			"withAnnotationsLabel": {
+				"text": "С аннотациями"
+			},
+			"pageSettingsLabel": {
+				"text": "Настройки страницы:"
+			},
+			"columnCountLabel": {
+				"text": "Количество столбцов:"
+			},
+			"rowCountLabel": {
+				"text": "Количество строк:"
+			},
+			"imagePaddingLabel": {
+				"text": "Отступы изображения:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Центрировать по горизонтали"
 			},
 			"okButton": {
 				"value": "ОК"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Отключить ведение истории изменений",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Включить 'Ластик аннотаций'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Отключить 'Ластик аннотаций'",
-		"vsui-documentNavigationTool-getActions": "Получить действия"
+		"vsui-documentNavigationTool-getActions": "Получить действия",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Включить историю отмен/повторов",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Отключить историю отмен/повторов",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Отменить действие",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Повторить действие",
+		"vsui-annotationViewerUndoMonitor-moved": "Перемещено",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Перемещенные аннотации:",
+		"vsui-annotationViewer-pasteAnnotation": "Вставить аннотацию",
+		"vsui-annotationViewer-groupAllAnnotations": "Сгруппировать все аннотации",
+		"vsui-annotationViewer-ungroupAnnotation": "Разгруппировать аннотацию",
+		"vsui-annotationViewCollectionUndoAction-clear": "Очистить",
+		"vsui-annotationViewCollectionUndoAction-insert": "Вставка",
+		"vsui-annotationViewCollectionUndoAction-remove": "Удалить",
+		"vsui-annotationViewCollectionUndoAction-move": "Переместить",
+		"vsui-annotationViewCollectionUndoAction-swap": "Поменять местами",
+		"vsui-annotationViewCollectionUndoAction-set": "Установить",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Добавить"
 	}
 }

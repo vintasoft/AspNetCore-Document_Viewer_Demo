@@ -58,19 +58,19 @@
 			"title": "Einstellungen für die Miniaturansichtsansicht"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anmerkungen, Dokumentnavigation, Textauswahl"
+			"title": "Anmerkungen, Dokumentnavigation, Textauswahl, Verschieben, Zoomen"
 		},
 		"panToolButton": {
 			"title": "Schwenken"
 		},
-		"magnifierToolButton": {
-			"title": "Lupe"
-		},
-		"zoomToolButton": {
-			"title": "Skalierung"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Skalenauswahl"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Rechteckige Auswahl"
+		},
+		"magnifierToolButton": {
+			"title": "Lupe"
 		},
 		"showMobileMenuButton": {
 			"title": "Mehr"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Kommentiertes Bild drehen"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Änderungsverlauf aktivieren"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Abbrechen"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Wiederholen"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "'Radiergummi für Anmerkungen' aktivieren"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Mittlere Interaktionspunkte"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Rückgängig/Wiederholen-Verlauf aktivieren"
 		},
 		"sidePanelCloseButton": {
 			"title": "Seitenleiste anzeigen"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Der Index liegt nicht im Indexbereich der Bildsammlung."
+			},
+			"withAnnotationsLabel": {
+				"text": "Mit Anmerkungen"
+			},
+			"pageSettingsLabel": {
+				"text": "Seiteneinstellungen:"
+			},
+			"columnCountLabel": {
+				"text": "Spaltenanzahl:"
+			},
+			"rowCountLabel": {
+				"text": "Zeilenanzahl:"
+			},
+			"imagePaddingLabel": {
+				"text": "Bildabstand:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Horizontal zentrieren"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Rückgängig/Wiederholen deaktivieren",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Radiergummi für Anmerkungen' aktivieren",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Anmerkungsradierer deaktivieren",
-		"vsui-documentNavigationTool-getActions": "Aktionen abrufen"
+		"vsui-documentNavigationTool-getActions": "Aktionen abrufen",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Rückgängig/Wiederholen-Verlauf aktivieren",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Rückgängig/Wiederholen-Verlauf deaktivieren",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Aktion rückgängig machen",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Aktion wiederherstellen",
+		"vsui-annotationViewerUndoMonitor-moved": "Verschoben",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Verschobene Anmerkungen:",
+		"vsui-annotationViewer-pasteAnnotation": "Anmerkung einfügen",
+		"vsui-annotationViewer-groupAllAnnotations": "Alle Anmerkungen gruppieren",
+		"vsui-annotationViewer-ungroupAnnotation": "Anmerkung gruppieren aufheben",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Einfügen",
+		"vsui-annotationViewCollectionUndoAction-remove": "Entfernen",
+		"vsui-annotationViewCollectionUndoAction-move": "Verschieben",
+		"vsui-annotationViewCollectionUndoAction-swap": "Tauschen",
+		"vsui-annotationViewCollectionUndoAction-set": "Festlegen",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Hinzufügen"
 	}
 }

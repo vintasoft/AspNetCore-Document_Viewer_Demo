@@ -58,19 +58,19 @@
 			"title": "Miniatiūrų peržiūros priemonės nustatymai"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anotacijos, dokumentų naršymas, teksto pasirinkimas"
+			"title": "Anotacijos, dokumento naršymas, teksto pasirinkimas, panoraminimas, priartinimas"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Didintuvas"
-		},
-		"zoomToolButton": {
-			"title": "Padidinti"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Priartinimo pasirinkimas"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Stačiakampis pasirinkimas"
+		},
+		"magnifierToolButton": {
+			"title": "Didintuvas"
 		},
 		"showMobileMenuButton": {
 			"title": "Daugiau"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Pasukite vaizdą su komentarais"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Įgalinti anuliuoti / perdaryti"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Anuliuoti"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Perdaryti"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Įjungti režimą 'Komentarų trintukas'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Vidutinės sąveikos taškai"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Įjungti anuliavimo/atlikimo istoriją"
 		},
 		"sidePanelCloseButton": {
 			"title": "Rodyti šoninį skydelį"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeksas nepatenka į vaizdų rinkinio diapazoną."
+			},
+			"withAnnotationsLabel": {
+				"text": "Su anotacijomis"
+			},
+			"pageSettingsLabel": {
+				"text": "Puslapio nustatymai:"
+			},
+			"columnCountLabel": {
+				"text": "Stulpelių skaičius:"
+			},
+			"rowCountLabel": {
+				"text": "Eilučių skaičius:"
+			},
+			"imagePaddingLabel": {
+				"text": "Vaizdo užpildymas:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centruoti horizontaliai"
 			},
 			"okButton": {
 				"value": "Gerai"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Išjungti anuliavimą / perdarymą",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Įjungti režimą 'Komentarų trintukas'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Išjungti 'Komentarų trintuką'",
-		"vsui-documentNavigationTool-getActions": "Gaukite veiksmų"
+		"vsui-documentNavigationTool-getActions": "Gaukite veiksmų",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Įjungti anuliavimo/atlikimo istoriją",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Išjungti anuliavimo/atlikimo istoriją",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Anuliuoti veiksmą",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Pakartoti veiksmą",
+		"vsui-annotationViewerUndoMonitor-moved": "Perkelti",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Perkelta Anotacijos:",
+		"vsui-annotationViewer-pasteAnnotation": "Įklijuoti Anotaciją",
+		"vsui-annotationViewer-groupAllAnnotations": "Grupuoti visas anotacijas",
+		"vsui-annotationViewer-ungroupAnnotation": "Išgrupuoti Anotaciją",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Įdėti",
+		"vsui-annotationViewCollectionUndoAction-remove": "Pašalinti",
+		"vsui-annotationViewCollectionUndoAction-move": "Perkelti",
+		"vsui-annotationViewCollectionUndoAction-swap": "Sukeisti",
+		"vsui-annotationViewCollectionUndoAction-set": "Nustatyti",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Pridėti"
 	}
 }

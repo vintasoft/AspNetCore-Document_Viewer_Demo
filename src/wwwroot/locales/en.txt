@@ -58,19 +58,19 @@
 			"title": "Thumbnail viewer settings"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Annotations, Document navigation, Text selection"
+			"title": "Annotations, Document navigation, Text selection, Pan , Zoom"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Magnifier"
-		},
-		"zoomToolButton": {
-			"title": "Zoom"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Zoom selection"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Rectangular selection"
+		},
+		"magnifierToolButton": {
+			"title": "Magnifier"
 		},
 		"showMobileMenuButton": {
 			"title": "More"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Rotate image with annotations"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Enable undo/redo"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Undo"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Redo"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Enable annotation eraser"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Medium interaction points"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Enable the undo/redo history"
 		},
 		"sidePanelCloseButton": {
 			"title": "Show Side Panel"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Index out of range of image collection."
+			},
+			"withAnnotationsLabel": {
+				"text": "With annotations"
+			},
+			"pageSettingsLabel": {
+				"text": "Page settings:"
+			},
+			"columnCountLabel": {
+				"text": "Column count:"
+			},
+			"rowCountLabel": {
+				"text": "Row count:"
+			},
+			"imagePaddingLabel": {
+				"text": "Image padding:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Center horizontally"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Disable undo/redo",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Enable annotation eraser",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Disable annotation eraser",
-		"vsui-documentNavigationTool-getActions": "Get actions"
+		"vsui-documentNavigationTool-getActions": "Get actions",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Enable the undo/redo history",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Disable the undo/redo history",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Undo the action",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Redo the action",
+		"vsui-annotationViewerUndoMonitor-moved": "Moved",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Moved Annotations:",
+		"vsui-annotationViewer-pasteAnnotation": "Paste Annotation",
+		"vsui-annotationViewer-groupAllAnnotations": "Group All Annotations",
+		"vsui-annotationViewer-ungroupAnnotation": "Ungroup Annotation",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Insert",
+		"vsui-annotationViewCollectionUndoAction-remove": "Remove",
+		"vsui-annotationViewCollectionUndoAction-move": "Move",
+		"vsui-annotationViewCollectionUndoAction-swap": "Swap",
+		"vsui-annotationViewCollectionUndoAction-set": "Set",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Add"
 	}
 }

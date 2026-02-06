@@ -58,19 +58,19 @@
 			"title": "Kleinkiekie-kyker-instellings"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Annotasies, dokumentnavigasie, tekskeuse"
+			"title": "Aantekeninge, Dokumentnavigasie, Tekskeuse, Pan, Zoem"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Vergroter"
-		},
-		"zoomToolButton": {
-			"title": "Skaal"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Skaalseleksie"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Reghoekige keuse"
+		},
+		"magnifierToolButton": {
+			"title": "Vergroter"
 		},
 		"showMobileMenuButton": {
 			"title": "Meer"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Draai geannoteerde prent"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Aktiveer veranderingsgeskiedenis"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Kanselleer"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Herhaal"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Aktiveer 'Annotasie-uitveër'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Middelinteraksiepunte"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Aktiveer die ongedaan maak/herdoen geskiedenis"
 		},
 		"sidePanelCloseButton": {
 			"title": "Wys sybalk"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Die indeks is nie binne die indeksreeks van die beeldversameling nie."
+			},
+			"withAnnotationsLabel": {
+				"text": "Met aantekeninge"
+			},
+			"pageSettingsLabel": {
+				"text": "Bladsyinstellings:"
+			},
+			"columnCountLabel": {
+				"text": "Kolomtelling:"
+			},
+			"rowCountLabel": {
+				"text": "Rytelling:"
+			},
+			"imagePaddingLabel": {
+				"text": "Beeldopvulling:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Sentreer horisontaal"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Deaktiveer ontdoen/herdoen",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Aktiveer 'Annotasie-uitveër'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Deaktiveer 'Annotasie-uitveër'",
-		"vsui-documentNavigationTool-getActions": "Kry aksies"
+		"vsui-documentNavigationTool-getActions": "Kry aksies",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Aktiveer die ongedaan maak/herdoen geskiedenis",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Deaktiveer die ongedaan maak/herdoen geskiedenis",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Ontdoen die aksie",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Herdoen die aksie",
+		"vsui-annotationViewerUndoMonitor-moved": "Verskuif",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Verskuif Annotasies:",
+		"vsui-annotationViewer-pasteAnnotation": "Plak Annotasie",
+		"vsui-annotationViewer-groupAllAnnotations": "Groepeer Alle Annotasies",
+		"vsui-annotationViewer-ungroupAnnotation": "Ontgroepeer Annotasie",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Voeg in",
+		"vsui-annotationViewCollectionUndoAction-remove": "Verwyder",
+		"vsui-annotationViewCollectionUndoAction-move": "Skuif",
+		"vsui-annotationViewCollectionUndoAction-swap": "Ruil",
+		"vsui-annotationViewCollectionUndoAction-set": "Stel",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Voeg by"
 	}
 }

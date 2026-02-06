@@ -58,19 +58,19 @@
 			"title": "Mipangilio ya kitazamaji cha kijipicha"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Ufafanuzi, Urambazaji wa Hati, Uchaguzi wa maandishi"
+			"title": "Maelezo, Usogezaji wa hati, Uteuzi wa maandishi, Kugeuza, Kuza"
 		},
 		"panToolButton": {
 			"title": "Panua"
 		},
-		"magnifierToolButton": {
-			"title": "Kikuzalishi"
-		},
-		"zoomToolButton": {
-			"title": "Kuza"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Uchaguzi wa kukuza"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Uchaguzi wa mstatili"
+		},
+		"magnifierToolButton": {
+			"title": "Kikuzalishi"
 		},
 		"showMobileMenuButton": {
 			"title": "Zaidi"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Zungusha picha na vidokezo"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Washa kutendua/rudia"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Tendua"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Rudia"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Washa hali ya 'Eraser kwa maelezo'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Pointi za mwingiliano wa kati"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Washa historia ya kutendua/rudia"
 		},
 		"sidePanelCloseButton": {
 			"title": "Onyesha Paneli ya Upande"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Kielezo nje ya safu ya mkusanyiko wa picha."
+			},
+			"withAnnotationsLabel": {
+				"text": "Na maelezo"
+			},
+			"pageSettingsLabel": {
+				"text": "Mipangilio ya ukurasa:"
+			},
+			"columnCountLabel": {
+				"text": "Hesabu ya safu:"
+			},
+			"rowCountLabel": {
+				"text": "Idadi ya safu mlalo:"
+			},
+			"imagePaddingLabel": {
+				"text": "Upau wa picha:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Piga katikati kwa mlalo"
 			},
 			"okButton": {
 				"value": "sawa"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Lemaza kutendua/rudia",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Washa hali ya 'Eraser kwa maelezo'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Lemaza 'Kifutio cha Dokezo'",
-		"vsui-documentNavigationTool-getActions": "Pata vitendo"
+		"vsui-documentNavigationTool-getActions": "Pata vitendo",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Washa historia ya kutendua/rudia",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Lemaza kutendua/fanya upya historia",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Tendua kitendo",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Rudia kitendo",
+		"vsui-annotationViewerUndoMonitor-moved": "Imehamishwa",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Maelezo Yaliyohamishwa:",
+		"vsui-annotationViewer-pasteAnnotation": "Bandika Maelezo",
+		"vsui-annotationViewer-groupAllAnnotations": "Panga Maelezo Yote",
+		"vsui-annotationViewer-ungroupAnnotation": "Tenganisha Maelezo ya Kikundi",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Ingiza",
+		"vsui-annotationViewCollectionUndoAction-remove": "Ondoa",
+		"vsui-annotationViewCollectionUndoAction-move": "Hamisha",
+		"vsui-annotationViewCollectionUndoAction-swap": "Badilisha",
+		"vsui-annotationViewCollectionUndoAction-set": "Weka",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Ongeza"
 	}
 }

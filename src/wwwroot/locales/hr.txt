@@ -58,19 +58,19 @@
 			"title": "Postavke pregledača sličica"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Bilješke, navigacija dokumentom, odabir teksta"
+			"title": "Napomene, Navigacija dokumentom, Odabir teksta, Pomicanje, Zumiranje"
 		},
 		"panToolButton": {
 			"title": "Pan"
 		},
-		"magnifierToolButton": {
-			"title": "Povećalo"
-		},
-		"zoomToolButton": {
-			"title": "Razmjer"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Odabir mjerila"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Pravokutni odabir"
+		},
+		"magnifierToolButton": {
+			"title": "Povećalo"
 		},
 		"showMobileMenuButton": {
 			"title": "Više"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Zakreni označenu sliku"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Omogući povijest promjena"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Odustani"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Ponovi"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "Omogući način rada 'Brisač za bilješke'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Srednje točke interakcije"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Omogući povijest poništavanja/ponovljavanja"
 		},
 		"sidePanelCloseButton": {
 			"title": "Prikaži bočnu traku"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks nije unutar raspona indeksa zbirke slika."
+			},
+			"withAnnotationsLabel": {
+				"text": "S napomenama"
+			},
+			"pageSettingsLabel": {
+				"text": "Postavke stranice:"
+			},
+			"columnCountLabel": {
+				"text": "Broj stupaca:"
+			},
+			"rowCountLabel": {
+				"text": "Broj redaka:"
+			},
+			"imagePaddingLabel": {
+				"text": "Raspored slike:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrirano vodoravno"
 			},
 			"okButton": {
 				"value": "OK"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Onemogući poništi/ponovi",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "Omogući način rada 'Brisač za bilješke'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "Onemogući 'Brisač zabilješki'",
-		"vsui-documentNavigationTool-getActions": "Zauzmite radnje"
+		"vsui-documentNavigationTool-getActions": "Zauzmite radnje",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Omogući povijest poništavanja/ponovljavanja",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Onemogući povijest poništavanja/ponovljavanja",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Poništi radnju",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Ponovi radnju",
+		"vsui-annotationViewerUndoMonitor-moved": "Premješteno",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Premještene napomene:",
+		"vsui-annotationViewer-pasteAnnotation": "Zalijepi napomenu",
+		"vsui-annotationViewer-groupAllAnnotations": "Grupiraj sve napomene",
+		"vsui-annotationViewer-ungroupAnnotation": "Razgrupiraj napomenu",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Umetni",
+		"vsui-annotationViewCollectionUndoAction-remove": "Ukloni",
+		"vsui-annotationViewCollectionUndoAction-move": "Premjesti",
+		"vsui-annotationViewCollectionUndoAction-swap": "Zamijeni",
+		"vsui-annotationViewCollectionUndoAction-set": "Postavi",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Dodaj"
 	}
 }

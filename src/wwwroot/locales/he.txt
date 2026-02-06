@@ -58,19 +58,19 @@
 			"title": "הגדרות מציג תמונות ממוזערות"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "הערות, ניווט במסמכים, בחירת טקסט"
+			"title": "הערות, ניווט במסמכים, בחירת טקסט, הזזה, זום"
 		},
 		"panToolButton": {
 			"title": "פאן"
 		},
-		"magnifierToolButton": {
-			"title": "מגדיל"
-		},
-		"zoomToolButton": {
-			"title": "קנה מידה"
-		},
 		"zoomSelectionToolButton": {
 			"title": "בחירת קנה מידה"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "מבחר מלבני"
+		},
+		"magnifierToolButton": {
+			"title": "מגדיל"
 		},
 		"showMobileMenuButton": {
 			"title": "עוד"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "סובב תמונה מוערת"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "אפשר היסטוריית שינויים"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "בטל"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "חזור"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "הפעל מצב 'מחק להערות'"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "נקודות אינטראקציה בינוניות"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "הפעל את היסטוריית הביטול/הביצוע החוזר"
 		},
 		"sidePanelCloseButton": {
 			"title": "הצג סרגל צד"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "האינדקס אינו בטווח האינדקס של אוסף התמונות."
+			},
+			"withAnnotationsLabel": {
+				"text": "עם הערות"
+			},
+			"pageSettingsLabel": {
+				"text": "הגדרות עמוד:"
+			},
+			"columnCountLabel": {
+				"text": "ספירת עמודות:"
+			},
+			"rowCountLabel": {
+				"text": "ספירת שורות:"
+			},
+			"imagePaddingLabel": {
+				"text": "ריפוד תמונות:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "מרכז אופקי"
 			},
 			"okButton": {
 				"value": "בסדר"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "השבת את ביטול/בצע מחדש",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "הפעל מצב 'מחק להערות'",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "השבת את 'מחק הערות'",
-		"vsui-documentNavigationTool-getActions": "קבל פעולות"
+		"vsui-documentNavigationTool-getActions": "קבל פעולות",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "הפעל את היסטוריית הביטול/הביצוע החוזר",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "השבת את היסטוריית הביטול/הביצוע החוזר",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "בטל את הפעולה",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "בצע שוב את הפעולה",
+		"vsui-annotationViewerUndoMonitor-moved": "הועבר",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "הועבר הערות:",
+		"vsui-annotationViewer-pasteAnnotation": "הדבק הערות",
+		"vsui-annotationViewer-groupAllAnnotations": "קבץ את כל ההערות",
+		"vsui-annotationViewer-ungroupAnnotation": "בטל קבוצת הערות",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "הוסף",
+		"vsui-annotationViewCollectionUndoAction-remove": "הסר",
+		"vsui-annotationViewCollectionUndoAction-move": "העבר",
+		"vsui-annotationViewCollectionUndoAction-swap": "החלף",
+		"vsui-annotationViewCollectionUndoAction-set": "הגדר",
+		"vsui-annotationViewCollectionUndoMonitor-add": "הוסף"
 	}
 }

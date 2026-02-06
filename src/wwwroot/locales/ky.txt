@@ -58,19 +58,19 @@
 			"title": "Эскиз көрүүчүнүн жөндөөлөрү"
 		},
 		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Аннотациялар, Документте навигация, Текст тандоо"
+			"title": "Аннотациялар, Документ навигациясы, Текстти тандоо, Панорамалоо, Чоңойтуу"
 		},
 		"panToolButton": {
 			"title": "Пан"
 		},
-		"magnifierToolButton": {
-			"title": "лупа"
-		},
-		"zoomToolButton": {
-			"title": "Чоңойтуу"
-		},
 		"zoomSelectionToolButton": {
 			"title": "Чоңойтуу тандоо"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Төрт бурчтуу тандоо"
+		},
+		"magnifierToolButton": {
+			"title": "лупа"
 		},
 		"showMobileMenuButton": {
 			"title": "Дагы"
@@ -138,20 +138,14 @@
 		"rotateImageWithAnnotationsButton": {
 			"title": "Аннотациялар менен сүрөттү буруңуз"
 		},
-		"enableAnnotationHistoryButton": {
-			"title": "Артка кайтаруу/кайталоону иштетүү"
-		},
-		"undoAnnotationHistoryButton": {
-			"title": "Жок кылуу"
-		},
-		"redoAnnotationHistoryButton": {
-			"title": "Redo"
-		},
 		"enableAnnotationEraserButton": {
 			"title": "'Аннотациялар үчүн өчүргүч' режимин иштетүү"
 		},
 		"mediumAnnotationInteractionPoints": {
 			"title": "Орточо өз ара аракеттенүү пункттары"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Артка кайтаруу/кайталоо таржымалын иштетүү"
 		},
 		"sidePanelCloseButton": {
 			"title": "Каптал панелди көрсөтүү"
@@ -417,6 +411,24 @@
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс сүрөттөр жыйнагынын диапазонунан тышкары."
+			},
+			"withAnnotationsLabel": {
+				"text": "Аннотациялар менен"
+			},
+			"pageSettingsLabel": {
+				"text": "Барактын жөндөөлөрү:"
+			},
+			"columnCountLabel": {
+				"text": "Мамычанын саны:"
+			},
+			"rowCountLabel": {
+				"text": "Саптардын саны:"
+			},
+			"imagePaddingLabel": {
+				"text": "Сүрөттүн толтурулушу:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Горизонталдуу түрдө борборлоштуруу"
 			},
 			"okButton": {
 				"value": "макул"
@@ -1114,6 +1126,22 @@
 		"vsdv-enableAnnotationHistoryButton-disableUndoRedo": "Артка кайтаруу/кайталоону өчүрүү",
 		"vsdv-enableAnnotationEraserButton-enableAnnotationEraser": "'Аннотациялар үчүн өчүргүч' режимин иштетүү",
 		"vsdv-enableAnnotationEraserButton-disableAnnotationEraser": "'Аннотация өчүргүчтү' өчүрүү",
-		"vsui-documentNavigationTool-getActions": "Аракеттерди алыңыз"
+		"vsui-documentNavigationTool-getActions": "Аракеттерди алыңыз",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Артка кайтаруу/кайталоо таржымалын иштетүү",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Артка кайтаруу/кайталоо таржымалын өчүрүү",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Аракетти жокко чыгаруу",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Аракетти кайталаңыз",
+		"vsui-annotationViewerUndoMonitor-moved": "Жылдыруу",
+		"vsui-annotationViewerUndoMonitor-movedAnnotations": "Жылдыруу Аннотациялар:",
+		"vsui-annotationViewer-pasteAnnotation": "Аннотацияны чаптоо",
+		"vsui-annotationViewer-groupAllAnnotations": "Бардык аннотацияларды топтоо",
+		"vsui-annotationViewer-ungroupAnnotation": "Аннотацияны алып салуу",
+		"vsui-annotationViewCollectionUndoAction-clear": "Clear",
+		"vsui-annotationViewCollectionUndoAction-insert": "Insert",
+		"vsui-annotationViewCollectionUndoAction-remove": "Алып салуу",
+		"vsui-annotationViewCollectionUndoAction-move": "Жылдыруу",
+		"vsui-annotationViewCollectionUndoAction-swap": "Алмаштыруу",
+		"vsui-annotationViewCollectionUndoAction-set": "Орнотуу",
+		"vsui-annotationViewCollectionUndoMonitor-add": "Кошуу"
 	}
 }
