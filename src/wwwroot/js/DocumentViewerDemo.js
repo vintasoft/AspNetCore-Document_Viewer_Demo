@@ -42,29 +42,6 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
 
 
 
-// === "Tools" toolbar ===
-
-/**
- Creates UI button for activating the visual tool, which allows to select text and work with annotations in image viewer.
-*/
-function __createTextSelectionAndAnnotationToolButton() {
-    // names of visual tools in composite visual tool
-    var visualToolNames = "AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool,PanTool";
-    // if touch device is used
-    if (__isTouchDevice()) {
-        // add name of zoom tool to the names of visual tools of composite visual tool
-        visualToolNames = visualToolNames + ",ZoomTool";
-    }
-
-    return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
-        cssClass: "vsdv-tools-textSelectionToolButton",
-        title: "Annotations, Document navigation, Text selection, Pan , Zoom",
-        localizationId: "annotationAndNavigationAndTextSelectionToolButton"
-    }, visualToolNames);
-}
-
-
-
 // === Init UI ===
 
 /**
@@ -73,9 +50,6 @@ function __createTextSelectionAndAnnotationToolButton() {
 function __registerNewUiElements() {
     // register the "Previously uploaded files" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("previousUploadFilesButton", __createPreviousUploadFilesButton);
-
-    // register the "Annotations, Document navigation, Text selection" button in web UI elements factory
-    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("annotationAndNavigationAndTextSelectionToolButton", __createTextSelectionAndAnnotationToolButton);
 }
 
 /**
@@ -107,17 +81,6 @@ function __initMenu(docViewerSettings) {
         // add the "Document layout settings" button to the menu panel
         fileMenuPanelItems.insertItem(4, "documentLayoutSettingsButton");
     }
-
-    // get the "Visual tools" menu panel
-    var toolsSubmenu = items.getItemByRegisteredId("visualToolsToolbarPanel");
-    // if menu panel is found
-    if (toolsSubmenu != null) {
-        toolsSubmenuItems = toolsSubmenu.get_Items();
-
-        toolsSubmenuItems.removeItemAt(1);
-
-        toolsSubmenuItems.insertItem(0, "annotationAndNavigationAndTextSelectionToolButton");
-    }
 }
 
 /**
@@ -128,36 +91,12 @@ function __initSidePanel(docViewerSettings) {
     // get items of document viewer
     var items = docViewerSettings.get_Items();
 
-    var sidePanel = items.getItemByRegisteredId("sidePanel");
-    if (sidePanel != null) {
-        var sidePanelItems = sidePanel.get_PanelsCollection();
-
-        sidePanelItems.addItem("textSelectionPanel");
-
-        var textSearchPanel = Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.createElementById("textSearchPanel");
-        textSearchPanel.set_CreatePageResultHeaderContentCallback(__createPageSearchResultHeaderContent);
-        sidePanelItems.addItem(textSearchPanel);
-    }
-
     // get the thumbnail viewer panel of document viewer
     var thumbnailViewerPanel = items.getItemByRegisteredId("thumbnailViewerPanel");
     // if panel is found
     if (thumbnailViewerPanel != null)
         // subscribe to the "actived" event of the thumbnail viewer panel of document viewer
         Vintasoft.Shared.subscribeToEvent(thumbnailViewerPanel, "activated", __thumbnailsPanelActivated);
-}
-
-/**
- Returns UI elements, which will display information image page search result.
- @param {any} image Image, where text was searched.
- @param {any} imageIndex The number of pages, which have already been processed.
- @param {any} searchResults Search result.
-*/
-function __createPageSearchResultHeaderContent(image, imageIndex, searchResults) {
-    return [new Vintasoft.Imaging.UI.UIElements.WebUiLabelElementJS({
-        text: Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsui-textSearchPanel-pageLabel") + " #" + (imageIndex + 1),
-        css: { cursor: "pointer" }
-    })];
 }
 
 /**
@@ -520,10 +459,16 @@ function __main2() {
     var docViewerSettings = new Vintasoft.Imaging.DocumentViewer.WebDocumentViewerSettingsJS("documentViewerContainer", "documentViewer", true);
     // enable image uploading from URL
     docViewerSettings.set_CanUploadImageFromUrl(true);
-    // specify that the meain menu should contain the annotation menu
+    // specify that the main menu should contain the annotation menu
     docViewerSettings.set_ShowAnnotationMenuInMainMenu(true);
     // specify that the side panel should contain the annotation list panel
-    docViewerSettings.set_ShowAnnotationListPanelInSidePanel(true);
+    docViewerSettings.set_ShowAnnotationListSidePanel(true);
+    // specify that web document viewer allows to navigate document
+    docViewerSettings.set_CanNavigateDocument(true);
+    // specify that web document viewer allows to select text
+    docViewerSettings.set_CanSelectText(true);
+    // specify that web document viewer allows to search text
+    docViewerSettings.set_CanSearchText(true);
     // specify that document viewer should show "Export and download file" button instead of "Download file" button
     docViewerSettings.set_CanExportAndDownloadFile(true);
     docViewerSettings.set_CanDownloadFile(false);
@@ -571,22 +516,18 @@ function __main2() {
     imageViewer1.set_ProgressImage(progressImage);
     imageViewer1.set_ChangeFocusedImageWhenScrolling(true);
 
-    // names of visual tools in composite visual tool
-    var visualToolNames = "AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool,PanTool";
+    // identifier of visual tools in composite visual tool
+    var visualToolId = "AnnotationVisualTool,DocumentNavigationTool,TextSelectionTool,PanTool";
     // if touch device is used
     if (__isTouchDevice()) {
-        // get zoom tool from document viewer
-        var zoomTool = _docViewer.getVisualToolById("ZoomTool");
-        // specify that zoom tool should not disable context menu
-        zoomTool.set_DisableContextMenu(false);
-
         // add name of zoom tool to the names of visual tools of composite visual tool
-        visualToolNames = visualToolNames + ",ZoomTool";
+        visualToolId += ",ZoomTool";
     }
-    // get the visual tool
-    var annotationNavigationTextSelectionTool = _docViewer.getVisualToolById(visualToolNames);
-    _docViewer.set_MandatoryVisualTool(annotationNavigationTextSelectionTool);
-    _docViewer.set_CurrentVisualTool(annotationNavigationTextSelectionTool);
+    // get the visual tool by visual tool identifier
+    var visualTool = _docViewer.getVisualToolById(visualToolId);
+    // set the visual tool in the document viewer
+    _docViewer.set_MandatoryVisualTool(visualTool);
+    _docViewer.set_CurrentVisualTool(visualTool);
 
     // add ".txt" file extension in file extension filter for upload buttons in web document viewer
     __addTxtFileExtensionToUploadButtonsInWebDocumentViewer();
