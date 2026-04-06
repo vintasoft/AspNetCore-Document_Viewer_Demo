@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Эскиз тамашачы көйләүләре"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Аннотацияләр, Документ навигациясе, Текст сайлау, Панорамалау, Зурайту"
+		"textSelectionToolButton": {
+			"title": "Аннотация, Документлар навигациясе, Текст сайлау, Панорамалау"
 		},
 		"panToolButton": {
 			"title": "Пан"
+		},
+		"zoomToolButton": {
+			"title": "Зурайту"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Зурлау сайлау"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Сайланган текст:"
+			},
+			"copyToClipboardButton": {
+				"value": "Буферга күчерү"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Күренешне сәгатенә каршы әйләндерегез"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Сайланган текстны буферга күчерү"
+		},
+		"selectAllTextButton": {
+			"text": "Барлык текстны сайлау"
+		},
 		"copyAnnotationLabel": {
 			"text": "Аннотацияне күчерегез"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Гадәт",
 		"vsui-documentLayoutSettingsDialog-title": "Документация көйләүләре",
 		"vsui-printImagesDialog-title": "Рәсемнәрне бастыру",
-		"vsui-printImagesPanel-imagePrintingString": "Рәсем бастырыла",
-		"vsui-printImagesPanel-withAnnotationsLabel": "аннотацияләр белән",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Рәсем бастырыла",
 		"vsui-imageViewerSettingsDialog-title": "Рәсем тамашачысы көйләүләре",
 		"vsui-thumbnailViewerSettingDialog-title": "Эскиз тамашачы көйләүләре",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Күчерү",
 		"vsui-annotationViewCollectionUndoAction-swap": "Алыштыру",
 		"vsui-annotationViewCollectionUndoAction-set": "Урнаштыру",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Өстәү"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Өстәү",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Күренешне сәгать юлы белән әйләндерегез",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Күренешне сәгатенә каршы әйләндерегез",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Сайланган текстны буферга күчерү",
+		"vsui-imageViewerContextMenu-selectAllText": "Барлык текстны сайлау"
 	}
 }

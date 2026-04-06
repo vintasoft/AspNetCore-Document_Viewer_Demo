@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Configuración del visor de miniaturas"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anotaciones, Navegación del documento, Selección de texto, Desplazamiento, Zoom"
+		"textSelectionToolButton": {
+			"title": "Anotación, navegación de documentos, selección de texto, desplazamiento"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Escala"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Selección de escala"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Texto seleccionado:"
+			},
+			"copyToClipboardButton": {
+				"value": "Copiar al portapapeles"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Girar la vista en sentido antihorario"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Copiar el texto seleccionado al portapapeles"
+		},
+		"selectAllTextButton": {
+			"text": "Seleccionar todo el texto"
+		},
 		"copyAnnotationLabel": {
 			"text": "Copiar anotación"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Personalizado",
 		"vsui-documentLayoutSettingsDialog-title": "Configuración de diseño del documento",
 		"vsui-printImagesDialog-title": "Imprimir imágenes",
-		"vsui-printImagesPanel-imagePrintingString": "La imagen se está imprimiendo",
-		"vsui-printImagesPanel-withAnnotationsLabel": "con anotaciones",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "La imagen se está imprimiendo",
 		"vsui-imageViewerSettingsDialog-title": "Configuración del visor de imágenes",
 		"vsui-thumbnailViewerSettingDialog-title": "Configuración del visor de miniaturas",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Mostrar anotaciones en miniaturas:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Mover",
 		"vsui-annotationViewCollectionUndoAction-swap": "Intercambiar",
 		"vsui-annotationViewCollectionUndoAction-set": "Establecer",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Añadir"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Añadir",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Girar la vista en el sentido de las agujas del reloj",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Girar la vista en sentido antihorario",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Copiar el texto seleccionado al portapapeles",
+		"vsui-imageViewerContextMenu-selectAllText": "Seleccionar todo el texto"
 	}
 }

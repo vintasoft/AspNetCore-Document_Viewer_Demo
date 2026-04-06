@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Настройки просмотрщика миниатюр"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Аннотации, Навигация по документу, Выделение текста, Панорамирование, Масштабирование"
+		"textSelectionToolButton": {
+			"title": "Аннотирование, Навигация по документу, Выделение текста, Панорамирование"
 		},
 		"panToolButton": {
 			"title": "Панорамирование"
+		},
+		"zoomToolButton": {
+			"title": "Масштаб"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Масштабирование выделения"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Выделенный текст:"
+			},
+			"copyToClipboardButton": {
+				"value": "Скопировать в буфер обмена"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Повернуть вид против часовой стрелки"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Скопировать выделенный текст в буфер обмена"
+		},
+		"selectAllTextButton": {
+			"text": "Выделить весь текст"
+		},
 		"copyAnnotationLabel": {
 			"text": "Копировать аннотацию"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Пользовательский",
 		"vsui-documentLayoutSettingsDialog-title": "Настройки макета документа",
 		"vsui-printImagesDialog-title": "Распечатать изображения",
-		"vsui-printImagesPanel-imagePrintingString": "Изображение печатается",
-		"vsui-printImagesPanel-withAnnotationsLabel": "с аннотациями",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Изображение печатается",
 		"vsui-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
 		"vsui-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Переместить",
 		"vsui-annotationViewCollectionUndoAction-swap": "Поменять местами",
 		"vsui-annotationViewCollectionUndoAction-set": "Установить",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Добавить"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Добавить",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Повернуть вид по часовой стрелке",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Повернуть вид против часовой стрелки",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Скопировать выделенный текст в буфер обмена",
+		"vsui-imageViewerContextMenu-selectAllText": "Выделить весь текст"
 	}
 }

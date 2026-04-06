@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Innstillinger for miniatyrbildevisning"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Annoteringer, Dokumentnavigasjon, Tekstvalg, Panorering, Zoom"
+		"textSelectionToolButton": {
+			"title": "Annotering, Dokumentnavigasjon, Tekstvalg, Panorering"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Skala"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skalavalg"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Valgt tekst:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopier til utklippstavlen"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Roter visningen mot klokken"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopier valgt tekst til utklippstavlen"
+		},
+		"selectAllTextButton": {
+			"text": "Velg all tekst"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopier merknad"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Egendefinert",
 		"vsui-documentLayoutSettingsDialog-title": "Innstillinger for dokumentlayout",
 		"vsui-printImagesDialog-title": "Skriv ut bilder",
-		"vsui-printImagesPanel-imagePrintingString": "Bildet skrives ut",
-		"vsui-printImagesPanel-withAnnotationsLabel": "med merknader",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Bildet skrives ut",
 		"vsui-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
 		"vsui-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Flytt",
 		"vsui-annotationViewCollectionUndoAction-swap": "Bytt",
 		"vsui-annotationViewCollectionUndoAction-set": "Angi",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Legg til"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Legg til",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Roter visningen med klokken",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Roter visningen mot klokken",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopier valgt tekst til utklippstavlen",
+		"vsui-imageViewerContextMenu-selectAllText": "Velg all tekst"
 	}
 }

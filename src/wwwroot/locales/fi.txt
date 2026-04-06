@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Pikkukuvien katseluohjelman asetukset"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Merkinnät, Asiakirjan navigointi, Tekstin valinta, Panorointi, Zoomaus"
+		"textSelectionToolButton": {
+			"title": "Merkinnät, Asiakirjan navigointi, Tekstin valinta, Panorointi"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Asteikko"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skaalan valinta"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Valittu teksti:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopioi leikepöydälle"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Kierrä näkymää vastapäivään"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopioi valittu teksti leikepöydälle"
+		},
+		"selectAllTextButton": {
+			"text": "Valitse kaikki teksti"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopioi huomautus"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Mukautettu",
 		"vsui-documentLayoutSettingsDialog-title": "Asiakirjan asetteluasetukset",
 		"vsui-printImagesDialog-title": "Tulosta kuvat",
-		"vsui-printImagesPanel-imagePrintingString": "Kuva tulostuu",
-		"vsui-printImagesPanel-withAnnotationsLabel": "huomautuksilla",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Kuva tulostuu",
 		"vsui-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
 		"vsui-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Siirrä",
 		"vsui-annotationViewCollectionUndoAction-swap": "Vaihda",
 		"vsui-annotationViewCollectionUndoAction-set": "Aseta",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Lisää"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Lisää",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Kierrä näkymää myötäpäivään",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Kierrä näkymää vastapäivään",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopioi valittu teksti leikepöydälle",
+		"vsui-imageViewerContextMenu-selectAllText": "Valitse kaikki teksti"
 	}
 }

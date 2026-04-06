@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Մանրապատկերների դիտման կարգավորումներ"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Նշումներ, Փաստաթղթի նավիգացիա, Տեքստի ընտրություն, Տեղաշարժում, Մեծացում"
+		"textSelectionToolButton": {
+			"title": "Նշում, փաստաթղթի նավիգացիա, տեքստի ընտրություն, տեղաշարժ"
 		},
 		"panToolButton": {
 			"title": "Պան"
+		},
+		"zoomToolButton": {
+			"title": "Մեծացնել"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Մեծացնելու ընտրություն"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Ընտրված տեքստ."
+			},
+			"copyToClipboardButton": {
+				"value": "Պատճենում սեղմատախտակին"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Պտտեցնել տեսքը ժամացույցի սլաքի հակառակ ուղղությամբ"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Ընտրված տեքստի պատճենում սեղմատախտակին"
+		},
+		"selectAllTextButton": {
+			"text": "Ընտրել ամբողջ տեքստը"
+		},
 		"copyAnnotationLabel": {
 			"text": "Պատճենել ծանոթագրությունը"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Պատվերով",
 		"vsui-documentLayoutSettingsDialog-title": "Փաստաթղթի դասավորության կարգավորումներ",
 		"vsui-printImagesDialog-title": "Տպել պատկերներ",
-		"vsui-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
-		"vsui-printImagesPanel-withAnnotationsLabel": "ծանոթագրություններով",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Պատկերը տպագրվում է",
 		"vsui-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
 		"vsui-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Տեղափոխել",
 		"vsui-annotationViewCollectionUndoAction-swap": "Փոխանակել",
 		"vsui-annotationViewCollectionUndoAction-set": "Սահմանել",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Ավելացնել"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Ավելացնել",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Պտտեցնել դիտումը ժամացույցի սլաքի ուղղությամբ",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Պտտեցնել տեսքը ժամացույցի սլաքի հակառակ ուղղությամբ",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Ընտրված տեքստի պատճենում սեղմատախտակին",
+		"vsui-imageViewerContextMenu-selectAllText": "Ընտրել ամբողջ տեքստը"
 	}
 }

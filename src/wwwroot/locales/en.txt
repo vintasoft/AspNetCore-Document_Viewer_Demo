@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Thumbnail viewer settings"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Annotations, Document navigation, Text selection, Pan , Zoom"
+		"textSelectionToolButton": {
+			"title": "Annotation, Document navigation, Text selection, Pan"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Zoom"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Zoom selection"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Selected text:"
+			},
+			"copyToClipboardButton": {
+				"value": "Copy to clipboard"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Rotate view counterclockwise"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Copy selected text to the clipboard"
+		},
+		"selectAllTextButton": {
+			"text": "Select all text"
+		},
 		"copyAnnotationLabel": {
 			"text": "Copy annotation"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Custom",
 		"vsui-documentLayoutSettingsDialog-title": "Document layout settings",
 		"vsui-printImagesDialog-title": "Print images",
-		"vsui-printImagesPanel-imagePrintingString": "Image is printing",
-		"vsui-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Image is printing",
 		"vsui-imageViewerSettingsDialog-title": "Image viewer settings",
 		"vsui-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Move",
 		"vsui-annotationViewCollectionUndoAction-swap": "Swap",
 		"vsui-annotationViewCollectionUndoAction-set": "Set",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Add"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Add",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Rotate view clockwise",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Rotate view counterclockwise",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Copy selected text to the clipboard",
+		"vsui-imageViewerContextMenu-selectAllText": "Select all text"
 	}
 }

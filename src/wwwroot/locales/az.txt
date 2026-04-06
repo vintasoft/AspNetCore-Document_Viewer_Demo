@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Miniatür baxıcı parametrləri"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Annotasiyalar, Sənəd naviqasiyası, Mətn seçimi, Panorama, Böyütmə"
+		"textSelectionToolButton": {
+			"title": "Annotasiya, Sənəd naviqasiyası, Mətn seçimi, Pan"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Zoom"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Zoom seçimi"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Seçilmiş mətn:"
+			},
+			"copyToClipboardButton": {
+				"value": "Panoya kopyalayın"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Görünüşü saat yönünün əksinə çevirin"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Seçilmiş mətni panoya kopyalayın"
+		},
+		"selectAllTextButton": {
+			"text": "Bütün mətni seçin"
+		},
 		"copyAnnotationLabel": {
 			"text": "Annotasiyanı kopyalayın"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Xüsusi",
 		"vsui-documentLayoutSettingsDialog-title": "Sənəd tərtibatı parametrləri",
 		"vsui-printImagesDialog-title": "Şəkilləri çap edin",
-		"vsui-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
-		"vsui-printImagesPanel-withAnnotationsLabel": "annotasiyalarla",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Şəkil çap olunur",
 		"vsui-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
 		"vsui-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Köçür",
 		"vsui-annotationViewCollectionUndoAction-swap": "Dəyişdir",
 		"vsui-annotationViewCollectionUndoAction-set": "Təyin et",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Əlavə et"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Əlavə et",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Görünüşü saat yönünde çevirin",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Görünüşü saat yönünün əksinə çevirin",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Seçilmiş mətni panoya kopyalayın",
+		"vsui-imageViewerContextMenu-selectAllText": "Bütün mətni seçin"
 	}
 }

@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Setări pentru vizualizatorul de miniaturi"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Adnotări, Navigare documente, Selecție text, Panoramare, Zoom"
+		"textSelectionToolButton": {
+			"title": "Adnotare, Navigare documente, Selecție text, Panoramare"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Scală"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Selectare scară"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Text selectat:"
+			},
+			"copyToClipboardButton": {
+				"value": "Copiere în clipboard"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Rotiți vizualizarea în sens invers acelor de ceasornic"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Copiere text selectat în clipboard"
+		},
+		"selectAllTextButton": {
+			"text": "Selectare tot textul"
+		},
 		"copyAnnotationLabel": {
 			"text": "Copiați adnotarea"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Personalizat",
 		"vsui-documentLayoutSettingsDialog-title": "Setări de aspect al documentului",
 		"vsui-printImagesDialog-title": "Tipărește imagini",
-		"vsui-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
-		"vsui-printImagesPanel-withAnnotationsLabel": "cu adnotări",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Imaginea se imprimă",
 		"vsui-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
 		"vsui-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Mutare",
 		"vsui-annotationViewCollectionUndoAction-swap": "Schimbare",
 		"vsui-annotationViewCollectionUndoAction-set": "Setare",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Adăugare"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Adăugare",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Rotiți vizualizarea în sensul acelor de ceasornic",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Rotiți vizualizarea în sens invers acelor de ceasornic",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Copiere text selectat în clipboard",
+		"vsui-imageViewerContextMenu-selectAllText": "Selectare tot textul"
 	}
 }

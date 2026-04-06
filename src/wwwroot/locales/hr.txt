@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Postavke pregledača sličica"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Napomene, Navigacija dokumentom, Odabir teksta, Pomicanje, Zumiranje"
+		"textSelectionToolButton": {
+			"title": "Anotacija, Navigacija dokumentom, Odabir teksta, Pomicanje"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Razmjer"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Odabir mjerila"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Odabrani tekst:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopiraj u međuspremnik"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Zakreni prikaz u smjeru suprotnom od kazaljke na satu"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopiraj odabrani tekst u međuspremnik"
+		},
+		"selectAllTextButton": {
+			"text": "Odaberi sav tekst"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopiraj komentar"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Prilagođeno",
 		"vsui-documentLayoutSettingsDialog-title": "Postavke izgleda dokumenta",
 		"vsui-printImagesDialog-title": "Ispis slika",
-		"vsui-printImagesPanel-imagePrintingString": "Slika se ispisuje",
-		"vsui-printImagesPanel-withAnnotationsLabel": "s komentarima",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Slika se ispisuje",
 		"vsui-imageViewerSettingsDialog-title": "Postavke preglednika slika",
 		"vsui-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Premjesti",
 		"vsui-annotationViewCollectionUndoAction-swap": "Zamijeni",
 		"vsui-annotationViewCollectionUndoAction-set": "Postavi",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Dodaj"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Dodaj",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Zakreni pogled u smjeru kazaljke na satu",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Zakreni prikaz u smjeru suprotnom od kazaljke na satu",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopiraj odabrani tekst u međuspremnik",
+		"vsui-imageViewerContextMenu-selectAllText": "Odaberi sav tekst"
 	}
 }

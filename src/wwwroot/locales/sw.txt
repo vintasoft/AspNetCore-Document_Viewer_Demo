@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Mipangilio ya kitazamaji cha kijipicha"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Maelezo, Usogezaji wa hati, Uteuzi wa maandishi, Kugeuza, Kuza"
+		"textSelectionToolButton": {
+			"title": "Maelezo, Usogezaji wa hati, Uteuzi wa maandishi, Upanuzi"
 		},
 		"panToolButton": {
 			"title": "Panua"
+		},
+		"zoomToolButton": {
+			"title": "Kuza"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Uchaguzi wa kukuza"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Maandishi yaliyochaguliwa:"
+			},
+			"copyToClipboardButton": {
+				"value": "Nakili kwenye ubao wa kunakili"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Zungusha mwonekano kinyume cha saa"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Nakili maandishi yaliyochaguliwa kwenye ubao wa kunakili"
+		},
+		"selectAllTextButton": {
+			"text": "Chagua maandishi yote"
+		},
 		"copyAnnotationLabel": {
 			"text": "Nakili ufafanuzi"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Desturi",
 		"vsui-documentLayoutSettingsDialog-title": "Mipangilio ya mpangilio wa hati",
 		"vsui-printImagesDialog-title": "Chapisha picha",
-		"vsui-printImagesPanel-imagePrintingString": "Picha inachapishwa",
-		"vsui-printImagesPanel-withAnnotationsLabel": "yenye maelezo",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Picha inachapishwa",
 		"vsui-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
 		"vsui-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Hamisha",
 		"vsui-annotationViewCollectionUndoAction-swap": "Badilisha",
 		"vsui-annotationViewCollectionUndoAction-set": "Weka",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Ongeza"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Ongeza",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Zungusha mwonekano wa saa",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Zungusha mwonekano kinyume cha saa",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Nakili maandishi yaliyochaguliwa kwenye ubao wa kunakili",
+		"vsui-imageViewerContextMenu-selectAllText": "Chagua maandishi yote"
 	}
 }

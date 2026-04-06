@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Kiçijik tomaşaçy sazlamalary"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Bellikler, Resminama nawigasiýasy, Tekst saýlamak, Pan, Uzaltmak"
+		"textSelectionToolButton": {
+			"title": "Bellik, Resminama nawigasiýasy, Tekst saýlamak, Pan"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Ulaltmak"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Ulaltmak"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Saýlanan tekst:"
+			},
+			"copyToClipboardButton": {
+				"value": "Bufere göçüriň"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Görnüşi sagat tersine öwüriň"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Saýlanan teksti bufere göçüriň"
+		},
+		"selectAllTextButton": {
+			"text": "Ähli teksti saýlaň"
+		},
 		"copyAnnotationLabel": {
 			"text": "Annotasiýa göçüriň"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Omörite",
 		"vsui-documentLayoutSettingsDialog-title": "Resminamanyň ýerleşiş sazlamalary",
 		"vsui-printImagesDialog-title": "Suratlary çap ediň",
-		"vsui-printImagesPanel-imagePrintingString": "Surat çap edilýär",
-		"vsui-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Surat çap edilýär",
 		"vsui-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
 		"vsui-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Göçürmek",
 		"vsui-annotationViewCollectionUndoAction-swap": "Çalşyrmak",
 		"vsui-annotationViewCollectionUndoAction-set": "Gurmak",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Goşmak"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Goşmak",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Görnüşi sagat ugruna öwüriň",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Görnüşi sagat tersine öwüriň",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Saýlanan teksti bufere göçüriň",
+		"vsui-imageViewerContextMenu-selectAllText": "Ähli teksti saýlaň"
 	}
 }

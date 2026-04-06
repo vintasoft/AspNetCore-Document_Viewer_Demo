@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Nastavenia prehliadača miniatúr"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anotácie, Navigácia v dokumente, Výber textu, Posúvanie, Priblíženie"
+		"textSelectionToolButton": {
+			"title": "Anotácia, Navigácia v dokumente, Výber textu, Posúvanie"
 		},
 		"panToolButton": {
 			"title": "Panvica"
+		},
+		"zoomToolButton": {
+			"title": "Zoom"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Výber priblíženia"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Vybraný text:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopírovať do schránky"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Otočiť pohľad proti smeru hodinových ručičiek"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopírovať vybraný text do schránky"
+		},
+		"selectAllTextButton": {
+			"text": "Vybrať všetok text"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopírovať anotáciu"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Vlastné",
 		"vsui-documentLayoutSettingsDialog-title": "Nastavenia rozloženia dokumentu",
 		"vsui-printImagesDialog-title": "Tlač obrázkov",
-		"vsui-printImagesPanel-imagePrintingString": "Tlačí sa obrázok",
-		"vsui-printImagesPanel-withAnnotationsLabel": "s anotáciami",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Tlačí sa obrázok",
 		"vsui-imageViewerSettingsDialog-title": "Nastavenia prehliadača obrázkov",
 		"vsui-thumbnailViewerSettingDialog-title": "Nastavenia prehliadača miniatúr",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobraziť anotácie:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Presunúť",
 		"vsui-annotationViewCollectionUndoAction-swap": "Vymeniť",
 		"vsui-annotationViewCollectionUndoAction-set": "Nastaviť",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Pridať"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Pridať",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Otočiť pohľad v smere hodinových ručičiek",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Otočiť pohľad proti smeru hodinových ručičiek",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopírovať vybraný text do schránky",
+		"vsui-imageViewerContextMenu-selectAllText": "Vybrať všetok text"
 	}
 }

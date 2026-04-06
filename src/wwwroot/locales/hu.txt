@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Miniatűr-nézegető beállításai"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Jegyzetek, Dokumentumnavigáció, Szövegkijelölés, Pásztázás, Nagyítás"
+		"textSelectionToolButton": {
+			"title": "Jegyzetek, Dokumentumnavigáció, Szövegkijelölés, Pásztázás"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Skála"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skála kiválasztása"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Kiválasztott szöveg:"
+			},
+			"copyToClipboardButton": {
+				"value": "Másolás a vágólapra"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Nézet elforgatása az óramutató járásával ellentétes irányba"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kijelölt szöveg másolása a vágólapra"
+		},
+		"selectAllTextButton": {
+			"text": "Összes szöveg kijelölése"
+		},
 		"copyAnnotationLabel": {
 			"text": "Jegyzet másolása"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Egyedi",
 		"vsui-documentLayoutSettingsDialog-title": "Dokumentum elrendezési beállítások",
 		"vsui-printImagesDialog-title": "Képek nyomtatása",
-		"vsui-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
-		"vsui-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
 		"vsui-imageViewerSettingsDialog-title": "A képnézegető beállításai",
 		"vsui-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Áthelyezés",
 		"vsui-annotationViewCollectionUndoAction-swap": "Csere",
 		"vsui-annotationViewCollectionUndoAction-set": "Beállítás",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Hozzáadás"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Hozzáadás",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Nézet forgatása az óramutató járásával megegyező irányba",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Nézet elforgatása az óramutató járásával ellentétes irányba",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kijelölt szöveg másolása a vágólapra",
+		"vsui-imageViewerContextMenu-selectAllText": "Összes szöveg kijelölése"
 	}
 }

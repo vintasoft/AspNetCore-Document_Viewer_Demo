@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Kleinkiekie-kyker-instellings"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Aantekeninge, Dokumentnavigasie, Tekskeuse, Pan, Zoem"
+		"textSelectionToolButton": {
+			"title": "Annotasie, Dokumentnavigasie, Tekskeuse, Pan"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Skaal"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skaalseleksie"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Geselekteerde teks:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopieer na knipbord"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Draai aansig antikloksgewys"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopieer geselekteerde teks na die knipbord"
+		},
+		"selectAllTextButton": {
+			"text": "Selekteer alle teks"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopieer aantekening"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Gepasmaak",
 		"vsui-documentLayoutSettingsDialog-title": "Dokumentuitleginstellings",
 		"vsui-printImagesDialog-title": "Druk prente",
-		"vsui-printImagesPanel-imagePrintingString": "Prent word druk",
-		"vsui-printImagesPanel-withAnnotationsLabel": "met aantekeninge",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Prent word druk",
 		"vsui-imageViewerSettingsDialog-title": "Beeldkyker-instellings",
 		"vsui-thumbnailViewerSettingDialog-title": "Kleinkiekie-kyker-instellings",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Skuif",
 		"vsui-annotationViewCollectionUndoAction-swap": "Ruil",
 		"vsui-annotationViewCollectionUndoAction-set": "Stel",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Voeg by"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Voeg by",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Draai aansig kloksgewys",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Draai aansig antikloksgewys",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopieer geselekteerde teks na die knipbord",
+		"vsui-imageViewerContextMenu-selectAllText": "Selekteer alle teks"
 	}
 }

@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Налады прагляду эскізаў"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Анатацыі, навігацыя па дакуменце, вылучэнне тэксту, панарамаванне, маштабаванне"
+		"textSelectionToolButton": {
+			"title": "Анатацыя, навігацыя па дакументах, выбар тэксту, панарамаванне"
 		},
 		"panToolButton": {
 			"title": "Пан"
+		},
+		"zoomToolButton": {
+			"title": "Маштабаванне"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Выбар маштабу"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Выдзелены тэкст:"
+			},
+			"copyToClipboardButton": {
+				"value": "Капіраваць у буфер абмену"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Павярнуць выгляд супраць гадзіннікавай стрэлкі"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Капіраваць вылучаны тэкст у буфер абмену"
+		},
+		"selectAllTextButton": {
+			"text": "Вылучыць увесь тэкст"
+		},
 		"copyAnnotationLabel": {
 			"text": "Капіяваць анатацыю"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Карыстацкі",
 		"vsui-documentLayoutSettingsDialog-title": "Налады макета дакумента",
 		"vsui-printImagesDialog-title": "Друк малюнкаў",
-		"vsui-printImagesPanel-imagePrintingString": "Выява друкуецца",
-		"vsui-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Выява друкуецца",
 		"vsui-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
 		"vsui-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Перамясціць",
 		"vsui-annotationViewCollectionUndoAction-swap": "Памяняць месцамі",
 		"vsui-annotationViewCollectionUndoAction-set": "Устанавіць",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Дадаць"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Дадаць",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Павярнуць выгляд па гадзіннікавай стрэлцы",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Павярнуць выгляд супраць гадзіннікавай стрэлкі",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Капіраваць вылучаны тэкст у буфер абмену",
+		"vsui-imageViewerContextMenu-selectAllText": "Вылучыць увесь тэкст"
 	}
 }

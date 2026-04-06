@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Cài đặt trình xem hình thu nhỏ"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Chú thích, Điều hướng tài liệu, Chọn văn bản, Di chuyển, Phóng to"
+		"textSelectionToolButton": {
+			"title": "Chú thích, Điều hướng tài liệu, Chọn văn bản, Di chuyển"
 		},
 		"panToolButton": {
 			"title": "Xoay"
+		},
+		"zoomToolButton": {
+			"title": "Tỷ lệ"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Lựa chọn tỷ lệ"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Văn bản đã chọn:"
+			},
+			"copyToClipboardButton": {
+				"value": "Sao chép vào clipboard"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Xoay chế độ xem ngược chiều kim đồng hồ"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Sao chép văn bản đã chọn vào clipboard"
+		},
+		"selectAllTextButton": {
+			"text": "Chọn toàn bộ văn bản"
+		},
 		"copyAnnotationLabel": {
 			"text": "Sao chép Chú thích"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Tùy chỉnh",
 		"vsui-documentLayoutSettingsDialog-title": "Cài đặt bố cục tài liệu",
 		"vsui-printImagesDialog-title": "In ảnh",
-		"vsui-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
-		"vsui-printImagesPanel-withAnnotationsLabel": "có chú thích",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Hình ảnh đang được in",
 		"vsui-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
 		"vsui-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Di chuyển",
 		"vsui-annotationViewCollectionUndoAction-swap": "Hoán đổi",
 		"vsui-annotationViewCollectionUndoAction-set": "Đặt",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Thêm"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Thêm",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Xoay chế độ xem theo chiều kim đồng hồ",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Xoay chế độ xem ngược chiều kim đồng hồ",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Sao chép văn bản đã chọn vào clipboard",
+		"vsui-imageViewerContextMenu-selectAllText": "Chọn toàn bộ văn bản"
 	}
 }

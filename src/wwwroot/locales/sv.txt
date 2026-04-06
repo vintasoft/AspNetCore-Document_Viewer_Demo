@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Inställningar för miniatyrvisning"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anteckningar, Dokumentnavigering, Textmarkering, Panorera, Zooma"
+		"textSelectionToolButton": {
+			"title": "Annotering, Dokumentnavigering, Textmarkering, Panorering"
 		},
 		"panToolButton": {
 			"title": "Panera"
+		},
+		"zoomToolButton": {
+			"title": "Skala"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skalval"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Vald text:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopiera till urklipp"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Rotera vyn moturs"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopiera markerad text till urklipp"
+		},
+		"selectAllTextButton": {
+			"text": "Markera all text"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopiera anteckning"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Anpassad",
 		"vsui-documentLayoutSettingsDialog-title": "Inställningar för dokumentlayout",
 		"vsui-printImagesDialog-title": "Skriv ut bilder",
-		"vsui-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
-		"vsui-printImagesPanel-withAnnotationsLabel": "med kommentarer",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Bilden skrivs ut",
 		"vsui-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
 		"vsui-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Flytta",
 		"vsui-annotationViewCollectionUndoAction-swap": "Byt",
 		"vsui-annotationViewCollectionUndoAction-set": "Ange",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Lägg till"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Lägg till",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Rotera vyn medurs",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Rotera vyn moturs",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopiera markerad text till urklipp",
+		"vsui-imageViewerContextMenu-selectAllText": "Markera all text"
 	}
 }

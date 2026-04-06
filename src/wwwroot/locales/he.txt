@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "הגדרות מציג תמונות ממוזערות"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "הערות, ניווט במסמכים, בחירת טקסט, הזזה, זום"
+		"textSelectionToolButton": {
+			"title": "ביאור, ניווט במסמך, בחירת טקסט, מעבר תנועה"
 		},
 		"panToolButton": {
 			"title": "פאן"
+		},
+		"zoomToolButton": {
+			"title": "קנה מידה"
 		},
 		"zoomSelectionToolButton": {
 			"title": "בחירת קנה מידה"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "טקסט נבחר:"
+			},
+			"copyToClipboardButton": {
+				"value": "העתקה ללוח"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "סובב את התצוגה נגד כיוון השעון"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "העתקת טקסט נבחר ללוח"
+		},
+		"selectAllTextButton": {
+			"text": "בחירת כל הטקסט"
+		},
 		"copyAnnotationLabel": {
 			"text": "העתק הערה"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "מותאם אישית",
 		"vsui-documentLayoutSettingsDialog-title": "הגדרות פריסת מסמך",
 		"vsui-printImagesDialog-title": "הדפס תמונות",
-		"vsui-printImagesPanel-imagePrintingString": "התמונה מודפסת",
-		"vsui-printImagesPanel-withAnnotationsLabel": "עם הערות",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "התמונה מודפסת",
 		"vsui-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
 		"vsui-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "העבר",
 		"vsui-annotationViewCollectionUndoAction-swap": "החלף",
 		"vsui-annotationViewCollectionUndoAction-set": "הגדר",
-		"vsui-annotationViewCollectionUndoMonitor-add": "הוסף"
+		"vsui-annotationViewCollectionUndoMonitor-add": "הוסף",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "סובב את התצוגה בכיוון השעון",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "סובב את התצוגה נגד כיוון השעון",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "העתקת טקסט נבחר ללוח",
+		"vsui-imageViewerContextMenu-selectAllText": "בחירת כל הטקסט"
 	}
 }

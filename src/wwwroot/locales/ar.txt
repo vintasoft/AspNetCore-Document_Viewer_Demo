@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "إعدادات عارض الصور المصغرة"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "التعليقات التوضيحية، التنقل بين المستندات، تحديد النص، التحريك، التكبير/التصغير"
+		"textSelectionToolButton": {
+			"title": "إضافة التعليقات، التنقل بين المستندات، تحديد النص، التحريك"
 		},
 		"panToolButton": {
 			"title": "عموم"
+		},
+		"zoomToolButton": {
+			"title": "مقياس"
 		},
 		"zoomSelectionToolButton": {
 			"title": "تحديد الحجم"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "النص المحدد:"
+			},
+			"copyToClipboardButton": {
+				"value": "نسخ إلى الحافظة"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "تدوير العرض عكس اتجاه عقارب الساعة"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "نسخ النص المحدد إلى الحافظة"
+		},
+		"selectAllTextButton": {
+			"text": "تحديد كل النص"
+		},
 		"copyAnnotationLabel": {
 			"text": "نسخ التعليق التوضيحي"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "مخصص",
 		"vsui-documentLayoutSettingsDialog-title": "إعدادات تخطيط المستند",
 		"vsui-printImagesDialog-title": "طباعة الصور",
-		"vsui-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
-		"vsui-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "الصورة قيد الطباعة",
 		"vsui-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
 		"vsui-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "نقل",
 		"vsui-annotationViewCollectionUndoAction-swap": "تبديل",
 		"vsui-annotationViewCollectionUndoAction-set": "تعيين",
-		"vsui-annotationViewCollectionUndoMonitor-add": "إضافة"
+		"vsui-annotationViewCollectionUndoMonitor-add": "إضافة",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "تدوير العرض في اتجاه عقارب الساعة",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "تدوير العرض عكس اتجاه عقارب الساعة",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "نسخ النص المحدد إلى الحافظة",
+		"vsui-imageViewerContextMenu-selectAllText": "تحديد كل النص"
 	}
 }

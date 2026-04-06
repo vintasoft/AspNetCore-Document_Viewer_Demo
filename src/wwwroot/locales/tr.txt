@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Küçük Resim Görüntüleyici Ayarları"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Ek açıklamalar, Belge navigasyonu, Metin seçimi, Kaydırma, Yakınlaştırma"
+		"textSelectionToolButton": {
+			"title": "Açıklama ekleme, Belge navigasyonu, Metin seçimi, Kaydırma"
 		},
 		"panToolButton": {
 			"title": "Kaydır"
+		},
+		"zoomToolButton": {
+			"title": "Ölçek"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Ölçek Seçimi"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Seçili metin:"
+			},
+			"copyToClipboardButton": {
+				"value": "Panoya kopyala"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Görünümü saat yönünün tersine döndür"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Seçili metni panoya kopyala"
+		},
+		"selectAllTextButton": {
+			"text": "Tüm metni seç"
+		},
 		"copyAnnotationLabel": {
 			"text": "Açıklamayı Kopyala"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Özel",
 		"vsui-documentLayoutSettingsDialog-title": "Belge düzeni ayarları",
 		"vsui-printImagesDialog-title": "Görüntüleri Yazdır",
-		"vsui-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
-		"vsui-printImagesPanel-withAnnotationsLabel": "açıklamalarla",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Resim yazdırılıyor",
 		"vsui-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
 		"vsui-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Taşı",
 		"vsui-annotationViewCollectionUndoAction-swap": "Değiştir",
 		"vsui-annotationViewCollectionUndoAction-set": "Ayarla",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Ekle"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Ekle",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Görünümü saat yönünde döndür",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Görünümü saat yönünün tersine döndür",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Seçili metni panoya kopyala",
+		"vsui-imageViewerContextMenu-selectAllText": "Tüm metni seç"
 	}
 }

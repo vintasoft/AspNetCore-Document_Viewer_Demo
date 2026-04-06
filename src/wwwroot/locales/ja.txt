@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "サムネイル ビューアの設定"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "注釈、ドキュメントナビゲーション、テキスト選択、パン、ズーム"
+		"textSelectionToolButton": {
+			"title": "注釈、ドキュメントナビゲーション、テキスト選択、パン"
 		},
 		"panToolButton": {
 			"title": "パン"
+		},
+		"zoomToolButton": {
+			"title": "スケール"
 		},
 		"zoomSelectionToolButton": {
 			"title": "スケールの選択"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "選択されたテキスト:"
+			},
+			"copyToClipboardButton": {
+				"value": "クリップボードにコピー"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "ビューを反時計回りに回転"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "選択したテキストをクリップボードにコピー"
+		},
+		"selectAllTextButton": {
+			"text": "すべてのテキストを選択"
+		},
 		"copyAnnotationLabel": {
 			"text": "注釈をコピー"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "カスタム",
 		"vsui-documentLayoutSettingsDialog-title": "ドキュメントのレイアウト設定",
 		"vsui-printImagesDialog-title": "画像を印刷",
-		"vsui-printImagesPanel-imagePrintingString": "画像を印刷中です",
-		"vsui-printImagesPanel-withAnnotationsLabel": "注釈あり",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "画像を印刷中です",
 		"vsui-imageViewerSettingsDialog-title": "画像ビューアの設定",
 		"vsui-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "移動",
 		"vsui-annotationViewCollectionUndoAction-swap": "入れ替え",
 		"vsui-annotationViewCollectionUndoAction-set": "設定",
-		"vsui-annotationViewCollectionUndoMonitor-add": "追加"
+		"vsui-annotationViewCollectionUndoMonitor-add": "追加",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "ビューを時計回りに回転",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "ビューを反時計回りに回転",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "選択したテキストをクリップボードにコピー",
+		"vsui-imageViewerContextMenu-selectAllText": "すべてのテキストを選択"
 	}
 }

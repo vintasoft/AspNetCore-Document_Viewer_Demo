@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Эскиз көрүүчүнүн жөндөөлөрү"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Аннотациялар, Документ навигациясы, Текстти тандоо, Панорамалоо, Чоңойтуу"
+		"textSelectionToolButton": {
+			"title": "Аннотация, Документте навигация, Текстти тандоо, Панорамалоо"
 		},
 		"panToolButton": {
 			"title": "Пан"
+		},
+		"zoomToolButton": {
+			"title": "Чоңойтуу"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Чоңойтуу тандоо"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Тандалган текст:"
+			},
+			"copyToClipboardButton": {
+				"value": "Буферге көчүрүү"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Көрүнүштү саат жебесине каршы буруңуз"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Тандалган текстти буферге көчүрүү"
+		},
+		"selectAllTextButton": {
+			"text": "Бардык текстти тандоо"
+		},
 		"copyAnnotationLabel": {
 			"text": "Аннотацияны көчүрүү"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
 		"vsui-documentLayoutSettingsDialog-title": "Документтин жайгашуу орнотуулары",
 		"vsui-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
-		"vsui-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
-		"vsui-printImagesPanel-withAnnotationsLabel": "аннотациялар менен",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
 		"vsui-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
 		"vsui-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Жылдыруу",
 		"vsui-annotationViewCollectionUndoAction-swap": "Алмаштыруу",
 		"vsui-annotationViewCollectionUndoAction-set": "Орнотуу",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Кошуу"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Кошуу",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Көрүнүштү саат жебеси боюнча буруңуз",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Көрүнүштү саат жебесине каршы буруңуз",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Тандалган текстти буферге көчүрүү",
+		"vsui-imageViewerContextMenu-selectAllText": "Бардык текстти тандоо"
 	}
 }

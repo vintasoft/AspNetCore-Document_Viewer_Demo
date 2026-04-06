@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Pisipiltide vaataja seaded"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Märkused, dokumendi navigeerimine, teksti valimine, panoraamimine, suumimine"
+		"textSelectionToolButton": {
+			"title": "Märkused, dokumendi navigeerimine, teksti valimine, panoraamimine"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Suumi"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Suumi valik"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Valitud tekst:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopeeri lõikelauale"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Pöörake vaadet vastupäeva"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopeeri valitud tekst lõikelauale"
+		},
+		"selectAllTextButton": {
+			"text": "Vali kogu tekst"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopeeri annotatsioon"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Kohandatud",
 		"vsui-documentLayoutSettingsDialog-title": "Dokumendi paigutuse seaded",
 		"vsui-printImagesDialog-title": "Printige pilte",
-		"vsui-printImagesPanel-imagePrintingString": "Pilt prinditakse",
-		"vsui-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Pilt prinditakse",
 		"vsui-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
 		"vsui-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Teisalda",
 		"vsui-annotationViewCollectionUndoAction-swap": "Vaheta",
 		"vsui-annotationViewCollectionUndoAction-set": "Määra",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Lisa"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Lisa",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Pöörake vaadet päripäeva",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Pöörake vaadet vastupäeva",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopeeri valitud tekst lõikelauale",
+		"vsui-imageViewerContextMenu-selectAllText": "Vali kogu tekst"
 	}
 }

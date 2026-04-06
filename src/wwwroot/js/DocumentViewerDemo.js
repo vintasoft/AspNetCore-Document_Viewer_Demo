@@ -100,6 +100,25 @@ function __initSidePanel(docViewerSettings) {
 }
 
 /**
+ Initializes image viewer panel of document viewer.
+ @param {object} docViewer Document viewer.
+*/
+function __initImageViewerPanel(docViewer) {
+    // get items of document viewer
+    var items = docViewer.get_Items();
+
+    // get the image viewer panel
+    var imageViewerPanel = items.getItemByRegisteredId("imageViewerPanel");
+    // if panel exists
+    if (imageViewerPanel != null) {
+        // enable the ability to copy selected text to the clipboard
+        imageViewerPanel.set_CanCopyTextToClipboardUsingContextMenu(true);
+        // enable the ability to select all text on page
+        imageViewerPanel.set_CanSelectAllTextUsingContextMenu(true);
+    }
+}
+
+/**
  Thumbnail viewer panel of document viewer is activated.
 */
 function __thumbnailsPanelActivated() {
@@ -498,6 +517,10 @@ function __main2() {
     // subscribe to the asyncOperationFailed event of document viewer
     Vintasoft.Shared.subscribeToEvent(_docViewer, "asyncOperationFailed", __docViewer_asyncOperationFailed);
 
+    // initialize image viewer panel of document viewer
+    __initImageViewerPanel(_docViewer);
+
+    // initialize visual tools
     __initializeVisualTools(_docViewer);
 
     // get the image viewer of document viewer

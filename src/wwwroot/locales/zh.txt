@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "缩略图查看器设置"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "注释、文档导航、文本选择、平移、缩放"
+		"textSelectionToolButton": {
+			"title": "注释、文档导航、文本选择、平移"
 		},
 		"panToolButton": {
 			"title": "平底锅"
+		},
+		"zoomToolButton": {
+			"title": "飞涨"
 		},
 		"zoomSelectionToolButton": {
 			"title": "缩放选择"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "所选文本："
+			},
+			"copyToClipboardButton": {
+				"value": "复制到剪贴板"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "逆時針旋轉視圖"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "将选定文本复制到剪贴板"
+		},
+		"selectAllTextButton": {
+			"text": "选择所有文本"
+		},
 		"copyAnnotationLabel": {
 			"text": "复制注释"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "风俗",
 		"vsui-documentLayoutSettingsDialog-title": "文档布局设置",
 		"vsui-printImagesDialog-title": "打印图像",
-		"vsui-printImagesPanel-imagePrintingString": "图像正在打印",
-		"vsui-printImagesPanel-withAnnotationsLabel": "带注释",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "图像正在打印",
 		"vsui-imageViewerSettingsDialog-title": "图像查看器设置",
 		"vsui-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "移动",
 		"vsui-annotationViewCollectionUndoAction-swap": "交换",
 		"vsui-annotationViewCollectionUndoAction-set": "设置",
-		"vsui-annotationViewCollectionUndoMonitor-add": "添加"
+		"vsui-annotationViewCollectionUndoMonitor-add": "添加",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "順時針旋轉視圖",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "逆時針旋轉視圖",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "将选定文本复制到剪贴板",
+		"vsui-imageViewerContextMenu-selectAllText": "选择所有文本"
 	}
 }

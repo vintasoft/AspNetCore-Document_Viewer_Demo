@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Indstillinger for miniaturefremviser"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Annotationer, Dokumentnavigation, Tekstmarkering, Panorering, Zoom"
+		"textSelectionToolButton": {
+			"title": "Annotering, Dokumentnavigation, Tekstvalg, Panorering"
 		},
 		"panToolButton": {
 			"title": "Panér"
+		},
+		"zoomToolButton": {
+			"title": "Skala"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skalavalg"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Valgt tekst:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopier til udklipsholder"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Roter visningen mod uret"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopier markeret tekst til udklipsholder"
+		},
+		"selectAllTextButton": {
+			"text": "Marker al tekst"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopiér anmærkning"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Brugerdefineret",
 		"vsui-documentLayoutSettingsDialog-title": "Indstillinger for dokumentlayout",
 		"vsui-printImagesDialog-title": "Udskriv billeder",
-		"vsui-printImagesPanel-imagePrintingString": "Billedet udskrives",
-		"vsui-printImagesPanel-withAnnotationsLabel": "med anmærkninger",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Billedet udskrives",
 		"vsui-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser",
 		"vsui-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Flyt",
 		"vsui-annotationViewCollectionUndoAction-swap": "Byt",
 		"vsui-annotationViewCollectionUndoAction-set": "Indstil",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Tilføj"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Tilføj",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Roter visningen med uret",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Roter visningen mod uret",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopier markeret tekst til udklipsholder",
+		"vsui-imageViewerContextMenu-selectAllText": "Marker al tekst"
 	}
 }

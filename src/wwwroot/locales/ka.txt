@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "მინიატურების მაყურებლის პარამეტრები"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "ანოტაციები, დოკუმენტის ნავიგაცია, ტექსტის შერჩევა, პანორამირება, მასშტაბირება"
+		"textSelectionToolButton": {
+			"title": "ანოტაცია, დოკუმენტის ნავიგაცია, ტექსტის შერჩევა, პანორამირება"
 		},
 		"panToolButton": {
 			"title": "პან"
+		},
+		"zoomToolButton": {
+			"title": "მასშტაბირება"
 		},
 		"zoomSelectionToolButton": {
 			"title": "მასშტაბირების შერჩევა"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "არჩეული ტექსტი:"
+			},
+			"copyToClipboardButton": {
+				"value": "კოპირება ბუფერში"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "ხედის როტაცია საათის ისრის საწინააღმდეგოდ"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "არჩეული ტექსტის კოპირება ბუფერში"
+		},
+		"selectAllTextButton": {
+			"text": "მთელი ტექსტის არჩევა"
+		},
 		"copyAnnotationLabel": {
 			"text": "დააკოპირეთ ანოტაცია"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "საბაჟო",
 		"vsui-documentLayoutSettingsDialog-title": "დოკუმენტის განლაგების პარამეტრები",
 		"vsui-printImagesDialog-title": "სურათების დაბეჭდვა",
-		"vsui-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
-		"vsui-printImagesPanel-withAnnotationsLabel": "ანოტაციებით",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "სურათი იბეჭდება",
 		"vsui-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
 		"vsui-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "გადატანა",
 		"vsui-annotationViewCollectionUndoAction-swap": "ჩანაცვლება",
 		"vsui-annotationViewCollectionUndoAction-set": "დაყენება",
-		"vsui-annotationViewCollectionUndoMonitor-add": "დამატება"
+		"vsui-annotationViewCollectionUndoMonitor-add": "დამატება",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "ხედის როტაცია საათის ისრის მიმართულებით",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "ხედის როტაცია საათის ისრის საწინააღმდეგოდ",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "არჩეული ტექსტის კოპირება ბუფერში",
+		"vsui-imageViewerContextMenu-selectAllText": "მთელი ტექსტის არჩევა"
 	}
 }

@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Eskizni ko'rish sozlamalari"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Izohlar, Hujjat navigatsiyasi, Matn tanlash, Panorama, Masshtablash"
+		"textSelectionToolButton": {
+			"title": "Izoh, Hujjat navigatsiyasi, Matn tanlash, Panorama"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Kattalashtirish"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Kattalashtirish tanlovi"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Tanlangan matn:"
+			},
+			"copyToClipboardButton": {
+				"value": "Buferga nusxalash"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Ko'rinishni soat sohasi farqli ravishda aylantiring"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Tanlangan matnni buferga nusxalash"
+		},
+		"selectAllTextButton": {
+			"text": "Barcha matnni tanlash"
+		},
 		"copyAnnotationLabel": {
 			"text": "Izohni nusxalash"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Maxsus",
 		"vsui-documentLayoutSettingsDialog-title": "Hujjatlarni joylashtirish sozlamalari",
 		"vsui-printImagesDialog-title": "Rasmlarni chop etish",
-		"vsui-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
-		"vsui-printImagesPanel-withAnnotationsLabel": "izohlar bilan",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Rasm chop etilmoqda",
 		"vsui-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
 		"vsui-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Ko'chirish",
 		"vsui-annotationViewCollectionUndoAction-swap": "Almashtirish",
 		"vsui-annotationViewCollectionUndoAction-set": "O'rnatish",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Qo'shish"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Qo'shish",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Ko'rinishni soat yo'nalishi bo'yicha aylantiring",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Ko'rinishni soat sohasi farqli ravishda aylantiring",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Tanlangan matnni buferga nusxalash",
+		"vsui-imageViewerContextMenu-selectAllText": "Barcha matnni tanlash"
 	}
 }

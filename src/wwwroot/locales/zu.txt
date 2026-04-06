@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Izilungiselelo zesibukeli sesithonjana"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Izichasiselo, Ukuzulazula kwedokhumenti, Ukukhetha umbhalo, i-Pan, i-Zoom"
+		"textSelectionToolButton": {
+			"title": "Isichasiselo, Ukuzulazula kwedokhumenti, Ukukhetha umbhalo, i-Pan"
 		},
 		"panToolButton": {
 			"title": "Ipani"
+		},
+		"zoomToolButton": {
+			"title": "Sondeza"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Ukukhetha kokusondeza"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Umbhalo okhethiwe:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopisha ebhodini lokunamathisela"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Zungezisa ukubuka ngokuphikisana newashi"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopisha umbhalo okhethiwe ebhodini lokunamathisela"
+		},
+		"selectAllTextButton": {
+			"text": "Khetha wonke umbhalo"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopisha isichasiselo"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Ngokwezifiso",
 		"vsui-documentLayoutSettingsDialog-title": "Izilungiselelo zesakhiwo sedokhumenti",
 		"vsui-printImagesDialog-title": "Phrinta izithombe",
-		"vsui-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
-		"vsui-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Isithombe siyaphrinta",
 		"vsui-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
 		"vsui-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Hambisa",
 		"vsui-annotationViewCollectionUndoAction-swap": "Shintsha",
 		"vsui-annotationViewCollectionUndoAction-set": "Setha",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Engeza"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Engeza",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Zungezisa ukubuka ngokwewashi",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Zungezisa ukubuka ngokuphikisana newashi",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopisha umbhalo okhethiwe ebhodini lokunamathisela",
+		"vsui-imageViewerContextMenu-selectAllText": "Khetha wonke umbhalo"
 	}
 }

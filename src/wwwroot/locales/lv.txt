@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Sīktēlu skatītāja iestatījumi"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anotācijas, Dokumentu navigācija, Teksta atlase, Pārvietošana, Tālummaiņa"
+		"textSelectionToolButton": {
+			"title": "Anotācija, Dokumenta navigācija, Teksta atlase, Panoramēšana"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Tālummaiņa"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Tālummaiņas izvēle"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Atlasītais teksts:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopēt uz starpliktuvi"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Pagriezt skatu pretēji pulksteņrādītāja virzienam"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopēt atlasīto tekstu uz starpliktuvi"
+		},
+		"selectAllTextButton": {
+			"text": "Atlasīt visu tekstu"
+		},
 		"copyAnnotationLabel": {
 			"text": "Kopēt anotāciju"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Pielāgots",
 		"vsui-documentLayoutSettingsDialog-title": "Dokumenta izkārtojuma iestatījumi",
 		"vsui-printImagesDialog-title": "Drukāt attēlus",
-		"vsui-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
-		"vsui-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Attēls tiek drukāts",
 		"vsui-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
 		"vsui-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Pārvietot",
 		"vsui-annotationViewCollectionUndoAction-swap": "Apmainīt",
 		"vsui-annotationViewCollectionUndoAction-set": "Iestatīt",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Pievienot"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Pievienot",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Pagriezt skatu pulksteņrādītāja virzienā",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Pagriezt skatu pretēji pulksteņrādītāja virzienam",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopēt atlasīto tekstu uz starpliktuvi",
+		"vsui-imageViewerContextMenu-selectAllText": "Atlasīt visu tekstu"
 	}
 }

@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Miniatiūrų peržiūros priemonės nustatymai"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Anotacijos, dokumento naršymas, teksto pasirinkimas, panoraminimas, priartinimas"
+		"textSelectionToolButton": {
+			"title": "Anotacija, dokumento navigacija, teksto pasirinkimas, panoraminimas"
 		},
 		"panToolButton": {
 			"title": "Pan"
+		},
+		"zoomToolButton": {
+			"title": "Padidinti"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Priartinimo pasirinkimas"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Pasirinktas tekstas:"
+			},
+			"copyToClipboardButton": {
+				"value": "Kopijuoti į iškarpinę"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Pasukti vaizdą prieš laikrodžio rodyklę"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Kopijuoti pasirinktą tekstą į iškarpinę"
+		},
+		"selectAllTextButton": {
+			"text": "Pasirinkti visą tekstą"
+		},
 		"copyAnnotationLabel": {
 			"text": "Nukopijuoti anotaciją"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Pasirinktinis",
 		"vsui-documentLayoutSettingsDialog-title": "Dokumento maketavimo nustatymai",
 		"vsui-printImagesDialog-title": "Spausdinti vaizdus",
-		"vsui-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
-		"vsui-printImagesPanel-withAnnotationsLabel": "su anotacijomis",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Vaizdas spausdinamas",
 		"vsui-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
 		"vsui-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Perkelti",
 		"vsui-annotationViewCollectionUndoAction-swap": "Sukeisti",
 		"vsui-annotationViewCollectionUndoAction-set": "Nustatyti",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Pridėti"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Pridėti",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Sukti vaizdą pagal laikrodžio rodyklę",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Pasukti vaizdą prieš laikrodžio rodyklę",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Kopijuoti pasirinktą tekstą į iškarpinę",
+		"vsui-imageViewerContextMenu-selectAllText": "Pasirinkti visą tekstą"
 	}
 }

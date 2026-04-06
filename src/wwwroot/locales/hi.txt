@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "थंबनेल व्यूअर सेटिंग्स"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "एनोटेशन, डॉक्यूमेंट नेविगेशन, टेक्स्ट सिलेक्शन, पैन, ज़ूम"
+		"textSelectionToolButton": {
+			"title": "एनोटेशन, डॉक्यूमेंट नेविगेशन, टेक्स्ट सिलेक्शन, पैन"
 		},
 		"panToolButton": {
 			"title": "पैन"
+		},
+		"zoomToolButton": {
+			"title": "पैमाना"
 		},
 		"zoomSelectionToolButton": {
 			"title": "पैमाने का चयन"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "चयनित पाठ:"
+			},
+			"copyToClipboardButton": {
+				"value": "क्लिपबोर्ड पर कॉपी करें"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "दृश्य को वामावर्त घुमाएँ"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "चुने हुए टेक्स्ट को क्लिपबोर्ड पर कॉपी करें"
+		},
+		"selectAllTextButton": {
+			"text": "सभी टेक्स्ट चुनें"
+		},
 		"copyAnnotationLabel": {
 			"text": "एनोटेशन कॉपी करें"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "कस्टम",
 		"vsui-documentLayoutSettingsDialog-title": "दस्तावेज़ लेआउट सेटिंग",
 		"vsui-printImagesDialog-title": "छवियाँ मुद्रित करें",
-		"vsui-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
-		"vsui-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "छवि मुद्रित हो रही है",
 		"vsui-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
 		"vsui-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "ले जाएँ",
 		"vsui-annotationViewCollectionUndoAction-swap": "बदलें",
 		"vsui-annotationViewCollectionUndoAction-set": "सेट करें",
-		"vsui-annotationViewCollectionUndoMonitor-add": "जोड़ें"
+		"vsui-annotationViewCollectionUndoMonitor-add": "जोड़ें",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "दृश्य को दक्षिणावर्त घुमाएँ",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "दृश्य को वामावर्त घुमाएँ",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "चुने हुए टेक्स्ट को क्लिपबोर्ड पर कॉपी करें",
+		"vsui-imageViewerContextMenu-selectAllText": "सभी टेक्स्ट चुनें"
 	}
 }

@@ -57,11 +57,14 @@
 		"thumbnailViewerSettingsButton": {
 			"title": "Ρυθμίσεις προβολής μικρογραφιών"
 		},
-		"annotationAndNavigationAndTextSelectionToolButton": {
-			"title": "Σχολιασμοί, Πλοήγηση εγγράφου, Επιλογή κειμένου, Μετατόπιση, Ζουμ"
+		"textSelectionToolButton": {
+			"title": "Σχολιασμός, Πλοήγηση εγγράφου, Επιλογή κειμένου, Μετατόπιση"
 		},
 		"panToolButton": {
 			"title": "Παν"
+		},
+		"zoomToolButton": {
+			"title": "Κλίμακα"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Επιλογή κλίμακας"
@@ -177,6 +180,9 @@
 			},
 			"selectedTextLabel": {
 				"text": "Επιλεγμένο κείμενο:"
+			},
+			"copyToClipboardButton": {
+				"value": "Αντιγραφή στο πρόχειρο"
 			}
 		},
 		"textSearchPanel": {
@@ -795,6 +801,12 @@
 		"rotateViewCounterClockwiseButton": {
 			"text": "Περιστρέψτε την προβολή αριστερόστροφα"
 		},
+		"copySelectedTextToClipboardButton": {
+			"text": "Αντιγραφή επιλεγμένου κειμένου στο πρόχειρο"
+		},
+		"selectAllTextButton": {
+			"text": "Επιλογή όλου του κειμένου"
+		},
 		"copyAnnotationLabel": {
 			"text": "Αντιγραφή σχολιασμού"
 		},
@@ -1108,8 +1120,7 @@
 		"vsui-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
 		"vsui-documentLayoutSettingsDialog-title": "Ρυθμίσεις διάταξης εγγράφου",
 		"vsui-printImagesDialog-title": "Εκτύπωση εικόνων",
-		"vsui-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
-		"vsui-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
+		"vsui-printImagesSettingsPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
 		"vsui-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
 		"vsui-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
 		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
@@ -1142,6 +1153,10 @@
 		"vsui-annotationViewCollectionUndoAction-move": "Μετακίνηση",
 		"vsui-annotationViewCollectionUndoAction-swap": "Ανταλλαγή",
 		"vsui-annotationViewCollectionUndoAction-set": "Ορισμός",
-		"vsui-annotationViewCollectionUndoMonitor-add": "Προσθήκη"
+		"vsui-annotationViewCollectionUndoMonitor-add": "Προσθήκη",
+		"vsui-imageViewerContextMenu-rotateViewClockwise": "Περιστρέψτε την προβολή δεξιόστροφα",
+		"vsui-imageViewerContextMenu-rotateViewCounterclockwise": "Περιστρέψτε την προβολή αριστερόστροφα",
+		"vsui-imageViewerContextMenu-copySelectedTextToClipboard": "Αντιγραφή επιλεγμένου κειμένου στο πρόχειρο",
+		"vsui-imageViewerContextMenu-selectAllText": "Επιλογή όλου του κειμένου"
 	}
 }
