@@ -28,6 +28,8 @@ namespace AspNetCoreDocumentViewerDemo.Controllers
         public MyVintasoftImageCollectionApiController(IWebHostEnvironment hostingEnvironment)
             : base(hostingEnvironment)
         {
+            // specify that converter from CSV/TSV file to XLSX file should automatically calculate the column widths
+            Vintasoft.Imaging.Codecs.Decoders.XlsxConverterSettings.Default.ColumnAutoFit = true;
         }
 
         #endregion
