@@ -84,13 +84,15 @@ function __initMenu(docViewerSettings) {
     // get items of document viewer
     var items = docViewerSettings.get_Items();
 
+    var supportedFileExtensions = ".bmp, .cur, .doc, .docx, .rtf, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff, .svg, .xlsx, .xls, .pptx, .dxf, .dwg, .csv, .tsv, .eml, .msg, .html";
+
     var uploadAndOpenFileButton = items.getItemByRegisteredId("uploadAndOpenFileButton");
     if (uploadAndOpenFileButton != null)
-        uploadAndOpenFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .rtf, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff, .svg, .xlsx, .xls, .pptx, .dxf, .dwg, .csv, .tsv");
+        uploadAndOpenFileButton.set_FileExtensionFilter(supportedFileExtensions);
 
     var uploadAndAddFileButton = items.getItemByRegisteredId("uploadAndAddFileButton");
     if (uploadAndAddFileButton != null)
-        uploadAndAddFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .rtf, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff, .svg, .xlsx, .xls, .pptx, .dxf, .dwg, .csv, .tsv");
+        uploadAndAddFileButton.set_FileExtensionFilter(supportedFileExtensions);
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");

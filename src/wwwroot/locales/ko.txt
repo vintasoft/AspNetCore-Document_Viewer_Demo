@@ -75,9 +75,6 @@
 		"magnifierToolButton": {
 			"title": "돋보기"
 		},
-		"showMobileMenuButton": {
-			"title": "더보기"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "직사각형"
 		},
@@ -388,6 +385,9 @@
 			},
 			"showHiddenGraphicsLabel": {
 				"text": "숨겨진 그래픽 표시"
+			},
+			"xlsxConverterColumnAutoFitLabel": {
+				"text": "XLSX converter column auto fit"
 			},
 			"okButton": {
 				"value": "확인"
@@ -848,6 +848,18 @@
 			"Border": {
 				"text": "경계:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "너비:"
+			},
+			"height": {
+				"text": "높이:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -859,6 +871,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -911,8 +926,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -935,6 +968,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "이름:"
 			},
@@ -952,12 +988,6 @@
 			},
 			"+ Size": {
 				"text": "+ 크기:"
-			},
-			"width": {
-				"text": "너비:"
-			},
-			"height": {
-				"text": "높이:"
 			},
 			"Style": {
 				"text": "스타일:"
@@ -1022,24 +1052,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ 텍스트 필드:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ 텍스트 들여쓰기:"
 			},
@@ -1055,8 +1067,23 @@
 			"bottom": {
 				"text": "하단:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"

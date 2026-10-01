@@ -75,9 +75,6 @@
 		"magnifierToolButton": {
 			"title": "Зурайткыч"
 		},
-		"showMobileMenuButton": {
-			"title": "Күбрәк"
-		},
 		"addRectangleAnnotationButton": {
 			"title": "Турыпочмаклык"
 		},
@@ -388,6 +385,9 @@
 			},
 			"showHiddenGraphicsLabel": {
 				"text": "Яшерен графиканы күрсәт"
+			},
+			"xlsxConverterColumnAutoFitLabel": {
+				"text": "XLSX converter column auto fit"
 			},
 			"okButton": {
 				"value": "ЯРАРМЫ"
@@ -848,6 +848,18 @@
 			"Border": {
 				"text": "Чик:"
 			},
+			"+ Builder": {
+				"text": "+ Builder:"
+			},
+			"+ DefaultSize": {
+				"text": "+ DefaultSize:"
+			},
+			"width": {
+				"text": "киңлеге:"
+			},
+			"height": {
+				"text": "биеклек:"
+			},
 			"CanMirror": {
 				"text": "CanMirror:"
 			},
@@ -859,6 +871,9 @@
 			},
 			"CanRotate": {
 				"text": "CanRotate:"
+			},
+			"CanSelect": {
+				"text": "CanSelect:"
 			},
 			"CreatedBy": {
 				"text": "CreatedBy:"
@@ -911,8 +926,26 @@
 			"HorizontalMirrored": {
 				"text": "HorizontalMirrored:"
 			},
+			"+ InteractionController": {
+				"text": "+ InteractionController:"
+			},
 			"IsBuilding": {
 				"text": "IsBuilding:"
+			},
+			"IsDrawn": {
+				"text": "IsDrawn:"
+			},
+			"IsInitiliazed": {
+				"text": "IsInitiliazed:"
+			},
+			"IsReadyForDrawing": {
+				"text": "IsReadyForDrawing:"
+			},
+			"IsTextBoxTransformerEnabled": {
+				"text": "IsTextBoxTransformerEnabled:"
+			},
+			"IsTextOverflowed": {
+				"text": "IsTextOverflowed:"
 			},
 			"IsVisible": {
 				"text": "IsVisible:"
@@ -935,6 +968,9 @@
 			"ModifiedBy": {
 				"text": "ModifiedBy:"
 			},
+			"ModifiedTime": {
+				"text": "ModifiedTime:"
+			},
 			"Name": {
 				"text": "Исем:"
 			},
@@ -952,12 +988,6 @@
 			},
 			"+ Size": {
 				"text": "+ Размер:"
-			},
-			"width": {
-				"text": "киңлеге:"
-			},
-			"height": {
-				"text": "биеклек:"
 			},
 			"Style": {
 				"text": "Стиль:"
@@ -1022,24 +1052,6 @@
 			"TextAlign": {
 				"text": "TextAlign:"
 			},
-			"+ TextBox": {
-				"text": "+ TextBox:"
-			},
-			"FontColor": {
-				"text": "FontColor:"
-			},
-			"FontFamily": {
-				"text": "FontFamily:"
-			},
-			"FontSize": {
-				"text": "FontSize:"
-			},
-			"TextBoxHeight": {
-				"text": "TextBoxHeight:"
-			},
-			"TextBoxWidth": {
-				"text": "TextBoxWidth:"
-			},
 			"+ TextPadding": {
 				"text": "+ TextPadding:"
 			},
@@ -1055,8 +1067,23 @@
 			"bottom": {
 				"text": "аста:"
 			},
+			"+ TextProperties": {
+				"text": "+ TextProperties:"
+			},
+			"AutoSize": {
+				"text": "AutoSize:"
+			},
 			"ToolTip": {
 				"text": "ToolTip:"
+			},
+			"+ Transformer": {
+				"text": "+ Transformer:"
+			},
+			"HideInteractionPointsWhenMoving": {
+				"text": "HideInteractionPointsWhenMoving:"
+			},
+			"IsInteractiveObjectSymmetrical": {
+				"text": "IsInteractiveObjectSymmetrical:"
 			},
 			"VerticalMirrored": {
 				"text": "VerticalMirrored:"
